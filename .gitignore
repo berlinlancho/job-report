@@ -37,3 +37,5 @@ Thumbs.db
 !data/reports.json
 
 !data/report/
+
+!data/reports/report.json
