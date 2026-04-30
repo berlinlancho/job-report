@@ -84,7 +84,7 @@ function discoverData() {
   STATE.loading = true;
 
   // 先用 fast path: data/reports.json (如果存在)
-  return fetch("data/reports.json")
+  return fetch("data/reports/report.json")
     .then(function(r) {
       if (!r.ok) throw new Error("no manifest");
       return r.json();
