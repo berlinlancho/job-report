@@ -3,404 +3,824 @@
     {
       "name": "PPT",
       "symbolSize": 50.0,
-      "count": 14
+      "count": 30
     },
     {
       "name": "内训",
-      "symbolSize": 42.857142857142854,
-      "count": 12
-    },
-    {
-      "name": "课程/课件研发能力",
-      "symbolSize": 42.857142857142854,
-      "count": 12
-    },
-    {
-      "name": "企业培训经验",
-      "symbolSize": 42.857142857142854,
-      "count": 12
-    },
-    {
-      "name": "线下教育",
-      "symbolSize": 35.714285714285715,
-      "count": 10
-    },
-    {
-      "name": "AI",
-      "symbolSize": 28.57142857142857,
-      "count": 8
-    },
-    {
-      "name": "进行内部培训的企业",
-      "symbolSize": 28.57142857142857,
-      "count": 8
-    },
-    {
-      "name": "职业与技能培训",
-      "symbolSize": 28.57142857142857,
-      "count": 8
-    },
-    {
-      "name": "讲师/内训师经历",
-      "symbolSize": 25.0,
-      "count": 7
+      "symbolSize": 38.333333333333336,
+      "count": 23
     },
     {
       "name": "培训实施",
-      "symbolSize": 25.0,
-      "count": 7
+      "symbolSize": 35.0,
+      "count": 21
     },
     {
-      "name": "Excel",
-      "symbolSize": 21.428571428571427,
-      "count": 6
+      "name": "企业培训经验",
+      "symbolSize": 35.0,
+      "count": 21
+    },
+    {
+      "name": "课程/课件研发能力",
+      "symbolSize": 33.33333333333333,
+      "count": 20
+    },
+    {
+      "name": "AI",
+      "symbolSize": 31.666666666666664,
+      "count": 19
+    },
+    {
+      "name": "讲师/内训师经历",
+      "symbolSize": 31.666666666666664,
+      "count": 19
     },
     {
       "name": "培训计划制定优化",
-      "symbolSize": 21.428571428571427,
-      "count": 6
+      "symbolSize": 30.0,
+      "count": 18
     },
     {
       "name": "课程开发",
-      "symbolSize": 21.428571428571427,
-      "count": 6
-    },
-    {
-      "name": "外训",
-      "symbolSize": 21.428571428571427,
-      "count": 6
-    },
-    {
-      "name": "有销售经验",
-      "symbolSize": 21.428571428571427,
-      "count": 6
+      "symbolSize": 30.0,
+      "count": 18
     },
     {
       "name": "PPT制作技能",
-      "symbolSize": 17.857142857142858,
-      "count": 5
+      "symbolSize": 28.333333333333332,
+      "count": 17
+    },
+    {
+      "name": "线下教育",
+      "symbolSize": 25.0,
+      "count": 15
+    },
+    {
+      "name": "外训",
+      "symbolSize": 23.333333333333332,
+      "count": 14
+    },
+    {
+      "name": "职业与技能培训",
+      "symbolSize": 23.333333333333332,
+      "count": 14
+    },
+    {
+      "name": "进行内部培训的企业",
+      "symbolSize": 23.333333333333332,
+      "count": 14
     },
     {
       "name": "培训效果评估",
-      "symbolSize": 14.285714285714285,
+      "symbolSize": 23.333333333333332,
+      "count": 14
+    },
+    {
+      "name": "有销售经验",
+      "symbolSize": 21.666666666666668,
+      "count": 13
+    },
+    {
+      "name": "培训渠道/资源管理",
+      "symbolSize": 18.333333333333332,
+      "count": 11
+    },
+    {
+      "name": "制度制定及落地优化",
+      "symbolSize": 18.333333333333332,
+      "count": 11
+    },
+    {
+      "name": "适应出差",
+      "symbolSize": 15.0,
+      "count": 9
+    },
+    {
+      "name": "Excel",
+      "symbolSize": 13.333333333333334,
+      "count": 8
+    },
+    {
+      "name": "SOP",
+      "symbolSize": 13.333333333333334,
+      "count": 8
+    },
+    {
+      "name": "在线学习平台搭建运营",
+      "symbolSize": 13.333333333333334,
+      "count": 8
+    },
+    {
+      "name": "普通话发音标准",
+      "symbolSize": 10.0,
+      "count": 6
+    },
+    {
+      "name": "销售培训",
+      "symbolSize": 10.0,
+      "count": 6
+    },
+    {
+      "name": "具备外部讲师/渠道资源",
+      "symbolSize": 8.333333333333332,
+      "count": 5
+    },
+    {
+      "name": "TTT",
+      "symbolSize": 8.333333333333332,
+      "count": 5
+    },
+    {
+      "name": "需求调研分析",
+      "symbolSize": 8.333333333333332,
+      "count": 5
+    },
+    {
+      "name": "销售人事/销售从业经验",
+      "symbolSize": 8.333333333333332,
+      "count": 5
+    },
+    {
+      "name": "培训机构",
+      "symbolSize": 8,
       "count": 4
     },
     {
       "name": "线上教育",
-      "symbolSize": 10.714285714285714,
-      "count": 3
-    },
-    {
-      "name": "普通话发音标准",
-      "symbolSize": 10.714285714285714,
-      "count": 3
-    },
-    {
-      "name": "教师培训经验",
       "symbolSize": 8,
-      "count": 2
-    },
-    {
-      "name": "ppt",
-      "symbolSize": 8,
-      "count": 2
-    },
-    {
-      "name": "base",
-      "symbolSize": 8,
-      "count": 2
-    },
-    {
-      "name": "产品/运营",
-      "symbolSize": 8,
-      "count": 2
-    },
-    {
-      "name": "市场研究",
-      "symbolSize": 8,
-      "count": 2
-    },
-    {
-      "name": "咨询领域",
-      "symbolSize": 8,
-      "count": 2
-    },
-    {
-      "name": "MBA",
-      "symbolSize": 8,
-      "count": 2
-    },
-    {
-      "name": "教育培训",
-      "symbolSize": 8,
-      "count": 2
-    },
-    {
-      "name": "培训渠道/资源管理",
-      "symbolSize": 8,
-      "count": 2
-    },
-    {
-      "name": "培训",
-      "symbolSize": 8,
-      "count": 2
-    },
-    {
-      "name": "ToB",
-      "symbolSize": 8,
-      "count": 2
+      "count": 4
     }
   ],
   "edges": [
     {
-      "source": "Excel",
-      "target": "PPT",
+      "source": "PPT",
+      "target": "SOP",
       "weight": 4
-    },
-    {
-      "source": "培训实施",
-      "target": "培训效果评估",
-      "weight": 4
-    },
-    {
-      "source": "培训实施",
-      "target": "讲师/内训师经历",
-      "weight": 7
-    },
-    {
-      "source": "培训效果评估",
-      "target": "讲师/内训师经历",
-      "weight": 4
-    },
-    {
-      "source": "AI",
-      "target": "企业培训经验",
-      "weight": 4
-    },
-    {
-      "source": "AI",
-      "target": "内训",
-      "weight": 4
-    },
-    {
-      "source": "AI",
-      "target": "有销售经验",
-      "weight": 3
-    },
-    {
-      "source": "企业培训经验",
-      "target": "内训",
-      "weight": 9
-    },
-    {
-      "source": "企业培训经验",
-      "target": "有销售经验",
-      "weight": 5
-    },
-    {
-      "source": "内训",
-      "target": "有销售经验",
-      "weight": 4
-    },
-    {
-      "source": "PPT制作技能",
-      "target": "培训实施",
-      "weight": 4
-    },
-    {
-      "source": "PPT制作技能",
-      "target": "培训计划制定优化",
-      "weight": 4
-    },
-    {
-      "source": "PPT制作技能",
-      "target": "讲师/内训师经历",
-      "weight": 4
-    },
-    {
-      "source": "PPT制作技能",
-      "target": "课程开发",
-      "weight": 4
-    },
-    {
-      "source": "培训实施",
-      "target": "培训计划制定优化",
-      "weight": 6
-    },
-    {
-      "source": "培训实施",
-      "target": "课程开发",
-      "weight": 6
-    },
-    {
-      "source": "培训效果评估",
-      "target": "培训计划制定优化",
-      "weight": 3
-    },
-    {
-      "source": "培训效果评估",
-      "target": "课程开发",
-      "weight": 3
-    },
-    {
-      "source": "培训计划制定优化",
-      "target": "讲师/内训师经历",
-      "weight": 6
-    },
-    {
-      "source": "培训计划制定优化",
-      "target": "课程开发",
-      "weight": 6
-    },
-    {
-      "source": "讲师/内训师经历",
-      "target": "课程开发",
-      "weight": 6
     },
     {
       "source": "PPT",
       "target": "企业培训经验",
-      "weight": 4
+      "weight": 5
     },
     {
       "source": "PPT",
       "target": "内训",
-      "weight": 4
-    },
-    {
-      "source": "PPT",
-      "target": "线下教育",
-      "weight": 4
-    },
-    {
-      "source": "PPT",
-      "target": "职业与技能培训",
-      "weight": 3
-    },
-    {
-      "source": "PPT",
-      "target": "课程/课件研发能力",
-      "weight": 4
-    },
-    {
-      "source": "PPT",
-      "target": "进行内部培训的企业",
-      "weight": 3
-    },
-    {
-      "source": "企业培训经验",
-      "target": "线上教育",
-      "weight": 3
-    },
-    {
-      "source": "企业培训经验",
-      "target": "线下教育",
-      "weight": 6
-    },
-    {
-      "source": "企业培训经验",
-      "target": "职业与技能培训",
-      "weight": 5
-    },
-    {
-      "source": "企业培训经验",
-      "target": "课程/课件研发能力",
-      "weight": 9
-    },
-    {
-      "source": "企业培训经验",
-      "target": "进行内部培训的企业",
-      "weight": 5
-    },
-    {
-      "source": "内训",
-      "target": "线上教育",
-      "weight": 3
-    },
-    {
-      "source": "内训",
-      "target": "线下教育",
       "weight": 8
     },
     {
+      "source": "PPT",
+      "target": "线上教育",
+      "weight": 3
+    },
+    {
+      "source": "PPT",
+      "target": "线下教育",
+      "weight": 6
+    },
+    {
+      "source": "PPT",
+      "target": "职业与技能培训",
+      "weight": 5
+    },
+    {
+      "source": "PPT",
+      "target": "课程/课件研发能力",
+      "weight": 7
+    },
+    {
+      "source": "PPT",
+      "target": "进行内部培训的企业",
+      "weight": 5
+    },
+    {
+      "source": "企业培训经验",
+      "target": "内训",
+      "weight": 16
+    },
+    {
+      "source": "企业培训经验",
+      "target": "线上教育",
+      "weight": 4
+    },
+    {
+      "source": "企业培训经验",
+      "target": "线下教育",
+      "weight": 10
+    },
+    {
+      "source": "企业培训经验",
+      "target": "职业与技能培训",
+      "weight": 10
+    },
+    {
+      "source": "企业培训经验",
+      "target": "课程/课件研发能力",
+      "weight": 15
+    },
+    {
+      "source": "企业培训经验",
+      "target": "进行内部培训的企业",
+      "weight": 10
+    },
+    {
+      "source": "内训",
+      "target": "线上教育",
+      "weight": 4
+    },
+    {
+      "source": "内训",
+      "target": "线下教育",
+      "weight": 11
+    },
+    {
       "source": "内训",
       "target": "职业与技能培训",
-      "weight": 7
+      "weight": 12
     },
     {
       "source": "内训",
       "target": "课程/课件研发能力",
-      "weight": 9
+      "weight": 15
     },
     {
       "source": "内训",
       "target": "进行内部培训的企业",
-      "weight": 7
-    },
-    {
-      "source": "有销售经验",
-      "target": "课程/课件研发能力",
-      "weight": 3
+      "weight": 13
     },
     {
       "source": "线上教育",
       "target": "线下教育",
+      "weight": 4
+    },
+    {
+      "source": "线上教育",
+      "target": "职业与技能培训",
       "weight": 3
     },
     {
       "source": "线上教育",
       "target": "课程/课件研发能力",
+      "weight": 4
+    },
+    {
+      "source": "线上教育",
+      "target": "进行内部培训的企业",
       "weight": 3
     },
     {
       "source": "线下教育",
       "target": "职业与技能培训",
-      "weight": 8
+      "weight": 12
     },
     {
       "source": "线下教育",
       "target": "课程/课件研发能力",
-      "weight": 8
+      "weight": 11
     },
     {
       "source": "线下教育",
       "target": "进行内部培训的企业",
-      "weight": 8
+      "weight": 11
     },
     {
       "source": "职业与技能培训",
       "target": "课程/课件研发能力",
-      "weight": 7
+      "weight": 10
     },
     {
       "source": "职业与技能培训",
       "target": "进行内部培训的企业",
-      "weight": 8
+      "weight": 13
     },
     {
       "source": "课程/课件研发能力",
       "target": "进行内部培训的企业",
-      "weight": 7
+      "weight": 11
     },
     {
-      "source": "外训",
-      "target": "普通话发音标准",
-      "weight": 3
+      "source": "Excel",
+      "target": "PPT",
+      "weight": 6
     },
     {
-      "source": "外训",
-      "target": "课程/课件研发能力",
+      "source": "PPT",
+      "target": "培训实施",
       "weight": 5
     },
     {
-      "source": "普通话发音标准",
-      "target": "课程/课件研发能力",
-      "weight": 3
+      "source": "PPT",
+      "target": "培训效果评估",
+      "weight": 4
+    },
+    {
+      "source": "PPT",
+      "target": "讲师/内训师经历",
+      "weight": 5
+    },
+    {
+      "source": "培训实施",
+      "target": "培训效果评估",
+      "weight": 11
+    },
+    {
+      "source": "培训实施",
+      "target": "讲师/内训师经历",
+      "weight": 17
+    },
+    {
+      "source": "培训效果评估",
+      "target": "讲师/内训师经历",
+      "weight": 12
     },
     {
       "source": "内训",
       "target": "外训",
+      "weight": 9
+    },
+    {
+      "source": "PPT制作技能",
+      "target": "制度制定及落地优化",
+      "weight": 10
+    },
+    {
+      "source": "PPT制作技能",
+      "target": "在线学习平台搭建运营",
+      "weight": 7
+    },
+    {
+      "source": "PPT制作技能",
+      "target": "培训实施",
+      "weight": 14
+    },
+    {
+      "source": "PPT制作技能",
+      "target": "培训效果评估",
+      "weight": 10
+    },
+    {
+      "source": "PPT制作技能",
+      "target": "培训计划制定优化",
+      "weight": 14
+    },
+    {
+      "source": "PPT制作技能",
+      "target": "讲师/内训师经历",
+      "weight": 13
+    },
+    {
+      "source": "PPT制作技能",
+      "target": "适应出差",
+      "weight": 6
+    },
+    {
+      "source": "PPT制作技能",
+      "target": "销售人事/销售从业经验",
       "weight": 3
+    },
+    {
+      "source": "PPT制作技能",
+      "target": "需求调研分析",
+      "weight": 5
+    },
+    {
+      "source": "制度制定及落地优化",
+      "target": "在线学习平台搭建运营",
+      "weight": 4
+    },
+    {
+      "source": "制度制定及落地优化",
+      "target": "培训实施",
+      "weight": 9
+    },
+    {
+      "source": "制度制定及落地优化",
+      "target": "培训效果评估",
+      "weight": 6
+    },
+    {
+      "source": "制度制定及落地优化",
+      "target": "培训计划制定优化",
+      "weight": 10
+    },
+    {
+      "source": "制度制定及落地优化",
+      "target": "讲师/内训师经历",
+      "weight": 8
+    },
+    {
+      "source": "制度制定及落地优化",
+      "target": "适应出差",
+      "weight": 5
+    },
+    {
+      "source": "制度制定及落地优化",
+      "target": "销售人事/销售从业经验",
+      "weight": 3
+    },
+    {
+      "source": "制度制定及落地优化",
+      "target": "需求调研分析",
+      "weight": 3
+    },
+    {
+      "source": "在线学习平台搭建运营",
+      "target": "培训实施",
+      "weight": 6
+    },
+    {
+      "source": "在线学习平台搭建运营",
+      "target": "培训效果评估",
+      "weight": 7
+    },
+    {
+      "source": "在线学习平台搭建运营",
+      "target": "培训计划制定优化",
+      "weight": 5
+    },
+    {
+      "source": "在线学习平台搭建运营",
+      "target": "讲师/内训师经历",
+      "weight": 7
+    },
+    {
+      "source": "在线学习平台搭建运营",
+      "target": "适应出差",
+      "weight": 4
+    },
+    {
+      "source": "在线学习平台搭建运营",
+      "target": "销售人事/销售从业经验",
+      "weight": 4
+    },
+    {
+      "source": "在线学习平台搭建运营",
+      "target": "需求调研分析",
+      "weight": 4
+    },
+    {
+      "source": "培训实施",
+      "target": "培训计划制定优化",
+      "weight": 15
+    },
+    {
+      "source": "培训实施",
+      "target": "适应出差",
+      "weight": 7
+    },
+    {
+      "source": "培训实施",
+      "target": "销售人事/销售从业经验",
+      "weight": 4
+    },
+    {
+      "source": "培训实施",
+      "target": "需求调研分析",
+      "weight": 5
+    },
+    {
+      "source": "培训效果评估",
+      "target": "培训计划制定优化",
+      "weight": 11
+    },
+    {
+      "source": "培训效果评估",
+      "target": "适应出差",
+      "weight": 6
+    },
+    {
+      "source": "培训效果评估",
+      "target": "销售人事/销售从业经验",
+      "weight": 4
+    },
+    {
+      "source": "培训效果评估",
+      "target": "需求调研分析",
+      "weight": 4
+    },
+    {
+      "source": "培训计划制定优化",
+      "target": "讲师/内训师经历",
+      "weight": 14
+    },
+    {
+      "source": "培训计划制定优化",
+      "target": "适应出差",
+      "weight": 5
+    },
+    {
+      "source": "培训计划制定优化",
+      "target": "销售人事/销售从业经验",
+      "weight": 4
+    },
+    {
+      "source": "培训计划制定优化",
+      "target": "需求调研分析",
+      "weight": 4
+    },
+    {
+      "source": "讲师/内训师经历",
+      "target": "适应出差",
+      "weight": 6
+    },
+    {
+      "source": "讲师/内训师经历",
+      "target": "销售人事/销售从业经验",
+      "weight": 5
+    },
+    {
+      "source": "讲师/内训师经历",
+      "target": "需求调研分析",
+      "weight": 4
+    },
+    {
+      "source": "适应出差",
+      "target": "销售人事/销售从业经验",
+      "weight": 4
+    },
+    {
+      "source": "AI",
+      "target": "企业培训经验",
+      "weight": 5
+    },
+    {
+      "source": "AI",
+      "target": "内训",
+      "weight": 5
+    },
+    {
+      "source": "AI",
+      "target": "有销售经验",
+      "weight": 4
+    },
+    {
+      "source": "企业培训经验",
+      "target": "有销售经验",
+      "weight": 9
+    },
+    {
+      "source": "内训",
+      "target": "有销售经验",
+      "weight": 10
+    },
+    {
+      "source": "PPT",
+      "target": "外训",
+      "weight": 4
+    },
+    {
+      "source": "外训",
+      "target": "线下教育",
+      "weight": 5
+    },
+    {
+      "source": "外训",
+      "target": "职业与技能培训",
+      "weight": 5
+    },
+    {
+      "source": "PPT制作技能",
+      "target": "具备外部讲师/渠道资源",
+      "weight": 5
+    },
+    {
+      "source": "PPT制作技能",
+      "target": "培训渠道/资源管理",
+      "weight": 7
+    },
+    {
+      "source": "PPT制作技能",
+      "target": "课程开发",
+      "weight": 12
+    },
+    {
+      "source": "具备外部讲师/渠道资源",
+      "target": "培训实施",
+      "weight": 4
+    },
+    {
+      "source": "具备外部讲师/渠道资源",
+      "target": "培训效果评估",
+      "weight": 5
+    },
+    {
+      "source": "具备外部讲师/渠道资源",
+      "target": "培训渠道/资源管理",
+      "weight": 3
+    },
+    {
+      "source": "具备外部讲师/渠道资源",
+      "target": "培训计划制定优化",
+      "weight": 4
+    },
+    {
+      "source": "具备外部讲师/渠道资源",
+      "target": "讲师/内训师经历",
+      "weight": 4
+    },
+    {
+      "source": "具备外部讲师/渠道资源",
+      "target": "课程开发",
+      "weight": 4
+    },
+    {
+      "source": "培训实施",
+      "target": "培训渠道/资源管理",
+      "weight": 9
+    },
+    {
+      "source": "培训实施",
+      "target": "课程开发",
+      "weight": 16
+    },
+    {
+      "source": "培训效果评估",
+      "target": "培训渠道/资源管理",
+      "weight": 7
+    },
+    {
+      "source": "培训效果评估",
+      "target": "课程开发",
+      "weight": 10
+    },
+    {
+      "source": "培训渠道/资源管理",
+      "target": "培训计划制定优化",
+      "weight": 8
+    },
+    {
+      "source": "培训渠道/资源管理",
+      "target": "讲师/内训师经历",
+      "weight": 8
+    },
+    {
+      "source": "培训渠道/资源管理",
+      "target": "课程开发",
+      "weight": 9
+    },
+    {
+      "source": "培训计划制定优化",
+      "target": "课程开发",
+      "weight": 14
+    },
+    {
+      "source": "讲师/内训师经历",
+      "target": "课程开发",
+      "weight": 14
+    },
+    {
+      "source": "PPT",
+      "target": "有销售经验",
+      "weight": 4
+    },
+    {
+      "source": "外训",
+      "target": "有销售经验",
+      "weight": 4
+    },
+    {
+      "source": "有销售经验",
+      "target": "线下教育",
+      "weight": 4
+    },
+    {
+      "source": "有销售经验",
+      "target": "职业与技能培训",
+      "weight": 5
+    },
+    {
+      "source": "有销售经验",
+      "target": "课程/课件研发能力",
+      "weight": 8
+    },
+    {
+      "source": "有销售经验",
+      "target": "进行内部培训的企业",
+      "weight": 6
+    },
+    {
+      "source": "PPT",
+      "target": "TTT",
+      "weight": 3
+    },
+    {
+      "source": "AI",
+      "target": "PPT",
+      "weight": 3
+    },
+    {
+      "source": "具备外部讲师/渠道资源",
+      "target": "制度制定及落地优化",
+      "weight": 3
+    },
+    {
+      "source": "具备外部讲师/渠道资源",
+      "target": "适应出差",
+      "weight": 3
+    },
+    {
+      "source": "制度制定及落地优化",
+      "target": "培训渠道/资源管理",
+      "weight": 5
+    },
+    {
+      "source": "制度制定及落地优化",
+      "target": "课程开发",
+      "weight": 7
+    },
+    {
+      "source": "在线学习平台搭建运营",
+      "target": "培训渠道/资源管理",
+      "weight": 3
+    },
+    {
+      "source": "在线学习平台搭建运营",
+      "target": "课程开发",
+      "weight": 5
+    },
+    {
+      "source": "培训渠道/资源管理",
+      "target": "适应出差",
+      "weight": 4
+    },
+    {
+      "source": "课程开发",
+      "target": "适应出差",
+      "weight": 5
+    },
+    {
+      "source": "外训",
+      "target": "普通话发音标准",
+      "weight": 4
+    },
+    {
+      "source": "外训",
+      "target": "课程/课件研发能力",
+      "weight": 7
+    },
+    {
+      "source": "外训",
+      "target": "进行内部培训的企业",
+      "weight": 5
+    },
+    {
+      "source": "普通话发音标准",
+      "target": "线下教育",
+      "weight": 4
+    },
+    {
+      "source": "普通话发音标准",
+      "target": "职业与技能培训",
+      "weight": 4
+    },
+    {
+      "source": "普通话发音标准",
+      "target": "课程/课件研发能力",
+      "weight": 6
+    },
+    {
+      "source": "普通话发音标准",
+      "target": "进行内部培训的企业",
+      "weight": 4
+    },
+    {
+      "source": "企业培训经验",
+      "target": "外训",
+      "weight": 5
+    },
+    {
+      "source": "企业培训经验",
+      "target": "普通话发音标准",
+      "weight": 4
+    },
+    {
+      "source": "内训",
+      "target": "普通话发音标准",
+      "weight": 5
+    },
+    {
+      "source": "AI",
+      "target": "课程/课件研发能力",
+      "weight": 3
+    },
+    {
+      "source": "PPT",
+      "target": "PPT制作技能",
+      "weight": 5
+    },
+    {
+      "source": "PPT",
+      "target": "在线学习平台搭建运营",
+      "weight": 3
+    },
+    {
+      "source": "PPT",
+      "target": "培训计划制定优化",
+      "weight": 3
+    },
+    {
+      "source": "PPT",
+      "target": "课程开发",
+      "weight": 4
     }
   ]
 }
