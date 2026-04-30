@@ -119,10 +119,10 @@
     "job_count": 29
   },
   {
-    "skill": "Vue",
+    "skill": "Code",
     "count": 26,
-    "median_salary": 16250.0,
-    "avg_salary": 16231.0,
+    "median_salary": 15250.0,
+    "avg_salary": 15692.0,
     "job_count": 26
   },
   {
@@ -133,10 +133,10 @@
     "job_count": 26
   },
   {
-    "skill": "Code",
+    "skill": "Vue",
     "count": 26,
-    "median_salary": 15250.0,
-    "avg_salary": 15692.0,
+    "median_salary": 16250.0,
+    "avg_salary": 16231.0,
     "job_count": 26
   },
   {
@@ -154,17 +154,17 @@
     "job_count": 25
   },
   {
-    "skill": "Linux",
-    "count": 24,
-    "median_salary": 16000.0,
-    "avg_salary": 16188.0,
-    "job_count": 24
-  },
-  {
     "skill": "React",
     "count": 24,
     "median_salary": 16250.0,
     "avg_salary": 16667.0,
+    "job_count": 24
+  },
+  {
+    "skill": "Linux",
+    "count": 24,
+    "median_salary": 16000.0,
+    "avg_salary": 16188.0,
     "job_count": 24
   },
   {
@@ -196,17 +196,17 @@
     "job_count": 23
   },
   {
-    "skill": "Function",
-    "count": 22,
-    "median_salary": 15250.0,
-    "avg_salary": 16341.0,
-    "job_count": 22
-  },
-  {
     "skill": "FastAPI",
     "count": 22,
     "median_salary": 15750.0,
     "avg_salary": 16500.0,
+    "job_count": 22
+  },
+  {
+    "skill": "Function",
+    "count": 22,
+    "median_salary": 15250.0,
+    "avg_salary": 16341.0,
     "job_count": 22
   }
 ]

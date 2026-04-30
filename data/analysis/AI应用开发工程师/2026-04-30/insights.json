@@ -1,45 +1,54 @@
 {
-  "summary": "AI相关技能（特别是Prompt、Agent、RAG等）成为岗位核心需求，薪资竞争力显著，但市场仍处于快速发展阶段，需警惕技能同质化与泡沫风险。",
+  "summary": "当前岗位市场核心变化是AI相关技能需求爆发式增长，但高薪岗位集中在Prompt工程和Java等成熟技术，提示市场正从基础AI工具使用转向深度应用与工程化落地。",
   "insights": [
     {
-      "title": "AI技能需求井喷，Prompt工程师薪资领跑",
-      "content": "从技能频次看，AI（222次）和Python（138次）占据绝对主导，但Prompt（81次）和Agent（76次）、RAG（63次）等细分技能已形成独立赛道。值得注意的是，Prompt中位薪资高达17.5K，与Java持平，超过Python（16.5K）和API（15.5K），说明市场对能精准设计提示词、优化大模型交互的专才给予高溢价。当前仅1期快照，无法判断趋势变化，但短期看这类岗位需求增速可能快于供给。",
+      "title": "AI技能需求独领风骚，但薪资并非最高",
+      "content": "AI技能以222次出现频次位居榜首，远超其他技能，但其中位薪资17.2K低于Prompt和Java的17.5K，说明大量AI岗位为初级或辅助角色，高薪机会更集中在能直接创造价值的工程化能力上。",
+      "type": "info",
+      "related_skills": [
+        "AI",
+        "Prompt",
+        "Java"
+      ],
+      "action": "建议求职者不仅掌握AI基础，更要深耕Prompt工程或AI系统集成，提升薪资竞争力。"
+    },
+    {
+      "title": "提示工程与Agent研发成为新风口",
+      "content": "Prompt和Agent分别出现在81次和76次，且Prompt中位薪资达17.5K，与Java持平。表明企业急需能优化大模型输出及构建自主Agent的人才，这是当前技能红利区。",
       "type": "opportunity",
       "related_skills": [
         "Prompt",
-        "AI",
         "Agent",
-        "RAG"
+        "RAG",
+        "LLM"
       ],
-      "action": "建议深耕提示工程（Prompt Engineering）与Agent开发，结合具体业务场景（如客服、内容生成）积累实战案例，同时关注多模态、长上下文等前沿方向以保持竞争力。"
+      "action": "建议求职者重点学习Prompt设计、RAG架构及Agent开发，抢占高价值岗位。"
     },
     {
-      "title": "Java岗位薪资稳定但需求相对收缩，AI化转型迫在眉睫",
-      "content": "Java技能频次78次位列第五，但中位薪资17.5K与Prompt持平，表明传统后端开发岗位仍能维持较高薪酬水平。然而，与AI、Python等热门技能（频次分别为222、138）差距明显，且行业正在经历“AI+后端”融合（如集成LLM API、开发AI Agent服务）。若仅掌握Java而无AI相关经验，可能面临岗位增长放缓风险。",
+      "title": "传统Java仍保高薪，但需求增速放缓",
+      "content": "Java技能频次78次，中位薪资17.5K，与Prompt并列最高，但频次已低于AI和Python。说明Java在存量系统中仍受重视，但新增岗位转向AI方向，长期需注意技术转型。",
       "type": "warning",
       "related_skills": [
         "Java",
-        "AI",
+        "Python",
         "API"
       ],
-      "action": "Java开发者应主动叠加AI技能（如学习LangChain、Spring AI框架），将传统后端能力与AI服务编排结合，参与构建企业级AI应用后端，避免被纯AI岗位替代。"
+      "action": "建议Java开发者补充AI相关技能（如Python、LLM），避免技能单一化风险。"
     },
     {
-      "title": "API与工程化能力成AI落地的关键桥梁，但薪资提升空间有限",
-      "content": "API频次90次位列第三，Engineering频次48次入围前十，说明企业需要能将AI模型封装为稳定服务、并实现系统集成的工程人才。但API中位薪资仅15.5K，低于AI和Prompt，可能因为该技能偏向基础实施，门槛相对较低。不过结合Agent（76次）和RAG（63次）的高频需求，具备API设计与编排能力的人才仍有较大发展空间。",
+      "title": "福利组合传统但稳定，缺乏AI专属激励",
+      "content": "五险一金、节日福利等传统福利仍为主流，未出现针对AI人才的股权或项目奖金等差异化福利，侧面反映AI岗位尚处于普及阶段，企业更看重基础保障。",
       "type": "info",
       "related_skills": [
-        "API",
-        "Engineering",
-        "Agent",
-        "RAG"
+        "AI",
+        "Engineering"
       ],
-      "action": "建议在掌握API开发基础上，深入RAG架构（如向量数据库集成、检索链路优化）和Agent编排（多工具调用、状态管理），提升从模型到产品的工程化价值，从而突破薪资天花板。"
+      "action": "求职者在谈薪资时可主动争取技术培训资源或项目奖金，而非仅依赖标准福利。"
     }
   ],
   "recommendations": [
-    "优先投入时间学习Prompt工程与Agent开发，结合实战项目（如构建企业知识库问答系统）打造差异化能力，争取高薪岗位。",
-    "Java/后端开发者立即补充AI技能，至少掌握一门AI框架（如LangChain）并熟悉主流大模型API调用，提升岗位适配性。",
-    "关注技能市场变化，建议每季度复盘一次Boss直聘数据，尤其留意RAG、Claude等新兴技能的薪资走势，及时调整学习方向。"
+    "优先补充Prompt工程、RAG及Agent开发能力，紧跟AI应用落地浪潮。",
+    "Python作为AI基础语言必须精通，同时掌握API构建与调试技能以适配工程化需求。",
+    "保持对Java等成熟技术的维护能力，但主动向AI方向迁移，避免被边缘化。"
   ]
 }

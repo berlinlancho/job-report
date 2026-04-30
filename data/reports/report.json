@@ -26,5 +26,33 @@
         "skill_count": 789
       }
     }
+  },
+  {
+    "name": "大模型应用开发",
+    "dates": [
+      "2026-04-30"
+    ],
+    "date_count": 1,
+    "latest": "2026-04-30",
+    "meta": {
+      "2026-04-30": {
+        "job_count": 31,
+        "skill_count": 551
+      }
+    }
+  },
+  {
+    "name": "数据开发",
+    "dates": [
+      "2026-04-30"
+    ],
+    "date_count": 1,
+    "latest": "2026-04-30",
+    "meta": {
+      "2026-04-30": {
+        "job_count": 205,
+        "skill_count": 3186
+      }
+    }
   }
 ]

@@ -1,0 +1,546 @@
+{
+  "nodes": [
+    {
+      "name": "AI",
+      "symbolSize": 50.0,
+      "count": 24
+    },
+    {
+      "name": "Python",
+      "symbolSize": 45.83333333333333,
+      "count": 22
+    },
+    {
+      "name": "Prompt",
+      "symbolSize": 20.833333333333336,
+      "count": 10
+    },
+    {
+      "name": "RAG",
+      "symbolSize": 16.666666666666664,
+      "count": 8
+    },
+    {
+      "name": "LLM",
+      "symbolSize": 16.666666666666664,
+      "count": 8
+    },
+    {
+      "name": "TensorFlow",
+      "symbolSize": 14.583333333333334,
+      "count": 7
+    },
+    {
+      "name": "PyTorch",
+      "symbolSize": 14.583333333333334,
+      "count": 7
+    },
+    {
+      "name": "API",
+      "symbolSize": 14.583333333333334,
+      "count": 7
+    },
+    {
+      "name": "LangChain",
+      "symbolSize": 12.5,
+      "count": 6
+    },
+    {
+      "name": "LlamaIndex",
+      "symbolSize": 12.5,
+      "count": 6
+    },
+    {
+      "name": "大模型算法",
+      "symbolSize": 12.5,
+      "count": 6
+    },
+    {
+      "name": "Java",
+      "symbolSize": 12.5,
+      "count": 6
+    },
+    {
+      "name": "NLP",
+      "symbolSize": 10.416666666666668,
+      "count": 5
+    },
+    {
+      "name": "GPT",
+      "symbolSize": 10.416666666666668,
+      "count": 5
+    },
+    {
+      "name": "Linux",
+      "symbolSize": 10.416666666666668,
+      "count": 5
+    },
+    {
+      "name": "深度学习",
+      "symbolSize": 10.416666666666668,
+      "count": 5
+    },
+    {
+      "name": "Agent",
+      "symbolSize": 10.416666666666668,
+      "count": 5
+    },
+    {
+      "name": "FastAPI",
+      "symbolSize": 8.333333333333332,
+      "count": 4
+    },
+    {
+      "name": "Qwen",
+      "symbolSize": 8.333333333333332,
+      "count": 4
+    },
+    {
+      "name": "机器学习",
+      "symbolSize": 8.333333333333332,
+      "count": 4
+    },
+    {
+      "name": "大模型",
+      "symbolSize": 8.333333333333332,
+      "count": 4
+    },
+    {
+      "name": "Dify",
+      "symbolSize": 8.333333333333332,
+      "count": 4
+    },
+    {
+      "name": "C++",
+      "symbolSize": 8.333333333333332,
+      "count": 4
+    },
+    {
+      "name": "SQL",
+      "symbolSize": 8,
+      "count": 3
+    },
+    {
+      "name": "MySQL",
+      "symbolSize": 8,
+      "count": 3
+    },
+    {
+      "name": "Docker",
+      "symbolSize": 8,
+      "count": 3
+    },
+    {
+      "name": "Claude",
+      "symbolSize": 8,
+      "count": 3
+    },
+    {
+      "name": "自然语言处理算法",
+      "symbolSize": 8,
+      "count": 3
+    },
+    {
+      "name": "prompt",
+      "symbolSize": 8,
+      "count": 3
+    },
+    {
+      "name": "LLaMA",
+      "symbolSize": 8,
+      "count": 3
+    }
+  ],
+  "edges": [
+    {
+      "source": "AI",
+      "target": "LLM",
+      "weight": 5
+    },
+    {
+      "source": "AI",
+      "target": "Linux",
+      "weight": 4
+    },
+    {
+      "source": "AI",
+      "target": "NLP",
+      "weight": 4
+    },
+    {
+      "source": "AI",
+      "target": "RAG",
+      "weight": 6
+    },
+    {
+      "source": "LLM",
+      "target": "NLP",
+      "weight": 3
+    },
+    {
+      "source": "LLM",
+      "target": "RAG",
+      "weight": 5
+    },
+    {
+      "source": "Linux",
+      "target": "RAG",
+      "weight": 3
+    },
+    {
+      "source": "NLP",
+      "target": "RAG",
+      "weight": 3
+    },
+    {
+      "source": "AI",
+      "target": "API",
+      "weight": 5
+    },
+    {
+      "source": "AI",
+      "target": "Dify",
+      "weight": 3
+    },
+    {
+      "source": "AI",
+      "target": "FastAPI",
+      "weight": 3
+    },
+    {
+      "source": "AI",
+      "target": "LlamaIndex",
+      "weight": 5
+    },
+    {
+      "source": "AI",
+      "target": "Python",
+      "weight": 19
+    },
+    {
+      "source": "API",
+      "target": "LlamaIndex",
+      "weight": 4
+    },
+    {
+      "source": "API",
+      "target": "Python",
+      "weight": 5
+    },
+    {
+      "source": "Dify",
+      "target": "Python",
+      "weight": 3
+    },
+    {
+      "source": "FastAPI",
+      "target": "Python",
+      "weight": 4
+    },
+    {
+      "source": "LLM",
+      "target": "Python",
+      "weight": 6
+    },
+    {
+      "source": "LlamaIndex",
+      "target": "Python",
+      "weight": 5
+    },
+    {
+      "source": "NLP",
+      "target": "Python",
+      "weight": 4
+    },
+    {
+      "source": "AI",
+      "target": "LangChain",
+      "weight": 5
+    },
+    {
+      "source": "AI",
+      "target": "Prompt",
+      "weight": 8
+    },
+    {
+      "source": "AI",
+      "target": "SQL",
+      "weight": 3
+    },
+    {
+      "source": "LLM",
+      "target": "Prompt",
+      "weight": 3
+    },
+    {
+      "source": "LangChain",
+      "target": "Prompt",
+      "weight": 4
+    },
+    {
+      "source": "LangChain",
+      "target": "Python",
+      "weight": 5
+    },
+    {
+      "source": "Prompt",
+      "target": "Python",
+      "weight": 8
+    },
+    {
+      "source": "Prompt",
+      "target": "RAG",
+      "weight": 3
+    },
+    {
+      "source": "Python",
+      "target": "RAG",
+      "weight": 6
+    },
+    {
+      "source": "Python",
+      "target": "SQL",
+      "weight": 3
+    },
+    {
+      "source": "LangChain",
+      "target": "LlamaIndex",
+      "weight": 3
+    },
+    {
+      "source": "LlamaIndex",
+      "target": "Prompt",
+      "weight": 3
+    },
+    {
+      "source": "AI",
+      "target": "PyTorch",
+      "weight": 7
+    },
+    {
+      "source": "AI",
+      "target": "TensorFlow",
+      "weight": 7
+    },
+    {
+      "source": "PyTorch",
+      "target": "Python",
+      "weight": 6
+    },
+    {
+      "source": "PyTorch",
+      "target": "TensorFlow",
+      "weight": 7
+    },
+    {
+      "source": "Python",
+      "target": "TensorFlow",
+      "weight": 6
+    },
+    {
+      "source": "Python",
+      "target": "Qwen",
+      "weight": 4
+    },
+    {
+      "source": "AI",
+      "target": "Claude",
+      "weight": 3
+    },
+    {
+      "source": "AI",
+      "target": "GPT",
+      "weight": 5
+    },
+    {
+      "source": "AI",
+      "target": "MySQL",
+      "weight": 3
+    },
+    {
+      "source": "API",
+      "target": "Claude",
+      "weight": 3
+    },
+    {
+      "source": "API",
+      "target": "Prompt",
+      "weight": 3
+    },
+    {
+      "source": "Claude",
+      "target": "Python",
+      "weight": 3
+    },
+    {
+      "source": "Docker",
+      "target": "FastAPI",
+      "weight": 3
+    },
+    {
+      "source": "Docker",
+      "target": "Python",
+      "weight": 3
+    },
+    {
+      "source": "GPT",
+      "target": "LangChain",
+      "weight": 3
+    },
+    {
+      "source": "GPT",
+      "target": "PyTorch",
+      "weight": 3
+    },
+    {
+      "source": "GPT",
+      "target": "Python",
+      "weight": 5
+    },
+    {
+      "source": "GPT",
+      "target": "TensorFlow",
+      "weight": 3
+    },
+    {
+      "source": "MySQL",
+      "target": "Python",
+      "weight": 3
+    },
+    {
+      "source": "Prompt",
+      "target": "PyTorch",
+      "weight": 3
+    },
+    {
+      "source": "Prompt",
+      "target": "TensorFlow",
+      "weight": 3
+    },
+    {
+      "source": "AI",
+      "target": "C++",
+      "weight": 4
+    },
+    {
+      "source": "AI",
+      "target": "深度学习",
+      "weight": 4
+    },
+    {
+      "source": "C++",
+      "target": "Python",
+      "weight": 4
+    },
+    {
+      "source": "Linux",
+      "target": "Python",
+      "weight": 4
+    },
+    {
+      "source": "Python",
+      "target": "深度学习",
+      "weight": 5
+    },
+    {
+      "source": "AI",
+      "target": "Agent",
+      "weight": 5
+    },
+    {
+      "source": "AI",
+      "target": "Java",
+      "weight": 5
+    },
+    {
+      "source": "Agent",
+      "target": "Python",
+      "weight": 5
+    },
+    {
+      "source": "Java",
+      "target": "Python",
+      "weight": 6
+    },
+    {
+      "source": "Java",
+      "target": "RAG",
+      "weight": 3
+    },
+    {
+      "source": "AI",
+      "target": "大模型算法",
+      "weight": 5
+    },
+    {
+      "source": "AI",
+      "target": "prompt",
+      "weight": 3
+    },
+    {
+      "source": "Python",
+      "target": "prompt",
+      "weight": 3
+    },
+    {
+      "source": "AI",
+      "target": "大模型",
+      "weight": 3
+    },
+    {
+      "source": "Agent",
+      "target": "Prompt",
+      "weight": 3
+    },
+    {
+      "source": "Python",
+      "target": "大模型算法",
+      "weight": 5
+    },
+    {
+      "source": "Python",
+      "target": "机器学习",
+      "weight": 4
+    },
+    {
+      "source": "Python",
+      "target": "自然语言处理算法",
+      "weight": 3
+    },
+    {
+      "source": "大模型算法",
+      "target": "机器学习",
+      "weight": 4
+    },
+    {
+      "source": "大模型算法",
+      "target": "深度学习",
+      "weight": 4
+    },
+    {
+      "source": "大模型算法",
+      "target": "自然语言处理算法",
+      "weight": 3
+    },
+    {
+      "source": "机器学习",
+      "target": "深度学习",
+      "weight": 4
+    },
+    {
+      "source": "机器学习",
+      "target": "自然语言处理算法",
+      "weight": 3
+    },
+    {
+      "source": "深度学习",
+      "target": "自然语言处理算法",
+      "weight": 3
+    },
+    {
+      "source": "AI",
+      "target": "机器学习",
+      "weight": 3
+    }
+  ]
+}

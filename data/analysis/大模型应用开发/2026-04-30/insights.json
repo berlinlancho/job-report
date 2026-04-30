@@ -1,0 +1,43 @@
+{
+  "summary": "当前岗位市场核心变化是AI相关技能需求旺盛，尤其是大模型（LLM）和检索增强生成（RAG）等高级应用技能薪资显著领先，提示从业者应快速向高价值技能栈转型。",
+  "insights": [
+    {
+      "title": "大模型技能成薪资高地",
+      "content": "LLM技能中位薪资达21.8K，远超AI整体中位17.2K，RAG也达19.8K，表明掌握大模型开发与微调、RAG架构等深度技能的人才稀缺且溢价明显。而基础AI技能虽需求量大但薪资相对平缓，需向上层专精技能延伸。",
+      "type": "opportunity",
+      "related_skills": [
+        "LLM",
+        "RAG",
+        "Prompt"
+      ],
+      "action": "建议重点学习LLM原理、微调方法及RAG系统设计，配合LangChain/LlamaIndex等工具实践，以提升薪资竞争力。"
+    },
+    {
+      "title": "Python与Prompt为底层刚需门槛",
+      "content": "Python和Prompt在技能频次中分列第二、三位，且薪资中位分别为18.0K和18.2K，说明它们是进入AI岗位的基本门槛。但仅掌握这两项难以获得高薪，需结合更高阶技能才能突破薪资天花板。",
+      "type": "warning",
+      "related_skills": [
+        "Python",
+        "Prompt"
+      ],
+      "action": "确保Python和Prompt熟练度，但不要止步于此，应同步学习LLM、RAG等内容形成完整技能链。"
+    },
+    {
+      "title": "工具链生态成熟，框架绑定加深",
+      "content": "TensorFlow、PyTorch、LangChain、LlamaIndex等框架出现频次接近，表明雇主期望候选人具备主流深度学习框架及LLM工具链经验。特别是LangChain和LlamaIndex作为RAG关键工具，提升了开发效率。",
+      "type": "info",
+      "related_skills": [
+        "TensorFlow",
+        "PyTorch",
+        "LangChain",
+        "LlamaIndex"
+      ],
+      "action": "建议至少熟练掌握一个深度学习框架（推荐PyTorch）及一个LLM编排框架（LangChain优先），并完成实际项目积累。"
+    }
+  ],
+  "recommendations": [
+    "优先深度掌握LLM微调、RAG架构及Prompt工程，搭配LangChain/LlamaIndex实战，冲刺高薪岗位。",
+    "保持Python与机器学习基础的同时，选择PyTorch作为主要框架，并关注最新大模型开源生态。",
+    "利用Boss直聘等平台数据持续追踪技能薪资变化，每季度复盘自身技能与市场热点的匹配度，及时调整学习路径。"
+  ]
+}

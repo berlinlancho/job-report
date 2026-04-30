@@ -49,17 +49,17 @@
     "job_count": 19
   },
   {
-    "skill": "培训计划制定优化",
-    "count": 18,
-    "median_salary": 13250.0,
-    "avg_salary": 14861.0,
-    "job_count": 18
-  },
-  {
     "skill": "课程开发",
     "count": 18,
     "median_salary": 14750.0,
     "avg_salary": 15056.0,
+    "job_count": 18
+  },
+  {
+    "skill": "培训计划制定优化",
+    "count": 18,
+    "median_salary": 13250.0,
+    "avg_salary": 14861.0,
     "job_count": 18
   },
   {

@@ -86,7 +86,7 @@
       "count": 29
     },
     {
-      "name": "Vue",
+      "name": "Code",
       "symbolSize": 8,
       "count": 26
     },
@@ -96,7 +96,7 @@
       "count": 26
     },
     {
-      "name": "Code",
+      "name": "Vue",
       "symbolSize": 8,
       "count": 26
     },
@@ -111,12 +111,12 @@
       "count": 25
     },
     {
-      "name": "Linux",
+      "name": "React",
       "symbolSize": 8,
       "count": 24
     },
     {
-      "name": "React",
+      "name": "Linux",
       "symbolSize": 8,
       "count": 24
     },
@@ -141,12 +141,12 @@
       "count": 23
     },
     {
-      "name": "Function",
+      "name": "FastAPI",
       "symbolSize": 8,
       "count": 22
     },
     {
-      "name": "FastAPI",
+      "name": "Function",
       "symbolSize": 8,
       "count": 22
     }

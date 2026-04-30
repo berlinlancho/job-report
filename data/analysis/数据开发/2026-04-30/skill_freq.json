@@ -1,0 +1,212 @@
+[
+  {
+    "skill": "SQL",
+    "count": 119,
+    "median_salary": 15500.0,
+    "avg_salary": 15891.0,
+    "job_count": 119
+  },
+  {
+    "skill": "Python",
+    "count": 100,
+    "median_salary": 16000.0,
+    "avg_salary": 16170.0,
+    "job_count": 100
+  },
+  {
+    "skill": "Spark",
+    "count": 80,
+    "median_salary": 16250.0,
+    "avg_salary": 16788.0,
+    "job_count": 80
+  },
+  {
+    "skill": "Java",
+    "count": 72,
+    "median_salary": 16000.0,
+    "avg_salary": 16986.0,
+    "job_count": 72
+  },
+  {
+    "skill": "Hadoop",
+    "count": 63,
+    "median_salary": 16000.0,
+    "avg_salary": 16556.0,
+    "job_count": 63
+  },
+  {
+    "skill": "Hive",
+    "count": 63,
+    "median_salary": 16000.0,
+    "avg_salary": 16317.0,
+    "job_count": 63
+  },
+  {
+    "skill": "Flink",
+    "count": 61,
+    "median_salary": 16500.0,
+    "avg_salary": 17189.0,
+    "job_count": 61
+  },
+  {
+    "skill": "要求数据开发经验",
+    "count": 58,
+    "median_salary": 15750.0,
+    "avg_salary": 16302.0,
+    "job_count": 58
+  },
+  {
+    "skill": "ETL",
+    "count": 52,
+    "median_salary": 16000.0,
+    "avg_salary": 16490.0,
+    "job_count": 52
+  },
+  {
+    "skill": "Oracle",
+    "count": 50,
+    "median_salary": 14500.0,
+    "avg_salary": 15400.0,
+    "job_count": 50
+  },
+  {
+    "skill": "数据平台开发经验",
+    "count": 49,
+    "median_salary": 16000.0,
+    "avg_salary": 16459.0,
+    "job_count": 49
+  },
+  {
+    "skill": "BI",
+    "count": 46,
+    "median_salary": 15250.0,
+    "avg_salary": 15772.0,
+    "job_count": 46
+  },
+  {
+    "skill": "Kafka",
+    "count": 46,
+    "median_salary": 16500.0,
+    "avg_salary": 16793.0,
+    "job_count": 46
+  },
+  {
+    "skill": "非外包类",
+    "count": 43,
+    "median_salary": 16000.0,
+    "avg_salary": 16616.0,
+    "job_count": 43
+  },
+  {
+    "skill": "AI",
+    "count": 40,
+    "median_salary": 17000.0,
+    "avg_salary": 16600.0,
+    "job_count": 40
+  },
+  {
+    "skill": "计算机相关专业",
+    "count": 38,
+    "median_salary": 16000.0,
+    "avg_salary": 15974.0,
+    "job_count": 38
+  },
+  {
+    "skill": "Scala",
+    "count": 36,
+    "median_salary": 16000.0,
+    "avg_salary": 16681.0,
+    "job_count": 36
+  },
+  {
+    "skill": "数据仓库开发经验",
+    "count": 33,
+    "median_salary": 16000.0,
+    "avg_salary": 16348.0,
+    "job_count": 33
+  },
+  {
+    "skill": "Linux",
+    "count": 30,
+    "median_salary": 16000.0,
+    "avg_salary": 15900.0,
+    "job_count": 30
+  },
+  {
+    "skill": "ETL开发经验",
+    "count": 29,
+    "median_salary": 15000.0,
+    "avg_salary": 15466.0,
+    "job_count": 29
+  },
+  {
+    "skill": "Shell",
+    "count": 29,
+    "median_salary": 15000.0,
+    "avg_salary": 15655.0,
+    "job_count": 29
+  },
+  {
+    "skill": "MySQL",
+    "count": 26,
+    "median_salary": 14750.0,
+    "avg_salary": 15385.0,
+    "job_count": 26
+  },
+  {
+    "skill": "BI报表开发经验",
+    "count": 23,
+    "median_salary": 15500.0,
+    "avg_salary": 15913.0,
+    "job_count": 23
+  },
+  {
+    "skill": "API",
+    "count": 22,
+    "median_salary": 14500.0,
+    "avg_salary": 15250.0,
+    "job_count": 22
+  },
+  {
+    "skill": "实时数仓开发经验",
+    "count": 20,
+    "median_salary": 16000.0,
+    "avg_salary": 16575.0,
+    "job_count": 20
+  },
+  {
+    "skill": "MySQL/SQL Server",
+    "count": 19,
+    "median_salary": 16000.0,
+    "avg_salary": 15763.0,
+    "job_count": 19
+  },
+  {
+    "skill": "PostgreSQL",
+    "count": 19,
+    "median_salary": 16500.0,
+    "avg_salary": 17263.0,
+    "job_count": 19
+  },
+  {
+    "skill": "HBase",
+    "count": 18,
+    "median_salary": 17000.0,
+    "avg_salary": 17139.0,
+    "job_count": 18
+  },
+  {
+    "skill": "HDFS",
+    "count": 17,
+    "median_salary": 15500.0,
+    "avg_salary": 15324.0,
+    "job_count": 17
+  },
+  {
+    "skill": "Tableau",
+    "count": 15,
+    "median_salary": 15500.0,
+    "avg_salary": 15700.0,
+    "job_count": 15
+  }
+]

@@ -4,102 +4,102 @@
   ],
   "series": [
     {
-      "skill": "PPT",
+      "skill": "SQL",
       "trend": [
         {
           "date": "2026-04-30",
-          "ratio": 20.3,
-          "count": 30
+          "ratio": 58.0,
+          "count": 119
         }
       ]
     },
     {
-      "skill": "内训",
+      "skill": "Python",
       "trend": [
         {
           "date": "2026-04-30",
-          "ratio": 15.5,
-          "count": 23
+          "ratio": 48.8,
+          "count": 100
         }
       ]
     },
     {
-      "skill": "培训实施",
+      "skill": "Spark",
       "trend": [
         {
           "date": "2026-04-30",
-          "ratio": 14.2,
-          "count": 21
+          "ratio": 39.0,
+          "count": 80
         }
       ]
     },
     {
-      "skill": "企业培训经验",
+      "skill": "Java",
       "trend": [
         {
           "date": "2026-04-30",
-          "ratio": 14.2,
-          "count": 21
+          "ratio": 35.1,
+          "count": 72
         }
       ]
     },
     {
-      "skill": "课程/课件研发能力",
+      "skill": "Hadoop",
       "trend": [
         {
           "date": "2026-04-30",
-          "ratio": 13.5,
-          "count": 20
+          "ratio": 30.7,
+          "count": 63
         }
       ]
     },
     {
-      "skill": "AI",
+      "skill": "Hive",
       "trend": [
         {
           "date": "2026-04-30",
-          "ratio": 12.8,
-          "count": 19
+          "ratio": 30.7,
+          "count": 63
         }
       ]
     },
     {
-      "skill": "讲师/内训师经历",
+      "skill": "Flink",
       "trend": [
         {
           "date": "2026-04-30",
-          "ratio": 12.8,
-          "count": 19
+          "ratio": 29.8,
+          "count": 61
         }
       ]
     },
     {
-      "skill": "课程开发",
+      "skill": "要求数据开发经验",
       "trend": [
         {
           "date": "2026-04-30",
-          "ratio": 12.2,
-          "count": 18
+          "ratio": 28.3,
+          "count": 58
         }
       ]
     },
     {
-      "skill": "培训计划制定优化",
+      "skill": "ETL",
       "trend": [
         {
           "date": "2026-04-30",
-          "ratio": 12.2,
-          "count": 18
+          "ratio": 25.4,
+          "count": 52
         }
       ]
     },
     {
-      "skill": "PPT制作技能",
+      "skill": "Oracle",
       "trend": [
         {
           "date": "2026-04-30",
-          "ratio": 11.5,
-          "count": 17
+          "ratio": 24.4,
+          "count": 50
         }
       ]
     }
