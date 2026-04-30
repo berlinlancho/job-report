@@ -1,0 +1,212 @@
+[
+  {
+    "skill": "AI",
+    "count": 222,
+    "median_salary": 17250.0,
+    "avg_salary": 17027.0,
+    "job_count": 222
+  },
+  {
+    "skill": "Python",
+    "count": 138,
+    "median_salary": 16500.0,
+    "avg_salary": 16685.0,
+    "job_count": 138
+  },
+  {
+    "skill": "API",
+    "count": 90,
+    "median_salary": 15500.0,
+    "avg_salary": 16083.0,
+    "job_count": 90
+  },
+  {
+    "skill": "Prompt",
+    "count": 81,
+    "median_salary": 17500.0,
+    "avg_salary": 16815.0,
+    "job_count": 81
+  },
+  {
+    "skill": "Java",
+    "count": 78,
+    "median_salary": 17500.0,
+    "avg_salary": 17538.0,
+    "job_count": 78
+  },
+  {
+    "skill": "Agent",
+    "count": 76,
+    "median_salary": 16750.0,
+    "avg_salary": 16809.0,
+    "job_count": 76
+  },
+  {
+    "skill": "RAG",
+    "count": 63,
+    "median_salary": 17500.0,
+    "avg_salary": 17857.0,
+    "job_count": 63
+  },
+  {
+    "skill": "LLM",
+    "count": 59,
+    "median_salary": 18000.0,
+    "avg_salary": 17771.0,
+    "job_count": 59
+  },
+  {
+    "skill": "Claude",
+    "count": 50,
+    "median_salary": 15500.0,
+    "avg_salary": 15730.0,
+    "job_count": 50
+  },
+  {
+    "skill": "Engineering",
+    "count": 48,
+    "median_salary": 16000.0,
+    "avg_salary": 16760.0,
+    "job_count": 48
+  },
+  {
+    "skill": "MySQL",
+    "count": 43,
+    "median_salary": 16000.0,
+    "avg_salary": 16698.0,
+    "job_count": 43
+  },
+  {
+    "skill": "Dify",
+    "count": 37,
+    "median_salary": 16000.0,
+    "avg_salary": 16986.0,
+    "job_count": 37
+  },
+  {
+    "skill": "Docker",
+    "count": 35,
+    "median_salary": 15500.0,
+    "avg_salary": 16371.0,
+    "job_count": 35
+  },
+  {
+    "skill": "LangChain",
+    "count": 35,
+    "median_salary": 17000.0,
+    "avg_salary": 17171.0,
+    "job_count": 35
+  },
+  {
+    "skill": "Cursor",
+    "count": 32,
+    "median_salary": 15750.0,
+    "avg_salary": 15672.0,
+    "job_count": 32
+  },
+  {
+    "skill": "Go",
+    "count": 31,
+    "median_salary": 18500.0,
+    "avg_salary": 17694.0,
+    "job_count": 31
+  },
+  {
+    "skill": "Redis",
+    "count": 29,
+    "median_salary": 15500.0,
+    "avg_salary": 16397.0,
+    "job_count": 29
+  },
+  {
+    "skill": "Vue",
+    "count": 26,
+    "median_salary": 16250.0,
+    "avg_salary": 16231.0,
+    "job_count": 26
+  },
+  {
+    "skill": "GPT",
+    "count": 26,
+    "median_salary": 16500.0,
+    "avg_salary": 17212.0,
+    "job_count": 26
+  },
+  {
+    "skill": "Code",
+    "count": 26,
+    "median_salary": 15250.0,
+    "avg_salary": 15692.0,
+    "job_count": 26
+  },
+  {
+    "skill": "SQL",
+    "count": 26,
+    "median_salary": 15000.0,
+    "avg_salary": 14673.0,
+    "job_count": 26
+  },
+  {
+    "skill": "CI",
+    "count": 25,
+    "median_salary": 16000.0,
+    "avg_salary": 16740.0,
+    "job_count": 25
+  },
+  {
+    "skill": "Linux",
+    "count": 24,
+    "median_salary": 16000.0,
+    "avg_salary": 16188.0,
+    "job_count": 24
+  },
+  {
+    "skill": "React",
+    "count": 24,
+    "median_salary": 16250.0,
+    "avg_salary": 16667.0,
+    "job_count": 24
+  },
+  {
+    "skill": "CD",
+    "count": 24,
+    "median_salary": 16750.0,
+    "avg_salary": 16833.0,
+    "job_count": 24
+  },
+  {
+    "skill": "大模型算法",
+    "count": 23,
+    "median_salary": 19500.0,
+    "avg_salary": 18543.0,
+    "job_count": 23
+  },
+  {
+    "skill": "PyTorch",
+    "count": 23,
+    "median_salary": 16500.0,
+    "avg_salary": 16391.0,
+    "job_count": 23
+  },
+  {
+    "skill": "LlamaIndex",
+    "count": 23,
+    "median_salary": 16000.0,
+    "avg_salary": 17152.0,
+    "job_count": 23
+  },
+  {
+    "skill": "Function",
+    "count": 22,
+    "median_salary": 15250.0,
+    "avg_salary": 16341.0,
+    "job_count": 22
+  },
+  {
+    "skill": "FastAPI",
+    "count": 22,
+    "median_salary": 15750.0,
+    "avg_salary": 16500.0,
+    "job_count": 22
+  }
+]

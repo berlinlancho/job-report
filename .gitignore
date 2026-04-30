@@ -1,15 +1,19 @@
 # Chrome user data (runtime browser profile, DO NOT COMMIT)
 chrome_user_data/
 
-# Pipeline runtime data
+# Pipeline runtime data (not applicable on this branch)
 output/
 stg/
 ods/
 dw/
 analysis/
 reports/
-data/
 logs/
+
+# Data directory — track analysis & reports for GitHub Pages
+data/*
+!data/analysis/
+!data/reports/
 
 # Config progress checkpoints
 config/progress/
