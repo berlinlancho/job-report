@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BOSS直聘 — 市场分析报告浏览器</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background:#f5f7fa; color:#333; }
+  .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color:#fff; padding:24px 40px; margin-bottom:24px; }
+  .header h1 { font-size:22px; margin-bottom:4px; }
+  .header p { font-size:13px; opacity:0.8; }
+  .container { max-width:900px; margin:0 auto; padding:0 20px 40px; }
+  .card { background:#fff; border-radius:8px; padding:20px; margin-bottom:12px; box-shadow:0 1px 4px rgba(0,0,0,0.06); display:flex; justify-content:space-between; align-items:center; transition: box-shadow 0.2s; }
+  .card:hover { box-shadow:0 2px 12px rgba(0,0,0,0.1); }
+  .card a { color:#667eea; text-decoration:none; font-weight:600; }
+  .card a:hover { text-decoration:underline; }
+  .card .info { font-size:13px; color:#888; }
+  .badge { display:inline-block; padding:2px 10px; border-radius:10px; font-size:12px; background:#e8edff; color:#667eea; margin-left:8px; }
+  .back-link { display:inline-block; margin-bottom:16px; color:#667eea; text-decoration:none; font-size:14px; }
+  .back-link:hover { text-decoration:underline; }
+  .empty { text-align:center; padding:60px 0; color:#999; }
+  iframe { width:100%; height:calc(100vh - 56px); border:none; }
+  .preview-bar { background:#fff; padding:10px 20px; border-bottom:1px solid #eee; display:flex; gap:16px; align-items:center; font-size:14px; flex-wrap:wrap; }
+  .btn { padding:8px 16px; border-radius:6px; border:1px solid #ddd; background:#fff; cursor:pointer; font-size:13px; text-decoration:none; color:#333; display:inline-block; }
+  .btn.primary { background:#667eea; color:#fff; border-color:#667eea; }
+  .btn.download { background:#10b981; color:#fff; border-color:#10b981; }
+  .btn:hover { opacity:0.85; }
+  .btn:disabled { color:#ccc; cursor:default; opacity:0.5; }
+  .meta-extra { font-size:12px; color:#999; margin-left:4px; }
+  .report-link { font-size:13px; color:#667eea; text-decoration:none; margin-left:8px; }
+  .report-link:hover { text-decoration:underline; }
+  .iframe-fallback { text-align:center; padding:60px 20px; }
+  .iframe-fallback a { color:#667eea; font-weight:600; }
+  .toast { position:fixed; bottom:20px; left:50%; transform:translateX(-50%); background:#333; color:#fff; padding:10px 24px; border-radius:20px; font-size:14px; z-index:9999; transition: opacity 0.3s; }
+  .loading-spin { display:inline-block; width:16px; height:16px; border:2px solid #ccc; border-top-color:#667eea; border-radius:50%; animation: spin 0.6s linear infinite; vertical-align:middle; margin-right:6px; }
+  @keyframes spin { to { transform:rotate(360deg); } }
+</style>
+</head>
+<body>
+
+<div id="app"><div class="header"><h1>BOSS直聘 — 市场分析报告浏览器</h1><p>加载中<span class="loading-spin" style="margin-left:10px;"></span></p></div></div>
+
+<script>
+// ═══════════════════════════════════════════════════════════
+// 配置
+// ═══════════════════════════════════════════════════════════
+var STATE = { data: [], loaded: false, loading: false };
+
+// ═══════════════════════════════════════════════════════════
+// 工具函数
+// ═══════════════════════════════════════════════════════════
+function enc(s) { return encodeURIComponent(s); }
+
+function fmtNow() {
+  var d = new Date();
+  return d.getFullYear() + "-" + p2(d.getMonth() + 1) + "-" + p2(d.getDate()) + " " + p2(d.getHours()) + ":" + p2(d.getMinutes());
+}
+function p2(n) { return String(n).padStart(2, "0"); }
+
+function findKw(name) {
+  for (var i = 0; i < STATE.data.length; i++) {
+    if (STATE.data[i].name === name) return STATE.data[i];
+  }
+  return null;
+}
+
+// Toast 提示
+function toast(msg, duration) {
+  duration = duration || 2000;
+  var el = document.createElement("div");
+  el.className = "toast";
+  el.textContent = msg;
+  document.body.appendChild(el);
+  setTimeout(function() { el.style.opacity = "0"; });
+  setTimeout(function() { el.remove(); }, duration + 300);
+}
+
+// ═══════════════════════════════════════════════════════════
+// 数据发现 — 优先 manifest.json，否则爬取目录列表
+// ═══════════════════════════════════════════════════════════
+function discoverData() {
+  if (STATE.loading) return Promise.resolve();
+  STATE.loading = true;
+
+  // 先用 fast path: data/reports.json (如果存在)
+  return fetch("data/reports.json")
+    .then(function(r) {
+      if (!r.ok) throw new Error("no manifest");
+      return r.json();
+    })
+    .then(function(data) {
+      STATE.data = Array.isArray(data) ? data : [];
+      STATE.loaded = true;
+      STATE.loading = false;
+    })
+    .catch(function() {
+      // 回退: 爬取目录列表
+      return crawlDirectories().then(function(data) {
+        STATE.data = data;
+        STATE.loaded = true;
+        STATE.loading = false;
+      });
+    });
+}
+
+function crawlDirectories() {
+  // 1. 获取 data/reports/ 目录列表 → 岗位名
+  return fetchDir("data/reports/")
+    .then(function(keywords) {
+      if (keywords.length === 0) return [];
+      // 2. 对每个岗位获取日期列表
+      return Promise.all(keywords.map(function(kw) {
+        return fetchDir("data/reports/" + enc(kw) + "/")
+          .then(function(dates) {
+            dates.sort(function(a, b) { return b.localeCompare(a); }); // 降序
+            // 3. 尝试获取每个日期的 meta 信息
+            return Promise.all(dates.map(function(date) {
+              return fetch("data/analysis/" + enc(kw) + "/" + date + "/meta.json")
+                .then(function(r) { return r.ok ? r.json() : null; })
+                .catch(function() { return null; });
+            })).then(function(metas) {
+              var metaInfo = {};
+              for (var i = 0; i < dates.length; i++) {
+                if (metas[i]) {
+                  metaInfo[dates[i]] = {
+                    job_count: metas[i].job_count || 0,
+                    skill_count: metas[i].skill_count || 0
+                  };
+                }
+              }
+              return {
+                name: kw,
+                dates: dates,
+                date_count: dates.length,
+                latest: dates[0] || null,
+                meta: metaInfo
+              };
+            });
+          });
+      }));
+    });
+}
+
+// 获取目录下的子目录名列表 (解析服务器目录列表 HTML)
+function fetchDir(url) {
+  return fetch(url)
+    .then(function(r) {
+      if (!r.ok) return [];
+      return r.text();
+    })
+    .then(function(html) {
+      var dirs = [];
+      var doc = new DOMParser().parseFromString(html, "text/html");
+      var links = doc.querySelectorAll("a");
+      for (var i = 0; i < links.length; i++) {
+        var href = links[i].getAttribute("href");
+        var text = links[i].textContent.trim();
+        // 目录链接: href 以 / 结尾，且不是父目录
+        if (href && href.charAt(href.length - 1) === "/" && href !== "../" && text !== "..") {
+          var name = decodeURIComponent(href.replace(/\/$/, ""));
+          if (name && name !== ".." && dirs.indexOf(name) === -1) {
+            dirs.push(name);
+          }
+        }
+      }
+      return dirs;
+    })
+    .catch(function() { return []; });
+}
+
+// ═══════════════════════════════════════════════════════════
+// 路由
+// ═══════════════════════════════════════════════════════════
+function route() {
+  var hash = location.hash.slice(1) || "/";
+  var app = document.getElementById("app");
+
+  if (hash === "/") {
+    renderHome(app);
+  } else if (hash.indexOf("/keyword/") === 0) {
+    renderKeyword(app, decodeURIComponent(hash.slice(9)));
+  } else if (hash.indexOf("/report/") === 0) {
+    var parts = hash.slice(8).split("/");
+    renderReport(app, decodeURIComponent(parts[0]), parts[1]);
+  } else {
+    renderHome(app);
+  }
+}
+
+window.addEventListener("hashchange", route);
+
+// ═══════════════════════════════════════════════════════════
+// 首页: 岗位列表
+// ═══════════════════════════════════════════════════════════
+function renderHome(app) {
+  if (!STATE.loaded) {
+    app.innerHTML =
+      '<div class="header"><h1>BOSS直聘 — 市场分析报告浏览器</h1><p>加载中<span class="loading-spin" style="margin-left:10px;"></span></p></div>' +
+      '<div class="container"><div class="empty"><p>正在获取数据…</p></div></div>';
+    return;
+  }
+
+  if (STATE.data.length === 0) {
+    app.innerHTML =
+      '<div class="header"><h1>BOSS直聘 — 市场分析报告浏览器</h1><p>本地报告预览</p></div>' +
+      '<div class="container"><div class="empty"><p>暂无报告数据</p><p style="margin-top:12px;font-size:13px;">请先运行采集流程生成报告到 data/reports/ 目录</p></div></div>';
+    return;
+  }
+
+  var html = '<div class="header"><h1>BOSS直聘 — 市场分析报告浏览器</h1><p>本地报告预览 ' + fmtNow() + '</p></div>';
+  html += '<div class="container">';
+  for (var i = 0; i < STATE.data.length; i++) {
+    var kw = STATE.data[i];
+    var extra = "";
+    if (kw.meta && kw.meta[kw.latest]) {
+      extra = ' <span class="meta-extra">(' + kw.meta[kw.latest].job_count + " 职位)</span>";
+    }
+    html +=
+      '<div class="card">' +
+      '<div><a href="#/keyword/' + enc(kw.name) + '">' + escHtml(kw.name) + "</a>" +
+      '<span class="badge">' + kw.date_count + " 期报告</span></div>" +
+      '<div class="info">' + (kw.latest ? "最新: " + kw.latest + extra : "等待首次分析") + "</div>" +
+      "</div>";
+  }
+  html += "</div>";
+  app.innerHTML = html;
+}
+
+function escHtml(s) {
+  return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
+
+// ═══════════════════════════════════════════════════════════
+// 岗位页: 日期列表
+// ═══════════════════════════════════════════════════════════
+function renderKeyword(app, keyword) {
+  if (!STATE.loaded) { app.innerHTML = '<div class="empty">加载中…</div>'; return; }
+
+  var kw = findKw(keyword);
+  if (!kw) {
+    app.innerHTML =
+      '<div class="header"><h1>未找到</h1></div>' +
+      '<div class="container"><a href="#/" class="back-link">← 返回岗位列表</a><div class="empty"><p>该岗位不存在</p></div></div>';
+    return;
+  }
+
+  var html = '<div class="header"><h1>' + escHtml(keyword) + "</h1><p>历史报告列表</p></div>";
+  html += '<div class="container"><a href="#/" class="back-link">← 返回岗位列表</a>';
+
+  if (kw.dates.length === 0) {
+    html += '<div class="empty"><p>该岗位暂无报告数据</p></div>';
+  } else {
+    for (var i = 0; i < kw.dates.length; i++) {
+      var d = kw.dates[i];
+      var metaStr = "";
+      if (kw.meta && kw.meta[d]) {
+        metaStr = ' <span class="meta-extra">' + kw.meta[d].job_count + " 职位, " + kw.meta[d].skill_count + " 技能</span>";
+      }
+      html +=
+        '<div class="card">' +
+        '<div><a href="#/report/' + enc(keyword) + "/" + d + '">' + d + "</a>" +
+        '<span class="badge">报告</span>' + metaStr + "</div>" +
+        '<div class="info">' +
+        '<button class="btn download" onclick="event.stopPropagation();downloadReport(\'' + escQuote(keyword) + "','" + d + "')\" title=\"下载离线版（可双击打开）\">下载离线版</button>" +
+        '<a href="#/report/' + enc(keyword) + "/" + d + '" class="report-link">预览 →</a>' +
+        "</div></div>";
+    }
+  }
+  html += "</div>";
+  app.innerHTML = html;
+}
+
+function escQuote(s) {
+  return String(s).replace(/\\/g, "\\\\").replace(/'/g, "\\'");
+}
+
+// ═══════════════════════════════════════════════════════════
+// 报告页: iframe 预览
+// ═══════════════════════════════════════════════════════════
+function renderReport(app, keyword, date) {
+  var kw = findKw(keyword);
+  var dates = kw ? kw.dates : [];
+  var idx = dates.indexOf(date);
+  var prevDate = (idx >= 0 && idx + 1 < dates.length) ? dates[idx + 1] : null;
+  var nextDate = (idx >= 1) ? dates[idx - 1] : null;
+  var reportPath = "data/reports/" + enc(keyword) + "/" + date + "/report.html";
+
+  var html =
+    '<div class="preview-bar">' +
+    '<a href="#/keyword/' + enc(keyword) + '" class="back-link">← 返回日期列表</a>' +
+    '<span><strong>' + escHtml(keyword) + "</strong> — " + date + "</span>" +
+    '<span style="flex:1"></span>';
+
+  if (prevDate) {
+    html += '<a href="#/report/' + enc(keyword) + "/" + prevDate + '" class="btn">◀ ' + prevDate + "</a>";
+  } else {
+    html += '<span class="btn" style="color:#ccc;cursor:default">◀</span>';
+  }
+  if (nextDate) {
+    html += '<a href="#/report/' + enc(keyword) + "/" + nextDate + '" class="btn">' + nextDate + " ▶</a>";
+  } else {
+    html += '<span class="btn" style="color:#ccc;cursor:default">▶</span>';
+  }
+
+  html +=
+    '<button class="btn download" onclick="downloadReport(\'' + escQuote(keyword) + "','" + date + "')\">下载离线版</button>" +
+    '<a href="' + reportPath + '" target="_blank" class="btn primary">在新窗口打开</a>' +
+    "</div>" +
+    '<iframe src="' + reportPath + '" onerror="var fb=document.getElementById(\'fallback\');if(fb)fb.style.display=\'block\'" ' +
+    'onload="var fb=document.getElementById(\'fallback\');if(fb)fb.style.display=\'none\'"></iframe>' +
+    '<div id="fallback" class="iframe-fallback" style="display:none">' +
+    "<p>⚠️ 内嵌预览可能被浏览器阻止</p>" +
+    '<p style="margin-top:12px"><a href="' + reportPath + '" target="_blank">点击在新窗口打开报告 →</a></p>' +
+    "</div>";
+
+  app.innerHTML = html;
+
+  // 监听 iframe 加载错误 (file:// 场景)
+  var iframe = app.querySelector("iframe");
+  if (iframe) {
+    iframe.onerror = function() {
+      var fb = document.getElementById("fallback");
+      if (fb) fb.style.display = "block";
+    };
+  }
+}
+
+// ═══════════════════════════════════════════════════════════
+// 下载: 生成离线报告 (客户端)
+// ═══════════════════════════════════════════════════════════
+function downloadReport(keyword, date) {
+  var baseUrl = "data/analysis/" + enc(keyword) + "/" + date + "/";
+  var files = [
+    "skill_freq.json", "skill_cooccur.json", "skill_salary.json",
+    "benefit_group.json", "skill_trend.json", "insights.json", "meta.json"
+  ];
+
+  toast("正在生成离线报告…", 3000);
+
+  Promise.all(
+    files.map(function(f) {
+      return fetch(baseUrl + f)
+        .then(function(r) { return r.ok ? r.json() : null; })
+        .catch(function() { return null; });
+    }).concat([
+      fetch("assets/echarts.min.js")
+        .then(function(r) { return r.ok ? r.text() : ""; })
+        .catch(function() { return ""; })
+    ])
+  )
+    .then(function(results) {
+      var echartsJS = results[7];
+      var data = {
+        skill_freq:     results[0] || [],
+        skill_cooccur:  results[1] || { nodes: [], edges: [] },
+        skill_salary:   results[2] || { boxplot_data: [], outliers: [], global_median: 0 },
+        benefit_group:  results[3] || { benefits: [], overall: [], all_sizes: [], all_stages: [], by_size_stage: [] },
+        skill_trend:    results[4] || { dates: [], series: [], new_skills: [], removed_skills: [] },
+        insights:       results[5] || null,
+        meta:           results[6] || { keyword: keyword, date: date, job_count: 0, skill_count: 0, generated_at: "" },
+        keyword:        keyword,
+        date:           date,
+        echarts_js:     echartsJS
+      };
+      var html = buildOfflineHTML(data);
+      var blob = new Blob([html], { type: "text/html;charset=utf-8" });
+      var url = URL.createObjectURL(blob);
+      var a = document.createElement("a");
+      a.href = url;
+      a.download = keyword + "_" + date + ".html";
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+      toast("下载完成: " + keyword + "_" + date + ".html", 3000);
+    })
+    .catch(function(err) {
+      console.error("下载失败:", err);
+      toast("下载失败，请查看控制台", 3000);
+    });
+}
+
+// ═══════════════════════════════════════════════════════════
+// 构建离线报告 HTML
+// ═══════════════════════════════════════════════════════════
+function buildOfflineHTML(d) {
+  var m = d.meta;
+  var echartsJS = d.echarts_js;
+  var insightsHTML = buildInsightsHTML(d.insights);
+  var trendExtras = buildTrendExtrasHTML(d.skill_trend);
+
+  return "<!DOCTYPE html>\n<html lang=\"zh-CN\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>" +
+    escHtml(d.keyword) + " - 市场分析报告 (" + d.date + ")</title>\n" +
+    (echartsJS ? "<script>" + echartsJS + "<\/script>\n" : '<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"><\/script>\n') +
+    REPORT_STYLE + "\n</head>\n<body>\n" +
+    REPORT_HEADER(d.keyword, d.date, m.job_count || 0, m.skill_count || 0, m.generated_at || "") +
+    insightsHTML +
+    REPORT_CHARTS_HTML +
+    trendExtras +
+    REPORT_CHART_SCRIPTS(d) +
+    "\n</body>\n</html>";
+}
+
+// ── 离线报告样式 (与 report_template.html 一致) ──
+var REPORT_STYLE = '<style>\n' +
+  '  *{margin:0;padding:0;box-sizing:border-box;}\n' +
+  '  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:#f5f7fa;color:#333;}\n' +
+  '  .rpt-header{background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);color:#fff;padding:32px 40px;}\n' +
+  '  .rpt-header h1{font-size:28px;margin-bottom:8px;}\n' +
+  '  .rpt-header .meta{font-size:14px;opacity:0.85;}\n' +
+  '  .rpt-header .stats{display:flex;gap:24px;margin-top:16px;}\n' +
+  '  .rpt-header .stat{background:rgba(255,255,255,0.15);border-radius:8px;padding:12px 20px;}\n' +
+  '  .rpt-header .stat .num{font-size:24px;font-weight:700;}\n' +
+  '  .rpt-header .stat .label{font-size:12px;opacity:0.8;}\n' +
+  '  .insights{margin:24px 40px;}\n' +
+  '  .insight-card{background:#fff;border-left:4px solid #667eea;padding:16px 20px;margin-bottom:12px;border-radius:4px;box-shadow:0 1px 4px rgba(0,0,0,0.06);}\n' +
+  '  .insight-card.warning{border-left-color:#f59e0b;}\n' +
+  '  .insight-card.info{border-left-color:#3b82f6;}\n' +
+  '  .insight-card .i-title{font-weight:600;font-size:15px;margin-bottom:4px;}\n' +
+  '  .insight-card .i-content{font-size:13px;color:#666;}\n' +
+  '  .insight-card .i-action{font-size:12px;color:#764ba2;margin-top:6px;}\n' +
+  '  .insight-summary{background:#fff;padding:16px 20px;border-radius:8px;font-size:15px;margin-bottom:16px;box-shadow:0 1px 4px rgba(0,0,0,0.06);}\n' +
+  '  .insight-summary strong{color:#667eea;}\n' +
+  '  .charts{padding:0 40px 40px;}\n' +
+  '  .chart-panel{background:#fff;border-radius:8px;padding:20px;margin-bottom:24px;box-shadow:0 1px 4px rgba(0,0,0,0.06);}\n' +
+  '  .chart-panel h3{font-size:16px;margin-bottom:12px;color:#333;}\n' +
+  '  .chart-panel .chart-box{width:100%;height:450px;overflow:hidden;}\n' +
+  '  .filter-row{display:flex;gap:12px;align-items:center;margin-bottom:12px;flex-wrap:wrap;}\n' +
+  '  .filter-row select{padding:6px 12px;border:1px solid #ddd;border-radius:4px;font-size:13px;background:#fff;}\n' +
+  '  .filter-row input[type="number"]{padding:6px 10px;border:1px solid #ddd;border-radius:4px;font-size:13px;width:90px;}\n' +
+  '  .filter-row label{font-size:13px;color:#666;}\n' +
+  '  .filter-row button{padding:6px 14px;border:1px solid #ddd;background:#fff;cursor:pointer;border-radius:4px;font-size:16px;font-weight:bold;}\n' +
+  '  .filter-row button:hover{background:#f0f0f0;}\n' +
+  '  .filter-row .hint{font-size:11px;color:#999;}\n' +
+  '  .filter-row .focus-tag{background:#667eea;color:#fff;padding:4px 12px;border-radius:12px;font-size:12px;cursor:pointer;}\n' +
+  '  .skill-table{margin-top:16px;font-size:12px;color:#666;}\n' +
+  '  .skill-table table{width:100%;border-collapse:collapse;}\n' +
+  '  .skill-table th,.skill-table td{padding:6px 12px;text-align:left;border-bottom:1px solid #eee;}\n' +
+  '  .skill-table .new{color:#10b981;}\n' +
+  '  .skill-table .removed{color:#ef4444;}\n' +
+  '  .cooccur-legend{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:8px;}\n' +
+  '  .cooccur-legend .legend-label{font-size:12px;color:#888;}\n' +
+  '  .cooccur-legend .legend-bar{width:220px;height:12px;border-radius:6px;background:linear-gradient(to right,#dbeafe,#93c5fd,#667eea,#7c3aed,#dc2626);}\n' +
+  '<\/style>';
+
+// ── Header ──
+function REPORT_HEADER(keyword, date, jobCount, skillCount, generatedAt) {
+  return '<div class="rpt-header">\n' +
+    '  <h1>' + escHtml(keyword) + ' - 市场分析报告</h1>\n' +
+    '  <div class="meta">报告日期: ' + date + ' | 生成时间: ' + escHtml(generatedAt) + '</div>\n' +
+    '  <div class="stats">\n' +
+    '    <div class="stat"><div class="num">' + jobCount + '</div><div class="label">在招职位</div></div>\n' +
+    '    <div class="stat"><div class="num">' + skillCount + '</div><div class="label">技能标签</div></div>\n' +
+    '  </div>\n</div>\n';
+}
+
+// ── Insights ──
+function buildInsightsHTML(insights) {
+  if (!insights || !insights.summary) {
+    return '<div class="insights">\n  <div class="insight-summary">暂无 AI 洞察数据</div>\n</div>\n';
+  }
+  var html = '<div class="insights">\n';
+  html += '  <div class="insight-summary"><strong>本期核心发现:</strong> ' + escHtml(insights.summary) + '</div>\n';
+  if (insights.insights && insights.insights.length) {
+    for (var i = 0; i < insights.insights.length; i++) {
+      var item = insights.insights[i];
+      html += '  <div class="insight-card ' + (item.type || "") + '">\n' +
+        '    <div class="i-title">' + escHtml(item.title) + '</div>\n' +
+        '    <div class="i-content">' + escHtml(item.content) + '</div>\n' +
+        (item.action ? '    <div class="i-action">→ ' + escHtml(item.action) + '</div>\n' : "") +
+        '  </div>\n';
+    }
+  }
+  if (insights.recommendations && insights.recommendations.length) {
+    html += '  <div class="insight-summary">\n    <strong>学习建议:</strong>\n    <ul style="margin:8px 0 0 20px;">\n';
+    for (var j = 0; j < insights.recommendations.length; j++) {
+      html += '      <li>' + escHtml(insights.recommendations[j]) + '</li>\n';
+    }
+    html += '    </ul>\n  </div>\n';
+  }
+  html += '</div>\n';
+  return html;
+}
+
+// ── 图表面板静态结构 ──
+var REPORT_CHARTS_HTML = '<div class="charts">\n' +
+  '  <div class="chart-panel">\n    <h3>技能需求频次</h3>\n    <div class="chart-box" id="chart-skill-freq" style="height:900px;"></div>\n  </div>\n' +
+  '  <div class="chart-panel">\n    <h3>技能共现网络</h3>\n' +
+  '    <div class="filter-row">\n      <label>共现次数 ≥</label>\n      <input type="number" id="cooccur-threshold" value="1" min="1" step="1" onchange="applyCooccurFilter()">\n' +
+  '      <button onclick="zoomCooccur(1.3)" title="放大">＋</button>\n      <button onclick="zoomCooccur(0.7)" title="缩小">－</button>\n' +
+  '      <button onclick="resetCooccurZoom()" title="重置" style="font-size:12px;font-weight:normal;">↺ 重置</button>\n' +
+  '      <span class="hint" id="cooccur-info"></span>\n      <span id="cooccur-focus-tag"></span>\n    </div>\n' +
+  '    <div class="chart-box" id="chart-skill-cooccur" style="height:800px;"></div>\n' +
+  '    <div class="cooccur-legend"><span class="legend-label">低关联</span><div class="legend-bar"></div><span class="legend-label">高关联</span></div>\n' +
+  '  </div>\n' +
+  '  <div class="chart-panel">\n    <h3>技能-薪资交叉分析 (箱线图)</h3>\n    <div class="chart-box" id="chart-skill-salary"></div>\n  </div>\n' +
+  '  <div class="chart-panel">\n    <h3>福利对比分析</h3>\n' +
+  '    <div class="filter-row">\n      <label>公司规模:</label><select id="benefit-size" onchange="filterBenefit()"><option value="">全部</option></select>\n' +
+  '      <label>融资阶段:</label><select id="benefit-stage" onchange="filterBenefit()"><option value="">全部</option></select>\n    </div>\n' +
+  '    <div class="chart-box" id="chart-benefit"></div>\n  </div>\n' +
+  '  <div class="chart-panel">\n    <h3>技能需求趋势</h3>\n    <div class="chart-box" id="chart-skill-trend"></div>\n  </div>\n</div>\n';
+
+// ── 趋势额外信息 ──
+function buildTrendExtrasHTML(trend) {
+  if (!trend) return "";
+  var hasNew = trend.new_skills && trend.new_skills.length;
+  var hasRemoved = trend.removed_skills && trend.removed_skills.length;
+  if (!hasNew && !hasRemoved) return "";
+  var html = '<div class="skill-table" style="padding:0 40px 40px;"><table>\n';
+  if (hasNew) html += '  <tr><td class="new">新增技能</td><td class="new">' + escHtml(trend.new_skills.slice(0, 10).join(", ")) + '</td></tr>\n';
+  if (hasRemoved) html += '  <tr><td class="removed">消失技能</td><td class="removed">' + escHtml(trend.removed_skills.slice(0, 10).join(", ")) + '</td></tr>\n';
+  html += '</table></div>\n';
+  return html;
+}
+
+// ── 图表初始化脚本 (嵌入数据) ──
+function REPORT_CHART_SCRIPTS(d) {
+  return "<script>\n" +
+    "var skillFreqData = " + JSON.stringify(d.skill_freq) + ";\n" +
+    "var skillCooccurData = " + JSON.stringify(d.skill_cooccur) + ";\n" +
+    "var skillSalaryData = " + JSON.stringify(d.skill_salary) + ";\n" +
+    "var benefitGroupData = " + JSON.stringify(d.benefit_group) + ";\n" +
+    "var skillTrendData = " + JSON.stringify(d.skill_trend) + ";\n" +
+    "function formatSalary(v){return v?(v/1000).toFixed(0)+'K':'-';}\n" +
+    CHART1_JS + "\n" +
+    CHART2_JS + "\n" +
+    CHART3_JS + "\n" +
+    CHART4_JS + "\n" +
+    CHART5_JS + "\n" +
+    "<\/script>";
+}
+
+// ── 图表1: 技能频次 ──
+var CHART1_JS = '(function(){var data=skillFreqData;data.sort(function(a,b){return b.count-a.count;});var skills=data.map(function(d){return d.skill;});var counts=data.map(function(d){return d.count;});var chart=echarts.init(document.getElementById("chart-skill-freq"));var n=data.length;var barHeight=Math.max(20,Math.min(28,Math.floor(700/n)));chart.setOption({tooltip:{trigger:"axis",axisPointer:{type:"shadow"},formatter:function(p){var i=p[0].dataIndex;return"<b>"+data[i].skill+"</b><br/>出现次数: "+data[i].count+"<br/>关联薪资中位数: "+formatSalary(data[i].median_salary)+"<br/>关联岗位数: "+data[i].job_count;}},grid:{left:120,right:50,top:10,bottom:30},xAxis:{type:"value",name:"出现次数"},yAxis:{type:"category",data:skills,inverse:true,axisLabel:{fontSize:11}},series:[{type:"bar",data:counts,barWidth:barHeight,itemStyle:{color:new echarts.graphic.LinearGradient(0,0,1,0,[{offset:0,color:"#667eea"},{offset:1,color:"#764ba2"}])}}]});window.addEventListener("resize",function(){chart.resize();});})();';
+
+// ── 图表2: 技能共现网络 ──
+var CHART2_JS = '(function(){var allData=skillCooccurData;var dom=document.getElementById("chart-skill-cooccur");window.cooccurChart=echarts.init(dom);var zoomLv=1;var focusNode=null;function buildOpt(threshold,zoom,fn){var edges=allData.edges.filter(function(e){return e.weight>=threshold;});if(fn){edges=edges.filter(function(e){return e.source===fn||e.target===fn;});}var names=[];edges.forEach(function(e){if(names.indexOf(e.source)===-1)names.push(e.source);if(names.indexOf(e.target)===-1)names.push(e.target);});var nodes=allData.nodes.filter(function(n){return names.indexOf(n.name)!==-1;});var maxW=Math.max.apply(null,edges.map(function(e){return e.weight;}))||1;var baseS=zoom;var baseF=Math.round(11*zoom);function ec(w){var t=Math.log(w+1)/Math.log(maxW+1);var stops=[[0.0,219,234,254],[0.3,147,197,253],[0.5,102,126,234],[0.75,124,58,237],[1.0,220,38,38]];var i=0;while(i<stops.length-1&&stops[i+1][0]<t)i++;var s0=stops[i],s1=stops[Math.min(i+1,stops.length-1)];var range=s1[0]-s0[0];var frac=range===0?0:(t-s0[0])/range;var r=Math.round(s0[1]+(s1[1]-s0[1])*frac);var g=Math.round(s0[2]+(s1[2]-s0[2])*frac);var b=Math.round(s0[3]+(s1[3]-s0[3])*frac);return"rgb("+r+","+g+","+b+")";}return{tooltip:{formatter:function(p){if(p.dataType==="edge")return p.data.source+" — "+p.data.target+"<br/>共现: "+p.data.weight+" 次";return p.data.count?p.name+": "+p.data.count+" 次":"";}},series:[{type:"graph",layout:"force",roam:true,draggable:true,force:{repulsion:Math.round(300/zoom),edgeLength:[Math.round(30*zoom),Math.round(250*zoom)]},data:nodes.map(function(n){return{name:n.name,symbolSize:Math.round(n.symbolSize*baseS*0.6),count:n.count,itemStyle:Object.assign({color:"#5470c6"},fn&&n.name===fn?{borderColor:"#ef4444",borderWidth:3}:{}),emphasis:fn&&n.name===fn?{itemStyle:{borderColor:"#ef4444",borderWidth:4}}:{}};}),edges:edges.map(function(e){return{source:e.source,target:e.target,value:e.weight,weight:e.weight,lineStyle:{width:1.6*zoom,color:ec(e.weight),opacity:0.85}};}),lineStyle:{curveness:0.1},label:{show:true,fontSize:baseF,color:"#222"},emphasis:{focus:"adjacency",lineStyle:{width:4}}}]};}function refresh(){var input=document.getElementById("cooccur-threshold");var v=parseInt(input.value)||1;if(v<1){v=1;input.value=1;}window.cooccurChart.setOption(buildOpt(v,zoomLv,focusNode),true);updateInfo();updateFocusTag();}function updateInfo(){var el=document.getElementById("cooccur-info");var opts=window.cooccurChart.getOption();if(opts&&opts.series&&opts.series[0]){var s=opts.series[0];var nN=(s.data||[]).length;var nE=(s.edges||[]).length;el.textContent=nN+"个节点, "+nE+"条边";}}function updateFocusTag(){var tag=document.getElementById("cooccur-focus-tag");if(focusNode){tag.innerHTML=\'<span class="focus-tag" onclick="clearCooccurFocus()" title="点击取消筛选">\'+focusNode+\' 及其关联 ✕</span>\';}else{tag.innerHTML="";}}window.cooccurChart.on("click",function(params){if(params.dataType==="node"){focusNode=params.name;refresh();}else if(!params.dataType){if(focusNode){focusNode=null;refresh();}}});window.cooccurChart.setOption(buildOpt(1,1,null));updateInfo();window.addEventListener("resize",function(){window.cooccurChart.resize();});window.zoomCooccur=function(f){zoomLv=Math.max(0.5,Math.min(3,Math.round((zoomLv*f)*10)/10));refresh();};window.resetCooccurZoom=function(){zoomLv=1;refresh();};window.applyCooccurFilter=function(){refresh();};window.clearCooccurFocus=function(){focusNode=null;refresh();};})();';
+
+// ── 图表3: 技能薪资箱线图 ──
+var CHART3_JS = '(function(){var data=skillSalaryData;var skills=data.boxplot_data.map(function(d){return d.skill;});var boxData=data.boxplot_data.map(function(d){return[d.min,d.Q1,d.median,d.Q3,d.max];});var chart=echarts.init(document.getElementById("chart-skill-salary"));chart.setOption({tooltip:{trigger:"item",formatter:function(p){if(p.seriesName==="outlier")return p.name+"<br/>离群值: "+formatSalary(p.value[1]);var d=data.boxplot_data[p.dataIndex];return"<b>"+d.skill+"</b><br/>上限: "+formatSalary(d.max)+"<br/>Q3: "+formatSalary(d.Q3)+"<br/>中位数: "+formatSalary(d.median)+"<br/>Q1: "+formatSalary(d.Q1)+"<br/>下限: "+formatSalary(d.min)+"<br/>样本数: "+d.count;}},grid:{left:80,right:30,top:10,bottom:80},xAxis:{type:"category",data:skills,axisLabel:{rotate:45,fontSize:11}},yAxis:{type:"value",name:"月薪 (K)",axisLabel:{formatter:function(v){return(v/1000).toFixed(0)+"K";}}},series:[{type:"boxplot",data:boxData,itemStyle:{color:"#667eea",borderColor:"#555"},markLine:{silent:true,data:[{yAxis:data.global_median,name:"全局中位",label:{formatter:"全局中位: "+formatSalary(data.global_median)}}],lineStyle:{color:"#ef4444",type:"dashed"}}},{type:"scatter",name:"outlier",data:data.outliers.map(function(o){return[skills.indexOf(o.skill),o.value];}),itemStyle:{color:"#ef4444",opacity:0.4},symbolSize:6}]});window.addEventListener("resize",function(){chart.resize();});})();';
+
+// ── 图表4: 福利对比 ──
+var CHART4_JS = '(function(){var data=benefitGroupData;var chart=echarts.init(document.getElementById("chart-benefit"));var benefits=data.benefits;var sizeSel=document.getElementById("benefit-size");(data.all_sizes||[]).forEach(function(s){var o=document.createElement("option");o.value=s;o.textContent=s;sizeSel.appendChild(o);});var stageSel=document.getElementById("benefit-stage");(data.all_stages||[]).forEach(function(s){var o=document.createElement("option");o.value=s;o.textContent=s;stageSel.appendChild(o);});function build(){var sz=sizeSel.value;var st=stageSel.value;var counts;if(!sz&&!st){var map={};(data.overall||[]).forEach(function(r){map[r.benefit]=r.count;});counts=benefits.map(function(b){return map[b]||0;});}else{var cross=data.by_size_stage||[];var map={};cross.forEach(function(r){var sm=!sz||r.size_group===sz;var tm=!st||r.stage_group===st;if(sm&&tm){map[r.benefit]=(map[r.benefit]||0)+r.count;}});counts=benefits.map(function(b){return map[b]||0;});}return{tooltip:{trigger:"axis",axisPointer:{type:"shadow"},formatter:function(p){return"<b>"+p[0].axisValue+"</b><br/>出现次数: "+p[0].value;}},grid:{left:40,right:20,top:10,bottom:50},xAxis:{type:"category",data:benefits,axisLabel:{rotate:30,fontSize:11}},yAxis:{type:"value",name:"出现次数",axisLabel:{formatter:function(v){return v>=1000?(v/1000).toFixed(0)+"k":v;}}},series:[{type:"bar",data:counts,itemStyle:{color:new echarts.graphic.LinearGradient(0,0,0,1,[{offset:0,color:"#667eea"},{offset:1,color:"#a78bfa"}])}}]};}chart.setOption(build());window.filterBenefit=function(){chart.setOption(build(),true);};window.addEventListener("resize",function(){chart.resize();});})();';
+
+// ── 图表5: 技能趋势 ──
+var CHART5_JS = '(function(){var data=skillTrendData;var chart=echarts.init(document.getElementById("chart-skill-trend"));var series=data.series.map(function(s){return{name:s.skill,type:"line",data:s.trend.map(function(t){return t.ratio;}),smooth:true,symbol:"circle",symbolSize:6};});chart.setOption({tooltip:{trigger:"axis",formatter:function(p){var s=p[0].axisValue;p.forEach(function(x){s+="<br/>"+x.seriesName+": "+x.value+"%";});return s;}},legend:{bottom:0,textStyle:{fontSize:11},type:"scroll"},grid:{left:50,right:20,top:10,bottom:50},xAxis:{type:"category",data:data.dates},yAxis:{type:"value",name:"占比 (%)"},series:series});window.addEventListener("resize",function(){chart.resize();});})();';
+
+// ═══════════════════════════════════════════════════════════
+// 初始化
+// ═══════════════════════════════════════════════════════════
+discoverData()
+  .then(function() { route(); })
+  .catch(function() {
+    var app = document.getElementById("app");
+    app.innerHTML =
+      '<div class="header"><h1>BOSS直聘 — 市场分析报告浏览器</h1><p>数据加载失败</p></div>' +
+      '<div class="container"><div class="empty">' +
+      '<p>⚠️ 无法发现报告数据</p>' +
+      '<p style="margin-top:12px;font-size:13px;">请通过 HTTP 服务器访问本页面（不支持 file:// 协议）</p>' +
+      '<p style="margin-top:8px;font-size:13px;">示例: <code>python -m http.server 8899</code> → <a href="http://localhost:8899">http://localhost:8899</a></p>' +
+      '</div></div>';
+  });
+</script>
+</body>
+</html>

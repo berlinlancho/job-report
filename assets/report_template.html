@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ meta.keyword }} - 市场分析报告 ({{ meta.date }})</title>
+{% if echarts_js %}<script>{{ echarts_js|safe }}</script>{% else %}<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>{% endif %}
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #f5f7fa; color: #333; }
+  .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: #fff; padding: 32px 40px; }
+  .header h1 { font-size: 28px; margin-bottom: 8px; }
+  .header .meta { font-size: 14px; opacity: 0.85; }
+  .header .stats { display: flex; gap: 24px; margin-top: 16px; }
+  .header .stat { background: rgba(255,255,255,0.15); border-radius: 8px; padding: 12px 20px; }
+  .header .stat .num { font-size: 24px; font-weight: 700; }
+  .header .stat .label { font-size: 12px; opacity: 0.8; }
+
+  .insights { margin: 24px 40px; }
+  .insight-card { background: #fff; border-left: 4px solid #667eea; padding: 16px 20px; margin-bottom: 12px; border-radius: 4px; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+  .insight-card.warning { border-left-color: #f59e0b; }
+  .insight-card.info { border-left-color: #3b82f6; }
+  .insight-card .insight-title { font-weight: 600; font-size: 15px; margin-bottom: 4px; }
+  .insight-card .insight-content { font-size: 13px; color: #666; }
+  .insight-card .insight-action { font-size: 12px; color: #764ba2; margin-top: 6px; }
+  .insight-summary { background: #fff; padding: 16px 20px; border-radius: 8px; font-size: 15px; margin-bottom: 16px; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+  .insight-summary strong { color: #667eea; }
+
+  .charts { padding: 0 40px 40px; }
+  .chart-panel { background: #fff; border-radius: 8px; padding: 20px; margin-bottom: 24px; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+  .chart-panel h3 { font-size: 16px; margin-bottom: 12px; color: #333; }
+  .chart-panel .chart-box { width: 100%; height: 450px; overflow: hidden; }
+
+  .filter-row { display: flex; gap: 12px; align-items: center; margin-bottom: 12px; flex-wrap: wrap; }
+  .filter-row select { padding: 6px 12px; border: 1px solid #ddd; border-radius: 4px; font-size: 13px; background: #fff; }
+  .filter-row input[type="number"] { padding: 6px 10px; border: 1px solid #ddd; border-radius: 4px; font-size: 13px; width: 90px; }
+  .filter-row label { font-size: 13px; color: #666; }
+  .filter-row button { padding: 6px 14px; border: 1px solid #ddd; background: #fff; cursor: pointer; border-radius: 4px; font-size: 16px; font-weight: bold; }
+  .filter-row button:hover { background: #f0f0f0; }
+  .filter-row .hint { font-size: 11px; color: #999; }
+  .filter-row .focus-tag { background: #667eea; color: #fff; padding: 4px 12px; border-radius: 12px; font-size: 12px; cursor: pointer; }
+
+  .skill-table { margin-top: 16px; font-size: 12px; color: #666; }
+  .skill-table table { width: 100%; border-collapse: collapse; }
+  .skill-table th, .skill-table td { padding: 6px 12px; text-align: left; border-bottom: 1px solid #eee; }
+  .skill-table .new { color: #10b981; }
+  .skill-table .removed { color: #ef4444; }
+  .cooccur-legend { display: flex; align-items: center; justify-content: center; gap: 10px; margin-top: 8px; }
+  .cooccur-legend .legend-label { font-size: 12px; color: #888; }
+  .cooccur-legend .legend-bar { width: 220px; height: 12px; border-radius: 6px; background: linear-gradient(to right, #dbeafe, #93c5fd, #667eea, #7c3aed, #dc2626); }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>{{ meta.keyword }} - 市场分析报告</h1>
+  <div class="meta">报告日期: {{ meta.date }} | 生成时间: {{ meta.generated_at }}</div>
+  <div class="stats">
+    <div class="stat"><div class="num">{{ meta.job_count }}</div><div class="label">在招职位</div></div>
+    <div class="stat"><div class="num">{{ meta.skill_count }}</div><div class="label">技能标签</div></div>
+  </div>
+</div>
+
+<div class="insights">
+  {% if insights and insights.summary %}
+  <div class="insight-summary"><strong>本期核心发现:</strong> {{ insights.summary }}</div>
+  {% for item in insights.insights %}
+  <div class="insight-card {{ item.type }}">
+    <div class="insight-title">{{ item.title }}</div>
+    <div class="insight-content">{{ item.content }}</div>
+    {% if item.action %}<div class="insight-action">→ {{ item.action }}</div>{% endif %}
+  </div>
+  {% endfor %}
+  {% if insights.recommendations %}
+  <div class="insight-summary">
+    <strong>学习建议:</strong>
+    <ul style="margin: 8px 0 0 20px;">
+      {% for rec in insights.recommendations %}<li>{{ rec }}</li>{% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+  {% else %}
+  <div class="insight-summary">暂无 AI 洞察数据。运行 <code>python scripts/analysis.py ... </code>（不加 --skip-insights）以生成。</div>
+  {% endif %}
+</div>
+
+<div class="charts">
+  <!-- Chart 1: 技能频次 -->
+  <div class="chart-panel">
+    <h3>技能需求频次（全部关键词）</h3>
+    <div class="chart-box" id="chart-skill-freq" style="height:900px;"></div>
+  </div>
+
+  <!-- Chart 2: 技能共现网络 -->
+  <div class="chart-panel">
+    <h3>技能共现网络</h3>
+    <div class="filter-row">
+      <label>共现次数 ≥</label>
+      <input type="number" id="cooccur-threshold" value="1" min="1" step="1" onchange="applyCooccurFilter()">
+      <button onclick="zoomCooccur(1.3)" title="放大">＋</button>
+      <button onclick="zoomCooccur(0.7)" title="缩小">－</button>
+      <button onclick="resetCooccurZoom()" title="重置" style="font-size:12px;font-weight:normal;">↺ 重置</button>
+      <span class="hint" id="cooccur-info"></span>
+      <span id="cooccur-focus-tag"></span>
+    </div>
+    <div class="chart-box" id="chart-skill-cooccur" style="height:800px;"></div>
+    <div class="cooccur-legend">
+      <span class="legend-label">低关联</span>
+      <div class="legend-bar"></div>
+      <span class="legend-label">高关联</span>
+    </div>
+  </div>
+
+  <!-- Chart 3: 技能-薪资箱线图 -->
+  <div class="chart-panel">
+    <h3>技能-薪资交叉分析 (箱线图)</h3>
+    <div class="chart-box" id="chart-skill-salary"></div>
+  </div>
+
+  <!-- Chart 4: 福利对比分析 -->
+  <div class="chart-panel">
+    <h3>福利对比分析</h3>
+    <div class="filter-row">
+      <label>公司规模:</label>
+      <select id="benefit-size" onchange="filterBenefit()">
+        <option value="">全部</option>
+      </select>
+      <label>融资阶段:</label>
+      <select id="benefit-stage" onchange="filterBenefit()">
+        <option value="">全部</option>
+      </select>
+    </div>
+    <div class="chart-box" id="chart-benefit"></div>
+  </div>
+
+  <!-- Chart 5: 技能趋势 -->
+  <div class="chart-panel">
+    <h3>技能需求趋势 <span style="font-size:12px;color:#999;font-weight:normal;">— Y轴: 该技能在当期职位中被提及的占比 (%)</span></h3>
+    <div class="chart-box" id="chart-skill-trend"></div>
+    {% if skill_trend.new_skills or skill_trend.removed_skills %}
+    <div class="skill-table">
+      <table>
+        {% if skill_trend.new_skills %}
+        <tr><td class="new">新增技能</td><td class="new">{{ skill_trend.new_skills[:10]|join(', ') }}</td></tr>
+        {% endif %}
+        {% if skill_trend.removed_skills %}
+        <tr><td class="removed">消失技能</td><td class="removed">{{ skill_trend.removed_skills[:10]|join(', ') }}</td></tr>
+        {% endif %}
+      </table>
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+<script>
+// ── 工具函数 ──
+function formatSalary(v) { return v ? (v/1000).toFixed(0) + 'K' : '-'; }
+
+// ── 图表1: 技能频次横向柱状图（全部关键词）──
+(function() {
+  var data = {{ skill_freq|tojson }};
+  data.sort(function(a, b) { return b.count - a.count; });
+  var skills = data.map(function(d) { return d.skill; });
+  var counts = data.map(function(d) { return d.count; });
+
+  var chart = echarts.init(document.getElementById('chart-skill-freq'));
+  var n = data.length;
+  var barHeight = Math.max(20, Math.min(28, Math.floor(700 / n)));
+  chart.setOption({
+    tooltip: {
+      trigger: 'axis',
+      axisPointer: { type: 'shadow' },
+      formatter: function(params) {
+        var i = params[0].dataIndex;
+        return '<b>' + data[i].skill + '</b><br/>' +
+               '出现次数: ' + data[i].count + '<br/>' +
+               '关联薪资中位数: ' + formatSalary(data[i].median_salary) + '<br/>' +
+               '关联岗位数: ' + data[i].job_count;
+      }
+    },
+    grid: { left: 120, right: 50, top: 10, bottom: 30 },
+    xAxis: { type: 'value', name: '出现次数' },
+    yAxis: { type: 'category', data: skills, inverse: true, axisLabel: { fontSize: 11 } },
+    series: [{
+      type: 'bar', data: counts, barWidth: barHeight,
+      itemStyle: {
+        color: new echarts.graphic.LinearGradient(0, 0, 1, 0, [
+          { offset: 0, color: '#667eea' }, { offset: 1, color: '#764ba2' }
+        ])
+      }
+    }]
+  });
+  window.addEventListener('resize', function() { chart.resize(); });
+})();
+
+// ── 图表2: 技能共现网络图 ──
+(function() {
+  var allData = {{ skill_cooccur|tojson }};
+  var chartDom = document.getElementById('chart-skill-cooccur');
+  window.cooccurChart = echarts.init(chartDom);
+  var cooccurZoomLevel = 1;
+  var cooccurFocusNode = null;  // null = 全部, string = 聚焦节点名
+
+  function buildCooccurOption(threshold, zoom, focusNode) {
+    var edges = allData.edges.filter(function(e) { return e.weight >= threshold; });
+
+    if (focusNode) {
+      // 只保留与 focusNode 相关的边和节点
+      edges = edges.filter(function(e) { return e.source === focusNode || e.target === focusNode; });
+    }
+
+    var nodeNames = [];
+    edges.forEach(function(e) {
+      if (nodeNames.indexOf(e.source) === -1) nodeNames.push(e.source);
+      if (nodeNames.indexOf(e.target) === -1) nodeNames.push(e.target);
+    });
+    var nodes = allData.nodes.filter(function(n) { return nodeNames.indexOf(n.name) !== -1; });
+
+    var maxWeight = Math.max.apply(null, edges.map(function(e) { return e.weight; })) || 1;
+
+
+    var baseSymbol = zoom;
+    var baseFont = Math.round(11 * zoom);
+
+    // 颜色: 浅蓝 → 靛蓝 → 深紫 → 红
+    function edgeColor(weight) {
+      var t = Math.log(weight + 1) / Math.log(maxWeight + 1);
+      var stops = [
+        [0.0, 219, 234, 254],   // #dbeafe
+        [0.3, 147, 197, 253],   // #93c5fd
+        [0.5, 102, 126, 234],   // #667eea
+        [0.75, 124, 58, 237],   // #7c3aed
+        [1.0, 220, 38, 38]      // #dc2626
+      ];
+      var i = 0;
+      while (i < stops.length - 1 && stops[i + 1][0] < t) i++;
+      var s0 = stops[i], s1 = stops[Math.min(i + 1, stops.length - 1)];
+      var range = s1[0] - s0[0];
+      var frac = range === 0 ? 0 : (t - s0[0]) / range;
+      var r = Math.round(s0[1] + (s1[1] - s0[1]) * frac);
+      var g = Math.round(s0[2] + (s1[2] - s0[2]) * frac);
+      var b = Math.round(s0[3] + (s1[3] - s0[3]) * frac);
+      return 'rgb(' + r + ',' + g + ',' + b + ')';
+    }
+
+    return {
+      tooltip: {
+        formatter: function(p) {
+          if (p.dataType === 'edge') return p.data.source + ' — ' + p.data.target + '<br/>共现: ' + p.data.weight + ' 次';
+          return p.data.count ? p.name + ': ' + p.data.count + ' 次' : '';
+        }
+      },
+      series: [{
+        type: 'graph', layout: 'force', roam: true, draggable: true,
+        force: { repulsion: Math.round(300 / zoom), edgeLength: [Math.round(30 * zoom), Math.round(250 * zoom)] },
+        data: nodes.map(function(n) {
+          return {
+            name: n.name, symbolSize: Math.round(n.symbolSize * baseSymbol * 0.6),
+            count: n.count,
+            itemStyle: Object.assign({ color: '#5470c6' },
+              focusNode && n.name === focusNode ? { borderColor: '#ef4444', borderWidth: 3 } : {}),
+            emphasis: focusNode && n.name === focusNode ? { itemStyle: { borderColor: '#ef4444', borderWidth: 4 } } : {}
+          };
+        }),
+        edges: edges.map(function(e) {
+          return {
+            source: e.source, target: e.target, value: e.weight, weight: e.weight,
+            lineStyle: { width: 1.6 * zoom, color: edgeColor(e.weight), opacity: 0.85 }
+          };
+        }),
+        lineStyle: { curveness: 0.1 },
+        label: { show: true, fontSize: baseFont, color: '#222' },
+        emphasis: { focus: 'adjacency', lineStyle: { width: 4 } }
+      }]
+    };
+  }
+
+  function refreshCooccur() {
+    var input = document.getElementById('cooccur-threshold');
+    var v = parseInt(input.value) || 1;
+    if (v < 1) { v = 1; input.value = 1; }
+    window.cooccurChart.setOption(buildCooccurOption(v, cooccurZoomLevel, cooccurFocusNode), true);
+    updateCooccurInfo();
+    updateFocusTag();
+  }
+
+  function updateCooccurInfo() {
+    var el = document.getElementById('cooccur-info');
+    var opts = window.cooccurChart.getOption();
+    if (opts && opts.series && opts.series[0]) {
+      var s = opts.series[0];
+      var nNodes = (s.data || []).length;
+      var nEdges = (s.edges || []).length;
+      el.textContent = nNodes + '个节点, ' + nEdges + '条边';
+    }
+  }
+
+  function updateFocusTag() {
+    var tag = document.getElementById('cooccur-focus-tag');
+    if (cooccurFocusNode) {
+      tag.innerHTML = '<span class="focus-tag" onclick="clearCooccurFocus()" title="点击取消筛选">' +
+        cooccurFocusNode + ' 及其关联 ✕</span>';
+    } else {
+      tag.innerHTML = '';
+    }
+  }
+
+  // 节点点击 → 聚焦
+  window.cooccurChart.on('click', function(params) {
+    if (params.dataType === 'node') {
+      cooccurFocusNode = params.name;
+      refreshCooccur();
+    } else if (!params.dataType) {
+      // 点击空白处 → 取消聚焦
+      if (cooccurFocusNode) {
+        cooccurFocusNode = null;
+        refreshCooccur();
+      }
+    }
+  });
+
+  // 初始渲染
+  window.cooccurChart.setOption(buildCooccurOption(1, 1, null));
+  updateCooccurInfo();
+  window.addEventListener('resize', function() { window.cooccurChart.resize(); });
+
+  // 缩放
+  window.zoomCooccur = function(factor) {
+    cooccurZoomLevel = Math.max(0.5, Math.min(3, Math.round((cooccurZoomLevel * factor) * 10) / 10));
+    refreshCooccur();
+  };
+  window.resetCooccurZoom = function() {
+    cooccurZoomLevel = 1;
+    refreshCooccur();
+  };
+
+  // 阈值变化
+  window.applyCooccurFilter = function() {
+    refreshCooccur();
+  };
+
+  // 取消聚焦
+  window.clearCooccurFocus = function() {
+    cooccurFocusNode = null;
+    refreshCooccur();
+  };
+})();
+
+// ── 图表3: 技能-薪资箱线图 ──
+(function() {
+  var data = {{ skill_salary|tojson }};
+  var skills = data.boxplot_data.map(function(d) { return d.skill; });
+  var boxData = data.boxplot_data.map(function(d) { return [d.min, d.Q1, d.median, d.Q3, d.max]; });
+
+  var chart = echarts.init(document.getElementById('chart-skill-salary'));
+  chart.setOption({
+    tooltip: {
+      trigger: 'item',
+      formatter: function(p) {
+        if (p.seriesName === 'outlier') return p.name + '<br/>离群值: ' + formatSalary(p.value[1]);
+        var d = data.boxplot_data[p.dataIndex];
+        return '<b>' + d.skill + '</b><br/>' +
+               '上限: ' + formatSalary(d.max) + '<br/>' +
+               'Q3: ' + formatSalary(d.Q3) + '<br/>' +
+               '中位数: ' + formatSalary(d.median) + '<br/>' +
+               'Q1: ' + formatSalary(d.Q1) + '<br/>' +
+               '下限: ' + formatSalary(d.min) + '<br/>' +
+               '样本数: ' + d.count;
+      }
+    },
+    grid: { left: 80, right: 30, top: 10, bottom: 80 },
+    xAxis: { type: 'category', data: skills, axisLabel: { rotate: 45, fontSize: 11 } },
+    yAxis: {
+      type: 'value', name: '月薪 (K)',
+      axisLabel: { formatter: function(v) { return (v/1000).toFixed(0) + 'K'; } }
+    },
+    series: [
+      {
+        type: 'boxplot', data: boxData,
+        itemStyle: { color: '#667eea', borderColor: '#555' },
+        markLine: {
+          silent: true,
+          data: [{ yAxis: data.global_median, name: '全局中位', label: { formatter: '全局中位: ' + formatSalary(data.global_median) } }],
+          lineStyle: { color: '#ef4444', type: 'dashed' }
+        }
+      },
+      {
+        type: 'scatter', name: 'outlier',
+        data: data.outliers.map(function(o) { return [skills.indexOf(o.skill), o.value]; }),
+        itemStyle: { color: '#ef4444', opacity: 0.4 },
+        symbolSize: 6
+      }
+    ]
+  });
+  window.addEventListener('resize', function() { chart.resize(); });
+})();
+
+// ── 图表4: 福利对比（出现次数）──
+(function() {
+  var data = {{ benefit_group|tojson }};
+  var chart = echarts.init(document.getElementById('chart-benefit'));
+  var benefits = data.benefits;
+
+  var sizeSelect = document.getElementById('benefit-size');
+  (data.all_sizes || []).forEach(function(s) {
+    var opt = document.createElement('option');
+    opt.value = s; opt.textContent = s;
+    sizeSelect.appendChild(opt);
+  });
+  var stageSelect = document.getElementById('benefit-stage');
+  (data.all_stages || []).forEach(function(s) {
+    var opt = document.createElement('option');
+    opt.value = s; opt.textContent = s;
+    stageSelect.appendChild(opt);
+  });
+
+  function buildBenefitOption() {
+    var selSize = sizeSelect.value;
+    var selStage = stageSelect.value;
+
+    var counts;
+    if (!selSize && !selStage) {
+      var map = {};
+      (data.overall || []).forEach(function(r) { map[r.benefit] = r.count; });
+      counts = benefits.map(function(b) { return map[b] || 0; });
+    } else {
+      var cross = data.by_size_stage || [];
+      var map = {};
+      cross.forEach(function(r) {
+        var sizeMatch = !selSize || r.size_group === selSize;
+        var stageMatch = !selStage || r.stage_group === selStage;
+        if (sizeMatch && stageMatch) {
+          map[r.benefit] = (map[r.benefit] || 0) + r.count;
+        }
+      });
+      counts = benefits.map(function(b) { return map[b] || 0; });
+    }
+
+    var maxCount = Math.max.apply(null, counts) || 1;
+
+    return {
+      tooltip: {
+        trigger: 'axis',
+        axisPointer: { type: 'shadow' },
+        formatter: function(params) {
+          var v = params[0].value;
+          return '<b>' + params[0].axisValue + '</b><br/>出现次数: ' + v;
+        }
+      },
+      grid: { left: 40, right: 20, top: 10, bottom: 50 },
+      xAxis: { type: 'category', data: benefits, axisLabel: { rotate: 30, fontSize: 11 } },
+      yAxis: { type: 'value', name: '出现次数', axisLabel: { formatter: function(v) { return v >= 1000 ? (v/1000).toFixed(0) + 'k' : v; } } },
+      series: [{
+        type: 'bar', data: counts,
+        itemStyle: {
+          color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+            { offset: 0, color: '#667eea' }, { offset: 1, color: '#a78bfa' }
+          ])
+        }
+      }]
+    };
+  }
+
+  chart.setOption(buildBenefitOption());
+
+  window.filterBenefit = function() {
+    chart.setOption(buildBenefitOption(), true);
+  };
+
+  window.addEventListener('resize', function() { chart.resize(); });
+})();
+
+// ── 图表5: 技能趋势折线图 ──
+(function() {
+  var data = {{ skill_trend|tojson }};
+  var chart = echarts.init(document.getElementById('chart-skill-trend'));
+
+  var series = data.series.map(function(s) {
+    return {
+      name: s.skill, type: 'line',
+      data: s.trend.map(function(t) { return t.ratio; }),
+      smooth: true, symbol: 'circle', symbolSize: 6
+    };
+  });
+
+  chart.setOption({
+    tooltip: {
+      trigger: 'axis',
+      formatter: function(params) {
+        var s = params[0].axisValue;
+        params.forEach(function(p) { s += '<br/>' + p.seriesName + ': ' + p.value + '%'; });
+        return s;
+      }
+    },
+    legend: { bottom: 0, textStyle: { fontSize: 11 }, type: 'scroll' },
+    grid: { left: 50, right: 20, top: 10, bottom: 50 },
+    xAxis: { type: 'category', data: data.dates },
+    yAxis: { type: 'value', name: '占比 (%)' },
+    series: series
+  });
+  window.addEventListener('resize', function() { chart.resize(); });
+})();
+</script>
+</body>
+</html>

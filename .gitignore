@@ -1,0 +1,31 @@
+# Chrome user data (runtime browser profile, DO NOT COMMIT)
+chrome_user_data/
+
+# Pipeline runtime data
+output/
+stg/
+ods/
+dw/
+analysis/
+reports/
+data/
+logs/
+
+# Config progress checkpoints
+config/progress/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# Environment
+.env
+*.local.json
+
+# OS
+Thumbs.db
+.DS_Store

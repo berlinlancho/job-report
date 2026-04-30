@@ -1,0 +1,28 @@
+# Auto-detect text files and normalize to LF in repo, CRLF on Windows checkout
+* text=auto
+
+# Python source
+*.py text diff=python
+
+# HTML/JS/CSS
+*.html text
+*.js text
+*.css text
+*.json text
+
+# Config
+*.md text
+*.yml text
+*.yaml text
+*.cfg text
+*.ini text
+*.csv text
+
+# Binary files - never touch
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff2 binary
+*.min.js binary
