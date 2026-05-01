@@ -1,43 +1,38 @@
 {
-  "summary": "当前岗位市场核心变化是AI相关技能需求旺盛，尤其是大模型（LLM）和检索增强生成（RAG）等高级应用技能薪资显著领先，提示从业者应快速向高价值技能栈转型。",
+  "summary": "当前岗位市场核心变化：AI与大模型技能需求激增，RAG、LLM、Prompt等新兴技能薪资溢价明显，Python仍是基础核心，但高薪岗位正从通用编程向AI专项技术迁移。",
   "insights": [
     {
-      "title": "大模型技能成薪资高地",
-      "content": "LLM技能中位薪资达21.8K，远超AI整体中位17.2K，RAG也达19.8K，表明掌握大模型开发与微调、RAG架构等深度技能的人才稀缺且溢价明显。而基础AI技能虽需求量大但薪资相对平缓，需向上层专精技能延伸。",
+      "title": "AI专项技能薪资优势显著",
+      "content": "技能-薪资交叉数据显示，RAG技能中位薪资20.5K最高，LLM（19.2K）和Prompt（18.0K）均高于Python和AI的17.5K。表明掌握检索增强生成、大语言模型及提示工程等前沿技能能带来明显薪资提升，市场正为这些稀缺能力支付溢价。",
       "type": "opportunity",
       "related_skills": [
-        "LLM",
         "RAG",
+        "LLM",
         "Prompt"
       ],
-      "action": "建议重点学习LLM原理、微调方法及RAG系统设计，配合LangChain/LlamaIndex等工具实践，以提升薪资竞争力。"
+      "action": "建议重点学习RAG、LLM微调及Prompt工程，并积累相关项目经验以争取高薪岗位。"
     },
     {
-      "title": "Python与Prompt为底层刚需门槛",
-      "content": "Python和Prompt在技能频次中分列第二、三位，且薪资中位分别为18.0K和18.2K，说明它们是进入AI岗位的基本门槛。但仅掌握这两项难以获得高薪，需结合更高阶技能才能突破薪资天花板。",
+      "title": "传统编程语言需求仍坚挺，但薪资增长乏力",
+      "content": "Java在技能频次中排名第6（23次），但未进入薪资TOP5，而Python虽频次第一但薪资中位仅17.5K。反映企业大量需求基础编程能力，但高薪机会更集中于AI相关技能，单纯掌握传统编程语言可能面临薪资天花板。",
       "type": "warning",
       "related_skills": [
-        "Python",
-        "Prompt"
+        "Java",
+        "Python"
       ],
-      "action": "确保Python和Prompt熟练度，但不要止步于此，应同步学习LLM、RAG等内容形成完整技能链。"
+      "action": "若已掌握Java或Python，应主动拓展AI技能栈（如结合Python做AI开发，或在Java体系中学习Spring AI等框架）。"
     },
     {
-      "title": "工具链生态成熟，框架绑定加深",
-      "content": "TensorFlow、PyTorch、LangChain、LlamaIndex等框架出现频次接近，表明雇主期望候选人具备主流深度学习框架及LLM工具链经验。特别是LangChain和LlamaIndex作为RAG关键工具，提升了开发效率。",
+      "title": "福利结构趋于标准化，五险一金普遍覆盖",
+      "content": "TOP福利为五险一金、节日福利、带薪年假、年终奖和员工旅游，均为常见企业福利。说明当前市场在基础保障上已形成惯例，但差异化福利（如股权、培训补贴、弹性工作）未进入前列，求职者可额外关注企业成长机会。",
       "type": "info",
-      "related_skills": [
-        "TensorFlow",
-        "PyTorch",
-        "LangChain",
-        "LlamaIndex"
-      ],
-      "action": "建议至少熟练掌握一个深度学习框架（推荐PyTorch）及一个LLM编排框架（LangChain优先），并完成实际项目积累。"
+      "related_skills": [],
+      "action": "在谈判offer时，除关注上述标配福利外，主动询问培训预算、晋升路径及项目参与机会，以提高长期发展价值。"
     }
   ],
   "recommendations": [
-    "优先深度掌握LLM微调、RAG架构及Prompt工程，搭配LangChain/LlamaIndex实战，冲刺高薪岗位。",
-    "保持Python与机器学习基础的同时，选择PyTorch作为主要框架，并关注最新大模型开源生态。",
-    "利用Boss直聘等平台数据持续追踪技能薪资变化，每季度复盘自身技能与市场热点的匹配度，及时调整学习路径。"
+    "优先学习RAG、LLM微调、Prompt工程及Agent等AI前沿技能，构建差异化竞争力。",
+    "保持Python/PyTorch/TensorFlow的熟练度，同时通过项目实践串联AI全链路能力（数据、模型、部署）。",
+    "关注技能趋势（虽仅1期快照），建议定期监测招聘数据，动态调整学习方向，如未来多模态AI或AI安全可能成为新热点。"
   ]
 }
