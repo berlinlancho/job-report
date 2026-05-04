@@ -1,0 +1,261 @@
+{
+  "dates": [
+    "2026-04-30",
+    "2026-05-02"
+  ],
+  "series": [
+    {
+      "skill": "AI",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 92.5,
+          "count": 222
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 89.7,
+          "count": 262
+        }
+      ]
+    },
+    {
+      "skill": "Python",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 57.5,
+          "count": 138
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 57.2,
+          "count": 167
+        }
+      ]
+    },
+    {
+      "skill": "API",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 37.5,
+          "count": 90
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 34.6,
+          "count": 101
+        }
+      ]
+    },
+    {
+      "skill": "Prompt",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 33.8,
+          "count": 81
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 32.2,
+          "count": 94
+        }
+      ]
+    },
+    {
+      "skill": "Java",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 32.5,
+          "count": 78
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 30.8,
+          "count": 90
+        }
+      ]
+    },
+    {
+      "skill": "Agent",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 31.7,
+          "count": 76
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 29.1,
+          "count": 85
+        }
+      ]
+    },
+    {
+      "skill": "RAG",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 26.2,
+          "count": 63
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 25.3,
+          "count": 74
+        }
+      ]
+    },
+    {
+      "skill": "LLM",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 24.6,
+          "count": 59
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 24.0,
+          "count": 70
+        }
+      ]
+    },
+    {
+      "skill": "Claude",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 20.8,
+          "count": 50
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 18.5,
+          "count": 54
+        }
+      ]
+    },
+    {
+      "skill": "Engineering",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 20.0,
+          "count": 48
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 17.1,
+          "count": 50
+        }
+      ]
+    }
+  ],
+  "new_skills": [
+    "Control",
+    "ITK",
+    "DB",
+    "sci",
+    "SAAS",
+    "waimao",
+    "CLIP",
+    "Shopify",
+    "openclaw",
+    "nl2sql",
+    "参加算法相关竞赛/获奖",
+    "zero",
+    "项目经理",
+    "SegmentAnything",
+    "Python、C/C++",
+    "COIBERT",
+    "网关",
+    "Golang服务端开发经验",
+    "MCP开发",
+    "GBDT",
+    "GAI",
+    "Pod",
+    "TL",
+    "机器审核",
+    "lang",
+    "客服",
+    "Ray",
+    "Horovod",
+    "sql",
+    "SonarQube",
+    "OKKI",
+    "营销",
+    "Flutter",
+    "本体论",
+    "Restful",
+    "产品运营",
+    "LinkedIn",
+    "socket",
+    "MCN",
+    "Service",
+    "Fastai",
+    "Saas",
+    "NL2API",
+    "研发高性能推理引擎",
+    "ModelScope",
+    "uni",
+    "Vector",
+    "RK",
+    "Plane",
+    "系统架构设计经验",
+    "HyDE",
+    "PS",
+    "Taro",
+    "company",
+    "FBG",
+    "TPM",
+    "MaaS",
+    "Claude Code",
+    "Product",
+    "大模型智能体",
+    "EMR",
+    "finetune",
+    "Toolformer",
+    "全栈",
+    "MLE",
+    "Schema",
+    "KV",
+    "阿里云",
+    "RPM",
+    "CBCT",
+    "AI项目经验",
+    "GPU 、CUDA优化",
+    "transformer",
+    "Vibe Coding",
+    "百炼",
+    "知识图谱",
+    "VUE",
+    "大数据",
+    "TO",
+    "英文全英交流",
+    "Rag",
+    "Idea",
+    "TEMU",
+    "GLM",
+    "CAIO",
+    "kit",
+    "中大型项目开发经验",
+    "play",
+    "MCTS",
+    "rag",
+    "Deployment",
+    "sdxl",
+    "MOE",
+    "chatbot",
+    "Markov",
+    "self",
+    "mindspore",
+    "fastspeed",
+    "pytorch",
+    "风控"
+  ],
+  "removed_skills": []
+}

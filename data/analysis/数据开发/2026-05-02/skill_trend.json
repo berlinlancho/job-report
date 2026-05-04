@@ -1,0 +1,262 @@
+{
+  "dates": [
+    "2026-04-30",
+    "2026-05-02"
+  ],
+  "series": [
+    {
+      "skill": "SQL",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 58.0,
+          "count": 119
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 57.1,
+          "count": 137
+        }
+      ]
+    },
+    {
+      "skill": "Python",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 48.8,
+          "count": 100
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 49.2,
+          "count": 118
+        }
+      ]
+    },
+    {
+      "skill": "Spark",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 39.0,
+          "count": 80
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 39.6,
+          "count": 95
+        }
+      ]
+    },
+    {
+      "skill": "Java",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 35.1,
+          "count": 72
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 35.8,
+          "count": 86
+        }
+      ]
+    },
+    {
+      "skill": "Hive",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 30.7,
+          "count": 63
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 30.8,
+          "count": 74
+        }
+      ]
+    },
+    {
+      "skill": "Hadoop",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 30.7,
+          "count": 63
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 30.4,
+          "count": 73
+        }
+      ]
+    },
+    {
+      "skill": "Flink",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 29.8,
+          "count": 61
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 29.6,
+          "count": 71
+        }
+      ]
+    },
+    {
+      "skill": "要求数据开发经验",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 28.3,
+          "count": 58
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 27.9,
+          "count": 67
+        }
+      ]
+    },
+    {
+      "skill": "ETL",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 25.4,
+          "count": 52
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 24.6,
+          "count": 59
+        }
+      ]
+    },
+    {
+      "skill": "Oracle",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 24.4,
+          "count": 50
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 23.3,
+          "count": 56
+        }
+      ]
+    }
+  ],
+  "new_skills": [
+    "可适应出差",
+    "Springboot",
+    "CAC",
+    "LangChain",
+    "GoldenGate",
+    "Postgres",
+    "office",
+    "LoRA",
+    "电网",
+    "MTA",
+    "BI大数据数仓架构经验",
+    "Qwen",
+    "Label3D",
+    "TABLEAU",
+    "业务顾问",
+    "tidb",
+    "QLoRA",
+    "Ad",
+    "V1",
+    "eCPC",
+    "RGB",
+    "Last",
+    "HIS",
+    "Xmind",
+    "hdp",
+    "实施",
+    "熟练掌握SQL语句",
+    "she11",
+    "Chroma",
+    "Hdfs",
+    "Ai",
+    "PACS",
+    "tuning",
+    "运营管理",
+    "战略管理",
+    "经济/工商管理相关专业",
+    "数据库开发",
+    "Dify",
+    "PS",
+    "算法模型经验",
+    "ToT",
+    "爬虫",
+    "IVF",
+    "mybatis",
+    "精通Flink",
+    "企业服务",
+    "CDSS",
+    "ESB",
+    "Embedding",
+    "大模型",
+    "windows",
+    "kerberos",
+    "PDM",
+    "amp",
+    "SparkStreaming",
+    "云图",
+    "ReAct",
+    "ambari",
+    "智能体部署",
+    "半导体",
+    "使用场景分析",
+    "ChatGLM",
+    "MGR",
+    "HNSW",
+    "Sklearn",
+    "OFFICE",
+    "PostgreSql",
+    "Click",
+    "DeepSeek",
+    "LIS",
+    "yarn",
+    "CoT",
+    "FCBP",
+    "ANN",
+    "OceanBase",
+    "Calling",
+    "Network",
+    "Greenplum",
+    "eCPM",
+    "Oozie",
+    "LangGraph",
+    "可以接受加班",
+    "Nosql",
+    "企业（To B）",
+    "Word",
+    "软件实施经验",
+    "Rerank",
+    "KOL",
+    "RESTfuI",
+    "DMP",
+    "Milvus",
+    "Strarock",
+    "ASR",
+    "PDF",
+    "HBase原理/源码",
+    "FAISS",
+    "LabelImg",
+    "liunx",
+    "TO",
+    "Impression",
+    "UI"
+  ],
+  "removed_skills": []
+}

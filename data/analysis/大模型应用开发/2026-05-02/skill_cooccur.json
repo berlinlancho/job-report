@@ -1,0 +1,1626 @@
+{
+  "nodes": [
+    {
+      "name": "Python",
+      "symbolSize": 50.0,
+      "count": 81
+    },
+    {
+      "name": "AI",
+      "symbolSize": 46.913580246913575,
+      "count": 76
+    },
+    {
+      "name": "Prompt",
+      "symbolSize": 19.1358024691358,
+      "count": 31
+    },
+    {
+      "name": "RAG",
+      "symbolSize": 17.901234567901234,
+      "count": 29
+    },
+    {
+      "name": "LLM",
+      "symbolSize": 16.666666666666664,
+      "count": 27
+    },
+    {
+      "name": "Java",
+      "symbolSize": 14.814814814814813,
+      "count": 24
+    },
+    {
+      "name": "API",
+      "symbolSize": 14.19753086419753,
+      "count": 23
+    },
+    {
+      "name": "PyTorch",
+      "symbolSize": 13.580246913580247,
+      "count": 22
+    },
+    {
+      "name": "Agent",
+      "symbolSize": 12.962962962962962,
+      "count": 21
+    },
+    {
+      "name": "TensorFlow",
+      "symbolSize": 12.345679012345679,
+      "count": 20
+    },
+    {
+      "name": "大模型算法",
+      "symbolSize": 12.345679012345679,
+      "count": 20
+    },
+    {
+      "name": "NLP",
+      "symbolSize": 11.11111111111111,
+      "count": 18
+    },
+    {
+      "name": "深度学习",
+      "symbolSize": 10.493827160493826,
+      "count": 17
+    },
+    {
+      "name": "Dify",
+      "symbolSize": 9.876543209876543,
+      "count": 16
+    },
+    {
+      "name": "MySQL",
+      "symbolSize": 9.876543209876543,
+      "count": 16
+    },
+    {
+      "name": "GPT",
+      "symbolSize": 9.25925925925926,
+      "count": 15
+    },
+    {
+      "name": "LangChain",
+      "symbolSize": 9.25925925925926,
+      "count": 15
+    },
+    {
+      "name": "Qwen",
+      "symbolSize": 8.024691358024691,
+      "count": 13
+    },
+    {
+      "name": "大模型",
+      "symbolSize": 8.024691358024691,
+      "count": 13
+    },
+    {
+      "name": "机器学习",
+      "symbolSize": 8.024691358024691,
+      "count": 13
+    },
+    {
+      "name": "DeepSeek",
+      "symbolSize": 8,
+      "count": 12
+    },
+    {
+      "name": "Docker",
+      "symbolSize": 8,
+      "count": 12
+    },
+    {
+      "name": "Linux",
+      "symbolSize": 8,
+      "count": 12
+    },
+    {
+      "name": "FastAPI",
+      "symbolSize": 8,
+      "count": 11
+    },
+    {
+      "name": "LangGraph",
+      "symbolSize": 8,
+      "count": 11
+    },
+    {
+      "name": "LoRA",
+      "symbolSize": 8,
+      "count": 11
+    },
+    {
+      "name": "算法工程化经验",
+      "symbolSize": 8,
+      "count": 11
+    },
+    {
+      "name": "LLaMA",
+      "symbolSize": 8,
+      "count": 10
+    },
+    {
+      "name": "自然语言处理算法",
+      "symbolSize": 8,
+      "count": 10
+    },
+    {
+      "name": "Redis",
+      "symbolSize": 8,
+      "count": 9
+    }
+  ],
+  "edges": [
+    {
+      "source": "AI",
+      "target": "LLM",
+      "weight": 16
+    },
+    {
+      "source": "AI",
+      "target": "Linux",
+      "weight": 8
+    },
+    {
+      "source": "AI",
+      "target": "LoRA",
+      "weight": 8
+    },
+    {
+      "source": "AI",
+      "target": "NLP",
+      "weight": 13
+    },
+    {
+      "source": "AI",
+      "target": "RAG",
+      "weight": 21
+    },
+    {
+      "source": "LLM",
+      "target": "Linux",
+      "weight": 4
+    },
+    {
+      "source": "LLM",
+      "target": "LoRA",
+      "weight": 4
+    },
+    {
+      "source": "LLM",
+      "target": "NLP",
+      "weight": 9
+    },
+    {
+      "source": "LLM",
+      "target": "RAG",
+      "weight": 15
+    },
+    {
+      "source": "Linux",
+      "target": "LoRA",
+      "weight": 3
+    },
+    {
+      "source": "Linux",
+      "target": "NLP",
+      "weight": 4
+    },
+    {
+      "source": "Linux",
+      "target": "RAG",
+      "weight": 6
+    },
+    {
+      "source": "LoRA",
+      "target": "NLP",
+      "weight": 6
+    },
+    {
+      "source": "LoRA",
+      "target": "RAG",
+      "weight": 5
+    },
+    {
+      "source": "NLP",
+      "target": "RAG",
+      "weight": 10
+    },
+    {
+      "source": "AI",
+      "target": "Java",
+      "weight": 20
+    },
+    {
+      "source": "AI",
+      "target": "PyTorch",
+      "weight": 18
+    },
+    {
+      "source": "AI",
+      "target": "Python",
+      "weight": 58
+    },
+    {
+      "source": "AI",
+      "target": "TensorFlow",
+      "weight": 17
+    },
+    {
+      "source": "AI",
+      "target": "大模型算法",
+      "weight": 17
+    },
+    {
+      "source": "AI",
+      "target": "机器学习",
+      "weight": 11
+    },
+    {
+      "source": "AI",
+      "target": "深度学习",
+      "weight": 14
+    },
+    {
+      "source": "AI",
+      "target": "算法工程化经验",
+      "weight": 9
+    },
+    {
+      "source": "AI",
+      "target": "自然语言处理算法",
+      "weight": 7
+    },
+    {
+      "source": "Java",
+      "target": "LLM",
+      "weight": 11
+    },
+    {
+      "source": "Java",
+      "target": "PyTorch",
+      "weight": 6
+    },
+    {
+      "source": "Java",
+      "target": "Python",
+      "weight": 24
+    },
+    {
+      "source": "Java",
+      "target": "TensorFlow",
+      "weight": 6
+    },
+    {
+      "source": "Java",
+      "target": "大模型算法",
+      "weight": 4
+    },
+    {
+      "source": "Java",
+      "target": "机器学习",
+      "weight": 4
+    },
+    {
+      "source": "Java",
+      "target": "深度学习",
+      "weight": 5
+    },
+    {
+      "source": "Java",
+      "target": "算法工程化经验",
+      "weight": 3
+    },
+    {
+      "source": "Java",
+      "target": "自然语言处理算法",
+      "weight": 3
+    },
+    {
+      "source": "LLM",
+      "target": "Python",
+      "weight": 24
+    },
+    {
+      "source": "LLM",
+      "target": "TensorFlow",
+      "weight": 3
+    },
+    {
+      "source": "LLM",
+      "target": "大模型算法",
+      "weight": 4
+    },
+    {
+      "source": "LLM",
+      "target": "机器学习",
+      "weight": 3
+    },
+    {
+      "source": "LLM",
+      "target": "深度学习",
+      "weight": 3
+    },
+    {
+      "source": "LLM",
+      "target": "算法工程化经验",
+      "weight": 4
+    },
+    {
+      "source": "PyTorch",
+      "target": "Python",
+      "weight": 20
+    },
+    {
+      "source": "PyTorch",
+      "target": "TensorFlow",
+      "weight": 17
+    },
+    {
+      "source": "PyTorch",
+      "target": "大模型算法",
+      "weight": 3
+    },
+    {
+      "source": "PyTorch",
+      "target": "深度学习",
+      "weight": 5
+    },
+    {
+      "source": "Python",
+      "target": "TensorFlow",
+      "weight": 19
+    },
+    {
+      "source": "Python",
+      "target": "大模型算法",
+      "weight": 19
+    },
+    {
+      "source": "Python",
+      "target": "机器学习",
+      "weight": 13
+    },
+    {
+      "source": "Python",
+      "target": "深度学习",
+      "weight": 17
+    },
+    {
+      "source": "Python",
+      "target": "算法工程化经验",
+      "weight": 11
+    },
+    {
+      "source": "Python",
+      "target": "自然语言处理算法",
+      "weight": 10
+    },
+    {
+      "source": "TensorFlow",
+      "target": "机器学习",
+      "weight": 3
+    },
+    {
+      "source": "TensorFlow",
+      "target": "深度学习",
+      "weight": 4
+    },
+    {
+      "source": "大模型算法",
+      "target": "机器学习",
+      "weight": 10
+    },
+    {
+      "source": "大模型算法",
+      "target": "深度学习",
+      "weight": 13
+    },
+    {
+      "source": "大模型算法",
+      "target": "算法工程化经验",
+      "weight": 9
+    },
+    {
+      "source": "大模型算法",
+      "target": "自然语言处理算法",
+      "weight": 9
+    },
+    {
+      "source": "机器学习",
+      "target": "深度学习",
+      "weight": 11
+    },
+    {
+      "source": "机器学习",
+      "target": "算法工程化经验",
+      "weight": 7
+    },
+    {
+      "source": "机器学习",
+      "target": "自然语言处理算法",
+      "weight": 7
+    },
+    {
+      "source": "深度学习",
+      "target": "算法工程化经验",
+      "weight": 8
+    },
+    {
+      "source": "深度学习",
+      "target": "自然语言处理算法",
+      "weight": 9
+    },
+    {
+      "source": "算法工程化经验",
+      "target": "自然语言处理算法",
+      "weight": 4
+    },
+    {
+      "source": "AI",
+      "target": "API",
+      "weight": 18
+    },
+    {
+      "source": "AI",
+      "target": "Dify",
+      "weight": 11
+    },
+    {
+      "source": "AI",
+      "target": "FastAPI",
+      "weight": 6
+    },
+    {
+      "source": "API",
+      "target": "Dify",
+      "weight": 10
+    },
+    {
+      "source": "API",
+      "target": "FastAPI",
+      "weight": 7
+    },
+    {
+      "source": "API",
+      "target": "LLM",
+      "weight": 9
+    },
+    {
+      "source": "API",
+      "target": "NLP",
+      "weight": 5
+    },
+    {
+      "source": "API",
+      "target": "Python",
+      "weight": 20
+    },
+    {
+      "source": "Dify",
+      "target": "FastAPI",
+      "weight": 5
+    },
+    {
+      "source": "Dify",
+      "target": "LLM",
+      "weight": 7
+    },
+    {
+      "source": "Dify",
+      "target": "NLP",
+      "weight": 6
+    },
+    {
+      "source": "Dify",
+      "target": "Python",
+      "weight": 15
+    },
+    {
+      "source": "FastAPI",
+      "target": "LLM",
+      "weight": 3
+    },
+    {
+      "source": "FastAPI",
+      "target": "NLP",
+      "weight": 3
+    },
+    {
+      "source": "FastAPI",
+      "target": "Python",
+      "weight": 11
+    },
+    {
+      "source": "NLP",
+      "target": "Python",
+      "weight": 16
+    },
+    {
+      "source": "AI",
+      "target": "Agent",
+      "weight": 15
+    },
+    {
+      "source": "AI",
+      "target": "DeepSeek",
+      "weight": 8
+    },
+    {
+      "source": "API",
+      "target": "Agent",
+      "weight": 10
+    },
+    {
+      "source": "API",
+      "target": "DeepSeek",
+      "weight": 9
+    },
+    {
+      "source": "API",
+      "target": "RAG",
+      "weight": 7
+    },
+    {
+      "source": "Agent",
+      "target": "DeepSeek",
+      "weight": 8
+    },
+    {
+      "source": "Agent",
+      "target": "LLM",
+      "weight": 9
+    },
+    {
+      "source": "Agent",
+      "target": "RAG",
+      "weight": 14
+    },
+    {
+      "source": "DeepSeek",
+      "target": "LLM",
+      "weight": 3
+    },
+    {
+      "source": "DeepSeek",
+      "target": "RAG",
+      "weight": 7
+    },
+    {
+      "source": "AI",
+      "target": "大模型",
+      "weight": 8
+    },
+    {
+      "source": "Python",
+      "target": "大模型",
+      "weight": 7
+    },
+    {
+      "source": "API",
+      "target": "GPT",
+      "weight": 6
+    },
+    {
+      "source": "API",
+      "target": "LLaMA",
+      "weight": 4
+    },
+    {
+      "source": "API",
+      "target": "Prompt",
+      "weight": 16
+    },
+    {
+      "source": "API",
+      "target": "Qwen",
+      "weight": 5
+    },
+    {
+      "source": "API",
+      "target": "Redis",
+      "weight": 7
+    },
+    {
+      "source": "API",
+      "target": "大模型算法",
+      "weight": 7
+    },
+    {
+      "source": "API",
+      "target": "机器学习",
+      "weight": 4
+    },
+    {
+      "source": "API",
+      "target": "深度学习",
+      "weight": 6
+    },
+    {
+      "source": "API",
+      "target": "算法工程化经验",
+      "weight": 4
+    },
+    {
+      "source": "API",
+      "target": "自然语言处理算法",
+      "weight": 5
+    },
+    {
+      "source": "Agent",
+      "target": "Dify",
+      "weight": 7
+    },
+    {
+      "source": "Agent",
+      "target": "FastAPI",
+      "weight": 3
+    },
+    {
+      "source": "Agent",
+      "target": "GPT",
+      "weight": 4
+    },
+    {
+      "source": "Agent",
+      "target": "LLaMA",
+      "weight": 3
+    },
+    {
+      "source": "Agent",
+      "target": "Prompt",
+      "weight": 14
+    },
+    {
+      "source": "Agent",
+      "target": "Python",
+      "weight": 19
+    },
+    {
+      "source": "Agent",
+      "target": "Qwen",
+      "weight": 3
+    },
+    {
+      "source": "Agent",
+      "target": "Redis",
+      "weight": 4
+    },
+    {
+      "source": "Agent",
+      "target": "大模型算法",
+      "weight": 5
+    },
+    {
+      "source": "Agent",
+      "target": "深度学习",
+      "weight": 4
+    },
+    {
+      "source": "Agent",
+      "target": "算法工程化经验",
+      "weight": 4
+    },
+    {
+      "source": "Agent",
+      "target": "自然语言处理算法",
+      "weight": 3
+    },
+    {
+      "source": "DeepSeek",
+      "target": "Dify",
+      "weight": 5
+    },
+    {
+      "source": "DeepSeek",
+      "target": "FastAPI",
+      "weight": 5
+    },
+    {
+      "source": "DeepSeek",
+      "target": "GPT",
+      "weight": 4
+    },
+    {
+      "source": "DeepSeek",
+      "target": "LLaMA",
+      "weight": 3
+    },
+    {
+      "source": "DeepSeek",
+      "target": "Prompt",
+      "weight": 7
+    },
+    {
+      "source": "DeepSeek",
+      "target": "Python",
+      "weight": 10
+    },
+    {
+      "source": "DeepSeek",
+      "target": "Qwen",
+      "weight": 5
+    },
+    {
+      "source": "DeepSeek",
+      "target": "大模型算法",
+      "weight": 7
+    },
+    {
+      "source": "DeepSeek",
+      "target": "机器学习",
+      "weight": 3
+    },
+    {
+      "source": "DeepSeek",
+      "target": "深度学习",
+      "weight": 5
+    },
+    {
+      "source": "DeepSeek",
+      "target": "算法工程化经验",
+      "weight": 4
+    },
+    {
+      "source": "DeepSeek",
+      "target": "自然语言处理算法",
+      "weight": 5
+    },
+    {
+      "source": "Dify",
+      "target": "GPT",
+      "weight": 3
+    },
+    {
+      "source": "Dify",
+      "target": "Prompt",
+      "weight": 11
+    },
+    {
+      "source": "Dify",
+      "target": "Qwen",
+      "weight": 4
+    },
+    {
+      "source": "Dify",
+      "target": "RAG",
+      "weight": 8
+    },
+    {
+      "source": "Dify",
+      "target": "Redis",
+      "weight": 3
+    },
+    {
+      "source": "Dify",
+      "target": "大模型算法",
+      "weight": 5
+    },
+    {
+      "source": "Dify",
+      "target": "机器学习",
+      "weight": 4
+    },
+    {
+      "source": "Dify",
+      "target": "深度学习",
+      "weight": 4
+    },
+    {
+      "source": "Dify",
+      "target": "算法工程化经验",
+      "weight": 3
+    },
+    {
+      "source": "Dify",
+      "target": "自然语言处理算法",
+      "weight": 3
+    },
+    {
+      "source": "FastAPI",
+      "target": "GPT",
+      "weight": 5
+    },
+    {
+      "source": "FastAPI",
+      "target": "LLaMA",
+      "weight": 4
+    },
+    {
+      "source": "FastAPI",
+      "target": "Prompt",
+      "weight": 6
+    },
+    {
+      "source": "FastAPI",
+      "target": "Qwen",
+      "weight": 5
+    },
+    {
+      "source": "FastAPI",
+      "target": "RAG",
+      "weight": 5
+    },
+    {
+      "source": "FastAPI",
+      "target": "Redis",
+      "weight": 4
+    },
+    {
+      "source": "FastAPI",
+      "target": "大模型算法",
+      "weight": 3
+    },
+    {
+      "source": "FastAPI",
+      "target": "深度学习",
+      "weight": 3
+    },
+    {
+      "source": "GPT",
+      "target": "LLaMA",
+      "weight": 5
+    },
+    {
+      "source": "GPT",
+      "target": "Prompt",
+      "weight": 7
+    },
+    {
+      "source": "GPT",
+      "target": "Python",
+      "weight": 15
+    },
+    {
+      "source": "GPT",
+      "target": "Qwen",
+      "weight": 5
+    },
+    {
+      "source": "GPT",
+      "target": "Redis",
+      "weight": 5
+    },
+    {
+      "source": "GPT",
+      "target": "大模型算法",
+      "weight": 3
+    },
+    {
+      "source": "GPT",
+      "target": "深度学习",
+      "weight": 3
+    },
+    {
+      "source": "LLaMA",
+      "target": "Prompt",
+      "weight": 4
+    },
+    {
+      "source": "LLaMA",
+      "target": "Python",
+      "weight": 8
+    },
+    {
+      "source": "LLaMA",
+      "target": "Qwen",
+      "weight": 4
+    },
+    {
+      "source": "LLaMA",
+      "target": "RAG",
+      "weight": 5
+    },
+    {
+      "source": "LLaMA",
+      "target": "大模型算法",
+      "weight": 3
+    },
+    {
+      "source": "Prompt",
+      "target": "Python",
+      "weight": 28
+    },
+    {
+      "source": "Prompt",
+      "target": "Qwen",
+      "weight": 6
+    },
+    {
+      "source": "Prompt",
+      "target": "RAG",
+      "weight": 12
+    },
+    {
+      "source": "Prompt",
+      "target": "Redis",
+      "weight": 6
+    },
+    {
+      "source": "Prompt",
+      "target": "大模型算法",
+      "weight": 6
+    },
+    {
+      "source": "Prompt",
+      "target": "机器学习",
+      "weight": 3
+    },
+    {
+      "source": "Prompt",
+      "target": "深度学习",
+      "weight": 5
+    },
+    {
+      "source": "Prompt",
+      "target": "算法工程化经验",
+      "weight": 4
+    },
+    {
+      "source": "Prompt",
+      "target": "自然语言处理算法",
+      "weight": 3
+    },
+    {
+      "source": "Python",
+      "target": "Qwen",
+      "weight": 13
+    },
+    {
+      "source": "Python",
+      "target": "RAG",
+      "weight": 26
+    },
+    {
+      "source": "Python",
+      "target": "Redis",
+      "weight": 9
+    },
+    {
+      "source": "Qwen",
+      "target": "RAG",
+      "weight": 3
+    },
+    {
+      "source": "Qwen",
+      "target": "大模型算法",
+      "weight": 4
+    },
+    {
+      "source": "Qwen",
+      "target": "深度学习",
+      "weight": 3
+    },
+    {
+      "source": "Qwen",
+      "target": "自然语言处理算法",
+      "weight": 3
+    },
+    {
+      "source": "RAG",
+      "target": "大模型算法",
+      "weight": 7
+    },
+    {
+      "source": "RAG",
+      "target": "机器学习",
+      "weight": 4
+    },
+    {
+      "source": "RAG",
+      "target": "深度学习",
+      "weight": 5
+    },
+    {
+      "source": "RAG",
+      "target": "算法工程化经验",
+      "weight": 4
+    },
+    {
+      "source": "RAG",
+      "target": "自然语言处理算法",
+      "weight": 3
+    },
+    {
+      "source": "AI",
+      "target": "LangChain",
+      "weight": 12
+    },
+    {
+      "source": "AI",
+      "target": "LangGraph",
+      "weight": 10
+    },
+    {
+      "source": "AI",
+      "target": "Prompt",
+      "weight": 23
+    },
+    {
+      "source": "LLM",
+      "target": "LangChain",
+      "weight": 6
+    },
+    {
+      "source": "LLM",
+      "target": "Prompt",
+      "weight": 11
+    },
+    {
+      "source": "LangChain",
+      "target": "LangGraph",
+      "weight": 6
+    },
+    {
+      "source": "LangChain",
+      "target": "NLP",
+      "weight": 4
+    },
+    {
+      "source": "LangChain",
+      "target": "Prompt",
+      "weight": 9
+    },
+    {
+      "source": "LangChain",
+      "target": "Python",
+      "weight": 14
+    },
+    {
+      "source": "LangChain",
+      "target": "RAG",
+      "weight": 6
+    },
+    {
+      "source": "LangGraph",
+      "target": "NLP",
+      "weight": 3
+    },
+    {
+      "source": "LangGraph",
+      "target": "Prompt",
+      "weight": 4
+    },
+    {
+      "source": "LangGraph",
+      "target": "Python",
+      "weight": 11
+    },
+    {
+      "source": "LangGraph",
+      "target": "RAG",
+      "weight": 5
+    },
+    {
+      "source": "NLP",
+      "target": "Prompt",
+      "weight": 7
+    },
+    {
+      "source": "Agent",
+      "target": "NLP",
+      "weight": 5
+    },
+    {
+      "source": "DeepSeek",
+      "target": "LoRA",
+      "weight": 3
+    },
+    {
+      "source": "DeepSeek",
+      "target": "NLP",
+      "weight": 5
+    },
+    {
+      "source": "AI",
+      "target": "Docker",
+      "weight": 8
+    },
+    {
+      "source": "AI",
+      "target": "MySQL",
+      "weight": 11
+    },
+    {
+      "source": "AI",
+      "target": "Redis",
+      "weight": 6
+    },
+    {
+      "source": "API",
+      "target": "Docker",
+      "weight": 6
+    },
+    {
+      "source": "API",
+      "target": "Java",
+      "weight": 7
+    },
+    {
+      "source": "API",
+      "target": "MySQL",
+      "weight": 8
+    },
+    {
+      "source": "Docker",
+      "target": "Java",
+      "weight": 4
+    },
+    {
+      "source": "Docker",
+      "target": "MySQL",
+      "weight": 9
+    },
+    {
+      "source": "Docker",
+      "target": "Python",
+      "weight": 12
+    },
+    {
+      "source": "Docker",
+      "target": "Redis",
+      "weight": 4
+    },
+    {
+      "source": "Java",
+      "target": "MySQL",
+      "weight": 7
+    },
+    {
+      "source": "Java",
+      "target": "Redis",
+      "weight": 4
+    },
+    {
+      "source": "MySQL",
+      "target": "Python",
+      "weight": 16
+    },
+    {
+      "source": "MySQL",
+      "target": "Redis",
+      "weight": 7
+    },
+    {
+      "source": "LLM",
+      "target": "Qwen",
+      "weight": 5
+    },
+    {
+      "source": "MySQL",
+      "target": "PyTorch",
+      "weight": 8
+    },
+    {
+      "source": "MySQL",
+      "target": "TensorFlow",
+      "weight": 9
+    },
+    {
+      "source": "AI",
+      "target": "GPT",
+      "weight": 12
+    },
+    {
+      "source": "AI",
+      "target": "LLaMA",
+      "weight": 7
+    },
+    {
+      "source": "LLM",
+      "target": "大模型",
+      "weight": 3
+    },
+    {
+      "source": "Dify",
+      "target": "LangGraph",
+      "weight": 5
+    },
+    {
+      "source": "API",
+      "target": "LangChain",
+      "weight": 7
+    },
+    {
+      "source": "Docker",
+      "target": "LLM",
+      "weight": 4
+    },
+    {
+      "source": "Docker",
+      "target": "RAG",
+      "weight": 5
+    },
+    {
+      "source": "Java",
+      "target": "RAG",
+      "weight": 13
+    },
+    {
+      "source": "LLM",
+      "target": "MySQL",
+      "weight": 3
+    },
+    {
+      "source": "MySQL",
+      "target": "RAG",
+      "weight": 5
+    },
+    {
+      "source": "RAG",
+      "target": "大模型",
+      "weight": 3
+    },
+    {
+      "source": "Agent",
+      "target": "Java",
+      "weight": 9
+    },
+    {
+      "source": "Dify",
+      "target": "Java",
+      "weight": 5
+    },
+    {
+      "source": "API",
+      "target": "PyTorch",
+      "weight": 5
+    },
+    {
+      "source": "API",
+      "target": "TensorFlow",
+      "weight": 6
+    },
+    {
+      "source": "Docker",
+      "target": "FastAPI",
+      "weight": 6
+    },
+    {
+      "source": "Docker",
+      "target": "GPT",
+      "weight": 3
+    },
+    {
+      "source": "Docker",
+      "target": "LangChain",
+      "weight": 5
+    },
+    {
+      "source": "Docker",
+      "target": "Prompt",
+      "weight": 4
+    },
+    {
+      "source": "Docker",
+      "target": "PyTorch",
+      "weight": 5
+    },
+    {
+      "source": "Docker",
+      "target": "TensorFlow",
+      "weight": 4
+    },
+    {
+      "source": "FastAPI",
+      "target": "LangChain",
+      "weight": 3
+    },
+    {
+      "source": "FastAPI",
+      "target": "MySQL",
+      "weight": 5
+    },
+    {
+      "source": "FastAPI",
+      "target": "PyTorch",
+      "weight": 4
+    },
+    {
+      "source": "FastAPI",
+      "target": "TensorFlow",
+      "weight": 4
+    },
+    {
+      "source": "GPT",
+      "target": "LangChain",
+      "weight": 4
+    },
+    {
+      "source": "GPT",
+      "target": "MySQL",
+      "weight": 4
+    },
+    {
+      "source": "GPT",
+      "target": "PyTorch",
+      "weight": 8
+    },
+    {
+      "source": "GPT",
+      "target": "TensorFlow",
+      "weight": 6
+    },
+    {
+      "source": "LangChain",
+      "target": "MySQL",
+      "weight": 3
+    },
+    {
+      "source": "LangChain",
+      "target": "PyTorch",
+      "weight": 5
+    },
+    {
+      "source": "LangChain",
+      "target": "TensorFlow",
+      "weight": 4
+    },
+    {
+      "source": "MySQL",
+      "target": "Prompt",
+      "weight": 7
+    },
+    {
+      "source": "Prompt",
+      "target": "PyTorch",
+      "weight": 7
+    },
+    {
+      "source": "Prompt",
+      "target": "TensorFlow",
+      "weight": 8
+    },
+    {
+      "source": "PyTorch",
+      "target": "Redis",
+      "weight": 5
+    },
+    {
+      "source": "Redis",
+      "target": "TensorFlow",
+      "weight": 5
+    },
+    {
+      "source": "Agent",
+      "target": "LangChain",
+      "weight": 4
+    },
+    {
+      "source": "DeepSeek",
+      "target": "LangChain",
+      "weight": 3
+    },
+    {
+      "source": "Dify",
+      "target": "LangChain",
+      "weight": 6
+    },
+    {
+      "source": "Java",
+      "target": "LangChain",
+      "weight": 4
+    },
+    {
+      "source": "Java",
+      "target": "NLP",
+      "weight": 4
+    },
+    {
+      "source": "Java",
+      "target": "Prompt",
+      "weight": 7
+    },
+    {
+      "source": "Agent",
+      "target": "PyTorch",
+      "weight": 4
+    },
+    {
+      "source": "LangGraph",
+      "target": "PyTorch",
+      "weight": 3
+    },
+    {
+      "source": "Linux",
+      "target": "Prompt",
+      "weight": 4
+    },
+    {
+      "source": "Linux",
+      "target": "Python",
+      "weight": 11
+    },
+    {
+      "source": "API",
+      "target": "LoRA",
+      "weight": 3
+    },
+    {
+      "source": "Dify",
+      "target": "Docker",
+      "weight": 3
+    },
+    {
+      "source": "Docker",
+      "target": "LangGraph",
+      "weight": 3
+    },
+    {
+      "source": "Java",
+      "target": "LoRA",
+      "weight": 4
+    },
+    {
+      "source": "LangChain",
+      "target": "LoRA",
+      "weight": 4
+    },
+    {
+      "source": "LangChain",
+      "target": "大模型算法",
+      "weight": 5
+    },
+    {
+      "source": "LangChain",
+      "target": "深度学习",
+      "weight": 3
+    },
+    {
+      "source": "LangGraph",
+      "target": "LoRA",
+      "weight": 3
+    },
+    {
+      "source": "LangGraph",
+      "target": "大模型算法",
+      "weight": 4
+    },
+    {
+      "source": "LoRA",
+      "target": "Python",
+      "weight": 9
+    },
+    {
+      "source": "LoRA",
+      "target": "大模型算法",
+      "weight": 5
+    },
+    {
+      "source": "LoRA",
+      "target": "机器学习",
+      "weight": 3
+    },
+    {
+      "source": "LoRA",
+      "target": "深度学习",
+      "weight": 4
+    },
+    {
+      "source": "NLP",
+      "target": "大模型算法",
+      "weight": 5
+    },
+    {
+      "source": "NLP",
+      "target": "机器学习",
+      "weight": 6
+    },
+    {
+      "source": "NLP",
+      "target": "深度学习",
+      "weight": 6
+    },
+    {
+      "source": "NLP",
+      "target": "算法工程化经验",
+      "weight": 5
+    },
+    {
+      "source": "LoRA",
+      "target": "Qwen",
+      "weight": 3
+    },
+    {
+      "source": "Linux",
+      "target": "PyTorch",
+      "weight": 4
+    },
+    {
+      "source": "Linux",
+      "target": "TensorFlow",
+      "weight": 3
+    },
+    {
+      "source": "Linux",
+      "target": "深度学习",
+      "weight": 3
+    },
+    {
+      "source": "PyTorch",
+      "target": "RAG",
+      "weight": 3
+    },
+    {
+      "source": "RAG",
+      "target": "TensorFlow",
+      "weight": 5
+    },
+    {
+      "source": "LoRA",
+      "target": "Prompt",
+      "weight": 4
+    },
+    {
+      "source": "GPT",
+      "target": "Java",
+      "weight": 4
+    },
+    {
+      "source": "AI",
+      "target": "Qwen",
+      "weight": 5
+    },
+    {
+      "source": "LangChain",
+      "target": "Qwen",
+      "weight": 3
+    },
+    {
+      "source": "Agent",
+      "target": "MySQL",
+      "weight": 5
+    },
+    {
+      "source": "Agent",
+      "target": "TensorFlow",
+      "weight": 5
+    },
+    {
+      "source": "Dify",
+      "target": "TensorFlow",
+      "weight": 3
+    },
+    {
+      "source": "FastAPI",
+      "target": "Linux",
+      "weight": 5
+    },
+    {
+      "source": "Java",
+      "target": "Linux",
+      "weight": 3
+    },
+    {
+      "source": "DeepSeek",
+      "target": "Linux",
+      "weight": 3
+    },
+    {
+      "source": "Docker",
+      "target": "Linux",
+      "weight": 4
+    },
+    {
+      "source": "Linux",
+      "target": "大模型算法",
+      "weight": 3
+    },
+    {
+      "source": "NLP",
+      "target": "自然语言处理算法",
+      "weight": 3
+    },
+    {
+      "source": "Linux",
+      "target": "MySQL",
+      "weight": 4
+    },
+    {
+      "source": "LangChain",
+      "target": "自然语言处理算法",
+      "weight": 3
+    }
+  ]
+}

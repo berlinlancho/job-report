@@ -1,0 +1,53 @@
+{
+  "summary": "当前岗位市场以AI相关技能为核心驱动力，Prompt、Agent等新兴技能需求激增，但薪资与传统编程语言Java持平，竞争加剧且技术迭代加速。",
+  "insights": [
+    {
+      "title": "AI技能集群成为招聘标配，但薪资溢价有限",
+      "content": "在技能频次TOP30中，AI、Prompt、Agent、RAG、LLM、Claude等AI相关技能合计出现超过600次，远超其他技术栈。然而，AI技能的中位薪资（17.2K）与Java（17.5K）几乎持平，远低于市场对“高薪新技能”的预期。这表明雇主已将AI能力视为基本要求而非稀缺溢价因素，大量人才涌入导致薪资内卷。",
+      "type": "warning",
+      "related_skills": [
+        "AI",
+        "Prompt",
+        "Agent",
+        "RAG",
+        "LLM",
+        "Claude"
+      ],
+      "action": "不要仅依赖单一AI技能，应结合工程化能力（如API、Engineering）打造复合壁垒，同时关注细分方向（如RAG落地场景）以提升议价能力。"
+    },
+    {
+      "title": "Python与Java双核心地位稳固，但应用方向分化",
+      "content": "Python（167次）和Java（90次）分列技能频次第二和第五，且Python薪资（16.5K）略低于Java（17.5K）。Python主要关联AI/数据领域，Java则深耕企业级后端。值得注意的是，API（101次）作为桥梁技能频次极高，说明全栈集成能力成为通用需求。",
+      "type": "info",
+      "related_skills": [
+        "Python",
+        "Java",
+        "API"
+      ],
+      "action": "根据职业方向强化：AI方向主攻Python+AI工具链，企业服务方向深耕Java+微服务+API设计，避免两头浅尝辄止。"
+    },
+    {
+      "title": "Prompt工程规模化落地，但快速贬值风险已现",
+      "content": "Prompt以94次位列第四，薪资中位17.2K，与AI持平。作为AI交互的“新语言”，Prompt需求爆发式增长，但门槛较低且易被LLM自身进化替代。仅2期快照的数据表明市场变化极快，早期红利正在消失。",
+      "type": "warning",
+      "related_skills": [
+        "Prompt",
+        "LLM",
+        "Claude"
+      ],
+      "action": "将Prompt能力从“调参技巧”升级为“系统化工程”（如RAG管道设计、Agent编排），同时培养模型评估与安全对齐等进阶能力。"
+    },
+    {
+      "title": "福利同质化严重，隐性竞争力转向技能成长空间",
+      "content": "TOP福利（五险一金、节日福利等）均为企业基础标配，难以形成差异化吸引力。结合技能趋势快照仅2期，暗示企业招聘策略快速迭代，员工更需关注技能更新速度而非短期福利。",
+      "type": "info",
+      "related_skills": [],
+      "action": "求职时优先考察企业技术债状况与培训机制（如内部AI工具落地案例、学习预算），而非仅看福利清单。"
+    }
+  ],
+  "recommendations": [
+    "构建“AI+工程化”复合技能树：主攻Python/Java，同时深入Agent、RAG等工程框架，而非仅停留在Prompt调优。",
+    "关注薪资洼地中的高增长点：API、Engineering等基础设施技能频次高但薪资偏低，可结合云原生或微服务提升附加值。",
+    "建立快速学习机制：鉴于仅有2期快照，每周跟踪招聘趋势，利用LLM辅助自己快速掌握新兴工具（如新Agent框架），保持技术敏锐度。"
+  ]
+}

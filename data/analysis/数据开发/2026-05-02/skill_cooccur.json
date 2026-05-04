@@ -1,0 +1,2191 @@
+{
+  "nodes": [
+    {
+      "name": "SQL",
+      "symbolSize": 50.0,
+      "count": 137
+    },
+    {
+      "name": "Python",
+      "symbolSize": 43.06569343065693,
+      "count": 118
+    },
+    {
+      "name": "Spark",
+      "symbolSize": 34.67153284671533,
+      "count": 95
+    },
+    {
+      "name": "Java",
+      "symbolSize": 31.386861313868614,
+      "count": 86
+    },
+    {
+      "name": "Hive",
+      "symbolSize": 27.00729927007299,
+      "count": 74
+    },
+    {
+      "name": "Hadoop",
+      "symbolSize": 26.642335766423358,
+      "count": 73
+    },
+    {
+      "name": "Flink",
+      "symbolSize": 25.91240875912409,
+      "count": 71
+    },
+    {
+      "name": "要求数据开发经验",
+      "symbolSize": 24.45255474452555,
+      "count": 67
+    },
+    {
+      "name": "ETL",
+      "symbolSize": 21.532846715328464,
+      "count": 59
+    },
+    {
+      "name": "Oracle",
+      "symbolSize": 20.437956204379564,
+      "count": 56
+    },
+    {
+      "name": "Kafka",
+      "symbolSize": 20.437956204379564,
+      "count": 56
+    },
+    {
+      "name": "数据平台开发经验",
+      "symbolSize": 19.708029197080293,
+      "count": 54
+    },
+    {
+      "name": "BI",
+      "symbolSize": 18.613138686131386,
+      "count": 51
+    },
+    {
+      "name": "非外包类",
+      "symbolSize": 18.613138686131386,
+      "count": 51
+    },
+    {
+      "name": "AI",
+      "symbolSize": 17.153284671532848,
+      "count": 47
+    },
+    {
+      "name": "计算机相关专业",
+      "symbolSize": 16.05839416058394,
+      "count": 44
+    },
+    {
+      "name": "Scala",
+      "symbolSize": 14.233576642335766,
+      "count": 39
+    },
+    {
+      "name": "数据仓库开发经验",
+      "symbolSize": 13.86861313868613,
+      "count": 38
+    },
+    {
+      "name": "Linux",
+      "symbolSize": 13.138686131386862,
+      "count": 36
+    },
+    {
+      "name": "Shell",
+      "symbolSize": 12.043795620437956,
+      "count": 33
+    },
+    {
+      "name": "ETL开发经验",
+      "symbolSize": 11.678832116788321,
+      "count": 32
+    },
+    {
+      "name": "MySQL",
+      "symbolSize": 11.313868613138686,
+      "count": 31
+    },
+    {
+      "name": "BI报表开发经验",
+      "symbolSize": 9.854014598540147,
+      "count": 27
+    },
+    {
+      "name": "PostgreSQL",
+      "symbolSize": 9.124087591240876,
+      "count": 25
+    },
+    {
+      "name": "API",
+      "symbolSize": 9.124087591240876,
+      "count": 25
+    },
+    {
+      "name": "实时数仓开发经验",
+      "symbolSize": 8.75912408759124,
+      "count": 24
+    },
+    {
+      "name": "MySQL/SQL Server",
+      "symbolSize": 8.394160583941606,
+      "count": 23
+    },
+    {
+      "name": "HBase",
+      "symbolSize": 8,
+      "count": 20
+    },
+    {
+      "name": "HDFS",
+      "symbolSize": 8,
+      "count": 20
+    },
+    {
+      "name": "数据治理经验",
+      "symbolSize": 8,
+      "count": 18
+    }
+  ],
+  "edges": [
+    {
+      "source": "BI",
+      "target": "BI报表开发经验",
+      "weight": 13
+    },
+    {
+      "source": "BI",
+      "target": "ETL开发经验",
+      "weight": 15
+    },
+    {
+      "source": "BI",
+      "target": "Hadoop",
+      "weight": 19
+    },
+    {
+      "source": "BI",
+      "target": "Java",
+      "weight": 16
+    },
+    {
+      "source": "BI",
+      "target": "Oracle",
+      "weight": 9
+    },
+    {
+      "source": "BI",
+      "target": "SQL",
+      "weight": 37
+    },
+    {
+      "source": "BI",
+      "target": "Spark",
+      "weight": 20
+    },
+    {
+      "source": "BI",
+      "target": "数据仓库开发经验",
+      "weight": 15
+    },
+    {
+      "source": "BI",
+      "target": "数据平台开发经验",
+      "weight": 16
+    },
+    {
+      "source": "BI",
+      "target": "要求数据开发经验",
+      "weight": 22
+    },
+    {
+      "source": "BI报表开发经验",
+      "target": "ETL开发经验",
+      "weight": 12
+    },
+    {
+      "source": "BI报表开发经验",
+      "target": "Hadoop",
+      "weight": 12
+    },
+    {
+      "source": "BI报表开发经验",
+      "target": "Java",
+      "weight": 18
+    },
+    {
+      "source": "BI报表开发经验",
+      "target": "Oracle",
+      "weight": 7
+    },
+    {
+      "source": "BI报表开发经验",
+      "target": "SQL",
+      "weight": 22
+    },
+    {
+      "source": "BI报表开发经验",
+      "target": "Spark",
+      "weight": 19
+    },
+    {
+      "source": "BI报表开发经验",
+      "target": "数据仓库开发经验",
+      "weight": 19
+    },
+    {
+      "source": "BI报表开发经验",
+      "target": "数据平台开发经验",
+      "weight": 21
+    },
+    {
+      "source": "BI报表开发经验",
+      "target": "要求数据开发经验",
+      "weight": 26
+    },
+    {
+      "source": "ETL开发经验",
+      "target": "Hadoop",
+      "weight": 13
+    },
+    {
+      "source": "ETL开发经验",
+      "target": "Java",
+      "weight": 19
+    },
+    {
+      "source": "ETL开发经验",
+      "target": "Oracle",
+      "weight": 8
+    },
+    {
+      "source": "ETL开发经验",
+      "target": "SQL",
+      "weight": 27
+    },
+    {
+      "source": "ETL开发经验",
+      "target": "Spark",
+      "weight": 21
+    },
+    {
+      "source": "ETL开发经验",
+      "target": "数据仓库开发经验",
+      "weight": 19
+    },
+    {
+      "source": "ETL开发经验",
+      "target": "数据平台开发经验",
+      "weight": 21
+    },
+    {
+      "source": "ETL开发经验",
+      "target": "要求数据开发经验",
+      "weight": 26
+    },
+    {
+      "source": "Hadoop",
+      "target": "Java",
+      "weight": 51
+    },
+    {
+      "source": "Hadoop",
+      "target": "Oracle",
+      "weight": 16
+    },
+    {
+      "source": "Hadoop",
+      "target": "SQL",
+      "weight": 39
+    },
+    {
+      "source": "Hadoop",
+      "target": "Spark",
+      "weight": 61
+    },
+    {
+      "source": "Hadoop",
+      "target": "数据仓库开发经验",
+      "weight": 18
+    },
+    {
+      "source": "Hadoop",
+      "target": "数据平台开发经验",
+      "weight": 26
+    },
+    {
+      "source": "Hadoop",
+      "target": "要求数据开发经验",
+      "weight": 29
+    },
+    {
+      "source": "Java",
+      "target": "Oracle",
+      "weight": 22
+    },
+    {
+      "source": "Java",
+      "target": "SQL",
+      "weight": 53
+    },
+    {
+      "source": "Java",
+      "target": "Spark",
+      "weight": 67
+    },
+    {
+      "source": "Java",
+      "target": "数据仓库开发经验",
+      "weight": 25
+    },
+    {
+      "source": "Java",
+      "target": "数据平台开发经验",
+      "weight": 36
+    },
+    {
+      "source": "Java",
+      "target": "要求数据开发经验",
+      "weight": 43
+    },
+    {
+      "source": "Oracle",
+      "target": "SQL",
+      "weight": 43
+    },
+    {
+      "source": "Oracle",
+      "target": "Spark",
+      "weight": 22
+    },
+    {
+      "source": "Oracle",
+      "target": "数据仓库开发经验",
+      "weight": 9
+    },
+    {
+      "source": "Oracle",
+      "target": "数据平台开发经验",
+      "weight": 15
+    },
+    {
+      "source": "Oracle",
+      "target": "要求数据开发经验",
+      "weight": 15
+    },
+    {
+      "source": "SQL",
+      "target": "Spark",
+      "weight": 58
+    },
+    {
+      "source": "SQL",
+      "target": "数据仓库开发经验",
+      "weight": 30
+    },
+    {
+      "source": "SQL",
+      "target": "数据平台开发经验",
+      "weight": 40
+    },
+    {
+      "source": "SQL",
+      "target": "要求数据开发经验",
+      "weight": 49
+    },
+    {
+      "source": "Spark",
+      "target": "数据仓库开发经验",
+      "weight": 26
+    },
+    {
+      "source": "Spark",
+      "target": "数据平台开发经验",
+      "weight": 39
+    },
+    {
+      "source": "Spark",
+      "target": "要求数据开发经验",
+      "weight": 45
+    },
+    {
+      "source": "数据仓库开发经验",
+      "target": "数据平台开发经验",
+      "weight": 27
+    },
+    {
+      "source": "数据仓库开发经验",
+      "target": "要求数据开发经验",
+      "weight": 38
+    },
+    {
+      "source": "数据平台开发经验",
+      "target": "要求数据开发经验",
+      "weight": 54
+    },
+    {
+      "source": "MySQL",
+      "target": "Oracle",
+      "weight": 21
+    },
+    {
+      "source": "MySQL",
+      "target": "Python",
+      "weight": 16
+    },
+    {
+      "source": "MySQL",
+      "target": "SQL",
+      "weight": 21
+    },
+    {
+      "source": "Oracle",
+      "target": "Python",
+      "weight": 28
+    },
+    {
+      "source": "Python",
+      "target": "SQL",
+      "weight": 83
+    },
+    {
+      "source": "BI报表开发经验",
+      "target": "Kafka",
+      "weight": 10
+    },
+    {
+      "source": "BI报表开发经验",
+      "target": "非外包类",
+      "weight": 20
+    },
+    {
+      "source": "Hadoop",
+      "target": "Kafka",
+      "weight": 36
+    },
+    {
+      "source": "Hadoop",
+      "target": "非外包类",
+      "weight": 23
+    },
+    {
+      "source": "Java",
+      "target": "Kafka",
+      "weight": 41
+    },
+    {
+      "source": "Java",
+      "target": "非外包类",
+      "weight": 32
+    },
+    {
+      "source": "Kafka",
+      "target": "Spark",
+      "weight": 45
+    },
+    {
+      "source": "Kafka",
+      "target": "数据平台开发经验",
+      "weight": 25
+    },
+    {
+      "source": "Kafka",
+      "target": "要求数据开发经验",
+      "weight": 30
+    },
+    {
+      "source": "Kafka",
+      "target": "非外包类",
+      "weight": 24
+    },
+    {
+      "source": "Spark",
+      "target": "非外包类",
+      "weight": 35
+    },
+    {
+      "source": "数据平台开发经验",
+      "target": "非外包类",
+      "weight": 38
+    },
+    {
+      "source": "要求数据开发经验",
+      "target": "非外包类",
+      "weight": 49
+    },
+    {
+      "source": "AI",
+      "target": "Python",
+      "weight": 23
+    },
+    {
+      "source": "AI",
+      "target": "SQL",
+      "weight": 26
+    },
+    {
+      "source": "BI",
+      "target": "MySQL/SQL Server",
+      "weight": 13
+    },
+    {
+      "source": "BI",
+      "target": "PostgreSQL",
+      "weight": 6
+    },
+    {
+      "source": "BI",
+      "target": "Python",
+      "weight": 28
+    },
+    {
+      "source": "BI",
+      "target": "Shell",
+      "weight": 6
+    },
+    {
+      "source": "BI",
+      "target": "数据治理经验",
+      "weight": 7
+    },
+    {
+      "source": "BI",
+      "target": "非外包类",
+      "weight": 16
+    },
+    {
+      "source": "BI报表开发经验",
+      "target": "MySQL/SQL Server",
+      "weight": 12
+    },
+    {
+      "source": "BI报表开发经验",
+      "target": "PostgreSQL",
+      "weight": 3
+    },
+    {
+      "source": "BI报表开发经验",
+      "target": "Python",
+      "weight": 19
+    },
+    {
+      "source": "BI报表开发经验",
+      "target": "Shell",
+      "weight": 6
+    },
+    {
+      "source": "BI报表开发经验",
+      "target": "数据治理经验",
+      "weight": 11
+    },
+    {
+      "source": "ETL开发经验",
+      "target": "MySQL/SQL Server",
+      "weight": 10
+    },
+    {
+      "source": "ETL开发经验",
+      "target": "PostgreSQL",
+      "weight": 3
+    },
+    {
+      "source": "ETL开发经验",
+      "target": "Python",
+      "weight": 22
+    },
+    {
+      "source": "ETL开发经验",
+      "target": "Shell",
+      "weight": 7
+    },
+    {
+      "source": "ETL开发经验",
+      "target": "数据治理经验",
+      "weight": 12
+    },
+    {
+      "source": "ETL开发经验",
+      "target": "非外包类",
+      "weight": 22
+    },
+    {
+      "source": "MySQL/SQL Server",
+      "target": "PostgreSQL",
+      "weight": 4
+    },
+    {
+      "source": "MySQL/SQL Server",
+      "target": "Python",
+      "weight": 19
+    },
+    {
+      "source": "MySQL/SQL Server",
+      "target": "SQL",
+      "weight": 17
+    },
+    {
+      "source": "MySQL/SQL Server",
+      "target": "Shell",
+      "weight": 5
+    },
+    {
+      "source": "MySQL/SQL Server",
+      "target": "数据仓库开发经验",
+      "weight": 12
+    },
+    {
+      "source": "MySQL/SQL Server",
+      "target": "数据平台开发经验",
+      "weight": 17
+    },
+    {
+      "source": "MySQL/SQL Server",
+      "target": "数据治理经验",
+      "weight": 6
+    },
+    {
+      "source": "MySQL/SQL Server",
+      "target": "要求数据开发经验",
+      "weight": 22
+    },
+    {
+      "source": "MySQL/SQL Server",
+      "target": "非外包类",
+      "weight": 18
+    },
+    {
+      "source": "PostgreSQL",
+      "target": "Python",
+      "weight": 17
+    },
+    {
+      "source": "PostgreSQL",
+      "target": "SQL",
+      "weight": 19
+    },
+    {
+      "source": "PostgreSQL",
+      "target": "Shell",
+      "weight": 8
+    },
+    {
+      "source": "PostgreSQL",
+      "target": "数据仓库开发经验",
+      "weight": 6
+    },
+    {
+      "source": "PostgreSQL",
+      "target": "数据平台开发经验",
+      "weight": 6
+    },
+    {
+      "source": "PostgreSQL",
+      "target": "数据治理经验",
+      "weight": 3
+    },
+    {
+      "source": "PostgreSQL",
+      "target": "要求数据开发经验",
+      "weight": 9
+    },
+    {
+      "source": "PostgreSQL",
+      "target": "非外包类",
+      "weight": 9
+    },
+    {
+      "source": "Python",
+      "target": "Shell",
+      "weight": 26
+    },
+    {
+      "source": "Python",
+      "target": "数据仓库开发经验",
+      "weight": 26
+    },
+    {
+      "source": "Python",
+      "target": "数据平台开发经验",
+      "weight": 32
+    },
+    {
+      "source": "Python",
+      "target": "数据治理经验",
+      "weight": 13
+    },
+    {
+      "source": "Python",
+      "target": "要求数据开发经验",
+      "weight": 42
+    },
+    {
+      "source": "Python",
+      "target": "非外包类",
+      "weight": 35
+    },
+    {
+      "source": "SQL",
+      "target": "Shell",
+      "weight": 24
+    },
+    {
+      "source": "SQL",
+      "target": "数据治理经验",
+      "weight": 16
+    },
+    {
+      "source": "SQL",
+      "target": "非外包类",
+      "weight": 37
+    },
+    {
+      "source": "Shell",
+      "target": "数据仓库开发经验",
+      "weight": 7
+    },
+    {
+      "source": "Shell",
+      "target": "数据平台开发经验",
+      "weight": 8
+    },
+    {
+      "source": "Shell",
+      "target": "数据治理经验",
+      "weight": 5
+    },
+    {
+      "source": "Shell",
+      "target": "要求数据开发经验",
+      "weight": 10
+    },
+    {
+      "source": "Shell",
+      "target": "非外包类",
+      "weight": 9
+    },
+    {
+      "source": "数据仓库开发经验",
+      "target": "数据治理经验",
+      "weight": 14
+    },
+    {
+      "source": "数据仓库开发经验",
+      "target": "非外包类",
+      "weight": 32
+    },
+    {
+      "source": "数据平台开发经验",
+      "target": "数据治理经验",
+      "weight": 13
+    },
+    {
+      "source": "数据治理经验",
+      "target": "要求数据开发经验",
+      "weight": 17
+    },
+    {
+      "source": "数据治理经验",
+      "target": "非外包类",
+      "weight": 16
+    },
+    {
+      "source": "BI报表开发经验",
+      "target": "ETL",
+      "weight": 9
+    },
+    {
+      "source": "BI报表开发经验",
+      "target": "Flink",
+      "weight": 13
+    },
+    {
+      "source": "ETL",
+      "target": "Flink",
+      "weight": 32
+    },
+    {
+      "source": "ETL",
+      "target": "Oracle",
+      "weight": 14
+    },
+    {
+      "source": "ETL",
+      "target": "PostgreSQL",
+      "weight": 12
+    },
+    {
+      "source": "ETL",
+      "target": "Python",
+      "weight": 38
+    },
+    {
+      "source": "ETL",
+      "target": "SQL",
+      "weight": 42
+    },
+    {
+      "source": "ETL",
+      "target": "Shell",
+      "weight": 14
+    },
+    {
+      "source": "ETL",
+      "target": "数据仓库开发经验",
+      "weight": 18
+    },
+    {
+      "source": "ETL",
+      "target": "数据平台开发经验",
+      "weight": 21
+    },
+    {
+      "source": "ETL",
+      "target": "要求数据开发经验",
+      "weight": 27
+    },
+    {
+      "source": "ETL",
+      "target": "非外包类",
+      "weight": 25
+    },
+    {
+      "source": "Flink",
+      "target": "Oracle",
+      "weight": 14
+    },
+    {
+      "source": "Flink",
+      "target": "PostgreSQL",
+      "weight": 9
+    },
+    {
+      "source": "Flink",
+      "target": "Python",
+      "weight": 45
+    },
+    {
+      "source": "Flink",
+      "target": "SQL",
+      "weight": 48
+    },
+    {
+      "source": "Flink",
+      "target": "Shell",
+      "weight": 15
+    },
+    {
+      "source": "Flink",
+      "target": "数据仓库开发经验",
+      "weight": 22
+    },
+    {
+      "source": "Flink",
+      "target": "数据平台开发经验",
+      "weight": 30
+    },
+    {
+      "source": "Flink",
+      "target": "要求数据开发经验",
+      "weight": 38
+    },
+    {
+      "source": "Flink",
+      "target": "非外包类",
+      "weight": 30
+    },
+    {
+      "source": "Oracle",
+      "target": "PostgreSQL",
+      "weight": 13
+    },
+    {
+      "source": "Oracle",
+      "target": "Shell",
+      "weight": 14
+    },
+    {
+      "source": "Oracle",
+      "target": "非外包类",
+      "weight": 9
+    },
+    {
+      "source": "ETL开发经验",
+      "target": "Flink",
+      "weight": 13
+    },
+    {
+      "source": "ETL开发经验",
+      "target": "Hive",
+      "weight": 17
+    },
+    {
+      "source": "Flink",
+      "target": "Hive",
+      "weight": 47
+    },
+    {
+      "source": "Flink",
+      "target": "Java",
+      "weight": 50
+    },
+    {
+      "source": "Flink",
+      "target": "Spark",
+      "weight": 57
+    },
+    {
+      "source": "Hive",
+      "target": "Java",
+      "weight": 48
+    },
+    {
+      "source": "Hive",
+      "target": "Python",
+      "weight": 44
+    },
+    {
+      "source": "Hive",
+      "target": "SQL",
+      "weight": 46
+    },
+    {
+      "source": "Hive",
+      "target": "Spark",
+      "weight": 62
+    },
+    {
+      "source": "Hive",
+      "target": "数据仓库开发经验",
+      "weight": 20
+    },
+    {
+      "source": "Hive",
+      "target": "数据平台开发经验",
+      "weight": 28
+    },
+    {
+      "source": "Hive",
+      "target": "要求数据开发经验",
+      "weight": 34
+    },
+    {
+      "source": "Java",
+      "target": "Python",
+      "weight": 53
+    },
+    {
+      "source": "Python",
+      "target": "Spark",
+      "weight": 60
+    },
+    {
+      "source": "API",
+      "target": "ETL",
+      "weight": 15
+    },
+    {
+      "source": "API",
+      "target": "Flink",
+      "weight": 14
+    },
+    {
+      "source": "API",
+      "target": "HBase",
+      "weight": 4
+    },
+    {
+      "source": "API",
+      "target": "Hadoop",
+      "weight": 10
+    },
+    {
+      "source": "API",
+      "target": "Hive",
+      "weight": 13
+    },
+    {
+      "source": "API",
+      "target": "Java",
+      "weight": 15
+    },
+    {
+      "source": "API",
+      "target": "Kafka",
+      "weight": 11
+    },
+    {
+      "source": "API",
+      "target": "Linux",
+      "weight": 5
+    },
+    {
+      "source": "API",
+      "target": "Python",
+      "weight": 19
+    },
+    {
+      "source": "API",
+      "target": "Scala",
+      "weight": 11
+    },
+    {
+      "source": "API",
+      "target": "Shell",
+      "weight": 5
+    },
+    {
+      "source": "API",
+      "target": "Spark",
+      "weight": 15
+    },
+    {
+      "source": "ETL",
+      "target": "HBase",
+      "weight": 8
+    },
+    {
+      "source": "ETL",
+      "target": "HDFS",
+      "weight": 8
+    },
+    {
+      "source": "ETL",
+      "target": "Hadoop",
+      "weight": 25
+    },
+    {
+      "source": "ETL",
+      "target": "Hive",
+      "weight": 29
+    },
+    {
+      "source": "ETL",
+      "target": "Java",
+      "weight": 34
+    },
+    {
+      "source": "ETL",
+      "target": "Kafka",
+      "weight": 18
+    },
+    {
+      "source": "ETL",
+      "target": "Linux",
+      "weight": 9
+    },
+    {
+      "source": "ETL",
+      "target": "Scala",
+      "weight": 17
+    },
+    {
+      "source": "ETL",
+      "target": "Spark",
+      "weight": 36
+    },
+    {
+      "source": "Flink",
+      "target": "HBase",
+      "weight": 14
+    },
+    {
+      "source": "Flink",
+      "target": "HDFS",
+      "weight": 12
+    },
+    {
+      "source": "Flink",
+      "target": "Hadoop",
+      "weight": 38
+    },
+    {
+      "source": "Flink",
+      "target": "Kafka",
+      "weight": 42
+    },
+    {
+      "source": "Flink",
+      "target": "Linux",
+      "weight": 12
+    },
+    {
+      "source": "Flink",
+      "target": "Scala",
+      "weight": 28
+    },
+    {
+      "source": "HBase",
+      "target": "HDFS",
+      "weight": 6
+    },
+    {
+      "source": "HBase",
+      "target": "Hadoop",
+      "weight": 16
+    },
+    {
+      "source": "HBase",
+      "target": "Hive",
+      "weight": 16
+    },
+    {
+      "source": "HBase",
+      "target": "Java",
+      "weight": 15
+    },
+    {
+      "source": "HBase",
+      "target": "Kafka",
+      "weight": 12
+    },
+    {
+      "source": "HBase",
+      "target": "Linux",
+      "weight": 5
+    },
+    {
+      "source": "HBase",
+      "target": "Python",
+      "weight": 10
+    },
+    {
+      "source": "HBase",
+      "target": "Scala",
+      "weight": 8
+    },
+    {
+      "source": "HBase",
+      "target": "Shell",
+      "weight": 3
+    },
+    {
+      "source": "HBase",
+      "target": "Spark",
+      "weight": 16
+    },
+    {
+      "source": "HDFS",
+      "target": "Hadoop",
+      "weight": 17
+    },
+    {
+      "source": "HDFS",
+      "target": "Hive",
+      "weight": 18
+    },
+    {
+      "source": "HDFS",
+      "target": "Java",
+      "weight": 9
+    },
+    {
+      "source": "HDFS",
+      "target": "Kafka",
+      "weight": 9
+    },
+    {
+      "source": "HDFS",
+      "target": "Linux",
+      "weight": 8
+    },
+    {
+      "source": "HDFS",
+      "target": "Python",
+      "weight": 9
+    },
+    {
+      "source": "HDFS",
+      "target": "Scala",
+      "weight": 7
+    },
+    {
+      "source": "HDFS",
+      "target": "Shell",
+      "weight": 5
+    },
+    {
+      "source": "HDFS",
+      "target": "Spark",
+      "weight": 15
+    },
+    {
+      "source": "Hadoop",
+      "target": "Hive",
+      "weight": 54
+    },
+    {
+      "source": "Hadoop",
+      "target": "Linux",
+      "weight": 15
+    },
+    {
+      "source": "Hadoop",
+      "target": "Python",
+      "weight": 41
+    },
+    {
+      "source": "Hadoop",
+      "target": "Scala",
+      "weight": 24
+    },
+    {
+      "source": "Hadoop",
+      "target": "Shell",
+      "weight": 12
+    },
+    {
+      "source": "Hive",
+      "target": "Kafka",
+      "weight": 37
+    },
+    {
+      "source": "Hive",
+      "target": "Linux",
+      "weight": 18
+    },
+    {
+      "source": "Hive",
+      "target": "Scala",
+      "weight": 27
+    },
+    {
+      "source": "Hive",
+      "target": "Shell",
+      "weight": 18
+    },
+    {
+      "source": "Java",
+      "target": "Linux",
+      "weight": 10
+    },
+    {
+      "source": "Java",
+      "target": "Scala",
+      "weight": 34
+    },
+    {
+      "source": "Java",
+      "target": "Shell",
+      "weight": 12
+    },
+    {
+      "source": "Kafka",
+      "target": "Linux",
+      "weight": 10
+    },
+    {
+      "source": "Kafka",
+      "target": "Python",
+      "weight": 32
+    },
+    {
+      "source": "Kafka",
+      "target": "Scala",
+      "weight": 21
+    },
+    {
+      "source": "Kafka",
+      "target": "Shell",
+      "weight": 9
+    },
+    {
+      "source": "Linux",
+      "target": "Python",
+      "weight": 22
+    },
+    {
+      "source": "Linux",
+      "target": "Scala",
+      "weight": 6
+    },
+    {
+      "source": "Linux",
+      "target": "Shell",
+      "weight": 16
+    },
+    {
+      "source": "Linux",
+      "target": "Spark",
+      "weight": 16
+    },
+    {
+      "source": "Python",
+      "target": "Scala",
+      "weight": 27
+    },
+    {
+      "source": "Scala",
+      "target": "Shell",
+      "weight": 7
+    },
+    {
+      "source": "Scala",
+      "target": "Spark",
+      "weight": 34
+    },
+    {
+      "source": "Shell",
+      "target": "Spark",
+      "weight": 16
+    },
+    {
+      "source": "API",
+      "target": "BI",
+      "weight": 9
+    },
+    {
+      "source": "API",
+      "target": "BI报表开发经验",
+      "weight": 6
+    },
+    {
+      "source": "API",
+      "target": "ETL开发经验",
+      "weight": 7
+    },
+    {
+      "source": "API",
+      "target": "SQL",
+      "weight": 19
+    },
+    {
+      "source": "API",
+      "target": "数据仓库开发经验",
+      "weight": 8
+    },
+    {
+      "source": "API",
+      "target": "数据平台开发经验",
+      "weight": 7
+    },
+    {
+      "source": "API",
+      "target": "数据治理经验",
+      "weight": 6
+    },
+    {
+      "source": "API",
+      "target": "要求数据开发经验",
+      "weight": 10
+    },
+    {
+      "source": "API",
+      "target": "非外包类",
+      "weight": 11
+    },
+    {
+      "source": "BI",
+      "target": "Hive",
+      "weight": 19
+    },
+    {
+      "source": "BI报表开发经验",
+      "target": "Hive",
+      "weight": 15
+    },
+    {
+      "source": "Hadoop",
+      "target": "数据治理经验",
+      "weight": 9
+    },
+    {
+      "source": "Hive",
+      "target": "数据治理经验",
+      "weight": 11
+    },
+    {
+      "source": "Hive",
+      "target": "非外包类",
+      "weight": 23
+    },
+    {
+      "source": "Java",
+      "target": "数据治理经验",
+      "weight": 14
+    },
+    {
+      "source": "Spark",
+      "target": "数据治理经验",
+      "weight": 14
+    },
+    {
+      "source": "AI",
+      "target": "ETL",
+      "weight": 15
+    },
+    {
+      "source": "BI",
+      "target": "ETL",
+      "weight": 23
+    },
+    {
+      "source": "BI",
+      "target": "Linux",
+      "weight": 7
+    },
+    {
+      "source": "ETL",
+      "target": "ETL开发经验",
+      "weight": 19
+    },
+    {
+      "source": "ETL开发经验",
+      "target": "Linux",
+      "weight": 3
+    },
+    {
+      "source": "AI",
+      "target": "API",
+      "weight": 6
+    },
+    {
+      "source": "AI",
+      "target": "BI",
+      "weight": 7
+    },
+    {
+      "source": "AI",
+      "target": "MySQL",
+      "weight": 4
+    },
+    {
+      "source": "AI",
+      "target": "PostgreSQL",
+      "weight": 6
+    },
+    {
+      "source": "API",
+      "target": "MySQL",
+      "weight": 7
+    },
+    {
+      "source": "API",
+      "target": "PostgreSQL",
+      "weight": 5
+    },
+    {
+      "source": "BI",
+      "target": "MySQL",
+      "weight": 3
+    },
+    {
+      "source": "ETL",
+      "target": "MySQL",
+      "weight": 8
+    },
+    {
+      "source": "MySQL",
+      "target": "PostgreSQL",
+      "weight": 9
+    },
+    {
+      "source": "API",
+      "target": "MySQL/SQL Server",
+      "weight": 5
+    },
+    {
+      "source": "API",
+      "target": "实时数仓开发经验",
+      "weight": 3
+    },
+    {
+      "source": "API",
+      "target": "计算机相关专业",
+      "weight": 4
+    },
+    {
+      "source": "Flink",
+      "target": "MySQL/SQL Server",
+      "weight": 10
+    },
+    {
+      "source": "Flink",
+      "target": "实时数仓开发经验",
+      "weight": 19
+    },
+    {
+      "source": "Flink",
+      "target": "计算机相关专业",
+      "weight": 18
+    },
+    {
+      "source": "HDFS",
+      "target": "实时数仓开发经验",
+      "weight": 3
+    },
+    {
+      "source": "HDFS",
+      "target": "数据平台开发经验",
+      "weight": 6
+    },
+    {
+      "source": "HDFS",
+      "target": "要求数据开发经验",
+      "weight": 8
+    },
+    {
+      "source": "HDFS",
+      "target": "计算机相关专业",
+      "weight": 6
+    },
+    {
+      "source": "HDFS",
+      "target": "非外包类",
+      "weight": 5
+    },
+    {
+      "source": "Hadoop",
+      "target": "MySQL/SQL Server",
+      "weight": 8
+    },
+    {
+      "source": "Hadoop",
+      "target": "实时数仓开发经验",
+      "weight": 10
+    },
+    {
+      "source": "Hadoop",
+      "target": "计算机相关专业",
+      "weight": 18
+    },
+    {
+      "source": "Hive",
+      "target": "MySQL/SQL Server",
+      "weight": 11
+    },
+    {
+      "source": "Hive",
+      "target": "实时数仓开发经验",
+      "weight": 11
+    },
+    {
+      "source": "Hive",
+      "target": "计算机相关专业",
+      "weight": 17
+    },
+    {
+      "source": "Kafka",
+      "target": "MySQL/SQL Server",
+      "weight": 8
+    },
+    {
+      "source": "Kafka",
+      "target": "实时数仓开发经验",
+      "weight": 14
+    },
+    {
+      "source": "Kafka",
+      "target": "计算机相关专业",
+      "weight": 15
+    },
+    {
+      "source": "Linux",
+      "target": "计算机相关专业",
+      "weight": 10
+    },
+    {
+      "source": "MySQL/SQL Server",
+      "target": "Scala",
+      "weight": 4
+    },
+    {
+      "source": "MySQL/SQL Server",
+      "target": "Spark",
+      "weight": 13
+    },
+    {
+      "source": "MySQL/SQL Server",
+      "target": "实时数仓开发经验",
+      "weight": 7
+    },
+    {
+      "source": "MySQL/SQL Server",
+      "target": "计算机相关专业",
+      "weight": 7
+    },
+    {
+      "source": "Python",
+      "target": "实时数仓开发经验",
+      "weight": 14
+    },
+    {
+      "source": "Python",
+      "target": "计算机相关专业",
+      "weight": 27
+    },
+    {
+      "source": "Scala",
+      "target": "实时数仓开发经验",
+      "weight": 6
+    },
+    {
+      "source": "Scala",
+      "target": "数据平台开发经验",
+      "weight": 17
+    },
+    {
+      "source": "Scala",
+      "target": "要求数据开发经验",
+      "weight": 19
+    },
+    {
+      "source": "Scala",
+      "target": "计算机相关专业",
+      "weight": 13
+    },
+    {
+      "source": "Scala",
+      "target": "非外包类",
+      "weight": 14
+    },
+    {
+      "source": "Spark",
+      "target": "实时数仓开发经验",
+      "weight": 16
+    },
+    {
+      "source": "Spark",
+      "target": "计算机相关专业",
+      "weight": 21
+    },
+    {
+      "source": "实时数仓开发经验",
+      "target": "数据平台开发经验",
+      "weight": 18
+    },
+    {
+      "source": "实时数仓开发经验",
+      "target": "要求数据开发经验",
+      "weight": 24
+    },
+    {
+      "source": "实时数仓开发经验",
+      "target": "计算机相关专业",
+      "weight": 9
+    },
+    {
+      "source": "实时数仓开发经验",
+      "target": "非外包类",
+      "weight": 22
+    },
+    {
+      "source": "数据平台开发经验",
+      "target": "计算机相关专业",
+      "weight": 19
+    },
+    {
+      "source": "要求数据开发经验",
+      "target": "计算机相关专业",
+      "weight": 22
+    },
+    {
+      "source": "计算机相关专业",
+      "target": "非外包类",
+      "weight": 17
+    },
+    {
+      "source": "AI",
+      "target": "Hadoop",
+      "weight": 10
+    },
+    {
+      "source": "AI",
+      "target": "Hive",
+      "weight": 13
+    },
+    {
+      "source": "AI",
+      "target": "Java",
+      "weight": 16
+    },
+    {
+      "source": "AI",
+      "target": "Kafka",
+      "weight": 13
+    },
+    {
+      "source": "AI",
+      "target": "Linux",
+      "weight": 5
+    },
+    {
+      "source": "AI",
+      "target": "Oracle",
+      "weight": 6
+    },
+    {
+      "source": "AI",
+      "target": "Spark",
+      "weight": 18
+    },
+    {
+      "source": "Hive",
+      "target": "Oracle",
+      "weight": 16
+    },
+    {
+      "source": "Kafka",
+      "target": "Oracle",
+      "weight": 11
+    },
+    {
+      "source": "Kafka",
+      "target": "SQL",
+      "weight": 28
+    },
+    {
+      "source": "Linux",
+      "target": "Oracle",
+      "weight": 15
+    },
+    {
+      "source": "Linux",
+      "target": "SQL",
+      "weight": 18
+    },
+    {
+      "source": "ETL开发经验",
+      "target": "计算机相关专业",
+      "weight": 7
+    },
+    {
+      "source": "Java",
+      "target": "计算机相关专业",
+      "weight": 22
+    },
+    {
+      "source": "SQL",
+      "target": "计算机相关专业",
+      "weight": 29
+    },
+    {
+      "source": "AI",
+      "target": "Flink",
+      "weight": 16
+    },
+    {
+      "source": "AI",
+      "target": "MySQL/SQL Server",
+      "weight": 3
+    },
+    {
+      "source": "AI",
+      "target": "实时数仓开发经验",
+      "weight": 7
+    },
+    {
+      "source": "AI",
+      "target": "数据平台开发经验",
+      "weight": 9
+    },
+    {
+      "source": "AI",
+      "target": "要求数据开发经验",
+      "weight": 12
+    },
+    {
+      "source": "AI",
+      "target": "非外包类",
+      "weight": 10
+    },
+    {
+      "source": "ETL",
+      "target": "MySQL/SQL Server",
+      "weight": 11
+    },
+    {
+      "source": "ETL",
+      "target": "实时数仓开发经验",
+      "weight": 12
+    },
+    {
+      "source": "Java",
+      "target": "MySQL/SQL Server",
+      "weight": 11
+    },
+    {
+      "source": "Java",
+      "target": "PostgreSQL",
+      "weight": 10
+    },
+    {
+      "source": "Java",
+      "target": "实时数仓开发经验",
+      "weight": 18
+    },
+    {
+      "source": "Kafka",
+      "target": "PostgreSQL",
+      "weight": 8
+    },
+    {
+      "source": "MySQL/SQL Server",
+      "target": "Oracle",
+      "weight": 5
+    },
+    {
+      "source": "Oracle",
+      "target": "实时数仓开发经验",
+      "weight": 5
+    },
+    {
+      "source": "PostgreSQL",
+      "target": "Spark",
+      "weight": 9
+    },
+    {
+      "source": "PostgreSQL",
+      "target": "实时数仓开发经验",
+      "weight": 4
+    },
+    {
+      "source": "SQL",
+      "target": "实时数仓开发经验",
+      "weight": 14
+    },
+    {
+      "source": "BI",
+      "target": "Flink",
+      "weight": 13
+    },
+    {
+      "source": "AI",
+      "target": "ETL开发经验",
+      "weight": 4
+    },
+    {
+      "source": "AI",
+      "target": "HDFS",
+      "weight": 3
+    },
+    {
+      "source": "AI",
+      "target": "Scala",
+      "weight": 4
+    },
+    {
+      "source": "AI",
+      "target": "计算机相关专业",
+      "weight": 7
+    },
+    {
+      "source": "ETL",
+      "target": "计算机相关专业",
+      "weight": 13
+    },
+    {
+      "source": "ETL开发经验",
+      "target": "HDFS",
+      "weight": 6
+    },
+    {
+      "source": "ETL开发经验",
+      "target": "Kafka",
+      "weight": 8
+    },
+    {
+      "source": "ETL开发经验",
+      "target": "Scala",
+      "weight": 10
+    },
+    {
+      "source": "HDFS",
+      "target": "SQL",
+      "weight": 11
+    },
+    {
+      "source": "SQL",
+      "target": "Scala",
+      "weight": 24
+    },
+    {
+      "source": "Linux",
+      "target": "PostgreSQL",
+      "weight": 7
+    },
+    {
+      "source": "BI",
+      "target": "Scala",
+      "weight": 9
+    },
+    {
+      "source": "BI",
+      "target": "计算机相关专业",
+      "weight": 7
+    },
+    {
+      "source": "Oracle",
+      "target": "Scala",
+      "weight": 8
+    },
+    {
+      "source": "Oracle",
+      "target": "计算机相关专业",
+      "weight": 14
+    },
+    {
+      "source": "Shell",
+      "target": "计算机相关专业",
+      "weight": 7
+    },
+    {
+      "source": "BI报表开发经验",
+      "target": "计算机相关专业",
+      "weight": 7
+    },
+    {
+      "source": "Flink",
+      "target": "MySQL",
+      "weight": 8
+    },
+    {
+      "source": "HBase",
+      "target": "MySQL",
+      "weight": 4
+    },
+    {
+      "source": "HBase",
+      "target": "Oracle",
+      "weight": 3
+    },
+    {
+      "source": "HBase",
+      "target": "PostgreSQL",
+      "weight": 3
+    },
+    {
+      "source": "HBase",
+      "target": "SQL",
+      "weight": 10
+    },
+    {
+      "source": "Hadoop",
+      "target": "MySQL",
+      "weight": 5
+    },
+    {
+      "source": "Hadoop",
+      "target": "PostgreSQL",
+      "weight": 7
+    },
+    {
+      "source": "Hive",
+      "target": "MySQL",
+      "weight": 9
+    },
+    {
+      "source": "Hive",
+      "target": "PostgreSQL",
+      "weight": 6
+    },
+    {
+      "source": "Java",
+      "target": "MySQL",
+      "weight": 9
+    },
+    {
+      "source": "Kafka",
+      "target": "MySQL",
+      "weight": 7
+    },
+    {
+      "source": "MySQL",
+      "target": "Scala",
+      "weight": 6
+    },
+    {
+      "source": "MySQL",
+      "target": "Spark",
+      "weight": 9
+    },
+    {
+      "source": "PostgreSQL",
+      "target": "Scala",
+      "weight": 6
+    },
+    {
+      "source": "实时数仓开发经验",
+      "target": "数据仓库开发经验",
+      "weight": 19
+    },
+    {
+      "source": "数据仓库开发经验",
+      "target": "计算机相关专业",
+      "weight": 11
+    },
+    {
+      "source": "AI",
+      "target": "Shell",
+      "weight": 6
+    },
+    {
+      "source": "HDFS",
+      "target": "Oracle",
+      "weight": 3
+    },
+    {
+      "source": "Linux",
+      "target": "MySQL",
+      "weight": 11
+    },
+    {
+      "source": "MySQL",
+      "target": "计算机相关专业",
+      "weight": 8
+    },
+    {
+      "source": "BI报表开发经验",
+      "target": "Scala",
+      "weight": 8
+    },
+    {
+      "source": "ETL",
+      "target": "数据治理经验",
+      "weight": 10
+    },
+    {
+      "source": "Flink",
+      "target": "数据治理经验",
+      "weight": 12
+    },
+    {
+      "source": "Scala",
+      "target": "数据治理经验",
+      "weight": 7
+    },
+    {
+      "source": "MySQL",
+      "target": "Shell",
+      "weight": 8
+    },
+    {
+      "source": "AI",
+      "target": "数据仓库开发经验",
+      "weight": 6
+    },
+    {
+      "source": "BI",
+      "target": "实时数仓开发经验",
+      "weight": 5
+    },
+    {
+      "source": "BI报表开发经验",
+      "target": "实时数仓开发经验",
+      "weight": 7
+    },
+    {
+      "source": "ETL开发经验",
+      "target": "实时数仓开发经验",
+      "weight": 6
+    },
+    {
+      "source": "Shell",
+      "target": "实时数仓开发经验",
+      "weight": 3
+    },
+    {
+      "source": "HBase",
+      "target": "实时数仓开发经验",
+      "weight": 7
+    },
+    {
+      "source": "HBase",
+      "target": "数据仓库开发经验",
+      "weight": 5
+    },
+    {
+      "source": "HBase",
+      "target": "数据平台开发经验",
+      "weight": 7
+    },
+    {
+      "source": "HBase",
+      "target": "数据治理经验",
+      "weight": 4
+    },
+    {
+      "source": "HBase",
+      "target": "要求数据开发经验",
+      "weight": 9
+    },
+    {
+      "source": "HBase",
+      "target": "计算机相关专业",
+      "weight": 5
+    },
+    {
+      "source": "HBase",
+      "target": "非外包类",
+      "weight": 7
+    },
+    {
+      "source": "实时数仓开发经验",
+      "target": "数据治理经验",
+      "weight": 7
+    },
+    {
+      "source": "数据治理经验",
+      "target": "计算机相关专业",
+      "weight": 4
+    },
+    {
+      "source": "BI",
+      "target": "HBase",
+      "weight": 4
+    },
+    {
+      "source": "BI",
+      "target": "HDFS",
+      "weight": 3
+    },
+    {
+      "source": "ETL开发经验",
+      "target": "HBase",
+      "weight": 3
+    },
+    {
+      "source": "Kafka",
+      "target": "数据仓库开发经验",
+      "weight": 15
+    },
+    {
+      "source": "Kafka",
+      "target": "数据治理经验",
+      "weight": 7
+    },
+    {
+      "source": "Scala",
+      "target": "数据仓库开发经验",
+      "weight": 9
+    },
+    {
+      "source": "Oracle",
+      "target": "数据治理经验",
+      "weight": 4
+    },
+    {
+      "source": "BI报表开发经验",
+      "target": "HBase",
+      "weight": 3
+    },
+    {
+      "source": "BI",
+      "target": "Kafka",
+      "weight": 5
+    },
+    {
+      "source": "HDFS",
+      "target": "数据仓库开发经验",
+      "weight": 4
+    },
+    {
+      "source": "PostgreSQL",
+      "target": "计算机相关专业",
+      "weight": 5
+    }
+  ]
+}

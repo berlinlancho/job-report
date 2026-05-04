@@ -1,0 +1,45 @@
+{
+  "summary": "AI与大模型相关技能（如RAG、LLM、Prompt）需求激增且薪资领先，传统技能（如Java）虽有需求但薪资竞争力下降，市场向智能化方向快速转型。",
+  "insights": [
+    {
+      "title": "AI及大模型技能成为高薪核心",
+      "content": "技能频次TOP5中Python、AI、Prompt、RAG、LLM均为AI领域核心技能，且RAG中位薪资高达20.5K，LLM为18.5K，显著高于传统开发技能。这表明企业正大力投入生成式AI应用，掌握RAG（检索增强生成）和LLM（大语言模型）的候选人具备明显的薪资溢价优势。",
+      "type": "opportunity",
+      "related_skills": [
+        "RAG",
+        "LLM",
+        "Prompt",
+        "Python",
+        "PyTorch"
+      ],
+      "action": "建议立即系统学习RAG架构与LLM微调技术，结合Python和PyTorch/TensorFlow构建实战项目，以抢占高薪岗位红利。"
+    },
+    {
+      "title": "Java等传统技能薪资增长乏力需警惕",
+      "content": "Java在技能频次中以24次位列第6，但未出现在薪资中位数TOP5中，暗示其市场需求虽大但供给饱和，薪资被AI技能拉开差距。同时TensorFlow、PyTorch等深度学习框架频次虽高，但薪资中位数未单独体现，可能受AI基础岗位竞争影响。求职者若仅依赖Java或传统机器学习框架，可能面临薪资天花板。",
+      "type": "warning",
+      "related_skills": [
+        "Java",
+        "TensorFlow",
+        "API"
+      ],
+      "action": "建议在保持Java工程能力的同时，向AI工程化方向转型，重点学习LangChain、向量数据库等RAG相关工具链，或结合API开发AI中间件。"
+    },
+    {
+      "title": "福利同质化但隐含人才竞争信号",
+      "content": "TOP福利中五险一金、节日福利、带薪年假、年终奖、零食下午茶均为常见标配，说明企业在薪酬外通过软性福利争夺人才。尤其零食下午茶作为高频福利，反映年轻化、互联网化团队的倾向。结合技能趋势仅2期快照（数据不足），但可推断AI人才争夺已进入白热化阶段，企业需通过差异化福利和成长空间吸引人才。",
+      "type": "info",
+      "related_skills": [
+        "Python",
+        "AI",
+        "Prompt"
+      ],
+      "action": "求职者可关注提供AI专项培训、算力资源或学术假期等隐形福利的企业；企业则建议增加技术分享会、开源贡献奖励等硬性成长支持。"
+    }
+  ],
+  "recommendations": [
+    "优先攻克RAG和LLM相关技术栈，并积累端到端项目经验（如智能客服、知识库问答系统）。",
+    "若目前以Java为主，立即补充Python和LangChain/Chromadb等工具，并参与开源AI项目提升竞争力。",
+    "持续关注Boss直聘等平台的技能趋势快照更新，每季度复盘自身技能与市场匹配度，及时调整学习路径。"
+  ]
+}

@@ -2,11 +2,16 @@
   {
     "name": "AI应用开发工程师",
     "dates": [
+      "2026-05-02",
       "2026-04-30"
     ],
-    "date_count": 1,
-    "latest": "2026-04-30",
+    "date_count": 2,
+    "latest": "2026-05-02",
     "meta": {
+      "2026-05-02": {
+        "job_count": 292,
+        "skill_count": 5437
+      },
       "2026-04-30": {
         "job_count": 240,
         "skill_count": 4737
@@ -16,11 +21,16 @@
   {
     "name": "培训师",
     "dates": [
+      "2026-05-02",
       "2026-04-30"
     ],
-    "date_count": 1,
-    "latest": "2026-04-30",
+    "date_count": 2,
+    "latest": "2026-05-02",
     "meta": {
+      "2026-05-02": {
+        "job_count": 154,
+        "skill_count": 837
+      },
       "2026-04-30": {
         "job_count": 148,
         "skill_count": 789
@@ -30,11 +40,16 @@
   {
     "name": "大模型应用开发",
     "dates": [
+      "2026-05-02",
       "2026-04-30"
     ],
-    "date_count": 1,
-    "latest": "2026-04-30",
+    "date_count": 2,
+    "latest": "2026-05-02",
     "meta": {
+      "2026-05-02": {
+        "job_count": 116,
+        "skill_count": 1660
+      },
       "2026-04-30": {
         "job_count": 99,
         "skill_count": 1455
@@ -44,11 +59,16 @@
   {
     "name": "数据开发",
     "dates": [
+      "2026-05-02",
       "2026-04-30"
     ],
-    "date_count": 1,
-    "latest": "2026-04-30",
+    "date_count": 2,
+    "latest": "2026-05-02",
     "meta": {
+      "2026-05-02": {
+        "job_count": 240,
+        "skill_count": 3711
+      },
       "2026-04-30": {
         "job_count": 205,
         "skill_count": 3186

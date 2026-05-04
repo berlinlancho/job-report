@@ -1,0 +1,57 @@
+{
+  "summary": "数据开发与大数据处理岗位需求持续旺盛，SQL、Python、Spark为核心技能，薪资水平稳定在15.5-16K中位区间，福利以五险一金等常规保障为主。",
+  "insights": [
+    {
+      "title": "SQL仍是基础但薪资天花板有限",
+      "content": "SQL以137次频次位居技能需求榜首，但其中位薪资15.5K略低于Python和Spark的16K，反映出SQL作为入门级数据技能竞争激烈，仅掌握SQL难以获得更高溢价。",
+      "type": "warning",
+      "related_skills": [
+        "SQL"
+      ],
+      "action": "建议在精通SQL基础上，扩展学习Python或Spark以提升薪资竞争力。"
+    },
+    {
+      "title": "Python+Spark组合成为数据工程师标配",
+      "content": "Python（118次）和Spark（95次）频次高且薪资中位均为16K，两者结合覆盖数据清洗、分析和分布式计算，是当前市场最认可的数据开发能力栈。",
+      "type": "opportunity",
+      "related_skills": [
+        "Python",
+        "Spark"
+      ],
+      "action": "优先掌握Python数据处理库（Pandas、NumPy）及Spark Core/SQL，并通过项目实战积累经验。"
+    },
+    {
+      "title": "实时计算技术Flink需求攀升",
+      "content": "Flink出现71次，虽频次低于Hadoop/Hive，但作为新兴实时流处理引擎，在金融、电商等场景中增长迅速，预计未来需求将持续上升。",
+      "type": "opportunity",
+      "related_skills": [
+        "Flink"
+      ],
+      "action": "投入时间学习Flink架构与实战，结合Kafka等消息队列构建实时数据处理能力。"
+    },
+    {
+      "title": "传统大数据技术栈仍占重要地位",
+      "content": "Hadoop（73次）、Hive（74次）、Java（86次）、ETL（59次）等高频出现，表明企业已有大量存量系统依赖这些技术，掌握它们仍能获得稳定就业机会。",
+      "type": "info",
+      "related_skills": [
+        "Hadoop",
+        "Hive",
+        "Java",
+        "ETL"
+      ],
+      "action": "不要忽视传统技术的学习，建议以Hadoop/Hive为基础，再向Spark/Flink迁移。"
+    },
+    {
+      "title": "福利同质化，薪资谈判空间有限",
+      "content": "五险一金、带薪年假、节日福利、年终奖、定期体检是TOP5福利，几乎所有企业都提供，难以作为差异化选择依据，求职时应更关注技术栈与成长空间。",
+      "type": "info",
+      "related_skills": [],
+      "action": "面试时除了关注薪资，还需询问项目类型、技术栈换代计划及培训资源。"
+    }
+  ],
+  "recommendations": [
+    "系统学习SQL、Python、Spark，并辅以Flink作为差异化优势。",
+    "保持对传统大数据技术（Hadoop、Hive、Java）的掌握，以适应存量系统维护需求。",
+    "关注行业趋势，如实时流处理、云原生数据平台，提前储备相关技能。"
+  ]
+}
