@@ -1,0 +1,333 @@
+{
+  "dates": [
+    "2026-04-30",
+    "2026-05-02",
+    "2026-05-07"
+  ],
+  "series": [
+    {
+      "skill": "PPT",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 20.3,
+          "count": 30
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 21.4,
+          "count": 33
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 21.7,
+          "count": 38
+        }
+      ]
+    },
+    {
+      "skill": "培训实施",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 14.2,
+          "count": 21
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 14.3,
+          "count": 22
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 16.0,
+          "count": 28
+        }
+      ]
+    },
+    {
+      "skill": "讲师/内训师经历",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 12.8,
+          "count": 19
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 13.0,
+          "count": 20
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 14.3,
+          "count": 25
+        }
+      ]
+    },
+    {
+      "skill": "内训",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 15.5,
+          "count": 23
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 14.9,
+          "count": 23
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 13.7,
+          "count": 24
+        }
+      ]
+    },
+    {
+      "skill": "培训计划制定优化",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 12.2,
+          "count": 18
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 12.3,
+          "count": 19
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 13.1,
+          "count": 23
+        }
+      ]
+    },
+    {
+      "skill": "企业培训经验",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 14.2,
+          "count": 21
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 13.6,
+          "count": 21
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 13.1,
+          "count": 23
+        }
+      ]
+    },
+    {
+      "skill": "AI",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 12.8,
+          "count": 19
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 13.0,
+          "count": 20
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 12.6,
+          "count": 22
+        }
+      ]
+    },
+    {
+      "skill": "课程开发",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 12.2,
+          "count": 18
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 12.3,
+          "count": 19
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 12.0,
+          "count": 21
+        }
+      ]
+    },
+    {
+      "skill": "课程/课件研发能力",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 13.5,
+          "count": 20
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 13.0,
+          "count": 20
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 12.0,
+          "count": 21
+        }
+      ]
+    },
+    {
+      "skill": "培训效果评估",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 9.5,
+          "count": 14
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 9.7,
+          "count": 15
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 11.4,
+          "count": 20
+        }
+      ]
+    }
+  ],
+  "new_skills": [
+    "Majors",
+    "reading",
+    "online",
+    "related",
+    "双语交付能力",
+    "including",
+    "border",
+    "Description",
+    "least",
+    "communication",
+    "read",
+    "industries",
+    "speaking",
+    "internet",
+    "Requirements",
+    "edit",
+    "abilities",
+    "双休",
+    "system",
+    "适应长期出差",
+    "finance",
+    "技术类招聘经验",
+    "销售培训落地",
+    "in",
+    "live",
+    "with",
+    "Job",
+    "provide",
+    "ai工具应用能力",
+    "To",
+    "models",
+    "cross",
+    "internal",
+    "eHR",
+    "promote",
+    "develop",
+    "collaboration",
+    "美容商务学院培训讲师",
+    "电子商务",
+    "Assist",
+    "include",
+    "listening",
+    "Chinese",
+    "of",
+    "DIY",
+    "onboarding",
+    "skills",
+    "teams",
+    "formats",
+    "maps",
+    "客户经理",
+    "on",
+    "tools",
+    "sessions",
+    "design",
+    "preferably",
+    "English",
+    "writing",
+    "excellent",
+    "商务学院培训讲师",
+    "跨团队协同能力",
+    "proficient",
+    "not",
+    "to",
+    "limited",
+    "ability",
+    "or",
+    "经销商销售培训",
+    "team",
+    "美业商务学院培训讲师",
+    "Proficiency",
+    "based",
+    "programs",
+    "公立学校",
+    "classrooms",
+    "Conduct",
+    "有教育工作经验",
+    "and",
+    "growth",
+    "one",
+    "solutions",
+    "meetings",
+    "deliver",
+    "At",
+    "experience",
+    "行业经验偏好",
+    "professional",
+    "year",
+    "培训体系搭建能力",
+    "payment",
+    "Good",
+    "Be",
+    "the",
+    "needs",
+    "solutions.Job",
+    "driven",
+    "but",
+    "flipped",
+    "are",
+    "公司内部",
+    "building",
+    "capability",
+    "Training",
+    "preferred",
+    "using",
+    "empowerment",
+    "FAQ",
+    "training",
+    "product",
+    "person",
+    "materials",
+    "requirements",
+    "高新技术企业",
+    "global",
+    "across",
+    "analysis",
+    "commerce",
+    "course",
+    "competency",
+    "organize",
+    "apply"
+  ],
+  "removed_skills": []
+}

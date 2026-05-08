@@ -1,0 +1,553 @@
+{
+  "dates": [
+    "2026-04-30",
+    "2026-05-02",
+    "2026-05-07"
+  ],
+  "series": [
+    {
+      "skill": "SQL",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 58.0,
+          "count": 119
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 57.1,
+          "count": 137
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 59.8,
+          "count": 193
+        }
+      ]
+    },
+    {
+      "skill": "Python",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 48.8,
+          "count": 100
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 49.2,
+          "count": 118
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 51.7,
+          "count": 167
+        }
+      ]
+    },
+    {
+      "skill": "Spark",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 39.0,
+          "count": 80
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 39.6,
+          "count": 95
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 39.0,
+          "count": 126
+        }
+      ]
+    },
+    {
+      "skill": "Java",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 35.1,
+          "count": 72
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 35.8,
+          "count": 86
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 34.4,
+          "count": 111
+        }
+      ]
+    },
+    {
+      "skill": "Hive",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 30.7,
+          "count": 63
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 30.8,
+          "count": 74
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 29.7,
+          "count": 96
+        }
+      ]
+    },
+    {
+      "skill": "Hadoop",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 30.7,
+          "count": 63
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 30.4,
+          "count": 73
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 29.4,
+          "count": 95
+        }
+      ]
+    },
+    {
+      "skill": "Flink",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 29.8,
+          "count": 61
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 29.6,
+          "count": 71
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 28.8,
+          "count": 93
+        }
+      ]
+    },
+    {
+      "skill": "要求数据开发经验",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 28.3,
+          "count": 58
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 27.9,
+          "count": 67
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 28.2,
+          "count": 91
+        }
+      ]
+    },
+    {
+      "skill": "Oracle",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 24.4,
+          "count": 50
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 23.3,
+          "count": 56
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 23.8,
+          "count": 77
+        }
+      ]
+    },
+    {
+      "skill": "ETL",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 25.4,
+          "count": 52
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 24.6,
+          "count": 59
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 23.2,
+          "count": 75
+        }
+      ]
+    }
+  ],
+  "new_skills": [
+    "语音标注",
+    "dbt",
+    "CISP",
+    "CDGA",
+    "CE",
+    "professional",
+    "sqoop",
+    "itc",
+    "机器学习模型",
+    "analytics",
+    "postgresql",
+    "Inmon",
+    "Dask",
+    "GBASE",
+    "Travel",
+    "Worker",
+    "ExceL",
+    "related",
+    "DMBOK",
+    "ToC",
+    "NetSuite",
+    "数据质量管控",
+    "just",
+    "shoting",
+    "best",
+    "processing",
+    "CockroachDB",
+    "Requirements",
+    "ProxySQL",
+    "cycle",
+    "APP",
+    "Numpy数据处理库",
+    "运维经验",
+    "分布式",
+    "research",
+    "OGG",
+    "Experiences",
+    "DB",
+    "OCE",
+    "Analyse",
+    "HQOL",
+    "know",
+    "数据分析工具",
+    "非技术项目管理",
+    "Studio",
+    "APIs",
+    "RHCA",
+    "Vault",
+    "GC",
+    "logging",
+    "Mapi",
+    "DAG",
+    "maintainability",
+    "dask",
+    "how",
+    "distributed",
+    "NewSQL",
+    "explain",
+    "KQL",
+    "should",
+    "Familiar",
+    "knowing",
+    "establishment",
+    "using",
+    "maxcompute",
+    "build",
+    "dask.distributed",
+    "信息流广告",
+    "客户数据开发和管理",
+    "field",
+    "CTE",
+    "项目管理",
+    "Knowledge",
+    "capacity",
+    "be",
+    "Fume",
+    "git",
+    "DDD",
+    "全英文交流",
+    "EvolutionSnapshot",
+    "Distributed",
+    "practices",
+    "management",
+    "code",
+    "线上教学",
+    "Good",
+    "金融",
+    "delayed",
+    "GIS",
+    "dask.dataframe",
+    "Watermark",
+    "high",
+    "requests",
+    "engineering",
+    "crontab",
+    "protocols",
+    "big",
+    "Standalone",
+    "CT",
+    "software",
+    "实施交付运维",
+    "HA",
+    "Alteryx",
+    "constraints",
+    "编程语言",
+    "LSM",
+    "KafkaKubernetes",
+    "GuassDB",
+    "标注结果整理",
+    "Contribute",
+    "RHCE",
+    "大数据数仓",
+    "attitude",
+    "CKAD",
+    "Salesforce",
+    "ShardingSphere",
+    "Aurora",
+    "dataframe",
+    "CDGP",
+    "technical",
+    "encompassing",
+    "scalable",
+    "SAST",
+    "CDMP",
+    "Metrics",
+    "Transformation",
+    "query",
+    "problem",
+    "python语言",
+    "SPL",
+    "batches",
+    "prepare",
+    "Join",
+    "Block",
+    "医药",
+    "clearly",
+    "automation",
+    "KTV",
+    "tableau",
+    "QuickBI",
+    "Presto原理/源码",
+    "and",
+    "products",
+    "Commands",
+    "产品/版本迭代",
+    "StarRocksApache",
+    "Lakehouse",
+    "Responsibilities",
+    "Webhook",
+    "PIP",
+    "DAST",
+    "sense",
+    "standards",
+    "parsing",
+    "Cantonese",
+    "Spak",
+    "items",
+    "NameNode",
+    "Quick",
+    "Develop",
+    "大语言模型",
+    "脚本开发",
+    "保险",
+    "标注方法优化",
+    "Engineer",
+    "RocksDB",
+    "数据标注",
+    "互联网",
+    "Deliver",
+    "operations3",
+    "life",
+    "Fabric",
+    "数据采集与接入",
+    "hiNe",
+    "validated",
+    "triggering",
+    "Experience",
+    "零售行业数据项目",
+    "result",
+    "Scheduler",
+    "StateBackend",
+    "DAMA",
+    "implemented",
+    "trouble",
+    "Terdata",
+    "processes",
+    "SciPy",
+    "dask.delayed",
+    "transformation",
+    "数据清洗",
+    "KPI",
+    "isber",
+    "like",
+    "computing",
+    "engineer",
+    "HL7",
+    "what",
+    "PowerDesigner",
+    "validated.Requirements",
+    "JIRA",
+    "especially",
+    "platform",
+    "do",
+    "algorithms",
+    "use",
+    "SCM",
+    "用户研究",
+    "lake",
+    "development",
+    "not",
+    "数据清洗与处理",
+    "systems",
+    "complicated",
+    "Hado0p",
+    "WeData",
+    "can",
+    "数据转换",
+    "AI数据分析",
+    "接口开发",
+    "FHIR",
+    "Bitable",
+    "精通SQL，熟悉PYTHON",
+    "dataworks",
+    "various",
+    "maintenance",
+    "Pyspark",
+    "utilities",
+    "once",
+    "integration",
+    "modelscope深度学习库",
+    "功能测试",
+    "HCIACP",
+    "BTest",
+    "Linux 系统",
+    "relating",
+    "n8n",
+    "solutions",
+    "Qlik",
+    "solving",
+    "address",
+    "Vertica",
+    "JD1",
+    "pivot",
+    "Executor",
+    "but",
+    "XML",
+    "Writing",
+    "Tree",
+    "HashData",
+    "area",
+    "Looker",
+    "GitHub",
+    "radle",
+    "OLAP系统开发",
+    "主数据",
+    "IcebergApache",
+    "wide",
+    "CCP",
+    "南网",
+    "issues",
+    "metrics",
+    "中台产品",
+    "数据分析能力强",
+    "OMS",
+    "DI",
+    "come",
+    "DevOps",
+    "transformers、openai",
+    "insert",
+    "SNOMED",
+    "Schema",
+    "B2B",
+    "Arrow",
+    "tracing",
+    "better",
+    "documents",
+    "scripts",
+    "团队管理经验",
+    "标注数据分析",
+    "services",
+    "mean",
+    "GS",
+    "经营分析",
+    "Task",
+    "maintain",
+    "CKA",
+    "MyCat",
+    "problems",
+    "Odoo",
+    "Pandas数据处理库",
+    "TD",
+    "mysgl",
+    "快销/零售",
+    "including",
+    "weblogic",
+    "GreenPlum",
+    "数据管道建设与运维",
+    "Scripting",
+    "extraction",
+    "GA",
+    "XXL",
+    "verified",
+    "ADG",
+    "efficiency",
+    "实施交付经验",
+    "extract",
+    "datasatge3",
+    "分类标注",
+    "support",
+    "监管报送",
+    "able",
+    "having",
+    "myq",
+    "control",
+    "SynapseExperience",
+    "PMM",
+    "source",
+    "Zapier",
+    "Avro",
+    "DataFusion",
+    "LOINC",
+    "Strong",
+    "testing",
+    "Optimize",
+    "pysparkFluent",
+    "smartBI",
+    "基金",
+    "must",
+    "LogQL",
+    "JOB",
+    "Ansible",
+    "SpaK",
+    "quickBI",
+    "调优",
+    "Jenkins",
+    "Smartbi",
+    "实时数仓",
+    "online"
+  ],
+  "removed_skills": [
+    "Database",
+    "Blob"
+  ]
+}

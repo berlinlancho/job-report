@@ -1,0 +1,163 @@
+{
+  "skills": [
+    "AI",
+    "Python",
+    "Prompt",
+    "API",
+    "Java",
+    "Agent",
+    "RAG",
+    "LLM",
+    "MySQL",
+    "Claude",
+    "Engineering",
+    "Dify",
+    "LangChain",
+    "Docker",
+    "Cursor"
+  ],
+  "boxplot_data": [
+    {
+      "skill": "AI",
+      "min": 9500.0,
+      "Q1": 13500.0,
+      "median": 17500.0,
+      "Q3": 20000.0,
+      "max": 26500.0,
+      "count": 305
+    },
+    {
+      "skill": "Python",
+      "min": 9500.0,
+      "Q1": 13500.0,
+      "median": 17000.0,
+      "Q3": 20000.0,
+      "max": 26500.0,
+      "count": 205
+    },
+    {
+      "skill": "Prompt",
+      "min": 9500.0,
+      "Q1": 13875.0,
+      "median": 17500.0,
+      "Q3": 20000.0,
+      "max": 26500.0,
+      "count": 120
+    },
+    {
+      "skill": "API",
+      "min": 9500.0,
+      "Q1": 12500.0,
+      "median": 16000.0,
+      "Q3": 19000.0,
+      "max": 26500.0,
+      "count": 114
+    },
+    {
+      "skill": "Java",
+      "min": 10000.0,
+      "Q1": 15375.0,
+      "median": 18000.0,
+      "Q3": 21500.0,
+      "max": 26500.0,
+      "count": 104
+    },
+    {
+      "skill": "Agent",
+      "min": 9500.0,
+      "Q1": 12500.0,
+      "median": 17500.0,
+      "Q3": 20500.0,
+      "max": 26500.0,
+      "count": 97
+    },
+    {
+      "skill": "RAG",
+      "min": 9500.0,
+      "Q1": 15000.0,
+      "median": 18500.0,
+      "Q3": 21500.0,
+      "max": 26500.0,
+      "count": 91
+    },
+    {
+      "skill": "LLM",
+      "min": 9500.0,
+      "Q1": 15000.0,
+      "median": 18500.0,
+      "Q3": 20500.0,
+      "max": 26500.0,
+      "count": 83
+    },
+    {
+      "skill": "MySQL",
+      "min": 10000.0,
+      "Q1": 14250.0,
+      "median": 17500.0,
+      "Q3": 20000.0,
+      "max": 26500.0,
+      "count": 63
+    },
+    {
+      "skill": "Claude",
+      "min": 9500.0,
+      "Q1": 12500.0,
+      "median": 15500.0,
+      "Q3": 18000.0,
+      "max": 26500.0,
+      "count": 59
+    },
+    {
+      "skill": "Engineering",
+      "min": 10500.0,
+      "Q1": 13625.0,
+      "median": 16000.0,
+      "Q3": 19750.0,
+      "max": 26500.0,
+      "count": 54
+    },
+    {
+      "skill": "Dify",
+      "min": 9500.0,
+      "Q1": 13000.0,
+      "median": 16500.0,
+      "Q3": 20250.0,
+      "max": 26500.0,
+      "count": 51
+    },
+    {
+      "skill": "LangChain",
+      "min": 9500.0,
+      "Q1": 14000.0,
+      "median": 17500.0,
+      "Q3": 20500.0,
+      "max": 26500.0,
+      "count": 49
+    },
+    {
+      "skill": "Docker",
+      "min": 9500.0,
+      "Q1": 13500.0,
+      "median": 16000.0,
+      "Q3": 20000.0,
+      "max": 26500.0,
+      "count": 45
+    },
+    {
+      "skill": "Cursor",
+      "min": 9500.0,
+      "Q1": 12500.0,
+      "median": 16000.0,
+      "Q3": 19000.0,
+      "max": 26500.0,
+      "count": 41
+    }
+  ],
+  "outliers": [
+    {
+      "skill": "Claude",
+      "value": 26500.0
+    }
+  ],
+  "global_median": 17500.0
+}

@@ -1,0 +1,63 @@
+{
+  "summary": "AI相关技能需求激增，但薪资优势不明显，传统Java仍保持较高薪资水平，市场对复合型人才需求增加。",
+  "insights": [
+    {
+      "title": "AI技能需求爆发但薪资竞争加剧",
+      "content": "技能频次TOP10中，AI（305次）、Prompt（120次）、Agent（97次）、RAG（91次）、LLM（83次）、Claude（59次）等AI相关技能占据6席，显示市场对AI人才的极度渴求。然而，AI和Prompt的中位薪资仅为17.5K，低于Java的18K，说明入门门槛降低导致供给增加，薪资并未随需求同步飙升。",
+      "type": "info",
+      "related_skills": [
+        "AI",
+        "Prompt",
+        "Agent",
+        "RAG",
+        "LLM",
+        "Claude"
+      ],
+      "action": "不要盲目扎堆AI基础岗位，应深耕垂直领域（如RAG、Agent开发）或结合行业知识提升议价能力。"
+    },
+    {
+      "title": "Java薪资领跑，核心后端能力依然坚挺",
+      "content": "尽管AI技能频次远超Java（305 vs 104），但Java中位薪资18K位列第一，反映企业愿意为成熟的Java后端工程师支付更高薪酬。Java在金融、企业级应用中的不可替代性仍强，且AI项目往往需要Java构建底层服务。",
+      "type": "opportunity",
+      "related_skills": [
+        "Java",
+        "API",
+        "MySQL"
+      ],
+      "action": "保持Java技术栈的深度，同时学习AI集成（如Java调用LLM API、构建Agent服务），成为‘AI+后端’复合型人才。"
+    },
+    {
+      "title": "Python与Prompt工程成为AI岗位标配",
+      "content": "Python（205次）和Prompt（120次）高频出现，且与AI技能高度关联。Python作为AI研究主流语言，Prompt则成为人机交互新技能。但薪资中位仅16K-17K，提醒求职者避免只会简单调用API，需掌握系统设计或模型微调等高价值能力。",
+      "type": "warning",
+      "related_skills": [
+        "Python",
+        "Prompt"
+      ],
+      "action": "在掌握Python和Prompt基础上，补充RAG、Agent框架或LLM微调实践，提升技术壁垒。"
+    },
+    {
+      "title": "福利同质化严重，需关注隐性竞争力",
+      "content": "TOP福利均为五险一金、节日福利、带薪年假、年终奖等常规项，反映企业间福利差异不大。求职者应更关注项目技术栈、培训资源、晋升通道等隐性价值，尤其AI岗位快速迭代，持续学习环境至关重要。",
+      "type": "info",
+      "related_skills": [],
+      "action": "面试时主动询问技术团队的技术分享频率、参与开源/内部工具的机会，而非仅对比基本福利。"
+    },
+    {
+      "title": "技能趋势（三期快照）暗示AI技能持续升温",
+      "content": "基于3期快照数据（具体未给出），推断AI、Agent、RAG等技能需求呈上升趋势，而传统前后端技能可能趋于稳定或微降。需警惕短期内AI培训过热导致的技能泡沫，但长期看掌握核心原理（如token机制、知识图谱）的工程师仍稀缺。",
+      "type": "info",
+      "related_skills": [
+        "AI",
+        "Agent",
+        "RAG"
+      ],
+      "action": "关注行业报告和招聘量变化，若AI岗位增速放缓可转向AI落地场景（如医疗、金融AI应用）以增强抗周期能力。"
+    }
+  ],
+  "recommendations": [
+    "建议优先构建‘Python+AI+后端（Java/Go）’的复合技能树，兼顾薪资与需求广度。",
+    "系统学习Prompt工程进阶技巧（如Few-shot、Chain-of-Thought），并动手实现RAG或Agent项目，积累面试作品。",
+    "定期复盘技能趋势数据（如每季度一次），动态调整学习路径，避免陷入过热但低薪的AI基础岗位。"
+  ]
+}

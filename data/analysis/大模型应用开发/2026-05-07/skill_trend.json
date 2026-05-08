@@ -1,0 +1,254 @@
+{
+  "dates": [
+    "2026-04-30",
+    "2026-05-02",
+    "2026-05-07"
+  ],
+  "series": [
+    {
+      "skill": "Python",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 71.7,
+          "count": 71
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 69.8,
+          "count": 81
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 66.7,
+          "count": 84
+        }
+      ]
+    },
+    {
+      "skill": "AI",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 67.7,
+          "count": 67
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 65.5,
+          "count": 76
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 64.3,
+          "count": 81
+        }
+      ]
+    },
+    {
+      "skill": "Prompt",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 29.3,
+          "count": 29
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 26.7,
+          "count": 31
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 29.4,
+          "count": 37
+        }
+      ]
+    },
+    {
+      "skill": "RAG",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 25.3,
+          "count": 25
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 25.0,
+          "count": 29
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 24.6,
+          "count": 31
+        }
+      ]
+    },
+    {
+      "skill": "LLM",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 26.3,
+          "count": 26
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 23.3,
+          "count": 27
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 22.2,
+          "count": 28
+        }
+      ]
+    },
+    {
+      "skill": "Java",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 23.2,
+          "count": 23
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 20.7,
+          "count": 24
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 21.4,
+          "count": 27
+        }
+      ]
+    },
+    {
+      "skill": "API",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 22.2,
+          "count": 22
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 19.8,
+          "count": 23
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 20.6,
+          "count": 26
+        }
+      ]
+    },
+    {
+      "skill": "Agent",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 19.2,
+          "count": 19
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 18.1,
+          "count": 21
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 18.3,
+          "count": 23
+        }
+      ]
+    },
+    {
+      "skill": "PyTorch",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 21.2,
+          "count": 21
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 19.0,
+          "count": 22
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 17.5,
+          "count": 22
+        }
+      ]
+    },
+    {
+      "skill": "TensorFlow",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 19.2,
+          "count": 19
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 17.2,
+          "count": 20
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 15.9,
+          "count": 20
+        }
+      ]
+    }
+  ],
+  "new_skills": [
+    "PGVector",
+    "communication",
+    "DALL",
+    "质检",
+    "jd",
+    "Technologies",
+    "主数据",
+    "roadmap",
+    "数据清洗",
+    "Kiro",
+    "评测",
+    "Visio",
+    "大数据经验",
+    "Tensforflow",
+    "n8n",
+    "电力电网",
+    "daily",
+    "DIFY",
+    "JPA",
+    "AI应用工程师",
+    "work",
+    "Perplexity",
+    "SCM",
+    "Excel",
+    "is",
+    "大模型应用开发工程师",
+    "需求分析",
+    "Midjourney",
+    "LIamaIndex",
+    "XMind",
+    "Language",
+    "MiIvus",
+    "大模型文本",
+    "ai开发",
+    "Autogpt",
+    "产品原型",
+    "Boot",
+    "needs",
+    "sufficient",
+    "CRM",
+    "DS",
+    "English"
+  ],
+  "removed_skills": []
+}

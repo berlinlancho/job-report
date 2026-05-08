@@ -1,0 +1,2176 @@
+{
+  "nodes": [
+    {
+      "name": "AI",
+      "symbolSize": 50.0,
+      "count": 305
+    },
+    {
+      "name": "Python",
+      "symbolSize": 33.60655737704918,
+      "count": 205
+    },
+    {
+      "name": "Prompt",
+      "symbolSize": 19.672131147540984,
+      "count": 120
+    },
+    {
+      "name": "API",
+      "symbolSize": 18.688524590163937,
+      "count": 114
+    },
+    {
+      "name": "Java",
+      "symbolSize": 17.04918032786885,
+      "count": 104
+    },
+    {
+      "name": "Agent",
+      "symbolSize": 15.901639344262295,
+      "count": 97
+    },
+    {
+      "name": "RAG",
+      "symbolSize": 14.918032786885247,
+      "count": 91
+    },
+    {
+      "name": "LLM",
+      "symbolSize": 13.60655737704918,
+      "count": 83
+    },
+    {
+      "name": "MySQL",
+      "symbolSize": 10.327868852459018,
+      "count": 63
+    },
+    {
+      "name": "Claude",
+      "symbolSize": 9.672131147540984,
+      "count": 59
+    },
+    {
+      "name": "Engineering",
+      "symbolSize": 8.852459016393443,
+      "count": 54
+    },
+    {
+      "name": "Dify",
+      "symbolSize": 8.360655737704919,
+      "count": 51
+    },
+    {
+      "name": "LangChain",
+      "symbolSize": 8.032786885245901,
+      "count": 49
+    },
+    {
+      "name": "Docker",
+      "symbolSize": 8,
+      "count": 45
+    },
+    {
+      "name": "Cursor",
+      "symbolSize": 8,
+      "count": 41
+    },
+    {
+      "name": "Redis",
+      "symbolSize": 8,
+      "count": 39
+    },
+    {
+      "name": "GPT",
+      "symbolSize": 8,
+      "count": 39
+    },
+    {
+      "name": "大模型算法",
+      "symbolSize": 8,
+      "count": 38
+    },
+    {
+      "name": "PyTorch",
+      "symbolSize": 8,
+      "count": 37
+    },
+    {
+      "name": "NLP",
+      "symbolSize": 8,
+      "count": 36
+    },
+    {
+      "name": "Linux",
+      "symbolSize": 8,
+      "count": 35
+    },
+    {
+      "name": "CI",
+      "symbolSize": 8,
+      "count": 34
+    },
+    {
+      "name": "SQL",
+      "symbolSize": 8,
+      "count": 34
+    },
+    {
+      "name": "Go",
+      "symbolSize": 8,
+      "count": 34
+    },
+    {
+      "name": "CD",
+      "symbolSize": 8,
+      "count": 33
+    },
+    {
+      "name": "TensorFlow",
+      "symbolSize": 8,
+      "count": 33
+    },
+    {
+      "name": "Code",
+      "symbolSize": 8,
+      "count": 32
+    },
+    {
+      "name": "Vue",
+      "symbolSize": 8,
+      "count": 32
+    },
+    {
+      "name": "Function",
+      "symbolSize": 8,
+      "count": 31
+    },
+    {
+      "name": "深度学习",
+      "symbolSize": 8,
+      "count": 31
+    }
+  ],
+  "edges": [
+    {
+      "source": "AI",
+      "target": "LLM",
+      "weight": 74
+    },
+    {
+      "source": "AI",
+      "target": "Linux",
+      "weight": 33
+    },
+    {
+      "source": "AI",
+      "target": "NLP",
+      "weight": 33
+    },
+    {
+      "source": "AI",
+      "target": "RAG",
+      "weight": 86
+    },
+    {
+      "source": "LLM",
+      "target": "Linux",
+      "weight": 10
+    },
+    {
+      "source": "LLM",
+      "target": "NLP",
+      "weight": 16
+    },
+    {
+      "source": "LLM",
+      "target": "RAG",
+      "weight": 39
+    },
+    {
+      "source": "Linux",
+      "target": "NLP",
+      "weight": 4
+    },
+    {
+      "source": "Linux",
+      "target": "RAG",
+      "weight": 10
+    },
+    {
+      "source": "NLP",
+      "target": "RAG",
+      "weight": 16
+    },
+    {
+      "source": "AI",
+      "target": "Java",
+      "weight": 97
+    },
+    {
+      "source": "AI",
+      "target": "PyTorch",
+      "weight": 32
+    },
+    {
+      "source": "AI",
+      "target": "Python",
+      "weight": 183
+    },
+    {
+      "source": "AI",
+      "target": "TensorFlow",
+      "weight": 31
+    },
+    {
+      "source": "AI",
+      "target": "大模型算法",
+      "weight": 33
+    },
+    {
+      "source": "AI",
+      "target": "深度学习",
+      "weight": 26
+    },
+    {
+      "source": "Java",
+      "target": "LLM",
+      "weight": 31
+    },
+    {
+      "source": "Java",
+      "target": "PyTorch",
+      "weight": 13
+    },
+    {
+      "source": "Java",
+      "target": "Python",
+      "weight": 92
+    },
+    {
+      "source": "Java",
+      "target": "TensorFlow",
+      "weight": 12
+    },
+    {
+      "source": "Java",
+      "target": "大模型算法",
+      "weight": 15
+    },
+    {
+      "source": "Java",
+      "target": "深度学习",
+      "weight": 11
+    },
+    {
+      "source": "LLM",
+      "target": "PyTorch",
+      "weight": 8
+    },
+    {
+      "source": "LLM",
+      "target": "Python",
+      "weight": 56
+    },
+    {
+      "source": "LLM",
+      "target": "TensorFlow",
+      "weight": 9
+    },
+    {
+      "source": "LLM",
+      "target": "大模型算法",
+      "weight": 8
+    },
+    {
+      "source": "LLM",
+      "target": "深度学习",
+      "weight": 6
+    },
+    {
+      "source": "PyTorch",
+      "target": "Python",
+      "weight": 37
+    },
+    {
+      "source": "PyTorch",
+      "target": "TensorFlow",
+      "weight": 24
+    },
+    {
+      "source": "PyTorch",
+      "target": "大模型算法",
+      "weight": 6
+    },
+    {
+      "source": "PyTorch",
+      "target": "深度学习",
+      "weight": 7
+    },
+    {
+      "source": "Python",
+      "target": "TensorFlow",
+      "weight": 32
+    },
+    {
+      "source": "Python",
+      "target": "大模型算法",
+      "weight": 33
+    },
+    {
+      "source": "Python",
+      "target": "深度学习",
+      "weight": 28
+    },
+    {
+      "source": "TensorFlow",
+      "target": "大模型算法",
+      "weight": 5
+    },
+    {
+      "source": "TensorFlow",
+      "target": "深度学习",
+      "weight": 7
+    },
+    {
+      "source": "大模型算法",
+      "target": "深度学习",
+      "weight": 23
+    },
+    {
+      "source": "AI",
+      "target": "Go",
+      "weight": 32
+    },
+    {
+      "source": "Go",
+      "target": "Python",
+      "weight": 31
+    },
+    {
+      "source": "Go",
+      "target": "大模型算法",
+      "weight": 4
+    },
+    {
+      "source": "AI",
+      "target": "API",
+      "weight": 105
+    },
+    {
+      "source": "AI",
+      "target": "Dify",
+      "weight": 44
+    },
+    {
+      "source": "AI",
+      "target": "Vue",
+      "weight": 32
+    },
+    {
+      "source": "API",
+      "target": "Dify",
+      "weight": 34
+    },
+    {
+      "source": "API",
+      "target": "LLM",
+      "weight": 43
+    },
+    {
+      "source": "API",
+      "target": "NLP",
+      "weight": 10
+    },
+    {
+      "source": "API",
+      "target": "Python",
+      "weight": 87
+    },
+    {
+      "source": "API",
+      "target": "Vue",
+      "weight": 21
+    },
+    {
+      "source": "Dify",
+      "target": "LLM",
+      "weight": 23
+    },
+    {
+      "source": "Dify",
+      "target": "NLP",
+      "weight": 8
+    },
+    {
+      "source": "Dify",
+      "target": "Python",
+      "weight": 43
+    },
+    {
+      "source": "Dify",
+      "target": "Vue",
+      "weight": 5
+    },
+    {
+      "source": "LLM",
+      "target": "Vue",
+      "weight": 10
+    },
+    {
+      "source": "NLP",
+      "target": "Python",
+      "weight": 23
+    },
+    {
+      "source": "Python",
+      "target": "Vue",
+      "weight": 24
+    },
+    {
+      "source": "AI",
+      "target": "Agent",
+      "weight": 90
+    },
+    {
+      "source": "AI",
+      "target": "SQL",
+      "weight": 34
+    },
+    {
+      "source": "API",
+      "target": "Agent",
+      "weight": 58
+    },
+    {
+      "source": "API",
+      "target": "RAG",
+      "weight": 43
+    },
+    {
+      "source": "API",
+      "target": "SQL",
+      "weight": 18
+    },
+    {
+      "source": "Agent",
+      "target": "LLM",
+      "weight": 36
+    },
+    {
+      "source": "Agent",
+      "target": "RAG",
+      "weight": 51
+    },
+    {
+      "source": "Agent",
+      "target": "SQL",
+      "weight": 12
+    },
+    {
+      "source": "LLM",
+      "target": "SQL",
+      "weight": 9
+    },
+    {
+      "source": "RAG",
+      "target": "SQL",
+      "weight": 13
+    },
+    {
+      "source": "Engineering",
+      "target": "GPT",
+      "weight": 11
+    },
+    {
+      "source": "Engineering",
+      "target": "Prompt",
+      "weight": 52
+    },
+    {
+      "source": "Engineering",
+      "target": "Python",
+      "weight": 42
+    },
+    {
+      "source": "GPT",
+      "target": "Prompt",
+      "weight": 22
+    },
+    {
+      "source": "GPT",
+      "target": "Python",
+      "weight": 31
+    },
+    {
+      "source": "Prompt",
+      "target": "Python",
+      "weight": 89
+    },
+    {
+      "source": "AI",
+      "target": "Docker",
+      "weight": 43
+    },
+    {
+      "source": "AI",
+      "target": "LangChain",
+      "weight": 44
+    },
+    {
+      "source": "AI",
+      "target": "Prompt",
+      "weight": 109
+    },
+    {
+      "source": "API",
+      "target": "Docker",
+      "weight": 25
+    },
+    {
+      "source": "API",
+      "target": "Go",
+      "weight": 19
+    },
+    {
+      "source": "API",
+      "target": "LangChain",
+      "weight": 32
+    },
+    {
+      "source": "API",
+      "target": "Linux",
+      "weight": 13
+    },
+    {
+      "source": "API",
+      "target": "Prompt",
+      "weight": 64
+    },
+    {
+      "source": "API",
+      "target": "PyTorch",
+      "weight": 12
+    },
+    {
+      "source": "API",
+      "target": "TensorFlow",
+      "weight": 12
+    },
+    {
+      "source": "Agent",
+      "target": "Docker",
+      "weight": 19
+    },
+    {
+      "source": "Agent",
+      "target": "Go",
+      "weight": 13
+    },
+    {
+      "source": "Agent",
+      "target": "LangChain",
+      "weight": 33
+    },
+    {
+      "source": "Agent",
+      "target": "Linux",
+      "weight": 11
+    },
+    {
+      "source": "Agent",
+      "target": "NLP",
+      "weight": 8
+    },
+    {
+      "source": "Agent",
+      "target": "Prompt",
+      "weight": 59
+    },
+    {
+      "source": "Agent",
+      "target": "PyTorch",
+      "weight": 10
+    },
+    {
+      "source": "Agent",
+      "target": "Python",
+      "weight": 71
+    },
+    {
+      "source": "Agent",
+      "target": "TensorFlow",
+      "weight": 9
+    },
+    {
+      "source": "Docker",
+      "target": "Go",
+      "weight": 8
+    },
+    {
+      "source": "Docker",
+      "target": "LLM",
+      "weight": 10
+    },
+    {
+      "source": "Docker",
+      "target": "LangChain",
+      "weight": 16
+    },
+    {
+      "source": "Docker",
+      "target": "Linux",
+      "weight": 15
+    },
+    {
+      "source": "Docker",
+      "target": "NLP",
+      "weight": 4
+    },
+    {
+      "source": "Docker",
+      "target": "Prompt",
+      "weight": 15
+    },
+    {
+      "source": "Docker",
+      "target": "PyTorch",
+      "weight": 9
+    },
+    {
+      "source": "Docker",
+      "target": "Python",
+      "weight": 40
+    },
+    {
+      "source": "Docker",
+      "target": "RAG",
+      "weight": 18
+    },
+    {
+      "source": "Docker",
+      "target": "TensorFlow",
+      "weight": 7
+    },
+    {
+      "source": "Go",
+      "target": "LLM",
+      "weight": 7
+    },
+    {
+      "source": "Go",
+      "target": "LangChain",
+      "weight": 7
+    },
+    {
+      "source": "Go",
+      "target": "Linux",
+      "weight": 5
+    },
+    {
+      "source": "Go",
+      "target": "Prompt",
+      "weight": 15
+    },
+    {
+      "source": "Go",
+      "target": "PyTorch",
+      "weight": 3
+    },
+    {
+      "source": "Go",
+      "target": "RAG",
+      "weight": 10
+    },
+    {
+      "source": "Go",
+      "target": "TensorFlow",
+      "weight": 3
+    },
+    {
+      "source": "LLM",
+      "target": "LangChain",
+      "weight": 19
+    },
+    {
+      "source": "LLM",
+      "target": "Prompt",
+      "weight": 47
+    },
+    {
+      "source": "LangChain",
+      "target": "Linux",
+      "weight": 8
+    },
+    {
+      "source": "LangChain",
+      "target": "NLP",
+      "weight": 8
+    },
+    {
+      "source": "LangChain",
+      "target": "Prompt",
+      "weight": 35
+    },
+    {
+      "source": "LangChain",
+      "target": "PyTorch",
+      "weight": 7
+    },
+    {
+      "source": "LangChain",
+      "target": "Python",
+      "weight": 44
+    },
+    {
+      "source": "LangChain",
+      "target": "RAG",
+      "weight": 29
+    },
+    {
+      "source": "LangChain",
+      "target": "TensorFlow",
+      "weight": 5
+    },
+    {
+      "source": "Linux",
+      "target": "Prompt",
+      "weight": 11
+    },
+    {
+      "source": "Linux",
+      "target": "PyTorch",
+      "weight": 8
+    },
+    {
+      "source": "Linux",
+      "target": "Python",
+      "weight": 28
+    },
+    {
+      "source": "Linux",
+      "target": "TensorFlow",
+      "weight": 9
+    },
+    {
+      "source": "NLP",
+      "target": "Prompt",
+      "weight": 11
+    },
+    {
+      "source": "NLP",
+      "target": "PyTorch",
+      "weight": 5
+    },
+    {
+      "source": "NLP",
+      "target": "TensorFlow",
+      "weight": 4
+    },
+    {
+      "source": "Prompt",
+      "target": "PyTorch",
+      "weight": 13
+    },
+    {
+      "source": "Prompt",
+      "target": "RAG",
+      "weight": 55
+    },
+    {
+      "source": "Prompt",
+      "target": "TensorFlow",
+      "weight": 12
+    },
+    {
+      "source": "PyTorch",
+      "target": "RAG",
+      "weight": 10
+    },
+    {
+      "source": "Python",
+      "target": "RAG",
+      "weight": 66
+    },
+    {
+      "source": "RAG",
+      "target": "TensorFlow",
+      "weight": 7
+    },
+    {
+      "source": "API",
+      "target": "大模型算法",
+      "weight": 14
+    },
+    {
+      "source": "API",
+      "target": "深度学习",
+      "weight": 12
+    },
+    {
+      "source": "Prompt",
+      "target": "大模型算法",
+      "weight": 17
+    },
+    {
+      "source": "Prompt",
+      "target": "深度学习",
+      "weight": 14
+    },
+    {
+      "source": "RAG",
+      "target": "大模型算法",
+      "weight": 16
+    },
+    {
+      "source": "RAG",
+      "target": "深度学习",
+      "weight": 13
+    },
+    {
+      "source": "AI",
+      "target": "Engineering",
+      "weight": 48
+    },
+    {
+      "source": "Engineering",
+      "target": "Java",
+      "weight": 26
+    },
+    {
+      "source": "Engineering",
+      "target": "RAG",
+      "weight": 24
+    },
+    {
+      "source": "Engineering",
+      "target": "大模型算法",
+      "weight": 8
+    },
+    {
+      "source": "Engineering",
+      "target": "深度学习",
+      "weight": 6
+    },
+    {
+      "source": "Java",
+      "target": "Prompt",
+      "weight": 47
+    },
+    {
+      "source": "Java",
+      "target": "RAG",
+      "weight": 38
+    },
+    {
+      "source": "API",
+      "target": "GPT",
+      "weight": 20
+    },
+    {
+      "source": "API",
+      "target": "Redis",
+      "weight": 26
+    },
+    {
+      "source": "Agent",
+      "target": "Dify",
+      "weight": 23
+    },
+    {
+      "source": "Agent",
+      "target": "GPT",
+      "weight": 14
+    },
+    {
+      "source": "Agent",
+      "target": "Redis",
+      "weight": 21
+    },
+    {
+      "source": "Agent",
+      "target": "大模型算法",
+      "weight": 8
+    },
+    {
+      "source": "Agent",
+      "target": "深度学习",
+      "weight": 7
+    },
+    {
+      "source": "Dify",
+      "target": "GPT",
+      "weight": 11
+    },
+    {
+      "source": "Dify",
+      "target": "Prompt",
+      "weight": 35
+    },
+    {
+      "source": "Dify",
+      "target": "RAG",
+      "weight": 25
+    },
+    {
+      "source": "Dify",
+      "target": "Redis",
+      "weight": 7
+    },
+    {
+      "source": "Dify",
+      "target": "大模型算法",
+      "weight": 10
+    },
+    {
+      "source": "Dify",
+      "target": "深度学习",
+      "weight": 6
+    },
+    {
+      "source": "GPT",
+      "target": "RAG",
+      "weight": 8
+    },
+    {
+      "source": "GPT",
+      "target": "Redis",
+      "weight": 7
+    },
+    {
+      "source": "GPT",
+      "target": "大模型算法",
+      "weight": 6
+    },
+    {
+      "source": "GPT",
+      "target": "深度学习",
+      "weight": 5
+    },
+    {
+      "source": "Prompt",
+      "target": "Redis",
+      "weight": 16
+    },
+    {
+      "source": "Python",
+      "target": "Redis",
+      "weight": 35
+    },
+    {
+      "source": "RAG",
+      "target": "Redis",
+      "weight": 11
+    },
+    {
+      "source": "Redis",
+      "target": "大模型算法",
+      "weight": 3
+    },
+    {
+      "source": "API",
+      "target": "Engineering",
+      "weight": 32
+    },
+    {
+      "source": "API",
+      "target": "Java",
+      "weight": 49
+    },
+    {
+      "source": "Engineering",
+      "target": "LLM",
+      "weight": 28
+    },
+    {
+      "source": "Engineering",
+      "target": "PyTorch",
+      "weight": 8
+    },
+    {
+      "source": "Engineering",
+      "target": "SQL",
+      "weight": 7
+    },
+    {
+      "source": "Engineering",
+      "target": "TensorFlow",
+      "weight": 9
+    },
+    {
+      "source": "Java",
+      "target": "SQL",
+      "weight": 16
+    },
+    {
+      "source": "Prompt",
+      "target": "SQL",
+      "weight": 12
+    },
+    {
+      "source": "PyTorch",
+      "target": "SQL",
+      "weight": 3
+    },
+    {
+      "source": "Python",
+      "target": "SQL",
+      "weight": 29
+    },
+    {
+      "source": "SQL",
+      "target": "TensorFlow",
+      "weight": 4
+    },
+    {
+      "source": "SQL",
+      "target": "大模型算法",
+      "weight": 5
+    },
+    {
+      "source": "SQL",
+      "target": "深度学习",
+      "weight": 7
+    },
+    {
+      "source": "AI",
+      "target": "Claude",
+      "weight": 59
+    },
+    {
+      "source": "AI",
+      "target": "Cursor",
+      "weight": 41
+    },
+    {
+      "source": "AI",
+      "target": "MySQL",
+      "weight": 59
+    },
+    {
+      "source": "API",
+      "target": "Claude",
+      "weight": 32
+    },
+    {
+      "source": "API",
+      "target": "Cursor",
+      "weight": 23
+    },
+    {
+      "source": "API",
+      "target": "MySQL",
+      "weight": 36
+    },
+    {
+      "source": "Claude",
+      "target": "Cursor",
+      "weight": 30
+    },
+    {
+      "source": "Claude",
+      "target": "MySQL",
+      "weight": 19
+    },
+    {
+      "source": "Claude",
+      "target": "Python",
+      "weight": 41
+    },
+    {
+      "source": "Claude",
+      "target": "Vue",
+      "weight": 16
+    },
+    {
+      "source": "Cursor",
+      "target": "MySQL",
+      "weight": 16
+    },
+    {
+      "source": "Cursor",
+      "target": "Python",
+      "weight": 30
+    },
+    {
+      "source": "Cursor",
+      "target": "Vue",
+      "weight": 17
+    },
+    {
+      "source": "MySQL",
+      "target": "Python",
+      "weight": 53
+    },
+    {
+      "source": "MySQL",
+      "target": "Vue",
+      "weight": 10
+    },
+    {
+      "source": "AI",
+      "target": "Redis",
+      "weight": 37
+    },
+    {
+      "source": "Agent",
+      "target": "MySQL",
+      "weight": 26
+    },
+    {
+      "source": "Docker",
+      "target": "MySQL",
+      "weight": 28
+    },
+    {
+      "source": "Docker",
+      "target": "Redis",
+      "weight": 20
+    },
+    {
+      "source": "MySQL",
+      "target": "Prompt",
+      "weight": 24
+    },
+    {
+      "source": "MySQL",
+      "target": "RAG",
+      "weight": 17
+    },
+    {
+      "source": "MySQL",
+      "target": "Redis",
+      "weight": 33
+    },
+    {
+      "source": "Java",
+      "target": "Vue",
+      "weight": 16
+    },
+    {
+      "source": "Prompt",
+      "target": "Vue",
+      "weight": 14
+    },
+    {
+      "source": "AI",
+      "target": "Function",
+      "weight": 31
+    },
+    {
+      "source": "Function",
+      "target": "LLM",
+      "weight": 11
+    },
+    {
+      "source": "Function",
+      "target": "LangChain",
+      "weight": 12
+    },
+    {
+      "source": "Function",
+      "target": "NLP",
+      "weight": 3
+    },
+    {
+      "source": "Function",
+      "target": "Prompt",
+      "weight": 25
+    },
+    {
+      "source": "Function",
+      "target": "Python",
+      "weight": 27
+    },
+    {
+      "source": "Function",
+      "target": "RAG",
+      "weight": 12
+    },
+    {
+      "source": "Function",
+      "target": "SQL",
+      "weight": 4
+    },
+    {
+      "source": "LangChain",
+      "target": "SQL",
+      "weight": 9
+    },
+    {
+      "source": "NLP",
+      "target": "SQL",
+      "weight": 4
+    },
+    {
+      "source": "AI",
+      "target": "GPT",
+      "weight": 35
+    },
+    {
+      "source": "Claude",
+      "target": "Docker",
+      "weight": 13
+    },
+    {
+      "source": "Claude",
+      "target": "Engineering",
+      "weight": 20
+    },
+    {
+      "source": "Claude",
+      "target": "GPT",
+      "weight": 12
+    },
+    {
+      "source": "Claude",
+      "target": "Prompt",
+      "weight": 30
+    },
+    {
+      "source": "Docker",
+      "target": "Engineering",
+      "weight": 8
+    },
+    {
+      "source": "Docker",
+      "target": "GPT",
+      "weight": 7
+    },
+    {
+      "source": "AI",
+      "target": "Code",
+      "weight": 32
+    },
+    {
+      "source": "API",
+      "target": "Code",
+      "weight": 19
+    },
+    {
+      "source": "API",
+      "target": "Function",
+      "weight": 18
+    },
+    {
+      "source": "Agent",
+      "target": "Claude",
+      "weight": 25
+    },
+    {
+      "source": "Agent",
+      "target": "Code",
+      "weight": 18
+    },
+    {
+      "source": "Agent",
+      "target": "Engineering",
+      "weight": 29
+    },
+    {
+      "source": "Agent",
+      "target": "Function",
+      "weight": 20
+    },
+    {
+      "source": "Agent",
+      "target": "Java",
+      "weight": 37
+    },
+    {
+      "source": "Claude",
+      "target": "Code",
+      "weight": 30
+    },
+    {
+      "source": "Claude",
+      "target": "Function",
+      "weight": 14
+    },
+    {
+      "source": "Claude",
+      "target": "Java",
+      "weight": 24
+    },
+    {
+      "source": "Claude",
+      "target": "PyTorch",
+      "weight": 4
+    },
+    {
+      "source": "Claude",
+      "target": "Redis",
+      "weight": 10
+    },
+    {
+      "source": "Claude",
+      "target": "TensorFlow",
+      "weight": 5
+    },
+    {
+      "source": "Code",
+      "target": "Engineering",
+      "weight": 12
+    },
+    {
+      "source": "Code",
+      "target": "Function",
+      "weight": 11
+    },
+    {
+      "source": "Code",
+      "target": "Java",
+      "weight": 19
+    },
+    {
+      "source": "Code",
+      "target": "MySQL",
+      "weight": 16
+    },
+    {
+      "source": "Code",
+      "target": "Prompt",
+      "weight": 18
+    },
+    {
+      "source": "Code",
+      "target": "PyTorch",
+      "weight": 4
+    },
+    {
+      "source": "Code",
+      "target": "Python",
+      "weight": 24
+    },
+    {
+      "source": "Code",
+      "target": "Redis",
+      "weight": 9
+    },
+    {
+      "source": "Code",
+      "target": "TensorFlow",
+      "weight": 5
+    },
+    {
+      "source": "Engineering",
+      "target": "Function",
+      "weight": 12
+    },
+    {
+      "source": "Engineering",
+      "target": "MySQL",
+      "weight": 14
+    },
+    {
+      "source": "Engineering",
+      "target": "Redis",
+      "weight": 8
+    },
+    {
+      "source": "Function",
+      "target": "Java",
+      "weight": 18
+    },
+    {
+      "source": "Function",
+      "target": "MySQL",
+      "weight": 13
+    },
+    {
+      "source": "Function",
+      "target": "PyTorch",
+      "weight": 4
+    },
+    {
+      "source": "Function",
+      "target": "Redis",
+      "weight": 8
+    },
+    {
+      "source": "Function",
+      "target": "TensorFlow",
+      "weight": 6
+    },
+    {
+      "source": "Java",
+      "target": "MySQL",
+      "weight": 31
+    },
+    {
+      "source": "Java",
+      "target": "Redis",
+      "weight": 18
+    },
+    {
+      "source": "MySQL",
+      "target": "PyTorch",
+      "weight": 12
+    },
+    {
+      "source": "MySQL",
+      "target": "TensorFlow",
+      "weight": 10
+    },
+    {
+      "source": "PyTorch",
+      "target": "Redis",
+      "weight": 6
+    },
+    {
+      "source": "Redis",
+      "target": "TensorFlow",
+      "weight": 4
+    },
+    {
+      "source": "Agent",
+      "target": "Vue",
+      "weight": 12
+    },
+    {
+      "source": "Claude",
+      "target": "LLM",
+      "weight": 11
+    },
+    {
+      "source": "Claude",
+      "target": "LangChain",
+      "weight": 11
+    },
+    {
+      "source": "Claude",
+      "target": "RAG",
+      "weight": 15
+    },
+    {
+      "source": "Engineering",
+      "target": "LangChain",
+      "weight": 11
+    },
+    {
+      "source": "Engineering",
+      "target": "Vue",
+      "weight": 10
+    },
+    {
+      "source": "LLM",
+      "target": "MySQL",
+      "weight": 16
+    },
+    {
+      "source": "LLM",
+      "target": "Redis",
+      "weight": 9
+    },
+    {
+      "source": "LangChain",
+      "target": "MySQL",
+      "weight": 13
+    },
+    {
+      "source": "LangChain",
+      "target": "Redis",
+      "weight": 13
+    },
+    {
+      "source": "LangChain",
+      "target": "Vue",
+      "weight": 5
+    },
+    {
+      "source": "RAG",
+      "target": "Vue",
+      "weight": 6
+    },
+    {
+      "source": "Redis",
+      "target": "Vue",
+      "weight": 5
+    },
+    {
+      "source": "AI",
+      "target": "CD",
+      "weight": 31
+    },
+    {
+      "source": "AI",
+      "target": "CI",
+      "weight": 32
+    },
+    {
+      "source": "API",
+      "target": "CD",
+      "weight": 24
+    },
+    {
+      "source": "API",
+      "target": "CI",
+      "weight": 25
+    },
+    {
+      "source": "Agent",
+      "target": "CD",
+      "weight": 15
+    },
+    {
+      "source": "Agent",
+      "target": "CI",
+      "weight": 15
+    },
+    {
+      "source": "Agent",
+      "target": "Cursor",
+      "weight": 19
+    },
+    {
+      "source": "CD",
+      "target": "CI",
+      "weight": 33
+    },
+    {
+      "source": "CD",
+      "target": "Claude",
+      "weight": 11
+    },
+    {
+      "source": "CD",
+      "target": "Code",
+      "weight": 9
+    },
+    {
+      "source": "CD",
+      "target": "Cursor",
+      "weight": 12
+    },
+    {
+      "source": "CD",
+      "target": "Dify",
+      "weight": 10
+    },
+    {
+      "source": "CD",
+      "target": "Docker",
+      "weight": 14
+    },
+    {
+      "source": "CD",
+      "target": "LLM",
+      "weight": 10
+    },
+    {
+      "source": "CD",
+      "target": "LangChain",
+      "weight": 13
+    },
+    {
+      "source": "CD",
+      "target": "Prompt",
+      "weight": 18
+    },
+    {
+      "source": "CD",
+      "target": "Python",
+      "weight": 26
+    },
+    {
+      "source": "CD",
+      "target": "RAG",
+      "weight": 9
+    },
+    {
+      "source": "CI",
+      "target": "Claude",
+      "weight": 11
+    },
+    {
+      "source": "CI",
+      "target": "Code",
+      "weight": 9
+    },
+    {
+      "source": "CI",
+      "target": "Cursor",
+      "weight": 12
+    },
+    {
+      "source": "CI",
+      "target": "Dify",
+      "weight": 10
+    },
+    {
+      "source": "CI",
+      "target": "Docker",
+      "weight": 14
+    },
+    {
+      "source": "CI",
+      "target": "LLM",
+      "weight": 11
+    },
+    {
+      "source": "CI",
+      "target": "LangChain",
+      "weight": 13
+    },
+    {
+      "source": "CI",
+      "target": "Prompt",
+      "weight": 18
+    },
+    {
+      "source": "CI",
+      "target": "Python",
+      "weight": 27
+    },
+    {
+      "source": "CI",
+      "target": "RAG",
+      "weight": 9
+    },
+    {
+      "source": "Claude",
+      "target": "Dify",
+      "weight": 9
+    },
+    {
+      "source": "Code",
+      "target": "Cursor",
+      "weight": 22
+    },
+    {
+      "source": "Code",
+      "target": "Dify",
+      "weight": 7
+    },
+    {
+      "source": "Code",
+      "target": "Docker",
+      "weight": 9
+    },
+    {
+      "source": "Code",
+      "target": "LLM",
+      "weight": 8
+    },
+    {
+      "source": "Code",
+      "target": "LangChain",
+      "weight": 8
+    },
+    {
+      "source": "Code",
+      "target": "RAG",
+      "weight": 9
+    },
+    {
+      "source": "Cursor",
+      "target": "Dify",
+      "weight": 11
+    },
+    {
+      "source": "Cursor",
+      "target": "Docker",
+      "weight": 10
+    },
+    {
+      "source": "Cursor",
+      "target": "LLM",
+      "weight": 9
+    },
+    {
+      "source": "Cursor",
+      "target": "LangChain",
+      "weight": 9
+    },
+    {
+      "source": "Cursor",
+      "target": "Prompt",
+      "weight": 16
+    },
+    {
+      "source": "Cursor",
+      "target": "RAG",
+      "weight": 10
+    },
+    {
+      "source": "Dify",
+      "target": "Docker",
+      "weight": 13
+    },
+    {
+      "source": "Dify",
+      "target": "LangChain",
+      "weight": 23
+    },
+    {
+      "source": "CD",
+      "target": "Engineering",
+      "weight": 11
+    },
+    {
+      "source": "CI",
+      "target": "Engineering",
+      "weight": 11
+    },
+    {
+      "source": "Dify",
+      "target": "Engineering",
+      "weight": 14
+    },
+    {
+      "source": "Claude",
+      "target": "SQL",
+      "weight": 7
+    },
+    {
+      "source": "Docker",
+      "target": "SQL",
+      "weight": 11
+    },
+    {
+      "source": "CD",
+      "target": "Go",
+      "weight": 6
+    },
+    {
+      "source": "CD",
+      "target": "Java",
+      "weight": 16
+    },
+    {
+      "source": "CD",
+      "target": "MySQL",
+      "weight": 12
+    },
+    {
+      "source": "CD",
+      "target": "Redis",
+      "weight": 10
+    },
+    {
+      "source": "CD",
+      "target": "Vue",
+      "weight": 8
+    },
+    {
+      "source": "CI",
+      "target": "Go",
+      "weight": 7
+    },
+    {
+      "source": "CI",
+      "target": "Java",
+      "weight": 17
+    },
+    {
+      "source": "CI",
+      "target": "MySQL",
+      "weight": 13
+    },
+    {
+      "source": "CI",
+      "target": "Redis",
+      "weight": 10
+    },
+    {
+      "source": "CI",
+      "target": "Vue",
+      "weight": 9
+    },
+    {
+      "source": "Docker",
+      "target": "Java",
+      "weight": 20
+    },
+    {
+      "source": "Docker",
+      "target": "Vue",
+      "weight": 7
+    },
+    {
+      "source": "Go",
+      "target": "Java",
+      "weight": 25
+    },
+    {
+      "source": "Go",
+      "target": "MySQL",
+      "weight": 9
+    },
+    {
+      "source": "Go",
+      "target": "Redis",
+      "weight": 5
+    },
+    {
+      "source": "Go",
+      "target": "Vue",
+      "weight": 8
+    },
+    {
+      "source": "Engineering",
+      "target": "Linux",
+      "weight": 9
+    },
+    {
+      "source": "Function",
+      "target": "GPT",
+      "weight": 9
+    },
+    {
+      "source": "Function",
+      "target": "Linux",
+      "weight": 8
+    },
+    {
+      "source": "GPT",
+      "target": "Java",
+      "weight": 14
+    },
+    {
+      "source": "GPT",
+      "target": "Linux",
+      "weight": 3
+    },
+    {
+      "source": "GPT",
+      "target": "MySQL",
+      "weight": 7
+    },
+    {
+      "source": "Java",
+      "target": "Linux",
+      "weight": 16
+    },
+    {
+      "source": "Linux",
+      "target": "MySQL",
+      "weight": 14
+    },
+    {
+      "source": "Linux",
+      "target": "Redis",
+      "weight": 8
+    },
+    {
+      "source": "Dify",
+      "target": "Java",
+      "weight": 23
+    },
+    {
+      "source": "Java",
+      "target": "LangChain",
+      "weight": 24
+    },
+    {
+      "source": "CD",
+      "target": "Linux",
+      "weight": 10
+    },
+    {
+      "source": "CD",
+      "target": "SQL",
+      "weight": 7
+    },
+    {
+      "source": "CI",
+      "target": "Linux",
+      "weight": 10
+    },
+    {
+      "source": "CI",
+      "target": "SQL",
+      "weight": 7
+    },
+    {
+      "source": "Linux",
+      "target": "SQL",
+      "weight": 9
+    },
+    {
+      "source": "Redis",
+      "target": "SQL",
+      "weight": 10
+    },
+    {
+      "source": "Dify",
+      "target": "PyTorch",
+      "weight": 7
+    },
+    {
+      "source": "Engineering",
+      "target": "NLP",
+      "weight": 3
+    },
+    {
+      "source": "GPT",
+      "target": "LLM",
+      "weight": 7
+    },
+    {
+      "source": "GPT",
+      "target": "NLP",
+      "weight": 6
+    },
+    {
+      "source": "GPT",
+      "target": "PyTorch",
+      "weight": 8
+    },
+    {
+      "source": "Java",
+      "target": "NLP",
+      "weight": 9
+    },
+    {
+      "source": "Claude",
+      "target": "Go",
+      "weight": 8
+    },
+    {
+      "source": "Code",
+      "target": "Go",
+      "weight": 6
+    },
+    {
+      "source": "Cursor",
+      "target": "Engineering",
+      "weight": 8
+    },
+    {
+      "source": "Cursor",
+      "target": "Go",
+      "weight": 8
+    },
+    {
+      "source": "Cursor",
+      "target": "Java",
+      "weight": 20
+    },
+    {
+      "source": "Engineering",
+      "target": "Go",
+      "weight": 6
+    },
+    {
+      "source": "CD",
+      "target": "NLP",
+      "weight": 3
+    },
+    {
+      "source": "CD",
+      "target": "PyTorch",
+      "weight": 3
+    },
+    {
+      "source": "CI",
+      "target": "NLP",
+      "weight": 3
+    },
+    {
+      "source": "CI",
+      "target": "PyTorch",
+      "weight": 3
+    },
+    {
+      "source": "MySQL",
+      "target": "NLP",
+      "weight": 3
+    },
+    {
+      "source": "CD",
+      "target": "Function",
+      "weight": 7
+    },
+    {
+      "source": "CI",
+      "target": "Function",
+      "weight": 7
+    },
+    {
+      "source": "Cursor",
+      "target": "Function",
+      "weight": 10
+    },
+    {
+      "source": "Dify",
+      "target": "Function",
+      "weight": 9
+    },
+    {
+      "source": "MySQL",
+      "target": "SQL",
+      "weight": 10
+    },
+    {
+      "source": "GPT",
+      "target": "TensorFlow",
+      "weight": 6
+    },
+    {
+      "source": "CD",
+      "target": "GPT",
+      "weight": 5
+    },
+    {
+      "source": "CI",
+      "target": "GPT",
+      "weight": 5
+    },
+    {
+      "source": "Function",
+      "target": "Vue",
+      "weight": 6
+    },
+    {
+      "source": "GPT",
+      "target": "LangChain",
+      "weight": 11
+    },
+    {
+      "source": "Claude",
+      "target": "Linux",
+      "weight": 6
+    },
+    {
+      "source": "Code",
+      "target": "Linux",
+      "weight": 6
+    },
+    {
+      "source": "Code",
+      "target": "Vue",
+      "weight": 12
+    },
+    {
+      "source": "Dify",
+      "target": "MySQL",
+      "weight": 13
+    },
+    {
+      "source": "Docker",
+      "target": "Function",
+      "weight": 8
+    },
+    {
+      "source": "Code",
+      "target": "GPT",
+      "weight": 3
+    },
+    {
+      "source": "Linux",
+      "target": "Vue",
+      "weight": 6
+    },
+    {
+      "source": "Dify",
+      "target": "Linux",
+      "weight": 5
+    },
+    {
+      "source": "GPT",
+      "target": "Go",
+      "weight": 6
+    },
+    {
+      "source": "GPT",
+      "target": "SQL",
+      "weight": 4
+    },
+    {
+      "source": "Go",
+      "target": "SQL",
+      "weight": 3
+    },
+    {
+      "source": "Claude",
+      "target": "大模型算法",
+      "weight": 4
+    },
+    {
+      "source": "Dify",
+      "target": "Go",
+      "weight": 6
+    },
+    {
+      "source": "NLP",
+      "target": "大模型算法",
+      "weight": 4
+    },
+    {
+      "source": "NLP",
+      "target": "深度学习",
+      "weight": 5
+    },
+    {
+      "source": "Code",
+      "target": "SQL",
+      "weight": 3
+    },
+    {
+      "source": "Dify",
+      "target": "SQL",
+      "weight": 5
+    },
+    {
+      "source": "Cursor",
+      "target": "GPT",
+      "weight": 4
+    },
+    {
+      "source": "Function",
+      "target": "Go",
+      "weight": 4
+    },
+    {
+      "source": "Function",
+      "target": "大模型算法",
+      "weight": 3
+    },
+    {
+      "source": "LangChain",
+      "target": "大模型算法",
+      "weight": 5
+    },
+    {
+      "source": "Cursor",
+      "target": "Redis",
+      "weight": 8
+    },
+    {
+      "source": "LangChain",
+      "target": "深度学习",
+      "weight": 3
+    },
+    {
+      "source": "Dify",
+      "target": "TensorFlow",
+      "weight": 3
+    },
+    {
+      "source": "CD",
+      "target": "TensorFlow",
+      "weight": 3
+    },
+    {
+      "source": "CI",
+      "target": "TensorFlow",
+      "weight": 3
+    },
+    {
+      "source": "Cursor",
+      "target": "Linux",
+      "weight": 7
+    },
+    {
+      "source": "Cursor",
+      "target": "SQL",
+      "weight": 5
+    },
+    {
+      "source": "SQL",
+      "target": "Vue",
+      "weight": 3
+    }
+  ]
+}
