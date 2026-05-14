@@ -1,0 +1,212 @@
+[
+  {
+    "skill": "AI",
+    "count": 95,
+    "median_salary": 17500.0,
+    "avg_salary": 17253.0,
+    "job_count": 95
+  },
+  {
+    "skill": "Python",
+    "count": 92,
+    "median_salary": 17500.0,
+    "avg_salary": 17658.0,
+    "job_count": 92
+  },
+  {
+    "skill": "Prompt",
+    "count": 43,
+    "median_salary": 17500.0,
+    "avg_salary": 17198.0,
+    "job_count": 43
+  },
+  {
+    "skill": "RAG",
+    "count": 37,
+    "median_salary": 19500.0,
+    "avg_salary": 19108.0,
+    "job_count": 37
+  },
+  {
+    "skill": "LLM",
+    "count": 32,
+    "median_salary": 18500.0,
+    "avg_salary": 18766.0,
+    "job_count": 32
+  },
+  {
+    "skill": "Java",
+    "count": 30,
+    "median_salary": 20250.0,
+    "avg_salary": 19400.0,
+    "job_count": 30
+  },
+  {
+    "skill": "API",
+    "count": 28,
+    "median_salary": 17500.0,
+    "avg_salary": 17304.0,
+    "job_count": 28
+  },
+  {
+    "skill": "Agent",
+    "count": 27,
+    "median_salary": 19500.0,
+    "avg_salary": 18463.0,
+    "job_count": 27
+  },
+  {
+    "skill": "PyTorch",
+    "count": 25,
+    "median_salary": 17500.0,
+    "avg_salary": 17040.0,
+    "job_count": 25
+  },
+  {
+    "skill": "GPT",
+    "count": 23,
+    "median_salary": 17500.0,
+    "avg_salary": 17935.0,
+    "job_count": 23
+  },
+  {
+    "skill": "NLP",
+    "count": 22,
+    "median_salary": 18500.0,
+    "avg_salary": 18000.0,
+    "job_count": 22
+  },
+  {
+    "skill": "大模型算法",
+    "count": 22,
+    "median_salary": 17500.0,
+    "avg_salary": 17705.0,
+    "job_count": 22
+  },
+  {
+    "skill": "TensorFlow",
+    "count": 21,
+    "median_salary": 17500.0,
+    "avg_salary": 17286.0,
+    "job_count": 21
+  },
+  {
+    "skill": "Qwen",
+    "count": 19,
+    "median_salary": 17500.0,
+    "avg_salary": 17763.0,
+    "job_count": 19
+  },
+  {
+    "skill": "Dify",
+    "count": 19,
+    "median_salary": 18500.0,
+    "avg_salary": 17842.0,
+    "job_count": 19
+  },
+  {
+    "skill": "深度学习",
+    "count": 19,
+    "median_salary": 16500.0,
+    "avg_salary": 16184.0,
+    "job_count": 19
+  },
+  {
+    "skill": "MySQL",
+    "count": 18,
+    "median_salary": 17500.0,
+    "avg_salary": 17806.0,
+    "job_count": 18
+  },
+  {
+    "skill": "LangChain",
+    "count": 17,
+    "median_salary": 17500.0,
+    "avg_salary": 16706.0,
+    "job_count": 17
+  },
+  {
+    "skill": "大模型",
+    "count": 17,
+    "median_salary": 16500.0,
+    "avg_salary": 16765.0,
+    "job_count": 17
+  },
+  {
+    "skill": "DeepSeek",
+    "count": 16,
+    "median_salary": 18000.0,
+    "avg_salary": 18031.0,
+    "job_count": 16
+  },
+  {
+    "skill": "机器学习",
+    "count": 15,
+    "median_salary": 17500.0,
+    "avg_salary": 17567.0,
+    "job_count": 15
+  },
+  {
+    "skill": "Docker",
+    "count": 14,
+    "median_salary": 17500.0,
+    "avg_salary": 17714.0,
+    "job_count": 14
+  },
+  {
+    "skill": "RLHF",
+    "count": 14,
+    "median_salary": 16750.0,
+    "avg_salary": 17143.0,
+    "job_count": 14
+  },
+  {
+    "skill": "LangGraph",
+    "count": 13,
+    "median_salary": 17500.0,
+    "avg_salary": 16885.0,
+    "job_count": 13
+  },
+  {
+    "skill": "LLaMA",
+    "count": 13,
+    "median_salary": 18500.0,
+    "avg_salary": 18500.0,
+    "job_count": 13
+  },
+  {
+    "skill": "算法工程化经验",
+    "count": 13,
+    "median_salary": 20500.0,
+    "avg_salary": 19269.0,
+    "job_count": 13
+  },
+  {
+    "skill": "FastAPI",
+    "count": 12,
+    "median_salary": 17500.0,
+    "avg_salary": 17292.0,
+    "job_count": 12
+  },
+  {
+    "skill": "python",
+    "count": 12,
+    "median_salary": 16000.0,
+    "avg_salary": 16292.0,
+    "job_count": 12
+  },
+  {
+    "skill": "SFT",
+    "count": 12,
+    "median_salary": 19500.0,
+    "avg_salary": 19083.0,
+    "job_count": 12
+  },
+  {
+    "skill": "Linux",
+    "count": 12,
+    "median_salary": 17500.0,
+    "avg_salary": 18333.0,
+    "job_count": 12
+  }
+]

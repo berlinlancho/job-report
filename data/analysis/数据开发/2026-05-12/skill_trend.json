@@ -1,0 +1,485 @@
+{
+  "dates": [
+    "2026-04-30",
+    "2026-05-02",
+    "2026-05-07",
+    "2026-05-12"
+  ],
+  "series": [
+    {
+      "skill": "SQL",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 58.0,
+          "count": 119
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 57.1,
+          "count": 137
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 59.8,
+          "count": 193
+        },
+        {
+          "date": "2026-05-12",
+          "ratio": 61.4,
+          "count": 240
+        }
+      ]
+    },
+    {
+      "skill": "Python",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 48.8,
+          "count": 100
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 49.2,
+          "count": 118
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 51.7,
+          "count": 167
+        },
+        {
+          "date": "2026-05-12",
+          "ratio": 53.7,
+          "count": 210
+        }
+      ]
+    },
+    {
+      "skill": "Spark",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 39.0,
+          "count": 80
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 39.6,
+          "count": 95
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 39.0,
+          "count": 126
+        },
+        {
+          "date": "2026-05-12",
+          "ratio": 38.4,
+          "count": 150
+        }
+      ]
+    },
+    {
+      "skill": "Java",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 35.1,
+          "count": 72
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 35.8,
+          "count": 86
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 34.4,
+          "count": 111
+        },
+        {
+          "date": "2026-05-12",
+          "ratio": 34.8,
+          "count": 136
+        }
+      ]
+    },
+    {
+      "skill": "Hadoop",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 30.7,
+          "count": 63
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 30.4,
+          "count": 73
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 29.4,
+          "count": 95
+        },
+        {
+          "date": "2026-05-12",
+          "ratio": 29.4,
+          "count": 115
+        }
+      ]
+    },
+    {
+      "skill": "Flink",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 29.8,
+          "count": 61
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 29.6,
+          "count": 71
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 28.8,
+          "count": 93
+        },
+        {
+          "date": "2026-05-12",
+          "ratio": 28.9,
+          "count": 113
+        }
+      ]
+    },
+    {
+      "skill": "要求数据开发经验",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 28.3,
+          "count": 58
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 27.9,
+          "count": 67
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 28.2,
+          "count": 91
+        },
+        {
+          "date": "2026-05-12",
+          "ratio": 28.6,
+          "count": 112
+        }
+      ]
+    },
+    {
+      "skill": "Hive",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 30.7,
+          "count": 63
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 30.8,
+          "count": 74
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 29.7,
+          "count": 96
+        },
+        {
+          "date": "2026-05-12",
+          "ratio": 28.4,
+          "count": 111
+        }
+      ]
+    },
+    {
+      "skill": "ETL",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 25.4,
+          "count": 52
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 24.6,
+          "count": 59
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 23.2,
+          "count": 75
+        },
+        {
+          "date": "2026-05-12",
+          "ratio": 25.6,
+          "count": 100
+        }
+      ]
+    },
+    {
+      "skill": "Kafka",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 22.4,
+          "count": 46
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 23.3,
+          "count": 56
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 23.2,
+          "count": 75
+        },
+        {
+          "date": "2026-05-12",
+          "ratio": 23.0,
+          "count": 90
+        }
+      ]
+    }
+  ],
+  "new_skills": [
+    "designStrong",
+    "DGC",
+    "quality",
+    "Agile",
+    "BA",
+    "optimization",
+    "ticket",
+    "腾讯云TBDS TCHouse",
+    "数字政府",
+    "Fresh",
+    "GMV",
+    "ARPU",
+    "数据清洗、宽表处理",
+    "Preferred",
+    "history",
+    "helpdesk",
+    "埋点设计",
+    "Understanding",
+    "技术管理",
+    "EE",
+    "allows",
+    "tornado",
+    "英语流利",
+    "starrocks数据库",
+    "NPDP",
+    "统计学",
+    "unsloth",
+    "OKR",
+    "indexing",
+    "MPI",
+    "response",
+    "SummaryBuild",
+    "accurately",
+    "readingProficient",
+    "Operator",
+    "系统运维",
+    "数据可信",
+    "云计算产品",
+    "平台产品",
+    "游戏数据分析",
+    "safely.Key",
+    "chunking",
+    "vector",
+    "NodeManager",
+    "UAT",
+    "kiln",
+    "DLA",
+    "离线",
+    "SIT",
+    "分布式训练",
+    "platforms.Preferred",
+    "ollama",
+    "layer",
+    "销售业务团队",
+    "ResourceManager",
+    "PLC",
+    "CET6",
+    "Role",
+    "CSM",
+    "Senior",
+    "Work",
+    "Kerberos",
+    "AI Agent",
+    "GO",
+    "promt",
+    "Project",
+    "BS",
+    "StarRocks 、Iceberg",
+    "商业分析",
+    "datasets",
+    "OOM",
+    "熟悉flink",
+    "warehouse",
+    "Framework",
+    "CantoneseGood",
+    "content",
+    "石油石化能源零售行业",
+    "TBDS",
+    "Nginx",
+    "SQLStrong",
+    "集群",
+    "Key",
+    "Structured",
+    "电子/电气/自动化相关专业",
+    "grounding",
+    "Commons8",
+    "responsibilities",
+    "accuracy",
+    "skillsStrong",
+    "c++",
+    "task",
+    "doris，StarRocks",
+    "else",
+    "Git7",
+    "Learning",
+    "AlwaysOn",
+    "SOPs",
+    "信息管理",
+    "articles",
+    "structured",
+    "k8s",
+    "数据仓",
+    "PythonGood",
+    "自驾数据",
+    "深度学习",
+    "search",
+    "Waterfall",
+    "PRINCE2",
+    "unstructured",
+    "模型加速/性能优化",
+    "观远",
+    "filtering",
+    "汽车",
+    "debug",
+    "Kafka、",
+    "软件工程",
+    "Hello",
+    "PowerBl5",
+    "工业大数据",
+    "fine",
+    "ACM",
+    "大数据处理工具(Spark/Hadoop/Hive)",
+    "ApplicationMaster",
+    "LTV",
+    "Dubbo",
+    "MLlib",
+    "Tidb",
+    "AK",
+    "pubsub",
+    "mentor",
+    "互联网广告",
+    "django",
+    "Pyhton",
+    "风控相关经验",
+    "toolsBachelor",
+    "erp",
+    "OEE",
+    "automated",
+    "MTBF",
+    "iceberg",
+    "ods",
+    "improve",
+    "CEP",
+    "retrieval",
+    "if",
+    "政务项目经验",
+    "experimentation",
+    "techniques",
+    "Veritas",
+    "Sheets",
+    "后端开发",
+    "Bigquery",
+    "benchmarking",
+    "llama",
+    "Net",
+    "Jira",
+    "rates",
+    "Capgemini",
+    "Jarkata",
+    "业绩预测",
+    "teams",
+    "knowledge",
+    "rust",
+    "model",
+    "NBU",
+    "platforms",
+    "troubleshooting",
+    "deepseek",
+    "BRD",
+    "writing",
+    "跨境",
+    "后台产品",
+    "Support",
+    "technologiesGood",
+    "relevance",
+    "Required",
+    "failure",
+    "计算机",
+    "hallucination",
+    "SPC",
+    "Boot4",
+    "Improve",
+    "tests",
+    "completion",
+    "reranking",
+    "SCADA",
+    "GIT",
+    "iceberg，数据湖",
+    "embeddings",
+    "OOAD",
+    "WEB",
+    "ranking",
+    "flask",
+    "qwen",
+    "rates.Required",
+    "Stitch",
+    "SK",
+    "LinuxGood",
+    "World",
+    "系统架构",
+    "Confluence",
+    "就业指导",
+    "mapping",
+    "evaluation",
+    "Scrum",
+    "Warehouse",
+    "selection",
+    "Doris原理/源码",
+    "databases",
+    "reduce",
+    "enterprise",
+    "safely",
+    "Create",
+    "PBI",
+    "zabbix",
+    "selenium",
+    "DLI",
+    "building",
+    "MRS",
+    "TCHouse",
+    "answer",
+    "Familiarity"
+  ],
+  "removed_skills": []
+}

@@ -1,0 +1,613 @@
+{
+  "dates": [
+    "2026-04-30",
+    "2026-05-02",
+    "2026-05-07",
+    "2026-05-12"
+  ],
+  "series": [
+    {
+      "skill": "AI",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 92.5,
+          "count": 222
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 89.7,
+          "count": 262
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 87.6,
+          "count": 305
+        },
+        {
+          "date": "2026-05-12",
+          "ratio": 89.2,
+          "count": 380
+        }
+      ]
+    },
+    {
+      "skill": "Python",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 57.5,
+          "count": 138
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 57.2,
+          "count": 167
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 58.9,
+          "count": 205
+        },
+        {
+          "date": "2026-05-12",
+          "ratio": 57.3,
+          "count": 244
+        }
+      ]
+    },
+    {
+      "skill": "Prompt",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 33.8,
+          "count": 81
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 32.2,
+          "count": 94
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 34.5,
+          "count": 120
+        },
+        {
+          "date": "2026-05-12",
+          "ratio": 35.2,
+          "count": 150
+        }
+      ]
+    },
+    {
+      "skill": "API",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 37.5,
+          "count": 90
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 34.6,
+          "count": 101
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 32.8,
+          "count": 114
+        },
+        {
+          "date": "2026-05-12",
+          "ratio": 33.1,
+          "count": 141
+        }
+      ]
+    },
+    {
+      "skill": "Java",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 32.5,
+          "count": 78
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 30.8,
+          "count": 90
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 29.9,
+          "count": 104
+        },
+        {
+          "date": "2026-05-12",
+          "ratio": 31.7,
+          "count": 135
+        }
+      ]
+    },
+    {
+      "skill": "Agent",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 31.7,
+          "count": 76
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 29.1,
+          "count": 85
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 27.9,
+          "count": 97
+        },
+        {
+          "date": "2026-05-12",
+          "ratio": 27.7,
+          "count": 118
+        }
+      ]
+    },
+    {
+      "skill": "RAG",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 26.2,
+          "count": 63
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 25.3,
+          "count": 74
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 26.1,
+          "count": 91
+        },
+        {
+          "date": "2026-05-12",
+          "ratio": 26.1,
+          "count": 111
+        }
+      ]
+    },
+    {
+      "skill": "LLM",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 24.6,
+          "count": 59
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 24.0,
+          "count": 70
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 23.9,
+          "count": 83
+        },
+        {
+          "date": "2026-05-12",
+          "ratio": 24.4,
+          "count": 104
+        }
+      ]
+    },
+    {
+      "skill": "MySQL",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 17.9,
+          "count": 43
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 17.1,
+          "count": 50
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 18.1,
+          "count": 63
+        },
+        {
+          "date": "2026-05-12",
+          "ratio": 19.2,
+          "count": 82
+        }
+      ]
+    },
+    {
+      "skill": "Claude",
+      "trend": [
+        {
+          "date": "2026-04-30",
+          "ratio": 20.8,
+          "count": 50
+        },
+        {
+          "date": "2026-05-02",
+          "ratio": 18.5,
+          "count": 54
+        },
+        {
+          "date": "2026-05-07",
+          "ratio": 17.0,
+          "count": 59
+        },
+        {
+          "date": "2026-05-12",
+          "ratio": 16.7,
+          "count": 71
+        }
+      ]
+    }
+  ],
+  "new_skills": [
+    "监控系统",
+    "Support",
+    "SCRM",
+    "an",
+    "Sub",
+    "Request",
+    "SWOT",
+    "authentication",
+    "platforms.Preferred",
+    "Freemarker",
+    "Guangzhou",
+    "maven",
+    "grounding",
+    "Multi Agent",
+    "大数据架构",
+    "化学专业",
+    "TypeScriptStrong",
+    "产品研发",
+    "UML",
+    "management",
+    "Pipeline",
+    "CV工程师",
+    "Java/Python",
+    "Rouge",
+    "Overview",
+    "飞书",
+    "developmentProject",
+    "Locust",
+    "evaluation",
+    "TCN",
+    "大模型API",
+    "SuperGLUE",
+    "Apollo",
+    "informed",
+    "HubSpot",
+    "completion",
+    "Html",
+    "Pluses",
+    "II",
+    "CC",
+    "history",
+    "年终奖",
+    "be",
+    "Roadmap",
+    "大模型私有化部署",
+    "金融行业经验",
+    "backend",
+    "independently",
+    "中大型软件项目管理经验",
+    "team",
+    "多智能体协同",
+    "version",
+    "Email",
+    "maintain",
+    "seedance2",
+    "retrieval",
+    "FAQ",
+    "工业智能",
+    "tasksFamiliar",
+    "enterprise",
+    "step",
+    "AOP",
+    "APl",
+    "SLS",
+    "PostqreSQL",
+    "ticket",
+    "queries",
+    "frontend",
+    "IO",
+    "HongKongResponsibilities",
+    "laravel",
+    "techniques",
+    "AI视觉系统",
+    "Role",
+    "speak",
+    "AI深度玩家",
+    "MarTech",
+    "GC",
+    "补位攻坚、统筹管理",
+    "Create",
+    "Hermes",
+    "多智能体框架",
+    "有电商美工经验",
+    "低空",
+    "embeddings",
+    "quality",
+    "EE",
+    "Aspen",
+    "servicesExperience",
+    "Cantonese",
+    "BLEU",
+    "向量数据库",
+    "error",
+    "PTC",
+    "indexing",
+    "无人机",
+    "allows",
+    "agents",
+    "Pinia",
+    "Smartlead",
+    "config",
+    "handling",
+    "will",
+    "SpringAi+",
+    "stack",
+    "requirements.Capabilities",
+    "datasets",
+    "developmentIntegration",
+    "EasyUI",
+    "交互设计经验",
+    "Layui",
+    "APls",
+    "1-3年UI设计经验",
+    "negotiable",
+    "thinkphp",
+    "石油专业",
+    "LangSmith",
+    "FastAPl",
+    "loggingAble",
+    "IOC",
+    "copilot",
+    "filtering",
+    "开发",
+    "Worker",
+    "Web UI",
+    "智能体/Agent开发",
+    "TCC",
+    "有UI设计经验/技能",
+    "writing",
+    "benchmarking",
+    "移动端、Web/H5架构",
+    "Seata",
+    "collaborate",
+    "Chat",
+    "advantage",
+    "accurately",
+    "CDO",
+    "Non",
+    "RAG检索增强",
+    "AIGC内容生产",
+    "SummaryBuild",
+    "hallucination",
+    "optimization",
+    "Improve",
+    "Source",
+    "IP5",
+    "RAGAS",
+    "rates",
+    "Generative AI",
+    "Deep",
+    "from",
+    "医疗/AI/跨境合规规则",
+    "Reply",
+    "AI技能",
+    "logic",
+    "Capabilities",
+    "Lead",
+    "互联网/AI",
+    "based",
+    "Saga",
+    "safely.Key",
+    "reduce",
+    "GraalVM",
+    "Ai+智能体项目经验",
+    "CRUD",
+    "tests",
+    "search",
+    "its",
+    "troubleshooting",
+    "Crawley",
+    "Kemel",
+    "AI工具推广",
+    "OSS",
+    "basic",
+    "Router",
+    "notifications",
+    "风控/安全策略经验",
+    "游戏行业经验",
+    "delivery",
+    "assisted",
+    "CS",
+    "Zapier",
+    "BUG",
+    "accuracy",
+    "structured",
+    "frequently",
+    "config.json",
+    "HSP",
+    "Stack",
+    "Gateway",
+    "that",
+    "failure",
+    "Dashboard",
+    "Physics",
+    "improve",
+    "AI智能搜索",
+    "Springai",
+    "unstructured",
+    "提示词工程",
+    "claudecode",
+    "relevance",
+    "A1",
+    "AI工具赋能",
+    "MySOL",
+    "Mysql",
+    "Execute",
+    "N2SQL",
+    "checklist",
+    "多模态应用经验",
+    "CIO",
+    "Companion",
+    "石油化工",
+    "SVM",
+    "RDS",
+    "responsibilities",
+    "Hacker",
+    "业务部门提效",
+    "搜索/推荐/广告经验",
+    "travel",
+    "海外",
+    "Guardrails",
+    "多agent编排",
+    "Make",
+    "Jest",
+    "response",
+    "APC",
+    "创新",
+    "reranking",
+    "experimentation",
+    "database",
+    "tuningExperience",
+    "CNC",
+    "content",
+    "Capgemini",
+    "Build",
+    "Hooks",
+    "UP",
+    "DCS",
+    "1-3年美工经验",
+    "teamsAbility",
+    "automated",
+    "GLUE",
+    "VBA",
+    "双碳",
+    "ai智能体",
+    "AS",
+    "skill搭建",
+    "SketchUp",
+    "Vitest",
+    "Element",
+    "Nacos",
+    "Json",
+    "end",
+    "AI大语言模型",
+    "Bot",
+    "HeyGen",
+    "Develop",
+    "PRO",
+    "updates",
+    "ACK",
+    "Windows",
+    "搜索/信息检索算法经验",
+    "Github",
+    "Minimum",
+    "SOPs",
+    "answer",
+    "OpenFeign",
+    "control",
+    "git",
+    "CrewAl",
+    "企业内部",
+    "closely",
+    "perform",
+    "Steam",
+    "business",
+    "Claw",
+    "PD",
+    "Xml",
+    "selection",
+    "Growth",
+    "Work",
+    "ARMS",
+    "NodeJS",
+    "Tokens",
+    "AdTech",
+    "AI产品运营",
+    "PEST",
+    "WorkBuddy",
+    "BladeX",
+    "PPT 编制",
+    "Newsletter",
+    "articles",
+    "Jquery",
+    "YOLO",
+    "foundational",
+    "svn",
+    "Understanding",
+    "F1",
+    "算法基础",
+    "Hibernate",
+    "Bootstrap",
+    "but",
+    "擅长手绘",
+    "AI算法",
+    "helpdesk",
+    "跨部门协同",
+    "Nodejs",
+    "ETL开发经验",
+    "AI真人剧",
+    "Css",
+    "fine",
+    "task",
+    "MRR",
+    "Base",
+    "Sentinel",
+    "AI应用、跨境电商",
+    "outbound",
+    "metrics",
+    "Open Source",
+    "Position",
+    "https",
+    "AI工作流重构",
+    "工作流编排",
+    "can",
+    "reason",
+    "Solid",
+    "layer",
+    "rates.Required",
+    "基础代码能力",
+    "Vuex",
+    "HYSYS",
+    "Claude SDK",
+    "GMP",
+    "AI栏目与互动运营",
+    "studio",
+    "microsoft",
+    "Google AI SDK、",
+    "live",
+    "developmentBasic",
+    "SEO",
+    "sources",
+    "pytest",
+    "irintegrating",
+    "json",
+    "safely",
+    "精通AI能力集成",
+    "视频生成"
+  ],
+  "removed_skills": [
+    "Cache",
+    "EngineeringRAG"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "summary": "当前AI相关技能需求旺盛，但高薪岗位集中在RAG和LLM等进阶技术，基础技能如Python和AI已趋于常规化，竞争加剧。",
+  "insights": [
+    {
+      "title": "RAG与LLM技术薪资优势显著",
+      "content": "在技能-薪资交叉统计中，RAG中位薪资达19.5K，LLM为18.5K，均高于其他技能（中位17.5K）。这两项技术属于当前大模型应用中的核心方向，市场需求相对稀缺，具备较强的议价能力。",
+      "type": "opportunity",
+      "related_skills": [
+        "RAG",
+        "LLM"
+      ],
+      "action": "建议重点投入RAG和LLM相关技术学习，如向量数据库、检索增强生成、微调技术等，以获取更高薪资回报。"
+    },
+    {
+      "title": "Prompt技能高频但薪资平平，警惕内卷",
+      "content": "Prompt技能出现频次为43次，位列第三，但其中位薪资与基础技能持平（17.5K）。这反映出该技能门槛较低，从业者众多，容易陷入同质化竞争，长期发展空间有限。",
+      "type": "warning",
+      "related_skills": [
+        "Prompt"
+      ],
+      "action": "建议将Prompt作为辅助技能而非核心竞争力，转而深耕更复杂的技术栈如Agent开发或模型优化。"
+    },
+    {
+      "title": "Python与AI已成岗位标配，需叠加差异化能力",
+      "content": "Python和AI分别以92次和95次的频次占据需求榜首，但其薪资中位仅17.5K，表明这两项技能已高度普及，成为基础门槛。仅靠Python+AI难以获得高薪，需要结合其他高价值技能。",
+      "type": "info",
+      "related_skills": [
+        "Python",
+        "AI"
+      ],
+      "action": "建议在掌握Python和AI基础上，拓展如PyTorch、API开发、Agent等方向，形成复合竞争力。"
+    }
+  ],
+  "recommendations": [
+    "优先学习RAG和LLM技术，结合项目实战提升简历含金量",
+    "将Prompt作为辅助工具，避免过度依赖，同时掌握Agent、API等工程化技能",
+    "持续跟踪技能趋势数据（4期快照），关注新兴技能如多模态、模型压缩等方向的薪资变化"
+  ]
+}
