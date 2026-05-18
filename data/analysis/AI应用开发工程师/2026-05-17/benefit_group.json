@@ -1,0 +1,8446 @@
+{
+  "benefits": [
+    "五险一金",
+    "节日福利",
+    "带薪年假",
+    "年终奖",
+    "零食下午茶",
+    "定期体检",
+    "员工旅游",
+    "绩效奖金",
+    "团建聚餐",
+    "生日福利",
+    "补充医疗保险",
+    "餐补",
+    "加班补助",
+    "交通补助",
+    "全勤奖",
+    "股票期权",
+    "底薪加提成",
+    "保底工资",
+    "通讯补贴",
+    "免费班车",
+    "有无线网",
+    "节假日加班费",
+    "包吃",
+    "意外险",
+    "工龄奖",
+    "法定节假日三薪",
+    "住房补贴",
+    "高温补贴",
+    "免费工装",
+    "夜班补助"
+  ],
+  "overall": [
+    {
+      "benefit": "五险一金",
+      "count": 380,
+      "ratio": 90.5
+    },
+    {
+      "benefit": "节日福利",
+      "count": 339,
+      "ratio": 80.7
+    },
+    {
+      "benefit": "带薪年假",
+      "count": 336,
+      "ratio": 80.0
+    },
+    {
+      "benefit": "年终奖",
+      "count": 261,
+      "ratio": 62.1
+    },
+    {
+      "benefit": "零食下午茶",
+      "count": 242,
+      "ratio": 57.6
+    },
+    {
+      "benefit": "定期体检",
+      "count": 228,
+      "ratio": 54.3
+    },
+    {
+      "benefit": "员工旅游",
+      "count": 195,
+      "ratio": 46.4
+    },
+    {
+      "benefit": "绩效奖金",
+      "count": 182,
+      "ratio": 43.3
+    },
+    {
+      "benefit": "团建聚餐",
+      "count": 171,
+      "ratio": 40.7
+    },
+    {
+      "benefit": "生日福利",
+      "count": 154,
+      "ratio": 36.7
+    },
+    {
+      "benefit": "补充医疗保险",
+      "count": 132,
+      "ratio": 31.4
+    },
+    {
+      "benefit": "餐补",
+      "count": 124,
+      "ratio": 29.5
+    },
+    {
+      "benefit": "加班补助",
+      "count": 117,
+      "ratio": 27.9
+    },
+    {
+      "benefit": "交通补助",
+      "count": 103,
+      "ratio": 24.5
+    },
+    {
+      "benefit": "全勤奖",
+      "count": 96,
+      "ratio": 22.9
+    },
+    {
+      "benefit": "股票期权",
+      "count": 88,
+      "ratio": 21.0
+    },
+    {
+      "benefit": "底薪加提成",
+      "count": 83,
+      "ratio": 19.8
+    },
+    {
+      "benefit": "保底工资",
+      "count": 80,
+      "ratio": 19.0
+    },
+    {
+      "benefit": "通讯补贴",
+      "count": 80,
+      "ratio": 19.0
+    },
+    {
+      "benefit": "免费班车",
+      "count": 51,
+      "ratio": 12.1
+    },
+    {
+      "benefit": "有无线网",
+      "count": 51,
+      "ratio": 12.1
+    },
+    {
+      "benefit": "节假日加班费",
+      "count": 49,
+      "ratio": 11.7
+    },
+    {
+      "benefit": "包吃",
+      "count": 46,
+      "ratio": 11.0
+    },
+    {
+      "benefit": "意外险",
+      "count": 48,
+      "ratio": 11.4
+    },
+    {
+      "benefit": "工龄奖",
+      "count": 46,
+      "ratio": 11.0
+    },
+    {
+      "benefit": "法定节假日三薪",
+      "count": 40,
+      "ratio": 9.5
+    },
+    {
+      "benefit": "住房补贴",
+      "count": 27,
+      "ratio": 6.4
+    },
+    {
+      "benefit": "高温补贴",
+      "count": 28,
+      "ratio": 6.7
+    },
+    {
+      "benefit": "免费工装",
+      "count": 22,
+      "ratio": 5.2
+    },
+    {
+      "benefit": "夜班补助",
+      "count": 18,
+      "ratio": 4.3
+    }
+  ],
+  "by_size": [
+    {
+      "benefit": "五险一金",
+      "group": "0-20人",
+      "count": 35,
+      "ratio": 89.7,
+      "total_in_group": 39
+    },
+    {
+      "benefit": "五险一金",
+      "group": "100-499人",
+      "count": 69,
+      "ratio": 80.2,
+      "total_in_group": 86
+    },
+    {
+      "benefit": "五险一金",
+      "group": "1000+人",
+      "count": 150,
+      "ratio": 98.0,
+      "total_in_group": 153
+    },
+    {
+      "benefit": "五险一金",
+      "group": "20-99人",
+      "count": 56,
+      "ratio": 80.0,
+      "total_in_group": 70
+    },
+    {
+      "benefit": "五险一金",
+      "group": "500-999人",
+      "count": 70,
+      "ratio": 97.2,
+      "total_in_group": 72
+    },
+    {
+      "benefit": "节日福利",
+      "group": "0-20人",
+      "count": 14,
+      "ratio": 35.9,
+      "total_in_group": 39
+    },
+    {
+      "benefit": "节日福利",
+      "group": "100-499人",
+      "count": 71,
+      "ratio": 82.6,
+      "total_in_group": 86
+    },
+    {
+      "benefit": "节日福利",
+      "group": "1000+人",
+      "count": 142,
+      "ratio": 92.8,
+      "total_in_group": 153
+    },
+    {
+      "benefit": "节日福利",
+      "group": "20-99人",
+      "count": 53,
+      "ratio": 75.7,
+      "total_in_group": 70
+    },
+    {
+      "benefit": "节日福利",
+      "group": "500-999人",
+      "count": 59,
+      "ratio": 81.9,
+      "total_in_group": 72
+    },
+    {
+      "benefit": "带薪年假",
+      "group": "0-20人",
+      "count": 17,
+      "ratio": 43.6,
+      "total_in_group": 39
+    },
+    {
+      "benefit": "带薪年假",
+      "group": "100-499人",
+      "count": 66,
+      "ratio": 76.7,
+      "total_in_group": 86
+    },
+    {
+      "benefit": "带薪年假",
+      "group": "1000+人",
+      "count": 140,
+      "ratio": 91.5,
+      "total_in_group": 153
+    },
+    {
+      "benefit": "带薪年假",
+      "group": "20-99人",
+      "count": 49,
+      "ratio": 70.0,
+      "total_in_group": 70
+    },
+    {
+      "benefit": "带薪年假",
+      "group": "500-999人",
+      "count": 64,
+      "ratio": 88.9,
+      "total_in_group": 72
+    },
+    {
+      "benefit": "年终奖",
+      "group": "0-20人",
+      "count": 26,
+      "ratio": 66.7,
+      "total_in_group": 39
+    },
+    {
+      "benefit": "年终奖",
+      "group": "100-499人",
+      "count": 46,
+      "ratio": 53.5,
+      "total_in_group": 86
+    },
+    {
+      "benefit": "年终奖",
+      "group": "1000+人",
+      "count": 94,
+      "ratio": 61.4,
+      "total_in_group": 153
+    },
+    {
+      "benefit": "年终奖",
+      "group": "20-99人",
+      "count": 41,
+      "ratio": 58.6,
+      "total_in_group": 70
+    },
+    {
+      "benefit": "年终奖",
+      "group": "500-999人",
+      "count": 54,
+      "ratio": 75.0,
+      "total_in_group": 72
+    },
+    {
+      "benefit": "零食下午茶",
+      "group": "0-20人",
+      "count": 11,
+      "ratio": 28.2,
+      "total_in_group": 39
+    },
+    {
+      "benefit": "零食下午茶",
+      "group": "100-499人",
+      "count": 53,
+      "ratio": 61.6,
+      "total_in_group": 86
+    },
+    {
+      "benefit": "零食下午茶",
+      "group": "1000+人",
+      "count": 82,
+      "ratio": 53.6,
+      "total_in_group": 153
+    },
+    {
+      "benefit": "零食下午茶",
+      "group": "20-99人",
+      "count": 47,
+      "ratio": 67.1,
+      "total_in_group": 70
+    },
+    {
+      "benefit": "零食下午茶",
+      "group": "500-999人",
+      "count": 49,
+      "ratio": 68.1,
+      "total_in_group": 72
+    },
+    {
+      "benefit": "定期体检",
+      "group": "0-20人",
+      "count": 5,
+      "ratio": 12.8,
+      "total_in_group": 39
+    },
+    {
+      "benefit": "定期体检",
+      "group": "100-499人",
+      "count": 41,
+      "ratio": 47.7,
+      "total_in_group": 86
+    },
+    {
+      "benefit": "定期体检",
+      "group": "1000+人",
+      "count": 116,
+      "ratio": 75.8,
+      "total_in_group": 153
+    },
+    {
+      "benefit": "定期体检",
+      "group": "20-99人",
+      "count": 26,
+      "ratio": 37.1,
+      "total_in_group": 70
+    },
+    {
+      "benefit": "定期体检",
+      "group": "500-999人",
+      "count": 40,
+      "ratio": 55.6,
+      "total_in_group": 72
+    },
+    {
+      "benefit": "员工旅游",
+      "group": "0-20人",
+      "count": 11,
+      "ratio": 28.2,
+      "total_in_group": 39
+    },
+    {
+      "benefit": "员工旅游",
+      "group": "100-499人",
+      "count": 48,
+      "ratio": 55.8,
+      "total_in_group": 86
+    },
+    {
+      "benefit": "员工旅游",
+      "group": "1000+人",
+      "count": 58,
+      "ratio": 37.9,
+      "total_in_group": 153
+    },
+    {
+      "benefit": "员工旅游",
+      "group": "20-99人",
+      "count": 40,
+      "ratio": 57.1,
+      "total_in_group": 70
+    },
+    {
+      "benefit": "员工旅游",
+      "group": "500-999人",
+      "count": 38,
+      "ratio": 52.8,
+      "total_in_group": 72
+    },
+    {
+      "benefit": "绩效奖金",
+      "group": "0-20人",
+      "count": 21,
+      "ratio": 53.8,
+      "total_in_group": 39
+    },
+    {
+      "benefit": "绩效奖金",
+      "group": "100-499人",
+      "count": 47,
+      "ratio": 54.7,
+      "total_in_group": 86
+    },
+    {
+      "benefit": "绩效奖金",
+      "group": "1000+人",
+      "count": 39,
+      "ratio": 25.5,
+      "total_in_group": 153
+    },
+    {
+      "benefit": "绩效奖金",
+      "group": "20-99人",
+      "count": 35,
+      "ratio": 50.0,
+      "total_in_group": 70
+    },
+    {
+      "benefit": "绩效奖金",
+      "group": "500-999人",
+      "count": 40,
+      "ratio": 55.6,
+      "total_in_group": 72
+    },
+    {
+      "benefit": "团建聚餐",
+      "group": "0-20人",
+      "count": 12,
+      "ratio": 30.8,
+      "total_in_group": 39
+    },
+    {
+      "benefit": "团建聚餐",
+      "group": "100-499人",
+      "count": 50,
+      "ratio": 58.1,
+      "total_in_group": 86
+    },
+    {
+      "benefit": "团建聚餐",
+      "group": "1000+人",
+      "count": 39,
+      "ratio": 25.5,
+      "total_in_group": 153
+    },
+    {
+      "benefit": "团建聚餐",
+      "group": "20-99人",
+      "count": 30,
+      "ratio": 42.9,
+      "total_in_group": 70
+    },
+    {
+      "benefit": "团建聚餐",
+      "group": "500-999人",
+      "count": 40,
+      "ratio": 55.6,
+      "total_in_group": 72
+    },
+    {
+      "benefit": "生日福利",
+      "group": "0-20人",
+      "count": 7,
+      "ratio": 17.9,
+      "total_in_group": 39
+    },
+    {
+      "benefit": "生日福利",
+      "group": "100-499人",
+      "count": 40,
+      "ratio": 46.5,
+      "total_in_group": 86
+    },
+    {
+      "benefit": "生日福利",
+      "group": "1000+人",
+      "count": 46,
+      "ratio": 30.1,
+      "total_in_group": 153
+    },
+    {
+      "benefit": "生日福利",
+      "group": "20-99人",
+      "count": 26,
+      "ratio": 37.1,
+      "total_in_group": 70
+    },
+    {
+      "benefit": "生日福利",
+      "group": "500-999人",
+      "count": 35,
+      "ratio": 48.6,
+      "total_in_group": 72
+    },
+    {
+      "benefit": "补充医疗保险",
+      "group": "0-20人",
+      "count": 2,
+      "ratio": 5.1,
+      "total_in_group": 39
+    },
+    {
+      "benefit": "补充医疗保险",
+      "group": "100-499人",
+      "count": 18,
+      "ratio": 20.9,
+      "total_in_group": 86
+    },
+    {
+      "benefit": "补充医疗保险",
+      "group": "1000+人",
+      "count": 75,
+      "ratio": 49.0,
+      "total_in_group": 153
+    },
+    {
+      "benefit": "补充医疗保险",
+      "group": "20-99人",
+      "count": 6,
+      "ratio": 8.6,
+      "total_in_group": 70
+    },
+    {
+      "benefit": "补充医疗保险",
+      "group": "500-999人",
+      "count": 31,
+      "ratio": 43.1,
+      "total_in_group": 72
+    },
+    {
+      "benefit": "餐补",
+      "group": "0-20人",
+      "count": 6,
+      "ratio": 15.4,
+      "total_in_group": 39
+    },
+    {
+      "benefit": "餐补",
+      "group": "100-499人",
+      "count": 26,
+      "ratio": 30.2,
+      "total_in_group": 86
+    },
+    {
+      "benefit": "餐补",
+      "group": "1000+人",
+      "count": 58,
+      "ratio": 37.9,
+      "total_in_group": 153
+    },
+    {
+      "benefit": "餐补",
+      "group": "20-99人",
+      "count": 10,
+      "ratio": 14.3,
+      "total_in_group": 70
+    },
+    {
+      "benefit": "餐补",
+      "group": "500-999人",
+      "count": 24,
+      "ratio": 33.3,
+      "total_in_group": 72
+    },
+    {
+      "benefit": "加班补助",
+      "group": "0-20人",
+      "count": 7,
+      "ratio": 17.9,
+      "total_in_group": 39
+    },
+    {
+      "benefit": "加班补助",
+      "group": "100-499人",
+      "count": 24,
+      "ratio": 27.9,
+      "total_in_group": 86
+    },
+    {
+      "benefit": "加班补助",
+      "group": "1000+人",
+      "count": 38,
+      "ratio": 24.8,
+      "total_in_group": 153
+    },
+    {
+      "benefit": "加班补助",
+      "group": "20-99人",
+      "count": 22,
+      "ratio": 31.4,
+      "total_in_group": 70
+    },
+    {
+      "benefit": "加班补助",
+      "group": "500-999人",
+      "count": 26,
+      "ratio": 36.1,
+      "total_in_group": 72
+    },
+    {
+      "benefit": "交通补助",
+      "group": "0-20人",
+      "count": 5,
+      "ratio": 12.8,
+      "total_in_group": 39
+    },
+    {
+      "benefit": "交通补助",
+      "group": "100-499人",
+      "count": 22,
+      "ratio": 25.6,
+      "total_in_group": 86
+    },
+    {
+      "benefit": "交通补助",
+      "group": "1000+人",
+      "count": 43,
+      "ratio": 28.1,
+      "total_in_group": 153
+    },
+    {
+      "benefit": "交通补助",
+      "group": "20-99人",
+      "count": 12,
+      "ratio": 17.1,
+      "total_in_group": 70
+    },
+    {
+      "benefit": "交通补助",
+      "group": "500-999人",
+      "count": 21,
+      "ratio": 29.2,
+      "total_in_group": 72
+    },
+    {
+      "benefit": "全勤奖",
+      "group": "0-20人",
+      "count": 11,
+      "ratio": 28.2,
+      "total_in_group": 39
+    },
+    {
+      "benefit": "全勤奖",
+      "group": "100-499人",
+      "count": 35,
+      "ratio": 40.7,
+      "total_in_group": 86
+    },
+    {
+      "benefit": "全勤奖",
+      "group": "1000+人",
+      "count": 16,
+      "ratio": 10.5,
+      "total_in_group": 153
+    },
+    {
+      "benefit": "全勤奖",
+      "group": "20-99人",
+      "count": 12,
+      "ratio": 17.1,
+      "total_in_group": 70
+    },
+    {
+      "benefit": "全勤奖",
+      "group": "500-999人",
+      "count": 22,
+      "ratio": 30.6,
+      "total_in_group": 72
+    },
+    {
+      "benefit": "股票期权",
+      "group": "0-20人",
+      "count": 7,
+      "ratio": 17.9,
+      "total_in_group": 39
+    },
+    {
+      "benefit": "股票期权",
+      "group": "100-499人",
+      "count": 11,
+      "ratio": 12.8,
+      "total_in_group": 86
+    },
+    {
+      "benefit": "股票期权",
+      "group": "1000+人",
+      "count": 36,
+      "ratio": 23.5,
+      "total_in_group": 153
+    },
+    {
+      "benefit": "股票期权",
+      "group": "20-99人",
+      "count": 16,
+      "ratio": 22.9,
+      "total_in_group": 70
+    },
+    {
+      "benefit": "股票期权",
+      "group": "500-999人",
+      "count": 18,
+      "ratio": 25.0,
+      "total_in_group": 72
+    },
+    {
+      "benefit": "底薪加提成",
+      "group": "0-20人",
+      "count": 9,
+      "ratio": 23.1,
+      "total_in_group": 39
+    },
+    {
+      "benefit": "底薪加提成",
+      "group": "100-499人",
+      "count": 31,
+      "ratio": 36.0,
+      "total_in_group": 86
+    },
+    {
+      "benefit": "底薪加提成",
+      "group": "1000+人",
+      "count": 13,
+      "ratio": 8.5,
+      "total_in_group": 153
+    },
+    {
+      "benefit": "底薪加提成",
+      "group": "20-99人",
+      "count": 19,
+      "ratio": 27.1,
+      "total_in_group": 70
+    },
+    {
+      "benefit": "底薪加提成",
+      "group": "500-999人",
+      "count": 11,
+      "ratio": 15.3,
+      "total_in_group": 72
+    },
+    {
+      "benefit": "保底工资",
+      "group": "0-20人",
+      "count": 13,
+      "ratio": 33.3,
+      "total_in_group": 39
+    },
+    {
+      "benefit": "保底工资",
+      "group": "100-499人",
+      "count": 20,
+      "ratio": 23.3,
+      "total_in_group": 86
+    },
+    {
+      "benefit": "保底工资",
+      "group": "1000+人",
+      "count": 14,
+      "ratio": 9.2,
+      "total_in_group": 153
+    },
+    {
+      "benefit": "保底工资",
+      "group": "20-99人",
+      "count": 18,
+      "ratio": 25.7,
+      "total_in_group": 70
+    },
+    {
+      "benefit": "保底工资",
+      "group": "500-999人",
+      "count": 15,
+      "ratio": 20.8,
+      "total_in_group": 72
+    },
+    {
+      "benefit": "通讯补贴",
+      "group": "0-20人",
+      "count": 4,
+      "ratio": 10.3,
+      "total_in_group": 39
+    },
+    {
+      "benefit": "通讯补贴",
+      "group": "100-499人",
+      "count": 15,
+      "ratio": 17.4,
+      "total_in_group": 86
+    },
+    {
+      "benefit": "通讯补贴",
+      "group": "1000+人",
+      "count": 36,
+      "ratio": 23.5,
+      "total_in_group": 153
+    },
+    {
+      "benefit": "通讯补贴",
+      "group": "20-99人",
+      "count": 6,
+      "ratio": 8.6,
+      "total_in_group": 70
+    },
+    {
+      "benefit": "通讯补贴",
+      "group": "500-999人",
+      "count": 19,
+      "ratio": 26.4,
+      "total_in_group": 72
+    },
+    {
+      "benefit": "免费班车",
+      "group": "0-20人",
+      "count": 2,
+      "ratio": 5.1,
+      "total_in_group": 39
+    },
+    {
+      "benefit": "免费班车",
+      "group": "100-499人",
+      "count": 3,
+      "ratio": 3.5,
+      "total_in_group": 86
+    },
+    {
+      "benefit": "免费班车",
+      "group": "1000+人",
+      "count": 43,
+      "ratio": 28.1,
+      "total_in_group": 153
+    },
+    {
+      "benefit": "免费班车",
+      "group": "500-999人",
+      "count": 3,
+      "ratio": 4.2,
+      "total_in_group": 72
+    },
+    {
+      "benefit": "有无线网",
+      "group": "0-20人",
+      "count": 6,
+      "ratio": 15.4,
+      "total_in_group": 39
+    },
+    {
+      "benefit": "有无线网",
+      "group": "100-499人",
+      "count": 11,
+      "ratio": 12.8,
+      "total_in_group": 86
+    },
+    {
+      "benefit": "有无线网",
+      "group": "1000+人",
+      "count": 16,
+      "ratio": 10.5,
+      "total_in_group": 153
+    },
+    {
+      "benefit": "有无线网",
+      "group": "20-99人",
+      "count": 12,
+      "ratio": 17.1,
+      "total_in_group": 70
+    },
+    {
+      "benefit": "有无线网",
+      "group": "500-999人",
+      "count": 6,
+      "ratio": 8.3,
+      "total_in_group": 72
+    },
+    {
+      "benefit": "节假日加班费",
+      "group": "0-20人",
+      "count": 5,
+      "ratio": 12.8,
+      "total_in_group": 39
+    },
+    {
+      "benefit": "节假日加班费",
+      "group": "100-499人",
+      "count": 7,
+      "ratio": 8.1,
+      "total_in_group": 86
+    },
+    {
+      "benefit": "节假日加班费",
+      "group": "1000+人",
+      "count": 23,
+      "ratio": 15.0,
+      "total_in_group": 153
+    },
+    {
+      "benefit": "节假日加班费",
+      "group": "20-99人",
+      "count": 3,
+      "ratio": 4.3,
+      "total_in_group": 70
+    },
+    {
+      "benefit": "节假日加班费",
+      "group": "500-999人",
+      "count": 11,
+      "ratio": 15.3,
+      "total_in_group": 72
+    },
+    {
+      "benefit": "包吃",
+      "group": "100-499人",
+      "count": 11,
+      "ratio": 12.8,
+      "total_in_group": 86
+    },
+    {
+      "benefit": "包吃",
+      "group": "1000+人",
+      "count": 19,
+      "ratio": 12.4,
+      "total_in_group": 153
+    },
+    {
+      "benefit": "包吃",
+      "group": "20-99人",
+      "count": 3,
+      "ratio": 4.3,
+      "total_in_group": 70
+    },
+    {
+      "benefit": "包吃",
+      "group": "500-999人",
+      "count": 13,
+      "ratio": 18.1,
+      "total_in_group": 72
+    },
+    {
+      "benefit": "意外险",
+      "group": "0-20人",
+      "count": 4,
+      "ratio": 10.3,
+      "total_in_group": 39
+    },
+    {
+      "benefit": "意外险",
+      "group": "100-499人",
+      "count": 9,
+      "ratio": 10.5,
+      "total_in_group": 86
+    },
+    {
+      "benefit": "意外险",
+      "group": "1000+人",
+      "count": 19,
+      "ratio": 12.4,
+      "total_in_group": 153
+    },
+    {
+      "benefit": "意外险",
+      "group": "20-99人",
+      "count": 2,
+      "ratio": 2.9,
+      "total_in_group": 70
+    },
+    {
+      "benefit": "意外险",
+      "group": "500-999人",
+      "count": 14,
+      "ratio": 19.4,
+      "total_in_group": 72
+    },
+    {
+      "benefit": "工龄奖",
+      "group": "0-20人",
+      "count": 3,
+      "ratio": 7.7,
+      "total_in_group": 39
+    },
+    {
+      "benefit": "工龄奖",
+      "group": "100-499人",
+      "count": 14,
+      "ratio": 16.3,
+      "total_in_group": 86
+    },
+    {
+      "benefit": "工龄奖",
+      "group": "1000+人",
+      "count": 11,
+      "ratio": 7.2,
+      "total_in_group": 153
+    },
+    {
+      "benefit": "工龄奖",
+      "group": "20-99人",
+      "count": 6,
+      "ratio": 8.6,
+      "total_in_group": 70
+    },
+    {
+      "benefit": "工龄奖",
+      "group": "500-999人",
+      "count": 12,
+      "ratio": 16.7,
+      "total_in_group": 72
+    },
+    {
+      "benefit": "法定节假日三薪",
+      "group": "0-20人",
+      "count": 3,
+      "ratio": 7.7,
+      "total_in_group": 39
+    },
+    {
+      "benefit": "法定节假日三薪",
+      "group": "100-499人",
+      "count": 10,
+      "ratio": 11.6,
+      "total_in_group": 86
+    },
+    {
+      "benefit": "法定节假日三薪",
+      "group": "1000+人",
+      "count": 8,
+      "ratio": 5.2,
+      "total_in_group": 153
+    },
+    {
+      "benefit": "法定节假日三薪",
+      "group": "20-99人",
+      "count": 6,
+      "ratio": 8.6,
+      "total_in_group": 70
+    },
+    {
+      "benefit": "法定节假日三薪",
+      "group": "500-999人",
+      "count": 13,
+      "ratio": 18.1,
+      "total_in_group": 72
+    },
+    {
+      "benefit": "住房补贴",
+      "group": "0-20人",
+      "count": 1,
+      "ratio": 2.6,
+      "total_in_group": 39
+    },
+    {
+      "benefit": "住房补贴",
+      "group": "100-499人",
+      "count": 6,
+      "ratio": 7.0,
+      "total_in_group": 86
+    },
+    {
+      "benefit": "住房补贴",
+      "group": "1000+人",
+      "count": 12,
+      "ratio": 7.8,
+      "total_in_group": 153
+    },
+    {
+      "benefit": "住房补贴",
+      "group": "500-999人",
+      "count": 8,
+      "ratio": 11.1,
+      "total_in_group": 72
+    },
+    {
+      "benefit": "高温补贴",
+      "group": "100-499人",
+      "count": 6,
+      "ratio": 7.0,
+      "total_in_group": 86
+    },
+    {
+      "benefit": "高温补贴",
+      "group": "1000+人",
+      "count": 7,
+      "ratio": 4.6,
+      "total_in_group": 153
+    },
+    {
+      "benefit": "高温补贴",
+      "group": "20-99人",
+      "count": 3,
+      "ratio": 4.3,
+      "total_in_group": 70
+    },
+    {
+      "benefit": "高温补贴",
+      "group": "500-999人",
+      "count": 12,
+      "ratio": 16.7,
+      "total_in_group": 72
+    },
+    {
+      "benefit": "免费工装",
+      "group": "100-499人",
+      "count": 5,
+      "ratio": 5.8,
+      "total_in_group": 86
+    },
+    {
+      "benefit": "免费工装",
+      "group": "1000+人",
+      "count": 3,
+      "ratio": 2.0,
+      "total_in_group": 153
+    },
+    {
+      "benefit": "免费工装",
+      "group": "20-99人",
+      "count": 4,
+      "ratio": 5.7,
+      "total_in_group": 70
+    },
+    {
+      "benefit": "免费工装",
+      "group": "500-999人",
+      "count": 10,
+      "ratio": 13.9,
+      "total_in_group": 72
+    },
+    {
+      "benefit": "夜班补助",
+      "group": "0-20人",
+      "count": 1,
+      "ratio": 2.6,
+      "total_in_group": 39
+    },
+    {
+      "benefit": "夜班补助",
+      "group": "100-499人",
+      "count": 3,
+      "ratio": 3.5,
+      "total_in_group": 86
+    },
+    {
+      "benefit": "夜班补助",
+      "group": "1000+人",
+      "count": 5,
+      "ratio": 3.3,
+      "total_in_group": 153
+    },
+    {
+      "benefit": "夜班补助",
+      "group": "20-99人",
+      "count": 2,
+      "ratio": 2.9,
+      "total_in_group": 70
+    },
+    {
+      "benefit": "夜班补助",
+      "group": "500-999人",
+      "count": 7,
+      "ratio": 9.7,
+      "total_in_group": 72
+    }
+  ],
+  "by_stage": [
+    {
+      "benefit": "五险一金",
+      "group": "A轮",
+      "count": 15,
+      "ratio": 100.0,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "五险一金",
+      "group": "B轮",
+      "count": 15,
+      "ratio": 88.2,
+      "total_in_group": 17
+    },
+    {
+      "benefit": "五险一金",
+      "group": "C轮及以上",
+      "count": 16,
+      "ratio": 100.0,
+      "total_in_group": 16
+    },
+    {
+      "benefit": "五险一金",
+      "group": "不需要融资",
+      "count": 112,
+      "ratio": 90.3,
+      "total_in_group": 124
+    },
+    {
+      "benefit": "五险一金",
+      "group": "天使轮",
+      "count": 19,
+      "ratio": 90.5,
+      "total_in_group": 21
+    },
+    {
+      "benefit": "五险一金",
+      "group": "已上市",
+      "count": 76,
+      "ratio": 100.0,
+      "total_in_group": 76
+    },
+    {
+      "benefit": "五险一金",
+      "group": "未知",
+      "count": 9,
+      "ratio": 60.0,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "五险一金",
+      "group": "未融资",
+      "count": 118,
+      "ratio": 86.8,
+      "total_in_group": 136
+    },
+    {
+      "benefit": "节日福利",
+      "group": "A轮",
+      "count": 13,
+      "ratio": 86.7,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "节日福利",
+      "group": "B轮",
+      "count": 17,
+      "ratio": 100.0,
+      "total_in_group": 17
+    },
+    {
+      "benefit": "节日福利",
+      "group": "C轮及以上",
+      "count": 15,
+      "ratio": 93.8,
+      "total_in_group": 16
+    },
+    {
+      "benefit": "节日福利",
+      "group": "不需要融资",
+      "count": 100,
+      "ratio": 80.6,
+      "total_in_group": 124
+    },
+    {
+      "benefit": "节日福利",
+      "group": "天使轮",
+      "count": 15,
+      "ratio": 71.4,
+      "total_in_group": 21
+    },
+    {
+      "benefit": "节日福利",
+      "group": "已上市",
+      "count": 75,
+      "ratio": 98.7,
+      "total_in_group": 76
+    },
+    {
+      "benefit": "节日福利",
+      "group": "未知",
+      "count": 9,
+      "ratio": 60.0,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "节日福利",
+      "group": "未融资",
+      "count": 95,
+      "ratio": 69.9,
+      "total_in_group": 136
+    },
+    {
+      "benefit": "带薪年假",
+      "group": "A轮",
+      "count": 13,
+      "ratio": 86.7,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "带薪年假",
+      "group": "B轮",
+      "count": 16,
+      "ratio": 94.1,
+      "total_in_group": 17
+    },
+    {
+      "benefit": "带薪年假",
+      "group": "C轮及以上",
+      "count": 15,
+      "ratio": 93.8,
+      "total_in_group": 16
+    },
+    {
+      "benefit": "带薪年假",
+      "group": "不需要融资",
+      "count": 99,
+      "ratio": 79.8,
+      "total_in_group": 124
+    },
+    {
+      "benefit": "带薪年假",
+      "group": "天使轮",
+      "count": 12,
+      "ratio": 57.1,
+      "total_in_group": 21
+    },
+    {
+      "benefit": "带薪年假",
+      "group": "已上市",
+      "count": 74,
+      "ratio": 97.4,
+      "total_in_group": 76
+    },
+    {
+      "benefit": "带薪年假",
+      "group": "未知",
+      "count": 4,
+      "ratio": 26.7,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "带薪年假",
+      "group": "未融资",
+      "count": 103,
+      "ratio": 75.7,
+      "total_in_group": 136
+    },
+    {
+      "benefit": "年终奖",
+      "group": "A轮",
+      "count": 11,
+      "ratio": 73.3,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "年终奖",
+      "group": "B轮",
+      "count": 8,
+      "ratio": 47.1,
+      "total_in_group": 17
+    },
+    {
+      "benefit": "年终奖",
+      "group": "C轮及以上",
+      "count": 14,
+      "ratio": 87.5,
+      "total_in_group": 16
+    },
+    {
+      "benefit": "年终奖",
+      "group": "不需要融资",
+      "count": 73,
+      "ratio": 58.9,
+      "total_in_group": 124
+    },
+    {
+      "benefit": "年终奖",
+      "group": "天使轮",
+      "count": 14,
+      "ratio": 66.7,
+      "total_in_group": 21
+    },
+    {
+      "benefit": "年终奖",
+      "group": "已上市",
+      "count": 49,
+      "ratio": 64.5,
+      "total_in_group": 76
+    },
+    {
+      "benefit": "年终奖",
+      "group": "未知",
+      "count": 3,
+      "ratio": 20.0,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "年终奖",
+      "group": "未融资",
+      "count": 89,
+      "ratio": 65.4,
+      "total_in_group": 136
+    },
+    {
+      "benefit": "零食下午茶",
+      "group": "A轮",
+      "count": 10,
+      "ratio": 66.7,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "零食下午茶",
+      "group": "B轮",
+      "count": 11,
+      "ratio": 64.7,
+      "total_in_group": 17
+    },
+    {
+      "benefit": "零食下午茶",
+      "group": "C轮及以上",
+      "count": 12,
+      "ratio": 75.0,
+      "total_in_group": 16
+    },
+    {
+      "benefit": "零食下午茶",
+      "group": "不需要融资",
+      "count": 70,
+      "ratio": 56.5,
+      "total_in_group": 124
+    },
+    {
+      "benefit": "零食下午茶",
+      "group": "天使轮",
+      "count": 16,
+      "ratio": 76.2,
+      "total_in_group": 21
+    },
+    {
+      "benefit": "零食下午茶",
+      "group": "已上市",
+      "count": 46,
+      "ratio": 60.5,
+      "total_in_group": 76
+    },
+    {
+      "benefit": "零食下午茶",
+      "group": "未知",
+      "count": 5,
+      "ratio": 33.3,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "零食下午茶",
+      "group": "未融资",
+      "count": 72,
+      "ratio": 52.9,
+      "total_in_group": 136
+    },
+    {
+      "benefit": "定期体检",
+      "group": "A轮",
+      "count": 7,
+      "ratio": 46.7,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "定期体检",
+      "group": "B轮",
+      "count": 8,
+      "ratio": 47.1,
+      "total_in_group": 17
+    },
+    {
+      "benefit": "定期体检",
+      "group": "C轮及以上",
+      "count": 11,
+      "ratio": 68.8,
+      "total_in_group": 16
+    },
+    {
+      "benefit": "定期体检",
+      "group": "不需要融资",
+      "count": 66,
+      "ratio": 53.2,
+      "total_in_group": 124
+    },
+    {
+      "benefit": "定期体检",
+      "group": "天使轮",
+      "count": 7,
+      "ratio": 33.3,
+      "total_in_group": 21
+    },
+    {
+      "benefit": "定期体检",
+      "group": "已上市",
+      "count": 61,
+      "ratio": 80.3,
+      "total_in_group": 76
+    },
+    {
+      "benefit": "定期体检",
+      "group": "未知",
+      "count": 2,
+      "ratio": 13.3,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "定期体检",
+      "group": "未融资",
+      "count": 66,
+      "ratio": 48.5,
+      "total_in_group": 136
+    },
+    {
+      "benefit": "员工旅游",
+      "group": "A轮",
+      "count": 8,
+      "ratio": 53.3,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "员工旅游",
+      "group": "B轮",
+      "count": 11,
+      "ratio": 64.7,
+      "total_in_group": 17
+    },
+    {
+      "benefit": "员工旅游",
+      "group": "C轮及以上",
+      "count": 10,
+      "ratio": 62.5,
+      "total_in_group": 16
+    },
+    {
+      "benefit": "员工旅游",
+      "group": "不需要融资",
+      "count": 65,
+      "ratio": 52.4,
+      "total_in_group": 124
+    },
+    {
+      "benefit": "员工旅游",
+      "group": "天使轮",
+      "count": 9,
+      "ratio": 42.9,
+      "total_in_group": 21
+    },
+    {
+      "benefit": "员工旅游",
+      "group": "已上市",
+      "count": 25,
+      "ratio": 32.9,
+      "total_in_group": 76
+    },
+    {
+      "benefit": "员工旅游",
+      "group": "未知",
+      "count": 5,
+      "ratio": 33.3,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "员工旅游",
+      "group": "未融资",
+      "count": 62,
+      "ratio": 45.6,
+      "total_in_group": 136
+    },
+    {
+      "benefit": "绩效奖金",
+      "group": "A轮",
+      "count": 9,
+      "ratio": 60.0,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "绩效奖金",
+      "group": "B轮",
+      "count": 12,
+      "ratio": 70.6,
+      "total_in_group": 17
+    },
+    {
+      "benefit": "绩效奖金",
+      "group": "C轮及以上",
+      "count": 8,
+      "ratio": 50.0,
+      "total_in_group": 16
+    },
+    {
+      "benefit": "绩效奖金",
+      "group": "不需要融资",
+      "count": 55,
+      "ratio": 44.4,
+      "total_in_group": 124
+    },
+    {
+      "benefit": "绩效奖金",
+      "group": "天使轮",
+      "count": 12,
+      "ratio": 57.1,
+      "total_in_group": 21
+    },
+    {
+      "benefit": "绩效奖金",
+      "group": "已上市",
+      "count": 11,
+      "ratio": 14.5,
+      "total_in_group": 76
+    },
+    {
+      "benefit": "绩效奖金",
+      "group": "未知",
+      "count": 5,
+      "ratio": 33.3,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "绩效奖金",
+      "group": "未融资",
+      "count": 70,
+      "ratio": 51.5,
+      "total_in_group": 136
+    },
+    {
+      "benefit": "团建聚餐",
+      "group": "A轮",
+      "count": 10,
+      "ratio": 66.7,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "团建聚餐",
+      "group": "B轮",
+      "count": 13,
+      "ratio": 76.5,
+      "total_in_group": 17
+    },
+    {
+      "benefit": "团建聚餐",
+      "group": "C轮及以上",
+      "count": 8,
+      "ratio": 50.0,
+      "total_in_group": 16
+    },
+    {
+      "benefit": "团建聚餐",
+      "group": "不需要融资",
+      "count": 53,
+      "ratio": 42.7,
+      "total_in_group": 124
+    },
+    {
+      "benefit": "团建聚餐",
+      "group": "天使轮",
+      "count": 13,
+      "ratio": 61.9,
+      "total_in_group": 21
+    },
+    {
+      "benefit": "团建聚餐",
+      "group": "已上市",
+      "count": 14,
+      "ratio": 18.4,
+      "total_in_group": 76
+    },
+    {
+      "benefit": "团建聚餐",
+      "group": "未知",
+      "count": 5,
+      "ratio": 33.3,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "团建聚餐",
+      "group": "未融资",
+      "count": 55,
+      "ratio": 40.4,
+      "total_in_group": 136
+    },
+    {
+      "benefit": "生日福利",
+      "group": "A轮",
+      "count": 8,
+      "ratio": 53.3,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "生日福利",
+      "group": "B轮",
+      "count": 7,
+      "ratio": 41.2,
+      "total_in_group": 17
+    },
+    {
+      "benefit": "生日福利",
+      "group": "C轮及以上",
+      "count": 4,
+      "ratio": 25.0,
+      "total_in_group": 16
+    },
+    {
+      "benefit": "生日福利",
+      "group": "不需要融资",
+      "count": 49,
+      "ratio": 39.5,
+      "total_in_group": 124
+    },
+    {
+      "benefit": "生日福利",
+      "group": "天使轮",
+      "count": 10,
+      "ratio": 47.6,
+      "total_in_group": 21
+    },
+    {
+      "benefit": "生日福利",
+      "group": "已上市",
+      "count": 18,
+      "ratio": 23.7,
+      "total_in_group": 76
+    },
+    {
+      "benefit": "生日福利",
+      "group": "未知",
+      "count": 6,
+      "ratio": 40.0,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "生日福利",
+      "group": "未融资",
+      "count": 52,
+      "ratio": 38.2,
+      "total_in_group": 136
+    },
+    {
+      "benefit": "补充医疗保险",
+      "group": "B轮",
+      "count": 3,
+      "ratio": 17.6,
+      "total_in_group": 17
+    },
+    {
+      "benefit": "补充医疗保险",
+      "group": "C轮及以上",
+      "count": 7,
+      "ratio": 43.8,
+      "total_in_group": 16
+    },
+    {
+      "benefit": "补充医疗保险",
+      "group": "不需要融资",
+      "count": 56,
+      "ratio": 45.2,
+      "total_in_group": 124
+    },
+    {
+      "benefit": "补充医疗保险",
+      "group": "已上市",
+      "count": 32,
+      "ratio": 42.1,
+      "total_in_group": 76
+    },
+    {
+      "benefit": "补充医疗保险",
+      "group": "未融资",
+      "count": 34,
+      "ratio": 25.0,
+      "total_in_group": 136
+    },
+    {
+      "benefit": "餐补",
+      "group": "A轮",
+      "count": 5,
+      "ratio": 33.3,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "餐补",
+      "group": "B轮",
+      "count": 6,
+      "ratio": 35.3,
+      "total_in_group": 17
+    },
+    {
+      "benefit": "餐补",
+      "group": "C轮及以上",
+      "count": 11,
+      "ratio": 68.8,
+      "total_in_group": 16
+    },
+    {
+      "benefit": "餐补",
+      "group": "不需要融资",
+      "count": 44,
+      "ratio": 35.5,
+      "total_in_group": 124
+    },
+    {
+      "benefit": "餐补",
+      "group": "天使轮",
+      "count": 4,
+      "ratio": 19.0,
+      "total_in_group": 21
+    },
+    {
+      "benefit": "餐补",
+      "group": "已上市",
+      "count": 26,
+      "ratio": 34.2,
+      "total_in_group": 76
+    },
+    {
+      "benefit": "餐补",
+      "group": "未融资",
+      "count": 28,
+      "ratio": 20.6,
+      "total_in_group": 136
+    },
+    {
+      "benefit": "加班补助",
+      "group": "A轮",
+      "count": 3,
+      "ratio": 20.0,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "加班补助",
+      "group": "B轮",
+      "count": 3,
+      "ratio": 17.6,
+      "total_in_group": 17
+    },
+    {
+      "benefit": "加班补助",
+      "group": "C轮及以上",
+      "count": 11,
+      "ratio": 68.8,
+      "total_in_group": 16
+    },
+    {
+      "benefit": "加班补助",
+      "group": "不需要融资",
+      "count": 32,
+      "ratio": 25.8,
+      "total_in_group": 124
+    },
+    {
+      "benefit": "加班补助",
+      "group": "天使轮",
+      "count": 8,
+      "ratio": 38.1,
+      "total_in_group": 21
+    },
+    {
+      "benefit": "加班补助",
+      "group": "已上市",
+      "count": 16,
+      "ratio": 21.1,
+      "total_in_group": 76
+    },
+    {
+      "benefit": "加班补助",
+      "group": "未知",
+      "count": 1,
+      "ratio": 6.7,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "加班补助",
+      "group": "未融资",
+      "count": 43,
+      "ratio": 31.6,
+      "total_in_group": 136
+    },
+    {
+      "benefit": "交通补助",
+      "group": "A轮",
+      "count": 4,
+      "ratio": 26.7,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "交通补助",
+      "group": "B轮",
+      "count": 8,
+      "ratio": 47.1,
+      "total_in_group": 17
+    },
+    {
+      "benefit": "交通补助",
+      "group": "C轮及以上",
+      "count": 6,
+      "ratio": 37.5,
+      "total_in_group": 16
+    },
+    {
+      "benefit": "交通补助",
+      "group": "不需要融资",
+      "count": 32,
+      "ratio": 25.8,
+      "total_in_group": 124
+    },
+    {
+      "benefit": "交通补助",
+      "group": "天使轮",
+      "count": 4,
+      "ratio": 19.0,
+      "total_in_group": 21
+    },
+    {
+      "benefit": "交通补助",
+      "group": "已上市",
+      "count": 25,
+      "ratio": 32.9,
+      "total_in_group": 76
+    },
+    {
+      "benefit": "交通补助",
+      "group": "未融资",
+      "count": 24,
+      "ratio": 17.6,
+      "total_in_group": 136
+    },
+    {
+      "benefit": "全勤奖",
+      "group": "A轮",
+      "count": 4,
+      "ratio": 26.7,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "全勤奖",
+      "group": "B轮",
+      "count": 2,
+      "ratio": 11.8,
+      "total_in_group": 17
+    },
+    {
+      "benefit": "全勤奖",
+      "group": "C轮及以上",
+      "count": 4,
+      "ratio": 25.0,
+      "total_in_group": 16
+    },
+    {
+      "benefit": "全勤奖",
+      "group": "不需要融资",
+      "count": 32,
+      "ratio": 25.8,
+      "total_in_group": 124
+    },
+    {
+      "benefit": "全勤奖",
+      "group": "天使轮",
+      "count": 1,
+      "ratio": 4.8,
+      "total_in_group": 21
+    },
+    {
+      "benefit": "全勤奖",
+      "group": "已上市",
+      "count": 5,
+      "ratio": 6.6,
+      "total_in_group": 76
+    },
+    {
+      "benefit": "全勤奖",
+      "group": "未知",
+      "count": 7,
+      "ratio": 46.7,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "全勤奖",
+      "group": "未融资",
+      "count": 41,
+      "ratio": 30.1,
+      "total_in_group": 136
+    },
+    {
+      "benefit": "股票期权",
+      "group": "A轮",
+      "count": 6,
+      "ratio": 40.0,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "股票期权",
+      "group": "B轮",
+      "count": 2,
+      "ratio": 11.8,
+      "total_in_group": 17
+    },
+    {
+      "benefit": "股票期权",
+      "group": "C轮及以上",
+      "count": 10,
+      "ratio": 62.5,
+      "total_in_group": 16
+    },
+    {
+      "benefit": "股票期权",
+      "group": "不需要融资",
+      "count": 22,
+      "ratio": 17.7,
+      "total_in_group": 124
+    },
+    {
+      "benefit": "股票期权",
+      "group": "天使轮",
+      "count": 7,
+      "ratio": 33.3,
+      "total_in_group": 21
+    },
+    {
+      "benefit": "股票期权",
+      "group": "已上市",
+      "count": 17,
+      "ratio": 22.4,
+      "total_in_group": 76
+    },
+    {
+      "benefit": "股票期权",
+      "group": "未知",
+      "count": 1,
+      "ratio": 6.7,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "股票期权",
+      "group": "未融资",
+      "count": 23,
+      "ratio": 16.9,
+      "total_in_group": 136
+    },
+    {
+      "benefit": "底薪加提成",
+      "group": "A轮",
+      "count": 2,
+      "ratio": 13.3,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "底薪加提成",
+      "group": "B轮",
+      "count": 11,
+      "ratio": 64.7,
+      "total_in_group": 17
+    },
+    {
+      "benefit": "底薪加提成",
+      "group": "C轮及以上",
+      "count": 1,
+      "ratio": 6.2,
+      "total_in_group": 16
+    },
+    {
+      "benefit": "底薪加提成",
+      "group": "不需要融资",
+      "count": 30,
+      "ratio": 24.2,
+      "total_in_group": 124
+    },
+    {
+      "benefit": "底薪加提成",
+      "group": "天使轮",
+      "count": 5,
+      "ratio": 23.8,
+      "total_in_group": 21
+    },
+    {
+      "benefit": "底薪加提成",
+      "group": "已上市",
+      "count": 3,
+      "ratio": 3.9,
+      "total_in_group": 76
+    },
+    {
+      "benefit": "底薪加提成",
+      "group": "未知",
+      "count": 4,
+      "ratio": 26.7,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "底薪加提成",
+      "group": "未融资",
+      "count": 27,
+      "ratio": 19.9,
+      "total_in_group": 136
+    },
+    {
+      "benefit": "保底工资",
+      "group": "A轮",
+      "count": 6,
+      "ratio": 40.0,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "保底工资",
+      "group": "B轮",
+      "count": 1,
+      "ratio": 5.9,
+      "total_in_group": 17
+    },
+    {
+      "benefit": "保底工资",
+      "group": "C轮及以上",
+      "count": 1,
+      "ratio": 6.2,
+      "total_in_group": 16
+    },
+    {
+      "benefit": "保底工资",
+      "group": "不需要融资",
+      "count": 32,
+      "ratio": 25.8,
+      "total_in_group": 124
+    },
+    {
+      "benefit": "保底工资",
+      "group": "天使轮",
+      "count": 10,
+      "ratio": 47.6,
+      "total_in_group": 21
+    },
+    {
+      "benefit": "保底工资",
+      "group": "已上市",
+      "count": 4,
+      "ratio": 5.3,
+      "total_in_group": 76
+    },
+    {
+      "benefit": "保底工资",
+      "group": "未知",
+      "count": 3,
+      "ratio": 20.0,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "保底工资",
+      "group": "未融资",
+      "count": 23,
+      "ratio": 16.9,
+      "total_in_group": 136
+    },
+    {
+      "benefit": "通讯补贴",
+      "group": "A轮",
+      "count": 3,
+      "ratio": 20.0,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "通讯补贴",
+      "group": "B轮",
+      "count": 2,
+      "ratio": 11.8,
+      "total_in_group": 17
+    },
+    {
+      "benefit": "通讯补贴",
+      "group": "C轮及以上",
+      "count": 8,
+      "ratio": 50.0,
+      "total_in_group": 16
+    },
+    {
+      "benefit": "通讯补贴",
+      "group": "不需要融资",
+      "count": 23,
+      "ratio": 18.5,
+      "total_in_group": 124
+    },
+    {
+      "benefit": "通讯补贴",
+      "group": "天使轮",
+      "count": 1,
+      "ratio": 4.8,
+      "total_in_group": 21
+    },
+    {
+      "benefit": "通讯补贴",
+      "group": "已上市",
+      "count": 23,
+      "ratio": 30.3,
+      "total_in_group": 76
+    },
+    {
+      "benefit": "通讯补贴",
+      "group": "未知",
+      "count": 1,
+      "ratio": 6.7,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "通讯补贴",
+      "group": "未融资",
+      "count": 19,
+      "ratio": 14.0,
+      "total_in_group": 136
+    },
+    {
+      "benefit": "免费班车",
+      "group": "不需要融资",
+      "count": 7,
+      "ratio": 5.6,
+      "total_in_group": 124
+    },
+    {
+      "benefit": "免费班车",
+      "group": "已上市",
+      "count": 31,
+      "ratio": 40.8,
+      "total_in_group": 76
+    },
+    {
+      "benefit": "免费班车",
+      "group": "未知",
+      "count": 1,
+      "ratio": 6.7,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "免费班车",
+      "group": "未融资",
+      "count": 12,
+      "ratio": 8.8,
+      "total_in_group": 136
+    },
+    {
+      "benefit": "有无线网",
+      "group": "A轮",
+      "count": 2,
+      "ratio": 13.3,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "有无线网",
+      "group": "B轮",
+      "count": 6,
+      "ratio": 35.3,
+      "total_in_group": 17
+    },
+    {
+      "benefit": "有无线网",
+      "group": "不需要融资",
+      "count": 20,
+      "ratio": 16.1,
+      "total_in_group": 124
+    },
+    {
+      "benefit": "有无线网",
+      "group": "天使轮",
+      "count": 8,
+      "ratio": 38.1,
+      "total_in_group": 21
+    },
+    {
+      "benefit": "有无线网",
+      "group": "已上市",
+      "count": 1,
+      "ratio": 1.3,
+      "total_in_group": 76
+    },
+    {
+      "benefit": "有无线网",
+      "group": "未融资",
+      "count": 14,
+      "ratio": 10.3,
+      "total_in_group": 136
+    },
+    {
+      "benefit": "节假日加班费",
+      "group": "A轮",
+      "count": 2,
+      "ratio": 13.3,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "节假日加班费",
+      "group": "B轮",
+      "count": 6,
+      "ratio": 35.3,
+      "total_in_group": 17
+    },
+    {
+      "benefit": "节假日加班费",
+      "group": "C轮及以上",
+      "count": 3,
+      "ratio": 18.8,
+      "total_in_group": 16
+    },
+    {
+      "benefit": "节假日加班费",
+      "group": "不需要融资",
+      "count": 8,
+      "ratio": 6.5,
+      "total_in_group": 124
+    },
+    {
+      "benefit": "节假日加班费",
+      "group": "天使轮",
+      "count": 3,
+      "ratio": 14.3,
+      "total_in_group": 21
+    },
+    {
+      "benefit": "节假日加班费",
+      "group": "已上市",
+      "count": 11,
+      "ratio": 14.5,
+      "total_in_group": 76
+    },
+    {
+      "benefit": "节假日加班费",
+      "group": "未知",
+      "count": 2,
+      "ratio": 13.3,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "节假日加班费",
+      "group": "未融资",
+      "count": 14,
+      "ratio": 10.3,
+      "total_in_group": 136
+    },
+    {
+      "benefit": "包吃",
+      "group": "B轮",
+      "count": 2,
+      "ratio": 11.8,
+      "total_in_group": 17
+    },
+    {
+      "benefit": "包吃",
+      "group": "不需要融资",
+      "count": 18,
+      "ratio": 14.5,
+      "total_in_group": 124
+    },
+    {
+      "benefit": "包吃",
+      "group": "天使轮",
+      "count": 1,
+      "ratio": 4.8,
+      "total_in_group": 21
+    },
+    {
+      "benefit": "包吃",
+      "group": "已上市",
+      "count": 10,
+      "ratio": 13.2,
+      "total_in_group": 76
+    },
+    {
+      "benefit": "包吃",
+      "group": "未知",
+      "count": 1,
+      "ratio": 6.7,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "包吃",
+      "group": "未融资",
+      "count": 14,
+      "ratio": 10.3,
+      "total_in_group": 136
+    },
+    {
+      "benefit": "意外险",
+      "group": "A轮",
+      "count": 4,
+      "ratio": 26.7,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "意外险",
+      "group": "B轮",
+      "count": 2,
+      "ratio": 11.8,
+      "total_in_group": 17
+    },
+    {
+      "benefit": "意外险",
+      "group": "C轮及以上",
+      "count": 1,
+      "ratio": 6.2,
+      "total_in_group": 16
+    },
+    {
+      "benefit": "意外险",
+      "group": "不需要融资",
+      "count": 20,
+      "ratio": 16.1,
+      "total_in_group": 124
+    },
+    {
+      "benefit": "意外险",
+      "group": "已上市",
+      "count": 2,
+      "ratio": 2.6,
+      "total_in_group": 76
+    },
+    {
+      "benefit": "意外险",
+      "group": "未知",
+      "count": 1,
+      "ratio": 6.7,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "意外险",
+      "group": "未融资",
+      "count": 18,
+      "ratio": 13.2,
+      "total_in_group": 136
+    },
+    {
+      "benefit": "工龄奖",
+      "group": "A轮",
+      "count": 3,
+      "ratio": 20.0,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "工龄奖",
+      "group": "不需要融资",
+      "count": 13,
+      "ratio": 10.5,
+      "total_in_group": 124
+    },
+    {
+      "benefit": "工龄奖",
+      "group": "天使轮",
+      "count": 2,
+      "ratio": 9.5,
+      "total_in_group": 21
+    },
+    {
+      "benefit": "工龄奖",
+      "group": "已上市",
+      "count": 3,
+      "ratio": 3.9,
+      "total_in_group": 76
+    },
+    {
+      "benefit": "工龄奖",
+      "group": "未知",
+      "count": 4,
+      "ratio": 26.7,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "工龄奖",
+      "group": "未融资",
+      "count": 21,
+      "ratio": 15.4,
+      "total_in_group": 136
+    },
+    {
+      "benefit": "法定节假日三薪",
+      "group": "A轮",
+      "count": 2,
+      "ratio": 13.3,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "法定节假日三薪",
+      "group": "B轮",
+      "count": 2,
+      "ratio": 11.8,
+      "total_in_group": 17
+    },
+    {
+      "benefit": "法定节假日三薪",
+      "group": "C轮及以上",
+      "count": 3,
+      "ratio": 18.8,
+      "total_in_group": 16
+    },
+    {
+      "benefit": "法定节假日三薪",
+      "group": "不需要融资",
+      "count": 10,
+      "ratio": 8.1,
+      "total_in_group": 124
+    },
+    {
+      "benefit": "法定节假日三薪",
+      "group": "天使轮",
+      "count": 2,
+      "ratio": 9.5,
+      "total_in_group": 21
+    },
+    {
+      "benefit": "法定节假日三薪",
+      "group": "已上市",
+      "count": 6,
+      "ratio": 7.9,
+      "total_in_group": 76
+    },
+    {
+      "benefit": "法定节假日三薪",
+      "group": "未知",
+      "count": 1,
+      "ratio": 6.7,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "法定节假日三薪",
+      "group": "未融资",
+      "count": 14,
+      "ratio": 10.3,
+      "total_in_group": 136
+    },
+    {
+      "benefit": "住房补贴",
+      "group": "A轮",
+      "count": 3,
+      "ratio": 20.0,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "住房补贴",
+      "group": "不需要融资",
+      "count": 10,
+      "ratio": 8.1,
+      "total_in_group": 124
+    },
+    {
+      "benefit": "住房补贴",
+      "group": "已上市",
+      "count": 4,
+      "ratio": 5.3,
+      "total_in_group": 76
+    },
+    {
+      "benefit": "住房补贴",
+      "group": "未知",
+      "count": 1,
+      "ratio": 6.7,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "住房补贴",
+      "group": "未融资",
+      "count": 9,
+      "ratio": 6.6,
+      "total_in_group": 136
+    },
+    {
+      "benefit": "高温补贴",
+      "group": "B轮",
+      "count": 1,
+      "ratio": 5.9,
+      "total_in_group": 17
+    },
+    {
+      "benefit": "高温补贴",
+      "group": "C轮及以上",
+      "count": 2,
+      "ratio": 12.5,
+      "total_in_group": 16
+    },
+    {
+      "benefit": "高温补贴",
+      "group": "不需要融资",
+      "count": 9,
+      "ratio": 7.3,
+      "total_in_group": 124
+    },
+    {
+      "benefit": "高温补贴",
+      "group": "未知",
+      "count": 2,
+      "ratio": 13.3,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "高温补贴",
+      "group": "未融资",
+      "count": 14,
+      "ratio": 10.3,
+      "total_in_group": 136
+    },
+    {
+      "benefit": "免费工装",
+      "group": "不需要融资",
+      "count": 2,
+      "ratio": 1.6,
+      "total_in_group": 124
+    },
+    {
+      "benefit": "免费工装",
+      "group": "天使轮",
+      "count": 1,
+      "ratio": 4.8,
+      "total_in_group": 21
+    },
+    {
+      "benefit": "免费工装",
+      "group": "已上市",
+      "count": 1,
+      "ratio": 1.3,
+      "total_in_group": 76
+    },
+    {
+      "benefit": "免费工装",
+      "group": "未知",
+      "count": 2,
+      "ratio": 13.3,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "免费工装",
+      "group": "未融资",
+      "count": 16,
+      "ratio": 11.8,
+      "total_in_group": 136
+    },
+    {
+      "benefit": "夜班补助",
+      "group": "A轮",
+      "count": 1,
+      "ratio": 6.7,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "夜班补助",
+      "group": "不需要融资",
+      "count": 11,
+      "ratio": 8.9,
+      "total_in_group": 124
+    },
+    {
+      "benefit": "夜班补助",
+      "group": "未知",
+      "count": 1,
+      "ratio": 6.7,
+      "total_in_group": 15
+    },
+    {
+      "benefit": "夜班补助",
+      "group": "未融资",
+      "count": 5,
+      "ratio": 3.7,
+      "total_in_group": 136
+    }
+  ],
+  "by_size_stage": [
+    {
+      "benefit": "14天探亲假",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 1,
+      "total": 31,
+      "ratio": 3.2
+    },
+    {
+      "benefit": "七险二金",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 2,
+      "total": 42,
+      "ratio": 4.8
+    },
+    {
+      "benefit": "专家会诊",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 1,
+      "total": 67,
+      "ratio": 1.5
+    },
+    {
+      "benefit": "五险",
+      "size_group": "100-499人",
+      "stage_group": "B轮",
+      "count": 1,
+      "total": 5,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "五险",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 3,
+      "total": 31,
+      "ratio": 9.7
+    },
+    {
+      "benefit": "五险",
+      "size_group": "20-99人",
+      "stage_group": "天使轮",
+      "count": 2,
+      "total": 14,
+      "ratio": 14.3
+    },
+    {
+      "benefit": "五险",
+      "size_group": "20-99人",
+      "stage_group": "未知",
+      "count": 2,
+      "total": 7,
+      "ratio": 28.6
+    },
+    {
+      "benefit": "五险",
+      "size_group": "20-99人",
+      "stage_group": "未融资",
+      "count": 5,
+      "total": 29,
+      "ratio": 17.2
+    },
+    {
+      "benefit": "五险一金",
+      "size_group": "0-20人",
+      "stage_group": "不需要融资",
+      "count": 7,
+      "total": 8,
+      "ratio": 87.5
+    },
+    {
+      "benefit": "五险一金",
+      "size_group": "0-20人",
+      "stage_group": "天使轮",
+      "count": 6,
+      "total": 6,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "五险一金",
+      "size_group": "0-20人",
+      "stage_group": "未知",
+      "count": 4,
+      "total": 5,
+      "ratio": 80.0
+    },
+    {
+      "benefit": "五险一金",
+      "size_group": "0-20人",
+      "stage_group": "未融资",
+      "count": 18,
+      "total": 20,
+      "ratio": 90.0
+    },
+    {
+      "benefit": "五险一金",
+      "size_group": "100-499人",
+      "stage_group": "A轮",
+      "count": 6,
+      "total": 6,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "五险一金",
+      "size_group": "100-499人",
+      "stage_group": "B轮",
+      "count": 4,
+      "total": 5,
+      "ratio": 80.0
+    },
+    {
+      "benefit": "五险一金",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 24,
+      "total": 31,
+      "ratio": 77.4
+    },
+    {
+      "benefit": "五险一金",
+      "size_group": "100-499人",
+      "stage_group": "天使轮",
+      "count": 1,
+      "total": 1,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "五险一金",
+      "size_group": "100-499人",
+      "stage_group": "已上市",
+      "count": 3,
+      "total": 3,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "五险一金",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 31,
+      "total": 38,
+      "ratio": 81.6
+    },
+    {
+      "benefit": "五险一金",
+      "size_group": "1000+人",
+      "stage_group": "A轮",
+      "count": 2,
+      "total": 2,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "五险一金",
+      "size_group": "1000+人",
+      "stage_group": "B轮",
+      "count": 7,
+      "total": 7,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "五险一金",
+      "size_group": "1000+人",
+      "stage_group": "C轮及以上",
+      "count": 9,
+      "total": 9,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "五险一金",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 40,
+      "total": 42,
+      "ratio": 95.2
+    },
+    {
+      "benefit": "五险一金",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 67,
+      "total": 67,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "五险一金",
+      "size_group": "1000+人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 1,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "五险一金",
+      "size_group": "1000+人",
+      "stage_group": "未融资",
+      "count": 24,
+      "total": 25,
+      "ratio": 96.0
+    },
+    {
+      "benefit": "五险一金",
+      "size_group": "20-99人",
+      "stage_group": "A轮",
+      "count": 4,
+      "total": 4,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "五险一金",
+      "size_group": "20-99人",
+      "stage_group": "不需要融资",
+      "count": 14,
+      "total": 16,
+      "ratio": 87.5
+    },
+    {
+      "benefit": "五险一金",
+      "size_group": "20-99人",
+      "stage_group": "天使轮",
+      "count": 12,
+      "total": 14,
+      "ratio": 85.7
+    },
+    {
+      "benefit": "五险一金",
+      "size_group": "20-99人",
+      "stage_group": "未知",
+      "count": 4,
+      "total": 7,
+      "ratio": 57.1
+    },
+    {
+      "benefit": "五险一金",
+      "size_group": "20-99人",
+      "stage_group": "未融资",
+      "count": 22,
+      "total": 29,
+      "ratio": 75.9
+    },
+    {
+      "benefit": "五险一金",
+      "size_group": "500-999人",
+      "stage_group": "A轮",
+      "count": 3,
+      "total": 3,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "五险一金",
+      "size_group": "500-999人",
+      "stage_group": "B轮",
+      "count": 4,
+      "total": 5,
+      "ratio": 80.0
+    },
+    {
+      "benefit": "五险一金",
+      "size_group": "500-999人",
+      "stage_group": "C轮及以上",
+      "count": 7,
+      "total": 7,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "五险一金",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 27,
+      "total": 27,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "五险一金",
+      "size_group": "500-999人",
+      "stage_group": "已上市",
+      "count": 6,
+      "total": 6,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "五险一金",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 23,
+      "total": 24,
+      "ratio": 95.8
+    },
+    {
+      "benefit": "交通便利",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 38,
+      "ratio": 2.6
+    },
+    {
+      "benefit": "交通补助",
+      "size_group": "0-20人",
+      "stage_group": "不需要融资",
+      "count": 3,
+      "total": 8,
+      "ratio": 37.5
+    },
+    {
+      "benefit": "交通补助",
+      "size_group": "0-20人",
+      "stage_group": "天使轮",
+      "count": 1,
+      "total": 6,
+      "ratio": 16.7
+    },
+    {
+      "benefit": "交通补助",
+      "size_group": "0-20人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 20,
+      "ratio": 5.0
+    },
+    {
+      "benefit": "交通补助",
+      "size_group": "100-499人",
+      "stage_group": "A轮",
+      "count": 2,
+      "total": 6,
+      "ratio": 33.3
+    },
+    {
+      "benefit": "交通补助",
+      "size_group": "100-499人",
+      "stage_group": "B轮",
+      "count": 1,
+      "total": 5,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "交通补助",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 7,
+      "total": 31,
+      "ratio": 22.6
+    },
+    {
+      "benefit": "交通补助",
+      "size_group": "100-499人",
+      "stage_group": "已上市",
+      "count": 2,
+      "total": 3,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "交通补助",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 10,
+      "total": 38,
+      "ratio": 26.3
+    },
+    {
+      "benefit": "交通补助",
+      "size_group": "1000+人",
+      "stage_group": "B轮",
+      "count": 7,
+      "total": 7,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "交通补助",
+      "size_group": "1000+人",
+      "stage_group": "C轮及以上",
+      "count": 1,
+      "total": 9,
+      "ratio": 11.1
+    },
+    {
+      "benefit": "交通补助",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 12,
+      "total": 42,
+      "ratio": 28.6
+    },
+    {
+      "benefit": "交通补助",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 20,
+      "total": 67,
+      "ratio": 29.9
+    },
+    {
+      "benefit": "交通补助",
+      "size_group": "1000+人",
+      "stage_group": "未融资",
+      "count": 3,
+      "total": 25,
+      "ratio": 12.0
+    },
+    {
+      "benefit": "交通补助",
+      "size_group": "20-99人",
+      "stage_group": "不需要融资",
+      "count": 1,
+      "total": 16,
+      "ratio": 6.2
+    },
+    {
+      "benefit": "交通补助",
+      "size_group": "20-99人",
+      "stage_group": "天使轮",
+      "count": 3,
+      "total": 14,
+      "ratio": 21.4
+    },
+    {
+      "benefit": "交通补助",
+      "size_group": "20-99人",
+      "stage_group": "未融资",
+      "count": 8,
+      "total": 29,
+      "ratio": 27.6
+    },
+    {
+      "benefit": "交通补助",
+      "size_group": "500-999人",
+      "stage_group": "A轮",
+      "count": 2,
+      "total": 3,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "交通补助",
+      "size_group": "500-999人",
+      "stage_group": "C轮及以上",
+      "count": 5,
+      "total": 7,
+      "ratio": 71.4
+    },
+    {
+      "benefit": "交通补助",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 9,
+      "total": 27,
+      "ratio": 33.3
+    },
+    {
+      "benefit": "交通补助",
+      "size_group": "500-999人",
+      "stage_group": "已上市",
+      "count": 3,
+      "total": 6,
+      "ratio": 50.0
+    },
+    {
+      "benefit": "交通补助",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 2,
+      "total": 24,
+      "ratio": 8.3
+    },
+    {
+      "benefit": "人才落户",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 38,
+      "ratio": 2.6
+    },
+    {
+      "benefit": "企业年金",
+      "size_group": "0-20人",
+      "stage_group": "天使轮",
+      "count": 1,
+      "total": 6,
+      "ratio": 16.7
+    },
+    {
+      "benefit": "企业年金",
+      "size_group": "100-499人",
+      "stage_group": "B轮",
+      "count": 1,
+      "total": 5,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "企业年金",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 1,
+      "total": 31,
+      "ratio": 3.2
+    },
+    {
+      "benefit": "企业年金",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 3,
+      "total": 38,
+      "ratio": 7.9
+    },
+    {
+      "benefit": "企业年金",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 2,
+      "total": 42,
+      "ratio": 4.8
+    },
+    {
+      "benefit": "企业年金",
+      "size_group": "1000+人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 1,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "企业年金",
+      "size_group": "1000+人",
+      "stage_group": "未融资",
+      "count": 4,
+      "total": 25,
+      "ratio": 16.0
+    },
+    {
+      "benefit": "企业年金",
+      "size_group": "500-999人",
+      "stage_group": "A轮",
+      "count": 2,
+      "total": 3,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "企业年金",
+      "size_group": "500-999人",
+      "stage_group": "B轮",
+      "count": 2,
+      "total": 5,
+      "ratio": 40.0
+    },
+    {
+      "benefit": "企业文化",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 4,
+      "total": 67,
+      "ratio": 6.0
+    },
+    {
+      "benefit": "住房补贴",
+      "size_group": "0-20人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 5,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "住房补贴",
+      "size_group": "100-499人",
+      "stage_group": "A轮",
+      "count": 1,
+      "total": 6,
+      "ratio": 16.7
+    },
+    {
+      "benefit": "住房补贴",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 2,
+      "total": 31,
+      "ratio": 6.5
+    },
+    {
+      "benefit": "住房补贴",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 3,
+      "total": 38,
+      "ratio": 7.9
+    },
+    {
+      "benefit": "住房补贴",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 5,
+      "total": 42,
+      "ratio": 11.9
+    },
+    {
+      "benefit": "住房补贴",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 3,
+      "total": 67,
+      "ratio": 4.5
+    },
+    {
+      "benefit": "住房补贴",
+      "size_group": "1000+人",
+      "stage_group": "未融资",
+      "count": 4,
+      "total": 25,
+      "ratio": 16.0
+    },
+    {
+      "benefit": "住房补贴",
+      "size_group": "500-999人",
+      "stage_group": "A轮",
+      "count": 2,
+      "total": 3,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "住房补贴",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 3,
+      "total": 27,
+      "ratio": 11.1
+    },
+    {
+      "benefit": "住房补贴",
+      "size_group": "500-999人",
+      "stage_group": "已上市",
+      "count": 1,
+      "total": 6,
+      "ratio": 16.7
+    },
+    {
+      "benefit": "住房补贴",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 2,
+      "total": 24,
+      "ratio": 8.3
+    },
+    {
+      "benefit": "住房资助",
+      "size_group": "1000+人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 1,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "体检",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 4,
+      "total": 42,
+      "ratio": 9.5
+    },
+    {
+      "benefit": "体系技培训",
+      "size_group": "1000+人",
+      "stage_group": "未融资",
+      "count": 2,
+      "total": 25,
+      "ratio": 8.0
+    },
+    {
+      "benefit": "体育活动",
+      "size_group": "20-99人",
+      "stage_group": "不需要融资",
+      "count": 1,
+      "total": 16,
+      "ratio": 6.2
+    },
+    {
+      "benefit": "保底工资",
+      "size_group": "0-20人",
+      "stage_group": "不需要融资",
+      "count": 4,
+      "total": 8,
+      "ratio": 50.0
+    },
+    {
+      "benefit": "保底工资",
+      "size_group": "0-20人",
+      "stage_group": "天使轮",
+      "count": 4,
+      "total": 6,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "保底工资",
+      "size_group": "0-20人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 5,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "保底工资",
+      "size_group": "0-20人",
+      "stage_group": "未融资",
+      "count": 4,
+      "total": 20,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "保底工资",
+      "size_group": "100-499人",
+      "stage_group": "A轮",
+      "count": 1,
+      "total": 6,
+      "ratio": 16.7
+    },
+    {
+      "benefit": "保底工资",
+      "size_group": "100-499人",
+      "stage_group": "B轮",
+      "count": 1,
+      "total": 5,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "保底工资",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 11,
+      "total": 31,
+      "ratio": 35.5
+    },
+    {
+      "benefit": "保底工资",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 7,
+      "total": 38,
+      "ratio": 18.4
+    },
+    {
+      "benefit": "保底工资",
+      "size_group": "1000+人",
+      "stage_group": "A轮",
+      "count": 2,
+      "total": 2,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "保底工资",
+      "size_group": "1000+人",
+      "stage_group": "C轮及以上",
+      "count": 1,
+      "total": 9,
+      "ratio": 11.1
+    },
+    {
+      "benefit": "保底工资",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 7,
+      "total": 42,
+      "ratio": 16.7
+    },
+    {
+      "benefit": "保底工资",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 4,
+      "total": 67,
+      "ratio": 6.0
+    },
+    {
+      "benefit": "保底工资",
+      "size_group": "20-99人",
+      "stage_group": "A轮",
+      "count": 1,
+      "total": 4,
+      "ratio": 25.0
+    },
+    {
+      "benefit": "保底工资",
+      "size_group": "20-99人",
+      "stage_group": "不需要融资",
+      "count": 2,
+      "total": 16,
+      "ratio": 12.5
+    },
+    {
+      "benefit": "保底工资",
+      "size_group": "20-99人",
+      "stage_group": "天使轮",
+      "count": 6,
+      "total": 14,
+      "ratio": 42.9
+    },
+    {
+      "benefit": "保底工资",
+      "size_group": "20-99人",
+      "stage_group": "未知",
+      "count": 2,
+      "total": 7,
+      "ratio": 28.6
+    },
+    {
+      "benefit": "保底工资",
+      "size_group": "20-99人",
+      "stage_group": "未融资",
+      "count": 7,
+      "total": 29,
+      "ratio": 24.1
+    },
+    {
+      "benefit": "保底工资",
+      "size_group": "500-999人",
+      "stage_group": "A轮",
+      "count": 2,
+      "total": 3,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "保底工资",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 8,
+      "total": 27,
+      "ratio": 29.6
+    },
+    {
+      "benefit": "保底工资",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 5,
+      "total": 24,
+      "ratio": 20.8
+    },
+    {
+      "benefit": "停车补贴",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 2,
+      "total": 27,
+      "ratio": 7.4
+    },
+    {
+      "benefit": "健身房",
+      "size_group": "1000+人",
+      "stage_group": "未融资",
+      "count": 3,
+      "total": 25,
+      "ratio": 12.0
+    },
+    {
+      "benefit": "免费工装",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 1,
+      "total": 31,
+      "ratio": 3.2
+    },
+    {
+      "benefit": "免费工装",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 4,
+      "total": 38,
+      "ratio": 10.5
+    },
+    {
+      "benefit": "免费工装",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 1,
+      "total": 67,
+      "ratio": 1.5
+    },
+    {
+      "benefit": "免费工装",
+      "size_group": "1000+人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 1,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "免费工装",
+      "size_group": "1000+人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 25,
+      "ratio": 4.0
+    },
+    {
+      "benefit": "免费工装",
+      "size_group": "20-99人",
+      "stage_group": "天使轮",
+      "count": 1,
+      "total": 14,
+      "ratio": 7.1
+    },
+    {
+      "benefit": "免费工装",
+      "size_group": "20-99人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 7,
+      "ratio": 14.3
+    },
+    {
+      "benefit": "免费工装",
+      "size_group": "20-99人",
+      "stage_group": "未融资",
+      "count": 2,
+      "total": 29,
+      "ratio": 6.9
+    },
+    {
+      "benefit": "免费工装",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 1,
+      "total": 27,
+      "ratio": 3.7
+    },
+    {
+      "benefit": "免费工装",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 9,
+      "total": 24,
+      "ratio": 37.5
+    },
+    {
+      "benefit": "免费早餐",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 1,
+      "total": 67,
+      "ratio": 1.5
+    },
+    {
+      "benefit": "免费班车",
+      "size_group": "0-20人",
+      "stage_group": "未融资",
+      "count": 2,
+      "total": 20,
+      "ratio": 10.0
+    },
+    {
+      "benefit": "免费班车",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 1,
+      "total": 31,
+      "ratio": 3.2
+    },
+    {
+      "benefit": "免费班车",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 2,
+      "total": 38,
+      "ratio": 5.3
+    },
+    {
+      "benefit": "免费班车",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 6,
+      "total": 42,
+      "ratio": 14.3
+    },
+    {
+      "benefit": "免费班车",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 30,
+      "total": 67,
+      "ratio": 44.8
+    },
+    {
+      "benefit": "免费班车",
+      "size_group": "1000+人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 1,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "免费班车",
+      "size_group": "1000+人",
+      "stage_group": "未融资",
+      "count": 6,
+      "total": 25,
+      "ratio": 24.0
+    },
+    {
+      "benefit": "免费班车",
+      "size_group": "500-999人",
+      "stage_group": "已上市",
+      "count": 1,
+      "total": 6,
+      "ratio": 16.7
+    },
+    {
+      "benefit": "免费班车",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 2,
+      "total": 24,
+      "ratio": 8.3
+    },
+    {
+      "benefit": "全勤奖",
+      "size_group": "0-20人",
+      "stage_group": "不需要融资",
+      "count": 1,
+      "total": 8,
+      "ratio": 12.5
+    },
+    {
+      "benefit": "全勤奖",
+      "size_group": "0-20人",
+      "stage_group": "天使轮",
+      "count": 1,
+      "total": 6,
+      "ratio": 16.7
+    },
+    {
+      "benefit": "全勤奖",
+      "size_group": "0-20人",
+      "stage_group": "未知",
+      "count": 4,
+      "total": 5,
+      "ratio": 80.0
+    },
+    {
+      "benefit": "全勤奖",
+      "size_group": "0-20人",
+      "stage_group": "未融资",
+      "count": 5,
+      "total": 20,
+      "ratio": 25.0
+    },
+    {
+      "benefit": "全勤奖",
+      "size_group": "100-499人",
+      "stage_group": "A轮",
+      "count": 1,
+      "total": 6,
+      "ratio": 16.7
+    },
+    {
+      "benefit": "全勤奖",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 11,
+      "total": 31,
+      "ratio": 35.5
+    },
+    {
+      "benefit": "全勤奖",
+      "size_group": "100-499人",
+      "stage_group": "已上市",
+      "count": 2,
+      "total": 3,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "全勤奖",
+      "size_group": "100-499人",
+      "stage_group": "未知",
+      "count": 2,
+      "total": 2,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "全勤奖",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 19,
+      "total": 38,
+      "ratio": 50.0
+    },
+    {
+      "benefit": "全勤奖",
+      "size_group": "1000+人",
+      "stage_group": "B轮",
+      "count": 2,
+      "total": 7,
+      "ratio": 28.6
+    },
+    {
+      "benefit": "全勤奖",
+      "size_group": "1000+人",
+      "stage_group": "C轮及以上",
+      "count": 4,
+      "total": 9,
+      "ratio": 44.4
+    },
+    {
+      "benefit": "全勤奖",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 7,
+      "total": 42,
+      "ratio": 16.7
+    },
+    {
+      "benefit": "全勤奖",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 2,
+      "total": 67,
+      "ratio": 3.0
+    },
+    {
+      "benefit": "全勤奖",
+      "size_group": "1000+人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 25,
+      "ratio": 4.0
+    },
+    {
+      "benefit": "全勤奖",
+      "size_group": "20-99人",
+      "stage_group": "不需要融资",
+      "count": 4,
+      "total": 16,
+      "ratio": 25.0
+    },
+    {
+      "benefit": "全勤奖",
+      "size_group": "20-99人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 7,
+      "ratio": 14.3
+    },
+    {
+      "benefit": "全勤奖",
+      "size_group": "20-99人",
+      "stage_group": "未融资",
+      "count": 7,
+      "total": 29,
+      "ratio": 24.1
+    },
+    {
+      "benefit": "全勤奖",
+      "size_group": "500-999人",
+      "stage_group": "A轮",
+      "count": 3,
+      "total": 3,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "全勤奖",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 9,
+      "total": 27,
+      "ratio": 33.3
+    },
+    {
+      "benefit": "全勤奖",
+      "size_group": "500-999人",
+      "stage_group": "已上市",
+      "count": 1,
+      "total": 6,
+      "ratio": 16.7
+    },
+    {
+      "benefit": "全勤奖",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 9,
+      "total": 24,
+      "ratio": 37.5
+    },
+    {
+      "benefit": "公积金",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 2,
+      "total": 27,
+      "ratio": 7.4
+    },
+    {
+      "benefit": "六险一金",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 2,
+      "total": 42,
+      "ratio": 4.8
+    },
+    {
+      "benefit": "出差补助",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 1,
+      "total": 67,
+      "ratio": 1.5
+    },
+    {
+      "benefit": "加班补助",
+      "size_group": "0-20人",
+      "stage_group": "不需要融资",
+      "count": 2,
+      "total": 8,
+      "ratio": 25.0
+    },
+    {
+      "benefit": "加班补助",
+      "size_group": "0-20人",
+      "stage_group": "天使轮",
+      "count": 1,
+      "total": 6,
+      "ratio": 16.7
+    },
+    {
+      "benefit": "加班补助",
+      "size_group": "0-20人",
+      "stage_group": "未融资",
+      "count": 4,
+      "total": 20,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "加班补助",
+      "size_group": "100-499人",
+      "stage_group": "A轮",
+      "count": 1,
+      "total": 6,
+      "ratio": 16.7
+    },
+    {
+      "benefit": "加班补助",
+      "size_group": "100-499人",
+      "stage_group": "B轮",
+      "count": 1,
+      "total": 5,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "加班补助",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 5,
+      "total": 31,
+      "ratio": 16.1
+    },
+    {
+      "benefit": "加班补助",
+      "size_group": "100-499人",
+      "stage_group": "已上市",
+      "count": 2,
+      "total": 3,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "加班补助",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 15,
+      "total": 38,
+      "ratio": 39.5
+    },
+    {
+      "benefit": "加班补助",
+      "size_group": "1000+人",
+      "stage_group": "B轮",
+      "count": 1,
+      "total": 7,
+      "ratio": 14.3
+    },
+    {
+      "benefit": "加班补助",
+      "size_group": "1000+人",
+      "stage_group": "C轮及以上",
+      "count": 7,
+      "total": 9,
+      "ratio": 77.8
+    },
+    {
+      "benefit": "加班补助",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 13,
+      "total": 42,
+      "ratio": 31.0
+    },
+    {
+      "benefit": "加班补助",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 13,
+      "total": 67,
+      "ratio": 19.4
+    },
+    {
+      "benefit": "加班补助",
+      "size_group": "1000+人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 1,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "加班补助",
+      "size_group": "1000+人",
+      "stage_group": "未融资",
+      "count": 3,
+      "total": 25,
+      "ratio": 12.0
+    },
+    {
+      "benefit": "加班补助",
+      "size_group": "20-99人",
+      "stage_group": "不需要融资",
+      "count": 2,
+      "total": 16,
+      "ratio": 12.5
+    },
+    {
+      "benefit": "加班补助",
+      "size_group": "20-99人",
+      "stage_group": "天使轮",
+      "count": 7,
+      "total": 14,
+      "ratio": 50.0
+    },
+    {
+      "benefit": "加班补助",
+      "size_group": "20-99人",
+      "stage_group": "未融资",
+      "count": 13,
+      "total": 29,
+      "ratio": 44.8
+    },
+    {
+      "benefit": "加班补助",
+      "size_group": "500-999人",
+      "stage_group": "A轮",
+      "count": 2,
+      "total": 3,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "加班补助",
+      "size_group": "500-999人",
+      "stage_group": "B轮",
+      "count": 1,
+      "total": 5,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "加班补助",
+      "size_group": "500-999人",
+      "stage_group": "C轮及以上",
+      "count": 4,
+      "total": 7,
+      "ratio": 57.1
+    },
+    {
+      "benefit": "加班补助",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 10,
+      "total": 27,
+      "ratio": 37.0
+    },
+    {
+      "benefit": "加班补助",
+      "size_group": "500-999人",
+      "stage_group": "已上市",
+      "count": 1,
+      "total": 6,
+      "ratio": 16.7
+    },
+    {
+      "benefit": "加班补助",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 8,
+      "total": 24,
+      "ratio": 33.3
+    },
+    {
+      "benefit": "加班调休",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 1,
+      "total": 67,
+      "ratio": 1.5
+    },
+    {
+      "benefit": "包住",
+      "size_group": "0-20人",
+      "stage_group": "未知",
+      "count": 3,
+      "total": 5,
+      "ratio": 60.0
+    },
+    {
+      "benefit": "包住",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 1,
+      "total": 31,
+      "ratio": 3.2
+    },
+    {
+      "benefit": "包住",
+      "size_group": "1000+人",
+      "stage_group": "C轮及以上",
+      "count": 1,
+      "total": 9,
+      "ratio": 11.1
+    },
+    {
+      "benefit": "包住",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 1,
+      "total": 67,
+      "ratio": 1.5
+    },
+    {
+      "benefit": "包住",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 5,
+      "total": 24,
+      "ratio": 20.8
+    },
+    {
+      "benefit": "包吃",
+      "size_group": "100-499人",
+      "stage_group": "B轮",
+      "count": 2,
+      "total": 5,
+      "ratio": 40.0
+    },
+    {
+      "benefit": "包吃",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 6,
+      "total": 31,
+      "ratio": 19.4
+    },
+    {
+      "benefit": "包吃",
+      "size_group": "100-499人",
+      "stage_group": "已上市",
+      "count": 1,
+      "total": 3,
+      "ratio": 33.3
+    },
+    {
+      "benefit": "包吃",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 2,
+      "total": 38,
+      "ratio": 5.3
+    },
+    {
+      "benefit": "包吃",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 8,
+      "total": 42,
+      "ratio": 19.0
+    },
+    {
+      "benefit": "包吃",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 9,
+      "total": 67,
+      "ratio": 13.4
+    },
+    {
+      "benefit": "包吃",
+      "size_group": "1000+人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 1,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "包吃",
+      "size_group": "1000+人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 25,
+      "ratio": 4.0
+    },
+    {
+      "benefit": "包吃",
+      "size_group": "20-99人",
+      "stage_group": "天使轮",
+      "count": 1,
+      "total": 14,
+      "ratio": 7.1
+    },
+    {
+      "benefit": "包吃",
+      "size_group": "20-99人",
+      "stage_group": "未融资",
+      "count": 2,
+      "total": 29,
+      "ratio": 6.9
+    },
+    {
+      "benefit": "包吃",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 4,
+      "total": 27,
+      "ratio": 14.8
+    },
+    {
+      "benefit": "包吃",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 9,
+      "total": 24,
+      "ratio": 37.5
+    },
+    {
+      "benefit": "包吃住",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 1,
+      "total": 31,
+      "ratio": 3.2
+    },
+    {
+      "benefit": "包工作餐",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 24,
+      "ratio": 4.2
+    },
+    {
+      "benefit": "十三薪",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 38,
+      "ratio": 2.6
+    },
+    {
+      "benefit": "午休时间",
+      "size_group": "500-999人",
+      "stage_group": "C轮及以上",
+      "count": 2,
+      "total": 7,
+      "ratio": 28.6
+    },
+    {
+      "benefit": "午餐补助",
+      "size_group": "1000+人",
+      "stage_group": "C轮及以上",
+      "count": 1,
+      "total": 9,
+      "ratio": 11.1
+    },
+    {
+      "benefit": "及时福利",
+      "size_group": "20-99人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 29,
+      "ratio": 3.4
+    },
+    {
+      "benefit": "双休",
+      "size_group": "1000+人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 25,
+      "ratio": 4.0
+    },
+    {
+      "benefit": "口罩补贴",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 38,
+      "ratio": 2.6
+    },
+    {
+      "benefit": "各类补贴",
+      "size_group": "100-499人",
+      "stage_group": "A轮",
+      "count": 1,
+      "total": 6,
+      "ratio": 16.7
+    },
+    {
+      "benefit": "员工内购优惠",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 1,
+      "total": 67,
+      "ratio": 1.5
+    },
+    {
+      "benefit": "员工旅游",
+      "size_group": "0-20人",
+      "stage_group": "不需要融资",
+      "count": 2,
+      "total": 8,
+      "ratio": 25.0
+    },
+    {
+      "benefit": "员工旅游",
+      "size_group": "0-20人",
+      "stage_group": "天使轮",
+      "count": 2,
+      "total": 6,
+      "ratio": 33.3
+    },
+    {
+      "benefit": "员工旅游",
+      "size_group": "0-20人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 5,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "员工旅游",
+      "size_group": "0-20人",
+      "stage_group": "未融资",
+      "count": 6,
+      "total": 20,
+      "ratio": 30.0
+    },
+    {
+      "benefit": "员工旅游",
+      "size_group": "100-499人",
+      "stage_group": "A轮",
+      "count": 3,
+      "total": 6,
+      "ratio": 50.0
+    },
+    {
+      "benefit": "员工旅游",
+      "size_group": "100-499人",
+      "stage_group": "B轮",
+      "count": 2,
+      "total": 5,
+      "ratio": 40.0
+    },
+    {
+      "benefit": "员工旅游",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 16,
+      "total": 31,
+      "ratio": 51.6
+    },
+    {
+      "benefit": "员工旅游",
+      "size_group": "100-499人",
+      "stage_group": "天使轮",
+      "count": 1,
+      "total": 1,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "员工旅游",
+      "size_group": "100-499人",
+      "stage_group": "已上市",
+      "count": 2,
+      "total": 3,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "员工旅游",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 24,
+      "total": 38,
+      "ratio": 63.2
+    },
+    {
+      "benefit": "员工旅游",
+      "size_group": "1000+人",
+      "stage_group": "B轮",
+      "count": 5,
+      "total": 7,
+      "ratio": 71.4
+    },
+    {
+      "benefit": "员工旅游",
+      "size_group": "1000+人",
+      "stage_group": "C轮及以上",
+      "count": 5,
+      "total": 9,
+      "ratio": 55.6
+    },
+    {
+      "benefit": "员工旅游",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 21,
+      "total": 42,
+      "ratio": 50.0
+    },
+    {
+      "benefit": "员工旅游",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 20,
+      "total": 67,
+      "ratio": 29.9
+    },
+    {
+      "benefit": "员工旅游",
+      "size_group": "1000+人",
+      "stage_group": "未融资",
+      "count": 7,
+      "total": 25,
+      "ratio": 28.0
+    },
+    {
+      "benefit": "员工旅游",
+      "size_group": "20-99人",
+      "stage_group": "A轮",
+      "count": 2,
+      "total": 4,
+      "ratio": 50.0
+    },
+    {
+      "benefit": "员工旅游",
+      "size_group": "20-99人",
+      "stage_group": "不需要融资",
+      "count": 11,
+      "total": 16,
+      "ratio": 68.8
+    },
+    {
+      "benefit": "员工旅游",
+      "size_group": "20-99人",
+      "stage_group": "天使轮",
+      "count": 6,
+      "total": 14,
+      "ratio": 42.9
+    },
+    {
+      "benefit": "员工旅游",
+      "size_group": "20-99人",
+      "stage_group": "未知",
+      "count": 4,
+      "total": 7,
+      "ratio": 57.1
+    },
+    {
+      "benefit": "员工旅游",
+      "size_group": "20-99人",
+      "stage_group": "未融资",
+      "count": 17,
+      "total": 29,
+      "ratio": 58.6
+    },
+    {
+      "benefit": "员工旅游",
+      "size_group": "500-999人",
+      "stage_group": "A轮",
+      "count": 3,
+      "total": 3,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "员工旅游",
+      "size_group": "500-999人",
+      "stage_group": "B轮",
+      "count": 4,
+      "total": 5,
+      "ratio": 80.0
+    },
+    {
+      "benefit": "员工旅游",
+      "size_group": "500-999人",
+      "stage_group": "C轮及以上",
+      "count": 5,
+      "total": 7,
+      "ratio": 71.4
+    },
+    {
+      "benefit": "员工旅游",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 15,
+      "total": 27,
+      "ratio": 55.6
+    },
+    {
+      "benefit": "员工旅游",
+      "size_group": "500-999人",
+      "stage_group": "已上市",
+      "count": 3,
+      "total": 6,
+      "ratio": 50.0
+    },
+    {
+      "benefit": "员工旅游",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 8,
+      "total": 24,
+      "ratio": 33.3
+    },
+    {
+      "benefit": "员工活动",
+      "size_group": "100-499人",
+      "stage_group": "已上市",
+      "count": 1,
+      "total": 3,
+      "ratio": 33.3
+    },
+    {
+      "benefit": "周末双休",
+      "size_group": "0-20人",
+      "stage_group": "不需要融资",
+      "count": 1,
+      "total": 8,
+      "ratio": 12.5
+    },
+    {
+      "benefit": "周末双休",
+      "size_group": "100-499人",
+      "stage_group": "A轮",
+      "count": 1,
+      "total": 6,
+      "ratio": 16.7
+    },
+    {
+      "benefit": "周末双休",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 38,
+      "ratio": 2.6
+    },
+    {
+      "benefit": "周末双休",
+      "size_group": "20-99人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 29,
+      "ratio": 3.4
+    },
+    {
+      "benefit": "周末双休",
+      "size_group": "500-999人",
+      "stage_group": "已上市",
+      "count": 1,
+      "total": 6,
+      "ratio": 16.7
+    },
+    {
+      "benefit": "周末双休",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 2,
+      "total": 24,
+      "ratio": 8.3
+    },
+    {
+      "benefit": "周边谷子",
+      "size_group": "20-99人",
+      "stage_group": "不需要融资",
+      "count": 1,
+      "total": 16,
+      "ratio": 6.2
+    },
+    {
+      "benefit": "四季工衣",
+      "size_group": "100-499人",
+      "stage_group": "已上市",
+      "count": 1,
+      "total": 3,
+      "ratio": 33.3
+    },
+    {
+      "benefit": "团建",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 1,
+      "total": 31,
+      "ratio": 3.2
+    },
+    {
+      "benefit": "团建",
+      "size_group": "20-99人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 29,
+      "ratio": 3.4
+    },
+    {
+      "benefit": "团建旅游",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 4,
+      "total": 42,
+      "ratio": 9.5
+    },
+    {
+      "benefit": "团建活动",
+      "size_group": "100-499人",
+      "stage_group": "已上市",
+      "count": 2,
+      "total": 3,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "团建活动",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 6,
+      "total": 67,
+      "ratio": 9.0
+    },
+    {
+      "benefit": "团建活动",
+      "size_group": "500-999人",
+      "stage_group": "C轮及以上",
+      "count": 2,
+      "total": 7,
+      "ratio": 28.6
+    },
+    {
+      "benefit": "团建聚餐",
+      "size_group": "0-20人",
+      "stage_group": "不需要融资",
+      "count": 5,
+      "total": 8,
+      "ratio": 62.5
+    },
+    {
+      "benefit": "团建聚餐",
+      "size_group": "0-20人",
+      "stage_group": "天使轮",
+      "count": 2,
+      "total": 6,
+      "ratio": 33.3
+    },
+    {
+      "benefit": "团建聚餐",
+      "size_group": "0-20人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 5,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "团建聚餐",
+      "size_group": "0-20人",
+      "stage_group": "未融资",
+      "count": 4,
+      "total": 20,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "团建聚餐",
+      "size_group": "100-499人",
+      "stage_group": "A轮",
+      "count": 4,
+      "total": 6,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "团建聚餐",
+      "size_group": "100-499人",
+      "stage_group": "B轮",
+      "count": 4,
+      "total": 5,
+      "ratio": 80.0
+    },
+    {
+      "benefit": "团建聚餐",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 17,
+      "total": 31,
+      "ratio": 54.8
+    },
+    {
+      "benefit": "团建聚餐",
+      "size_group": "100-499人",
+      "stage_group": "已上市",
+      "count": 2,
+      "total": 3,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "团建聚餐",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 23,
+      "total": 38,
+      "ratio": 60.5
+    },
+    {
+      "benefit": "团建聚餐",
+      "size_group": "1000+人",
+      "stage_group": "A轮",
+      "count": 2,
+      "total": 2,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "团建聚餐",
+      "size_group": "1000+人",
+      "stage_group": "B轮",
+      "count": 6,
+      "total": 7,
+      "ratio": 85.7
+    },
+    {
+      "benefit": "团建聚餐",
+      "size_group": "1000+人",
+      "stage_group": "C轮及以上",
+      "count": 3,
+      "total": 9,
+      "ratio": 33.3
+    },
+    {
+      "benefit": "团建聚餐",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 13,
+      "total": 42,
+      "ratio": 31.0
+    },
+    {
+      "benefit": "团建聚餐",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 10,
+      "total": 67,
+      "ratio": 14.9
+    },
+    {
+      "benefit": "团建聚餐",
+      "size_group": "1000+人",
+      "stage_group": "未融资",
+      "count": 5,
+      "total": 25,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "团建聚餐",
+      "size_group": "20-99人",
+      "stage_group": "A轮",
+      "count": 1,
+      "total": 4,
+      "ratio": 25.0
+    },
+    {
+      "benefit": "团建聚餐",
+      "size_group": "20-99人",
+      "stage_group": "不需要融资",
+      "count": 5,
+      "total": 16,
+      "ratio": 31.2
+    },
+    {
+      "benefit": "团建聚餐",
+      "size_group": "20-99人",
+      "stage_group": "天使轮",
+      "count": 11,
+      "total": 14,
+      "ratio": 78.6
+    },
+    {
+      "benefit": "团建聚餐",
+      "size_group": "20-99人",
+      "stage_group": "未知",
+      "count": 4,
+      "total": 7,
+      "ratio": 57.1
+    },
+    {
+      "benefit": "团建聚餐",
+      "size_group": "20-99人",
+      "stage_group": "未融资",
+      "count": 9,
+      "total": 29,
+      "ratio": 31.0
+    },
+    {
+      "benefit": "团建聚餐",
+      "size_group": "500-999人",
+      "stage_group": "A轮",
+      "count": 3,
+      "total": 3,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "团建聚餐",
+      "size_group": "500-999人",
+      "stage_group": "B轮",
+      "count": 3,
+      "total": 5,
+      "ratio": 60.0
+    },
+    {
+      "benefit": "团建聚餐",
+      "size_group": "500-999人",
+      "stage_group": "C轮及以上",
+      "count": 5,
+      "total": 7,
+      "ratio": 71.4
+    },
+    {
+      "benefit": "团建聚餐",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 13,
+      "total": 27,
+      "ratio": 48.1
+    },
+    {
+      "benefit": "团建聚餐",
+      "size_group": "500-999人",
+      "stage_group": "已上市",
+      "count": 2,
+      "total": 6,
+      "ratio": 33.3
+    },
+    {
+      "benefit": "团建聚餐",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 14,
+      "total": 24,
+      "ratio": 58.3
+    },
+    {
+      "benefit": "团队氛围好",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 1,
+      "total": 67,
+      "ratio": 1.5
+    },
+    {
+      "benefit": "培训机会",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 1,
+      "total": 31,
+      "ratio": 3.2
+    },
+    {
+      "benefit": "多次调薪",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 1,
+      "total": 31,
+      "ratio": 3.2
+    },
+    {
+      "benefit": "夜班补助",
+      "size_group": "0-20人",
+      "stage_group": "不需要融资",
+      "count": 1,
+      "total": 8,
+      "ratio": 12.5
+    },
+    {
+      "benefit": "夜班补助",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 1,
+      "total": 31,
+      "ratio": 3.2
+    },
+    {
+      "benefit": "夜班补助",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 2,
+      "total": 38,
+      "ratio": 5.3
+    },
+    {
+      "benefit": "夜班补助",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 3,
+      "total": 42,
+      "ratio": 7.1
+    },
+    {
+      "benefit": "夜班补助",
+      "size_group": "1000+人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 1,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "夜班补助",
+      "size_group": "1000+人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 25,
+      "ratio": 4.0
+    },
+    {
+      "benefit": "夜班补助",
+      "size_group": "20-99人",
+      "stage_group": "不需要融资",
+      "count": 2,
+      "total": 16,
+      "ratio": 12.5
+    },
+    {
+      "benefit": "夜班补助",
+      "size_group": "500-999人",
+      "stage_group": "A轮",
+      "count": 1,
+      "total": 3,
+      "ratio": 33.3
+    },
+    {
+      "benefit": "夜班补助",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 4,
+      "total": 27,
+      "ratio": 14.8
+    },
+    {
+      "benefit": "夜班补助",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 2,
+      "total": 24,
+      "ratio": 8.3
+    },
+    {
+      "benefit": "天天下午茶",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 2,
+      "total": 42,
+      "ratio": 4.8
+    },
+    {
+      "benefit": "奋斗奖",
+      "size_group": "500-999人",
+      "stage_group": "C轮及以上",
+      "count": 2,
+      "total": 7,
+      "ratio": 28.6
+    },
+    {
+      "benefit": "娱乐健身",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 1,
+      "total": 67,
+      "ratio": 1.5
+    },
+    {
+      "benefit": "子女就学",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 38,
+      "ratio": 2.6
+    },
+    {
+      "benefit": "学习培训",
+      "size_group": "20-99人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 29,
+      "ratio": 3.4
+    },
+    {
+      "benefit": "学习提升",
+      "size_group": "100-499人",
+      "stage_group": "已上市",
+      "count": 2,
+      "total": 3,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "定期体检",
+      "size_group": "0-20人",
+      "stage_group": "不需要融资",
+      "count": 2,
+      "total": 8,
+      "ratio": 25.0
+    },
+    {
+      "benefit": "定期体检",
+      "size_group": "0-20人",
+      "stage_group": "未融资",
+      "count": 3,
+      "total": 20,
+      "ratio": 15.0
+    },
+    {
+      "benefit": "定期体检",
+      "size_group": "100-499人",
+      "stage_group": "A轮",
+      "count": 4,
+      "total": 6,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "定期体检",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 15,
+      "total": 31,
+      "ratio": 48.4
+    },
+    {
+      "benefit": "定期体检",
+      "size_group": "100-499人",
+      "stage_group": "天使轮",
+      "count": 1,
+      "total": 1,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "定期体检",
+      "size_group": "100-499人",
+      "stage_group": "已上市",
+      "count": 3,
+      "total": 3,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "定期体检",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 18,
+      "total": 38,
+      "ratio": 47.4
+    },
+    {
+      "benefit": "定期体检",
+      "size_group": "1000+人",
+      "stage_group": "A轮",
+      "count": 2,
+      "total": 2,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "定期体检",
+      "size_group": "1000+人",
+      "stage_group": "B轮",
+      "count": 7,
+      "total": 7,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "定期体检",
+      "size_group": "1000+人",
+      "stage_group": "C轮及以上",
+      "count": 6,
+      "total": 9,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "定期体检",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 30,
+      "total": 42,
+      "ratio": 71.4
+    },
+    {
+      "benefit": "定期体检",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 53,
+      "total": 67,
+      "ratio": 79.1
+    },
+    {
+      "benefit": "定期体检",
+      "size_group": "1000+人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 1,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "定期体检",
+      "size_group": "1000+人",
+      "stage_group": "未融资",
+      "count": 17,
+      "total": 25,
+      "ratio": 68.0
+    },
+    {
+      "benefit": "定期体检",
+      "size_group": "20-99人",
+      "stage_group": "不需要融资",
+      "count": 3,
+      "total": 16,
+      "ratio": 18.8
+    },
+    {
+      "benefit": "定期体检",
+      "size_group": "20-99人",
+      "stage_group": "天使轮",
+      "count": 6,
+      "total": 14,
+      "ratio": 42.9
+    },
+    {
+      "benefit": "定期体检",
+      "size_group": "20-99人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 7,
+      "ratio": 14.3
+    },
+    {
+      "benefit": "定期体检",
+      "size_group": "20-99人",
+      "stage_group": "未融资",
+      "count": 16,
+      "total": 29,
+      "ratio": 55.2
+    },
+    {
+      "benefit": "定期体检",
+      "size_group": "500-999人",
+      "stage_group": "A轮",
+      "count": 1,
+      "total": 3,
+      "ratio": 33.3
+    },
+    {
+      "benefit": "定期体检",
+      "size_group": "500-999人",
+      "stage_group": "B轮",
+      "count": 1,
+      "total": 5,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "定期体检",
+      "size_group": "500-999人",
+      "stage_group": "C轮及以上",
+      "count": 5,
+      "total": 7,
+      "ratio": 71.4
+    },
+    {
+      "benefit": "定期体检",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 16,
+      "total": 27,
+      "ratio": 59.3
+    },
+    {
+      "benefit": "定期体检",
+      "size_group": "500-999人",
+      "stage_group": "已上市",
+      "count": 5,
+      "total": 6,
+      "ratio": 83.3
+    },
+    {
+      "benefit": "定期体检",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 12,
+      "total": 24,
+      "ratio": 50.0
+    },
+    {
+      "benefit": "定期团建",
+      "size_group": "1000+人",
+      "stage_group": "C轮及以上",
+      "count": 2,
+      "total": 9,
+      "ratio": 22.2
+    },
+    {
+      "benefit": "定期病例分享",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 1,
+      "total": 67,
+      "ratio": 1.5
+    },
+    {
+      "benefit": "家属关怀",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 2,
+      "total": 27,
+      "ratio": 7.4
+    },
+    {
+      "benefit": "宿舍有空调",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 1,
+      "total": 31,
+      "ratio": 3.2
+    },
+    {
+      "benefit": "宿舍有空调",
+      "size_group": "1000+人",
+      "stage_group": "C轮及以上",
+      "count": 1,
+      "total": 9,
+      "ratio": 11.1
+    },
+    {
+      "benefit": "宿舍有空调",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 1,
+      "total": 42,
+      "ratio": 2.4
+    },
+    {
+      "benefit": "宿舍有空调",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 1,
+      "total": 67,
+      "ratio": 1.5
+    },
+    {
+      "benefit": "宿舍有空调",
+      "size_group": "1000+人",
+      "stage_group": "未融资",
+      "count": 3,
+      "total": 25,
+      "ratio": 12.0
+    },
+    {
+      "benefit": "工作时间",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 1,
+      "total": 31,
+      "ratio": 3.2
+    },
+    {
+      "benefit": "工龄奖",
+      "size_group": "0-20人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 5,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "工龄奖",
+      "size_group": "0-20人",
+      "stage_group": "未融资",
+      "count": 2,
+      "total": 20,
+      "ratio": 10.0
+    },
+    {
+      "benefit": "工龄奖",
+      "size_group": "100-499人",
+      "stage_group": "A轮",
+      "count": 1,
+      "total": 6,
+      "ratio": 16.7
+    },
+    {
+      "benefit": "工龄奖",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 6,
+      "total": 31,
+      "ratio": 19.4
+    },
+    {
+      "benefit": "工龄奖",
+      "size_group": "100-499人",
+      "stage_group": "未知",
+      "count": 2,
+      "total": 2,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "工龄奖",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 5,
+      "total": 38,
+      "ratio": 13.2
+    },
+    {
+      "benefit": "工龄奖",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 3,
+      "total": 42,
+      "ratio": 7.1
+    },
+    {
+      "benefit": "工龄奖",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 3,
+      "total": 67,
+      "ratio": 4.5
+    },
+    {
+      "benefit": "工龄奖",
+      "size_group": "1000+人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 1,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "工龄奖",
+      "size_group": "1000+人",
+      "stage_group": "未融资",
+      "count": 4,
+      "total": 25,
+      "ratio": 16.0
+    },
+    {
+      "benefit": "工龄奖",
+      "size_group": "20-99人",
+      "stage_group": "A轮",
+      "count": 1,
+      "total": 4,
+      "ratio": 25.0
+    },
+    {
+      "benefit": "工龄奖",
+      "size_group": "20-99人",
+      "stage_group": "不需要融资",
+      "count": 2,
+      "total": 16,
+      "ratio": 12.5
+    },
+    {
+      "benefit": "工龄奖",
+      "size_group": "20-99人",
+      "stage_group": "天使轮",
+      "count": 2,
+      "total": 14,
+      "ratio": 14.3
+    },
+    {
+      "benefit": "工龄奖",
+      "size_group": "20-99人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 29,
+      "ratio": 3.4
+    },
+    {
+      "benefit": "工龄奖",
+      "size_group": "500-999人",
+      "stage_group": "A轮",
+      "count": 1,
+      "total": 3,
+      "ratio": 33.3
+    },
+    {
+      "benefit": "工龄奖",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 2,
+      "total": 27,
+      "ratio": 7.4
+    },
+    {
+      "benefit": "工龄奖",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 9,
+      "total": 24,
+      "ratio": 37.5
+    },
+    {
+      "benefit": "带薪年假",
+      "size_group": "0-20人",
+      "stage_group": "不需要融资",
+      "count": 4,
+      "total": 8,
+      "ratio": 50.0
+    },
+    {
+      "benefit": "带薪年假",
+      "size_group": "0-20人",
+      "stage_group": "天使轮",
+      "count": 2,
+      "total": 6,
+      "ratio": 33.3
+    },
+    {
+      "benefit": "带薪年假",
+      "size_group": "0-20人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 5,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "带薪年假",
+      "size_group": "0-20人",
+      "stage_group": "未融资",
+      "count": 10,
+      "total": 20,
+      "ratio": 50.0
+    },
+    {
+      "benefit": "带薪年假",
+      "size_group": "100-499人",
+      "stage_group": "A轮",
+      "count": 6,
+      "total": 6,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "带薪年假",
+      "size_group": "100-499人",
+      "stage_group": "B轮",
+      "count": 4,
+      "total": 5,
+      "ratio": 80.0
+    },
+    {
+      "benefit": "带薪年假",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 23,
+      "total": 31,
+      "ratio": 74.2
+    },
+    {
+      "benefit": "带薪年假",
+      "size_group": "100-499人",
+      "stage_group": "天使轮",
+      "count": 1,
+      "total": 1,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "带薪年假",
+      "size_group": "100-499人",
+      "stage_group": "已上市",
+      "count": 3,
+      "total": 3,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "带薪年假",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 29,
+      "total": 38,
+      "ratio": 76.3
+    },
+    {
+      "benefit": "带薪年假",
+      "size_group": "1000+人",
+      "stage_group": "A轮",
+      "count": 2,
+      "total": 2,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "带薪年假",
+      "size_group": "1000+人",
+      "stage_group": "B轮",
+      "count": 7,
+      "total": 7,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "带薪年假",
+      "size_group": "1000+人",
+      "stage_group": "C轮及以上",
+      "count": 9,
+      "total": 9,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "带薪年假",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 36,
+      "total": 42,
+      "ratio": 85.7
+    },
+    {
+      "benefit": "带薪年假",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 65,
+      "total": 67,
+      "ratio": 97.0
+    },
+    {
+      "benefit": "带薪年假",
+      "size_group": "1000+人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 1,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "带薪年假",
+      "size_group": "1000+人",
+      "stage_group": "未融资",
+      "count": 20,
+      "total": 25,
+      "ratio": 80.0
+    },
+    {
+      "benefit": "带薪年假",
+      "size_group": "20-99人",
+      "stage_group": "A轮",
+      "count": 2,
+      "total": 4,
+      "ratio": 50.0
+    },
+    {
+      "benefit": "带薪年假",
+      "size_group": "20-99人",
+      "stage_group": "不需要融资",
+      "count": 13,
+      "total": 16,
+      "ratio": 81.2
+    },
+    {
+      "benefit": "带薪年假",
+      "size_group": "20-99人",
+      "stage_group": "天使轮",
+      "count": 9,
+      "total": 14,
+      "ratio": 64.3
+    },
+    {
+      "benefit": "带薪年假",
+      "size_group": "20-99人",
+      "stage_group": "未知",
+      "count": 2,
+      "total": 7,
+      "ratio": 28.6
+    },
+    {
+      "benefit": "带薪年假",
+      "size_group": "20-99人",
+      "stage_group": "未融资",
+      "count": 23,
+      "total": 29,
+      "ratio": 79.3
+    },
+    {
+      "benefit": "带薪年假",
+      "size_group": "500-999人",
+      "stage_group": "A轮",
+      "count": 3,
+      "total": 3,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "带薪年假",
+      "size_group": "500-999人",
+      "stage_group": "B轮",
+      "count": 5,
+      "total": 5,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "带薪年假",
+      "size_group": "500-999人",
+      "stage_group": "C轮及以上",
+      "count": 6,
+      "total": 7,
+      "ratio": 85.7
+    },
+    {
+      "benefit": "带薪年假",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 23,
+      "total": 27,
+      "ratio": 85.2
+    },
+    {
+      "benefit": "带薪年假",
+      "size_group": "500-999人",
+      "stage_group": "已上市",
+      "count": 6,
+      "total": 6,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "带薪年假",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 21,
+      "total": 24,
+      "ratio": 87.5
+    },
+    {
+      "benefit": "带薪病假",
+      "size_group": "1000+人",
+      "stage_group": "未融资",
+      "count": 2,
+      "total": 25,
+      "ratio": 8.0
+    },
+    {
+      "benefit": "带薪病假",
+      "size_group": "500-999人",
+      "stage_group": "B轮",
+      "count": 2,
+      "total": 5,
+      "ratio": 40.0
+    },
+    {
+      "benefit": "年度体检",
+      "size_group": "500-999人",
+      "stage_group": "B轮",
+      "count": 1,
+      "total": 5,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "年度体检",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 2,
+      "total": 24,
+      "ratio": 8.3
+    },
+    {
+      "benefit": "年度峰会论坛",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 1,
+      "total": 67,
+      "ratio": 1.5
+    },
+    {
+      "benefit": "年度调薪",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 1,
+      "total": 67,
+      "ratio": 1.5
+    },
+    {
+      "benefit": "年终奖",
+      "size_group": "0-20人",
+      "stage_group": "不需要融资",
+      "count": 7,
+      "total": 8,
+      "ratio": 87.5
+    },
+    {
+      "benefit": "年终奖",
+      "size_group": "0-20人",
+      "stage_group": "天使轮",
+      "count": 5,
+      "total": 6,
+      "ratio": 83.3
+    },
+    {
+      "benefit": "年终奖",
+      "size_group": "0-20人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 5,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "年终奖",
+      "size_group": "0-20人",
+      "stage_group": "未融资",
+      "count": 13,
+      "total": 20,
+      "ratio": 65.0
+    },
+    {
+      "benefit": "年终奖",
+      "size_group": "100-499人",
+      "stage_group": "A轮",
+      "count": 4,
+      "total": 6,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "年终奖",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 14,
+      "total": 31,
+      "ratio": 45.2
+    },
+    {
+      "benefit": "年终奖",
+      "size_group": "100-499人",
+      "stage_group": "已上市",
+      "count": 3,
+      "total": 3,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "年终奖",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 25,
+      "total": 38,
+      "ratio": 65.8
+    },
+    {
+      "benefit": "年终奖",
+      "size_group": "1000+人",
+      "stage_group": "A轮",
+      "count": 2,
+      "total": 2,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "年终奖",
+      "size_group": "1000+人",
+      "stage_group": "B轮",
+      "count": 7,
+      "total": 7,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "年终奖",
+      "size_group": "1000+人",
+      "stage_group": "C轮及以上",
+      "count": 8,
+      "total": 9,
+      "ratio": 88.9
+    },
+    {
+      "benefit": "年终奖",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 20,
+      "total": 42,
+      "ratio": 47.6
+    },
+    {
+      "benefit": "年终奖",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 42,
+      "total": 67,
+      "ratio": 62.7
+    },
+    {
+      "benefit": "年终奖",
+      "size_group": "1000+人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 1,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "年终奖",
+      "size_group": "1000+人",
+      "stage_group": "未融资",
+      "count": 14,
+      "total": 25,
+      "ratio": 56.0
+    },
+    {
+      "benefit": "年终奖",
+      "size_group": "20-99人",
+      "stage_group": "A轮",
+      "count": 2,
+      "total": 4,
+      "ratio": 50.0
+    },
+    {
+      "benefit": "年终奖",
+      "size_group": "20-99人",
+      "stage_group": "不需要融资",
+      "count": 9,
+      "total": 16,
+      "ratio": 56.2
+    },
+    {
+      "benefit": "年终奖",
+      "size_group": "20-99人",
+      "stage_group": "天使轮",
+      "count": 9,
+      "total": 14,
+      "ratio": 64.3
+    },
+    {
+      "benefit": "年终奖",
+      "size_group": "20-99人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 7,
+      "ratio": 14.3
+    },
+    {
+      "benefit": "年终奖",
+      "size_group": "20-99人",
+      "stage_group": "未融资",
+      "count": 20,
+      "total": 29,
+      "ratio": 69.0
+    },
+    {
+      "benefit": "年终奖",
+      "size_group": "500-999人",
+      "stage_group": "A轮",
+      "count": 3,
+      "total": 3,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "年终奖",
+      "size_group": "500-999人",
+      "stage_group": "B轮",
+      "count": 1,
+      "total": 5,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "年终奖",
+      "size_group": "500-999人",
+      "stage_group": "C轮及以上",
+      "count": 6,
+      "total": 7,
+      "ratio": 85.7
+    },
+    {
+      "benefit": "年终奖",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 23,
+      "total": 27,
+      "ratio": 85.2
+    },
+    {
+      "benefit": "年终奖",
+      "size_group": "500-999人",
+      "stage_group": "已上市",
+      "count": 4,
+      "total": 6,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "年终奖",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 17,
+      "total": 24,
+      "ratio": 70.8
+    },
+    {
+      "benefit": "广州社保",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 38,
+      "ratio": 2.6
+    },
+    {
+      "benefit": "底薪加提成",
+      "size_group": "0-20人",
+      "stage_group": "不需要融资",
+      "count": 4,
+      "total": 8,
+      "ratio": 50.0
+    },
+    {
+      "benefit": "底薪加提成",
+      "size_group": "0-20人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 5,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "底薪加提成",
+      "size_group": "0-20人",
+      "stage_group": "未融资",
+      "count": 4,
+      "total": 20,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "底薪加提成",
+      "size_group": "100-499人",
+      "stage_group": "B轮",
+      "count": 4,
+      "total": 5,
+      "ratio": 80.0
+    },
+    {
+      "benefit": "底薪加提成",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 12,
+      "total": 31,
+      "ratio": 38.7
+    },
+    {
+      "benefit": "底薪加提成",
+      "size_group": "100-499人",
+      "stage_group": "已上市",
+      "count": 2,
+      "total": 3,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "底薪加提成",
+      "size_group": "100-499人",
+      "stage_group": "未知",
+      "count": 2,
+      "total": 2,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "底薪加提成",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 11,
+      "total": 38,
+      "ratio": 28.9
+    },
+    {
+      "benefit": "底薪加提成",
+      "size_group": "1000+人",
+      "stage_group": "A轮",
+      "count": 2,
+      "total": 2,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "底薪加提成",
+      "size_group": "1000+人",
+      "stage_group": "B轮",
+      "count": 5,
+      "total": 7,
+      "ratio": 71.4
+    },
+    {
+      "benefit": "底薪加提成",
+      "size_group": "1000+人",
+      "stage_group": "C轮及以上",
+      "count": 1,
+      "total": 9,
+      "ratio": 11.1
+    },
+    {
+      "benefit": "底薪加提成",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 4,
+      "total": 42,
+      "ratio": 9.5
+    },
+    {
+      "benefit": "底薪加提成",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 1,
+      "total": 67,
+      "ratio": 1.5
+    },
+    {
+      "benefit": "底薪加提成",
+      "size_group": "20-99人",
+      "stage_group": "不需要融资",
+      "count": 4,
+      "total": 16,
+      "ratio": 25.0
+    },
+    {
+      "benefit": "底薪加提成",
+      "size_group": "20-99人",
+      "stage_group": "天使轮",
+      "count": 5,
+      "total": 14,
+      "ratio": 35.7
+    },
+    {
+      "benefit": "底薪加提成",
+      "size_group": "20-99人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 7,
+      "ratio": 14.3
+    },
+    {
+      "benefit": "底薪加提成",
+      "size_group": "20-99人",
+      "stage_group": "未融资",
+      "count": 9,
+      "total": 29,
+      "ratio": 31.0
+    },
+    {
+      "benefit": "底薪加提成",
+      "size_group": "500-999人",
+      "stage_group": "B轮",
+      "count": 2,
+      "total": 5,
+      "ratio": 40.0
+    },
+    {
+      "benefit": "底薪加提成",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 6,
+      "total": 27,
+      "ratio": 22.2
+    },
+    {
+      "benefit": "底薪加提成",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 3,
+      "total": 24,
+      "ratio": 12.5
+    },
+    {
+      "benefit": "弹性上班",
+      "size_group": "20-99人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 29,
+      "ratio": 3.4
+    },
+    {
+      "benefit": "弹性打卡",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 1,
+      "total": 31,
+      "ratio": 3.2
+    },
+    {
+      "benefit": "弹性福利",
+      "size_group": "20-99人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 29,
+      "ratio": 3.4
+    },
+    {
+      "benefit": "意外险",
+      "size_group": "0-20人",
+      "stage_group": "不需要融资",
+      "count": 1,
+      "total": 8,
+      "ratio": 12.5
+    },
+    {
+      "benefit": "意外险",
+      "size_group": "0-20人",
+      "stage_group": "未融资",
+      "count": 3,
+      "total": 20,
+      "ratio": 15.0
+    },
+    {
+      "benefit": "意外险",
+      "size_group": "100-499人",
+      "stage_group": "B轮",
+      "count": 2,
+      "total": 5,
+      "ratio": 40.0
+    },
+    {
+      "benefit": "意外险",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 2,
+      "total": 31,
+      "ratio": 6.5
+    },
+    {
+      "benefit": "意外险",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 5,
+      "total": 38,
+      "ratio": 13.2
+    },
+    {
+      "benefit": "意外险",
+      "size_group": "1000+人",
+      "stage_group": "A轮",
+      "count": 2,
+      "total": 2,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "意外险",
+      "size_group": "1000+人",
+      "stage_group": "C轮及以上",
+      "count": 1,
+      "total": 9,
+      "ratio": 11.1
+    },
+    {
+      "benefit": "意外险",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 10,
+      "total": 42,
+      "ratio": 23.8
+    },
+    {
+      "benefit": "意外险",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 2,
+      "total": 67,
+      "ratio": 3.0
+    },
+    {
+      "benefit": "意外险",
+      "size_group": "1000+人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 1,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "意外险",
+      "size_group": "1000+人",
+      "stage_group": "未融资",
+      "count": 3,
+      "total": 25,
+      "ratio": 12.0
+    },
+    {
+      "benefit": "意外险",
+      "size_group": "20-99人",
+      "stage_group": "不需要融资",
+      "count": 1,
+      "total": 16,
+      "ratio": 6.2
+    },
+    {
+      "benefit": "意外险",
+      "size_group": "20-99人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 29,
+      "ratio": 3.4
+    },
+    {
+      "benefit": "意外险",
+      "size_group": "500-999人",
+      "stage_group": "A轮",
+      "count": 2,
+      "total": 3,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "意外险",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 6,
+      "total": 27,
+      "ratio": 22.2
+    },
+    {
+      "benefit": "意外险",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 6,
+      "total": 24,
+      "ratio": 25.0
+    },
+    {
+      "benefit": "拓展活动",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 38,
+      "ratio": 2.6
+    },
+    {
+      "benefit": "提供住宿",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 6,
+      "total": 24,
+      "ratio": 25.0
+    },
+    {
+      "benefit": "文体活动",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 38,
+      "ratio": 2.6
+    },
+    {
+      "benefit": "无考勤不打卡",
+      "size_group": "20-99人",
+      "stage_group": "天使轮",
+      "count": 2,
+      "total": 14,
+      "ratio": 14.3
+    },
+    {
+      "benefit": "晋升空间大",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 1,
+      "total": 31,
+      "ratio": 3.2
+    },
+    {
+      "benefit": "晋升空间大",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 1,
+      "total": 27,
+      "ratio": 3.7
+    },
+    {
+      "benefit": "有无线网",
+      "size_group": "0-20人",
+      "stage_group": "不需要融资",
+      "count": 3,
+      "total": 8,
+      "ratio": 37.5
+    },
+    {
+      "benefit": "有无线网",
+      "size_group": "0-20人",
+      "stage_group": "天使轮",
+      "count": 3,
+      "total": 6,
+      "ratio": 50.0
+    },
+    {
+      "benefit": "有无线网",
+      "size_group": "100-499人",
+      "stage_group": "B轮",
+      "count": 1,
+      "total": 5,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "有无线网",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 6,
+      "total": 31,
+      "ratio": 19.4
+    },
+    {
+      "benefit": "有无线网",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 4,
+      "total": 38,
+      "ratio": 10.5
+    },
+    {
+      "benefit": "有无线网",
+      "size_group": "1000+人",
+      "stage_group": "A轮",
+      "count": 2,
+      "total": 2,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "有无线网",
+      "size_group": "1000+人",
+      "stage_group": "B轮",
+      "count": 5,
+      "total": 7,
+      "ratio": 71.4
+    },
+    {
+      "benefit": "有无线网",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 6,
+      "total": 42,
+      "ratio": 14.3
+    },
+    {
+      "benefit": "有无线网",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 1,
+      "total": 67,
+      "ratio": 1.5
+    },
+    {
+      "benefit": "有无线网",
+      "size_group": "1000+人",
+      "stage_group": "未融资",
+      "count": 2,
+      "total": 25,
+      "ratio": 8.0
+    },
+    {
+      "benefit": "有无线网",
+      "size_group": "20-99人",
+      "stage_group": "不需要融资",
+      "count": 2,
+      "total": 16,
+      "ratio": 12.5
+    },
+    {
+      "benefit": "有无线网",
+      "size_group": "20-99人",
+      "stage_group": "天使轮",
+      "count": 5,
+      "total": 14,
+      "ratio": 35.7
+    },
+    {
+      "benefit": "有无线网",
+      "size_group": "20-99人",
+      "stage_group": "未融资",
+      "count": 5,
+      "total": 29,
+      "ratio": 17.2
+    },
+    {
+      "benefit": "有无线网",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 3,
+      "total": 27,
+      "ratio": 11.1
+    },
+    {
+      "benefit": "有无线网",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 3,
+      "total": 24,
+      "ratio": 12.5
+    },
+    {
+      "benefit": "法定假期",
+      "size_group": "1000+人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 1,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "法定节假日三薪",
+      "size_group": "0-20人",
+      "stage_group": "未融资",
+      "count": 3,
+      "total": 20,
+      "ratio": 15.0
+    },
+    {
+      "benefit": "法定节假日三薪",
+      "size_group": "100-499人",
+      "stage_group": "B轮",
+      "count": 1,
+      "total": 5,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "法定节假日三薪",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 3,
+      "total": 31,
+      "ratio": 9.7
+    },
+    {
+      "benefit": "法定节假日三薪",
+      "size_group": "100-499人",
+      "stage_group": "已上市",
+      "count": 2,
+      "total": 3,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "法定节假日三薪",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 4,
+      "total": 38,
+      "ratio": 10.5
+    },
+    {
+      "benefit": "法定节假日三薪",
+      "size_group": "1000+人",
+      "stage_group": "C轮及以上",
+      "count": 1,
+      "total": 9,
+      "ratio": 11.1
+    },
+    {
+      "benefit": "法定节假日三薪",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 4,
+      "total": 42,
+      "ratio": 9.5
+    },
+    {
+      "benefit": "法定节假日三薪",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 2,
+      "total": 67,
+      "ratio": 3.0
+    },
+    {
+      "benefit": "法定节假日三薪",
+      "size_group": "1000+人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 25,
+      "ratio": 4.0
+    },
+    {
+      "benefit": "法定节假日三薪",
+      "size_group": "20-99人",
+      "stage_group": "天使轮",
+      "count": 2,
+      "total": 14,
+      "ratio": 14.3
+    },
+    {
+      "benefit": "法定节假日三薪",
+      "size_group": "20-99人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 7,
+      "ratio": 14.3
+    },
+    {
+      "benefit": "法定节假日三薪",
+      "size_group": "20-99人",
+      "stage_group": "未融资",
+      "count": 3,
+      "total": 29,
+      "ratio": 10.3
+    },
+    {
+      "benefit": "法定节假日三薪",
+      "size_group": "500-999人",
+      "stage_group": "A轮",
+      "count": 2,
+      "total": 3,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "法定节假日三薪",
+      "size_group": "500-999人",
+      "stage_group": "B轮",
+      "count": 1,
+      "total": 5,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "法定节假日三薪",
+      "size_group": "500-999人",
+      "stage_group": "C轮及以上",
+      "count": 2,
+      "total": 7,
+      "ratio": 28.6
+    },
+    {
+      "benefit": "法定节假日三薪",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 3,
+      "total": 27,
+      "ratio": 11.1
+    },
+    {
+      "benefit": "法定节假日三薪",
+      "size_group": "500-999人",
+      "stage_group": "已上市",
+      "count": 2,
+      "total": 6,
+      "ratio": 33.3
+    },
+    {
+      "benefit": "法定节假日三薪",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 3,
+      "total": 24,
+      "ratio": 12.5
+    },
+    {
+      "benefit": "特殊福利",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 38,
+      "ratio": 2.6
+    },
+    {
+      "benefit": "生子礼金",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 1,
+      "total": 67,
+      "ratio": 1.5
+    },
+    {
+      "benefit": "生日会",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 1,
+      "total": 31,
+      "ratio": 3.2
+    },
+    {
+      "benefit": "生日礼物",
+      "size_group": "100-499人",
+      "stage_group": "已上市",
+      "count": 1,
+      "total": 3,
+      "ratio": 33.3
+    },
+    {
+      "benefit": "生日礼金",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 38,
+      "ratio": 2.6
+    },
+    {
+      "benefit": "生日礼金",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 3,
+      "total": 67,
+      "ratio": 4.5
+    },
+    {
+      "benefit": "生日福利",
+      "size_group": "0-20人",
+      "stage_group": "不需要融资",
+      "count": 3,
+      "total": 8,
+      "ratio": 37.5
+    },
+    {
+      "benefit": "生日福利",
+      "size_group": "0-20人",
+      "stage_group": "天使轮",
+      "count": 2,
+      "total": 6,
+      "ratio": 33.3
+    },
+    {
+      "benefit": "生日福利",
+      "size_group": "0-20人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 5,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "生日福利",
+      "size_group": "0-20人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 20,
+      "ratio": 5.0
+    },
+    {
+      "benefit": "生日福利",
+      "size_group": "100-499人",
+      "stage_group": "A轮",
+      "count": 3,
+      "total": 6,
+      "ratio": 50.0
+    },
+    {
+      "benefit": "生日福利",
+      "size_group": "100-499人",
+      "stage_group": "B轮",
+      "count": 1,
+      "total": 5,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "生日福利",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 14,
+      "total": 31,
+      "ratio": 45.2
+    },
+    {
+      "benefit": "生日福利",
+      "size_group": "100-499人",
+      "stage_group": "天使轮",
+      "count": 1,
+      "total": 1,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "生日福利",
+      "size_group": "100-499人",
+      "stage_group": "已上市",
+      "count": 2,
+      "total": 3,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "生日福利",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 19,
+      "total": 38,
+      "ratio": 50.0
+    },
+    {
+      "benefit": "生日福利",
+      "size_group": "1000+人",
+      "stage_group": "A轮",
+      "count": 2,
+      "total": 2,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "生日福利",
+      "size_group": "1000+人",
+      "stage_group": "B轮",
+      "count": 5,
+      "total": 7,
+      "ratio": 71.4
+    },
+    {
+      "benefit": "生日福利",
+      "size_group": "1000+人",
+      "stage_group": "C轮及以上",
+      "count": 2,
+      "total": 9,
+      "ratio": 22.2
+    },
+    {
+      "benefit": "生日福利",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 16,
+      "total": 42,
+      "ratio": 38.1
+    },
+    {
+      "benefit": "生日福利",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 14,
+      "total": 67,
+      "ratio": 20.9
+    },
+    {
+      "benefit": "生日福利",
+      "size_group": "1000+人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 1,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "生日福利",
+      "size_group": "1000+人",
+      "stage_group": "未融资",
+      "count": 6,
+      "total": 25,
+      "ratio": 24.0
+    },
+    {
+      "benefit": "生日福利",
+      "size_group": "20-99人",
+      "stage_group": "不需要融资",
+      "count": 5,
+      "total": 16,
+      "ratio": 31.2
+    },
+    {
+      "benefit": "生日福利",
+      "size_group": "20-99人",
+      "stage_group": "天使轮",
+      "count": 7,
+      "total": 14,
+      "ratio": 50.0
+    },
+    {
+      "benefit": "生日福利",
+      "size_group": "20-99人",
+      "stage_group": "未知",
+      "count": 4,
+      "total": 7,
+      "ratio": 57.1
+    },
+    {
+      "benefit": "生日福利",
+      "size_group": "20-99人",
+      "stage_group": "未融资",
+      "count": 10,
+      "total": 29,
+      "ratio": 34.5
+    },
+    {
+      "benefit": "生日福利",
+      "size_group": "500-999人",
+      "stage_group": "A轮",
+      "count": 3,
+      "total": 3,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "生日福利",
+      "size_group": "500-999人",
+      "stage_group": "B轮",
+      "count": 1,
+      "total": 5,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "生日福利",
+      "size_group": "500-999人",
+      "stage_group": "C轮及以上",
+      "count": 2,
+      "total": 7,
+      "ratio": 28.6
+    },
+    {
+      "benefit": "生日福利",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 11,
+      "total": 27,
+      "ratio": 40.7
+    },
+    {
+      "benefit": "生日福利",
+      "size_group": "500-999人",
+      "stage_group": "已上市",
+      "count": 2,
+      "total": 6,
+      "ratio": 33.3
+    },
+    {
+      "benefit": "生日福利",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 16,
+      "total": 24,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "礼金",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 24,
+      "ratio": 4.2
+    },
+    {
+      "benefit": "离职补偿",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 1,
+      "total": 42,
+      "ratio": 2.4
+    },
+    {
+      "benefit": "系统培训",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 38,
+      "ratio": 2.6
+    },
+    {
+      "benefit": "结婚礼金",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 4,
+      "total": 67,
+      "ratio": 6.0
+    },
+    {
+      "benefit": "绩效奖金",
+      "size_group": "0-20人",
+      "stage_group": "不需要融资",
+      "count": 5,
+      "total": 8,
+      "ratio": 62.5
+    },
+    {
+      "benefit": "绩效奖金",
+      "size_group": "0-20人",
+      "stage_group": "天使轮",
+      "count": 3,
+      "total": 6,
+      "ratio": 50.0
+    },
+    {
+      "benefit": "绩效奖金",
+      "size_group": "0-20人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 5,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "绩效奖金",
+      "size_group": "0-20人",
+      "stage_group": "未融资",
+      "count": 12,
+      "total": 20,
+      "ratio": 60.0
+    },
+    {
+      "benefit": "绩效奖金",
+      "size_group": "100-499人",
+      "stage_group": "A轮",
+      "count": 4,
+      "total": 6,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "绩效奖金",
+      "size_group": "100-499人",
+      "stage_group": "B轮",
+      "count": 3,
+      "total": 5,
+      "ratio": 60.0
+    },
+    {
+      "benefit": "绩效奖金",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 18,
+      "total": 31,
+      "ratio": 58.1
+    },
+    {
+      "benefit": "绩效奖金",
+      "size_group": "100-499人",
+      "stage_group": "已上市",
+      "count": 2,
+      "total": 3,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "绩效奖金",
+      "size_group": "100-499人",
+      "stage_group": "未知",
+      "count": 2,
+      "total": 2,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "绩效奖金",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 18,
+      "total": 38,
+      "ratio": 47.4
+    },
+    {
+      "benefit": "绩效奖金",
+      "size_group": "1000+人",
+      "stage_group": "A轮",
+      "count": 2,
+      "total": 2,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "绩效奖金",
+      "size_group": "1000+人",
+      "stage_group": "B轮",
+      "count": 5,
+      "total": 7,
+      "ratio": 71.4
+    },
+    {
+      "benefit": "绩效奖金",
+      "size_group": "1000+人",
+      "stage_group": "C轮及以上",
+      "count": 4,
+      "total": 9,
+      "ratio": 44.4
+    },
+    {
+      "benefit": "绩效奖金",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 14,
+      "total": 42,
+      "ratio": 33.3
+    },
+    {
+      "benefit": "绩效奖金",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 7,
+      "total": 67,
+      "ratio": 10.4
+    },
+    {
+      "benefit": "绩效奖金",
+      "size_group": "1000+人",
+      "stage_group": "未融资",
+      "count": 7,
+      "total": 25,
+      "ratio": 28.0
+    },
+    {
+      "benefit": "绩效奖金",
+      "size_group": "20-99人",
+      "stage_group": "A轮",
+      "count": 1,
+      "total": 4,
+      "ratio": 25.0
+    },
+    {
+      "benefit": "绩效奖金",
+      "size_group": "20-99人",
+      "stage_group": "不需要融资",
+      "count": 7,
+      "total": 16,
+      "ratio": 43.8
+    },
+    {
+      "benefit": "绩效奖金",
+      "size_group": "20-99人",
+      "stage_group": "天使轮",
+      "count": 9,
+      "total": 14,
+      "ratio": 64.3
+    },
+    {
+      "benefit": "绩效奖金",
+      "size_group": "20-99人",
+      "stage_group": "未知",
+      "count": 2,
+      "total": 7,
+      "ratio": 28.6
+    },
+    {
+      "benefit": "绩效奖金",
+      "size_group": "20-99人",
+      "stage_group": "未融资",
+      "count": 16,
+      "total": 29,
+      "ratio": 55.2
+    },
+    {
+      "benefit": "绩效奖金",
+      "size_group": "500-999人",
+      "stage_group": "A轮",
+      "count": 2,
+      "total": 3,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "绩效奖金",
+      "size_group": "500-999人",
+      "stage_group": "B轮",
+      "count": 4,
+      "total": 5,
+      "ratio": 80.0
+    },
+    {
+      "benefit": "绩效奖金",
+      "size_group": "500-999人",
+      "stage_group": "C轮及以上",
+      "count": 4,
+      "total": 7,
+      "ratio": 57.1
+    },
+    {
+      "benefit": "绩效奖金",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 11,
+      "total": 27,
+      "ratio": 40.7
+    },
+    {
+      "benefit": "绩效奖金",
+      "size_group": "500-999人",
+      "stage_group": "已上市",
+      "count": 2,
+      "total": 6,
+      "ratio": 33.3
+    },
+    {
+      "benefit": "绩效奖金",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 17,
+      "total": 24,
+      "ratio": 70.8
+    },
+    {
+      "benefit": "羽毛球活动",
+      "size_group": "0-20人",
+      "stage_group": "天使轮",
+      "count": 1,
+      "total": 6,
+      "ratio": 16.7
+    },
+    {
+      "benefit": "羽毛球篮球",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 1,
+      "total": 27,
+      "ratio": 3.7
+    },
+    {
+      "benefit": "股票期权",
+      "size_group": "0-20人",
+      "stage_group": "不需要融资",
+      "count": 2,
+      "total": 8,
+      "ratio": 25.0
+    },
+    {
+      "benefit": "股票期权",
+      "size_group": "0-20人",
+      "stage_group": "天使轮",
+      "count": 2,
+      "total": 6,
+      "ratio": 33.3
+    },
+    {
+      "benefit": "股票期权",
+      "size_group": "0-20人",
+      "stage_group": "未融资",
+      "count": 3,
+      "total": 20,
+      "ratio": 15.0
+    },
+    {
+      "benefit": "股票期权",
+      "size_group": "100-499人",
+      "stage_group": "A轮",
+      "count": 2,
+      "total": 6,
+      "ratio": 33.3
+    },
+    {
+      "benefit": "股票期权",
+      "size_group": "100-499人",
+      "stage_group": "B轮",
+      "count": 1,
+      "total": 5,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "股票期权",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 2,
+      "total": 31,
+      "ratio": 6.5
+    },
+    {
+      "benefit": "股票期权",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 6,
+      "total": 38,
+      "ratio": 15.8
+    },
+    {
+      "benefit": "股票期权",
+      "size_group": "1000+人",
+      "stage_group": "A轮",
+      "count": 2,
+      "total": 2,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "股票期权",
+      "size_group": "1000+人",
+      "stage_group": "B轮",
+      "count": 1,
+      "total": 7,
+      "ratio": 14.3
+    },
+    {
+      "benefit": "股票期权",
+      "size_group": "1000+人",
+      "stage_group": "C轮及以上",
+      "count": 5,
+      "total": 9,
+      "ratio": 55.6
+    },
+    {
+      "benefit": "股票期权",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 10,
+      "total": 42,
+      "ratio": 23.8
+    },
+    {
+      "benefit": "股票期权",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 15,
+      "total": 67,
+      "ratio": 22.4
+    },
+    {
+      "benefit": "股票期权",
+      "size_group": "1000+人",
+      "stage_group": "未融资",
+      "count": 3,
+      "total": 25,
+      "ratio": 12.0
+    },
+    {
+      "benefit": "股票期权",
+      "size_group": "20-99人",
+      "stage_group": "A轮",
+      "count": 2,
+      "total": 4,
+      "ratio": 50.0
+    },
+    {
+      "benefit": "股票期权",
+      "size_group": "20-99人",
+      "stage_group": "不需要融资",
+      "count": 3,
+      "total": 16,
+      "ratio": 18.8
+    },
+    {
+      "benefit": "股票期权",
+      "size_group": "20-99人",
+      "stage_group": "天使轮",
+      "count": 5,
+      "total": 14,
+      "ratio": 35.7
+    },
+    {
+      "benefit": "股票期权",
+      "size_group": "20-99人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 7,
+      "ratio": 14.3
+    },
+    {
+      "benefit": "股票期权",
+      "size_group": "20-99人",
+      "stage_group": "未融资",
+      "count": 5,
+      "total": 29,
+      "ratio": 17.2
+    },
+    {
+      "benefit": "股票期权",
+      "size_group": "500-999人",
+      "stage_group": "C轮及以上",
+      "count": 5,
+      "total": 7,
+      "ratio": 71.4
+    },
+    {
+      "benefit": "股票期权",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 5,
+      "total": 27,
+      "ratio": 18.5
+    },
+    {
+      "benefit": "股票期权",
+      "size_group": "500-999人",
+      "stage_group": "已上市",
+      "count": 2,
+      "total": 6,
+      "ratio": 33.3
+    },
+    {
+      "benefit": "股票期权",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 6,
+      "total": 24,
+      "ratio": 25.0
+    },
+    {
+      "benefit": "节假日加班费",
+      "size_group": "0-20人",
+      "stage_group": "天使轮",
+      "count": 1,
+      "total": 6,
+      "ratio": 16.7
+    },
+    {
+      "benefit": "节假日加班费",
+      "size_group": "0-20人",
+      "stage_group": "未融资",
+      "count": 4,
+      "total": 20,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "节假日加班费",
+      "size_group": "100-499人",
+      "stage_group": "B轮",
+      "count": 1,
+      "total": 5,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "节假日加班费",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 2,
+      "total": 31,
+      "ratio": 6.5
+    },
+    {
+      "benefit": "节假日加班费",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 4,
+      "total": 38,
+      "ratio": 10.5
+    },
+    {
+      "benefit": "节假日加班费",
+      "size_group": "1000+人",
+      "stage_group": "B轮",
+      "count": 5,
+      "total": 7,
+      "ratio": 71.4
+    },
+    {
+      "benefit": "节假日加班费",
+      "size_group": "1000+人",
+      "stage_group": "C轮及以上",
+      "count": 1,
+      "total": 9,
+      "ratio": 11.1
+    },
+    {
+      "benefit": "节假日加班费",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 4,
+      "total": 42,
+      "ratio": 9.5
+    },
+    {
+      "benefit": "节假日加班费",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 11,
+      "total": 67,
+      "ratio": 16.4
+    },
+    {
+      "benefit": "节假日加班费",
+      "size_group": "1000+人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 1,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "节假日加班费",
+      "size_group": "1000+人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 25,
+      "ratio": 4.0
+    },
+    {
+      "benefit": "节假日加班费",
+      "size_group": "20-99人",
+      "stage_group": "天使轮",
+      "count": 2,
+      "total": 14,
+      "ratio": 14.3
+    },
+    {
+      "benefit": "节假日加班费",
+      "size_group": "20-99人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 7,
+      "ratio": 14.3
+    },
+    {
+      "benefit": "节假日加班费",
+      "size_group": "500-999人",
+      "stage_group": "A轮",
+      "count": 2,
+      "total": 3,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "节假日加班费",
+      "size_group": "500-999人",
+      "stage_group": "C轮及以上",
+      "count": 2,
+      "total": 7,
+      "ratio": 28.6
+    },
+    {
+      "benefit": "节假日加班费",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 2,
+      "total": 27,
+      "ratio": 7.4
+    },
+    {
+      "benefit": "节假日加班费",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 5,
+      "total": 24,
+      "ratio": 20.8
+    },
+    {
+      "benefit": "节日福利",
+      "size_group": "0-20人",
+      "stage_group": "不需要融资",
+      "count": 5,
+      "total": 8,
+      "ratio": 62.5
+    },
+    {
+      "benefit": "节日福利",
+      "size_group": "0-20人",
+      "stage_group": "天使轮",
+      "count": 2,
+      "total": 6,
+      "ratio": 33.3
+    },
+    {
+      "benefit": "节日福利",
+      "size_group": "0-20人",
+      "stage_group": "未知",
+      "count": 2,
+      "total": 5,
+      "ratio": 40.0
+    },
+    {
+      "benefit": "节日福利",
+      "size_group": "0-20人",
+      "stage_group": "未融资",
+      "count": 5,
+      "total": 20,
+      "ratio": 25.0
+    },
+    {
+      "benefit": "节日福利",
+      "size_group": "100-499人",
+      "stage_group": "A轮",
+      "count": 6,
+      "total": 6,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "节日福利",
+      "size_group": "100-499人",
+      "stage_group": "B轮",
+      "count": 5,
+      "total": 5,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "节日福利",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 23,
+      "total": 31,
+      "ratio": 74.2
+    },
+    {
+      "benefit": "节日福利",
+      "size_group": "100-499人",
+      "stage_group": "天使轮",
+      "count": 1,
+      "total": 1,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "节日福利",
+      "size_group": "100-499人",
+      "stage_group": "已上市",
+      "count": 3,
+      "total": 3,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "节日福利",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 33,
+      "total": 38,
+      "ratio": 86.8
+    },
+    {
+      "benefit": "节日福利",
+      "size_group": "1000+人",
+      "stage_group": "A轮",
+      "count": 2,
+      "total": 2,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "节日福利",
+      "size_group": "1000+人",
+      "stage_group": "B轮",
+      "count": 7,
+      "total": 7,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "节日福利",
+      "size_group": "1000+人",
+      "stage_group": "C轮及以上",
+      "count": 9,
+      "total": 9,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "节日福利",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 37,
+      "total": 42,
+      "ratio": 88.1
+    },
+    {
+      "benefit": "节日福利",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 66,
+      "total": 67,
+      "ratio": 98.5
+    },
+    {
+      "benefit": "节日福利",
+      "size_group": "1000+人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 1,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "节日福利",
+      "size_group": "1000+人",
+      "stage_group": "未融资",
+      "count": 20,
+      "total": 25,
+      "ratio": 80.0
+    },
+    {
+      "benefit": "节日福利",
+      "size_group": "20-99人",
+      "stage_group": "A轮",
+      "count": 2,
+      "total": 4,
+      "ratio": 50.0
+    },
+    {
+      "benefit": "节日福利",
+      "size_group": "20-99人",
+      "stage_group": "不需要融资",
+      "count": 12,
+      "total": 16,
+      "ratio": 75.0
+    },
+    {
+      "benefit": "节日福利",
+      "size_group": "20-99人",
+      "stage_group": "天使轮",
+      "count": 12,
+      "total": 14,
+      "ratio": 85.7
+    },
+    {
+      "benefit": "节日福利",
+      "size_group": "20-99人",
+      "stage_group": "未知",
+      "count": 6,
+      "total": 7,
+      "ratio": 85.7
+    },
+    {
+      "benefit": "节日福利",
+      "size_group": "20-99人",
+      "stage_group": "未融资",
+      "count": 21,
+      "total": 29,
+      "ratio": 72.4
+    },
+    {
+      "benefit": "节日福利",
+      "size_group": "500-999人",
+      "stage_group": "A轮",
+      "count": 3,
+      "total": 3,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "节日福利",
+      "size_group": "500-999人",
+      "stage_group": "B轮",
+      "count": 5,
+      "total": 5,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "节日福利",
+      "size_group": "500-999人",
+      "stage_group": "C轮及以上",
+      "count": 6,
+      "total": 7,
+      "ratio": 85.7
+    },
+    {
+      "benefit": "节日福利",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 23,
+      "total": 27,
+      "ratio": 85.2
+    },
+    {
+      "benefit": "节日福利",
+      "size_group": "500-999人",
+      "stage_group": "已上市",
+      "count": 6,
+      "total": 6,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "节日福利",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 16,
+      "total": 24,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "补充公积金",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 2,
+      "total": 27,
+      "ratio": 7.4
+    },
+    {
+      "benefit": "补充医疗保险",
+      "size_group": "0-20人",
+      "stage_group": "不需要融资",
+      "count": 1,
+      "total": 8,
+      "ratio": 12.5
+    },
+    {
+      "benefit": "补充医疗保险",
+      "size_group": "0-20人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 20,
+      "ratio": 5.0
+    },
+    {
+      "benefit": "补充医疗保险",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 9,
+      "total": 31,
+      "ratio": 29.0
+    },
+    {
+      "benefit": "补充医疗保险",
+      "size_group": "100-499人",
+      "stage_group": "已上市",
+      "count": 2,
+      "total": 3,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "补充医疗保险",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 7,
+      "total": 38,
+      "ratio": 18.4
+    },
+    {
+      "benefit": "补充医疗保险",
+      "size_group": "1000+人",
+      "stage_group": "C轮及以上",
+      "count": 5,
+      "total": 9,
+      "ratio": 55.6
+    },
+    {
+      "benefit": "补充医疗保险",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 28,
+      "total": 42,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "补充医疗保险",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 29,
+      "total": 67,
+      "ratio": 43.3
+    },
+    {
+      "benefit": "补充医疗保险",
+      "size_group": "1000+人",
+      "stage_group": "未融资",
+      "count": 13,
+      "total": 25,
+      "ratio": 52.0
+    },
+    {
+      "benefit": "补充医疗保险",
+      "size_group": "20-99人",
+      "stage_group": "不需要融资",
+      "count": 1,
+      "total": 16,
+      "ratio": 6.2
+    },
+    {
+      "benefit": "补充医疗保险",
+      "size_group": "20-99人",
+      "stage_group": "未融资",
+      "count": 5,
+      "total": 29,
+      "ratio": 17.2
+    },
+    {
+      "benefit": "补充医疗保险",
+      "size_group": "500-999人",
+      "stage_group": "B轮",
+      "count": 3,
+      "total": 5,
+      "ratio": 60.0
+    },
+    {
+      "benefit": "补充医疗保险",
+      "size_group": "500-999人",
+      "stage_group": "C轮及以上",
+      "count": 2,
+      "total": 7,
+      "ratio": 28.6
+    },
+    {
+      "benefit": "补充医疗保险",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 17,
+      "total": 27,
+      "ratio": 63.0
+    },
+    {
+      "benefit": "补充医疗保险",
+      "size_group": "500-999人",
+      "stage_group": "已上市",
+      "count": 1,
+      "total": 6,
+      "ratio": 16.7
+    },
+    {
+      "benefit": "补充医疗保险",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 8,
+      "total": 24,
+      "ratio": 33.3
+    },
+    {
+      "benefit": "证书补贴",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 1,
+      "total": 27,
+      "ratio": 3.7
+    },
+    {
+      "benefit": "购车福利",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 2,
+      "total": 42,
+      "ratio": 4.8
+    },
+    {
+      "benefit": "超长春节假期",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 1,
+      "total": 67,
+      "ratio": 1.5
+    },
+    {
+      "benefit": "运动",
+      "size_group": "20-99人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 29,
+      "ratio": 3.4
+    },
+    {
+      "benefit": "通讯补贴",
+      "size_group": "0-20人",
+      "stage_group": "不需要融资",
+      "count": 2,
+      "total": 8,
+      "ratio": 25.0
+    },
+    {
+      "benefit": "通讯补贴",
+      "size_group": "0-20人",
+      "stage_group": "天使轮",
+      "count": 1,
+      "total": 6,
+      "ratio": 16.7
+    },
+    {
+      "benefit": "通讯补贴",
+      "size_group": "0-20人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 20,
+      "ratio": 5.0
+    },
+    {
+      "benefit": "通讯补贴",
+      "size_group": "100-499人",
+      "stage_group": "A轮",
+      "count": 1,
+      "total": 6,
+      "ratio": 16.7
+    },
+    {
+      "benefit": "通讯补贴",
+      "size_group": "100-499人",
+      "stage_group": "B轮",
+      "count": 1,
+      "total": 5,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "通讯补贴",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 5,
+      "total": 31,
+      "ratio": 16.1
+    },
+    {
+      "benefit": "通讯补贴",
+      "size_group": "100-499人",
+      "stage_group": "已上市",
+      "count": 3,
+      "total": 3,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "通讯补贴",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 5,
+      "total": 38,
+      "ratio": 13.2
+    },
+    {
+      "benefit": "通讯补贴",
+      "size_group": "1000+人",
+      "stage_group": "B轮",
+      "count": 1,
+      "total": 7,
+      "ratio": 14.3
+    },
+    {
+      "benefit": "通讯补贴",
+      "size_group": "1000+人",
+      "stage_group": "C轮及以上",
+      "count": 3,
+      "total": 9,
+      "ratio": 33.3
+    },
+    {
+      "benefit": "通讯补贴",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 12,
+      "total": 42,
+      "ratio": 28.6
+    },
+    {
+      "benefit": "通讯补贴",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 16,
+      "total": 67,
+      "ratio": 23.9
+    },
+    {
+      "benefit": "通讯补贴",
+      "size_group": "1000+人",
+      "stage_group": "未融资",
+      "count": 4,
+      "total": 25,
+      "ratio": 16.0
+    },
+    {
+      "benefit": "通讯补贴",
+      "size_group": "20-99人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 7,
+      "ratio": 14.3
+    },
+    {
+      "benefit": "通讯补贴",
+      "size_group": "20-99人",
+      "stage_group": "未融资",
+      "count": 5,
+      "total": 29,
+      "ratio": 17.2
+    },
+    {
+      "benefit": "通讯补贴",
+      "size_group": "500-999人",
+      "stage_group": "A轮",
+      "count": 2,
+      "total": 3,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "通讯补贴",
+      "size_group": "500-999人",
+      "stage_group": "C轮及以上",
+      "count": 5,
+      "total": 7,
+      "ratio": 71.4
+    },
+    {
+      "benefit": "通讯补贴",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 4,
+      "total": 27,
+      "ratio": 14.8
+    },
+    {
+      "benefit": "通讯补贴",
+      "size_group": "500-999人",
+      "stage_group": "已上市",
+      "count": 4,
+      "total": 6,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "通讯补贴",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 4,
+      "total": 24,
+      "ratio": 16.7
+    },
+    {
+      "benefit": "部门活动经费",
+      "size_group": "20-99人",
+      "stage_group": "不需要融资",
+      "count": 1,
+      "total": 16,
+      "ratio": 6.2
+    },
+    {
+      "benefit": "雇主责任险",
+      "size_group": "1000+人",
+      "stage_group": "C轮及以上",
+      "count": 1,
+      "total": 9,
+      "ratio": 11.1
+    },
+    {
+      "benefit": "零食下午茶",
+      "size_group": "0-20人",
+      "stage_group": "不需要融资",
+      "count": 2,
+      "total": 8,
+      "ratio": 25.0
+    },
+    {
+      "benefit": "零食下午茶",
+      "size_group": "0-20人",
+      "stage_group": "天使轮",
+      "count": 3,
+      "total": 6,
+      "ratio": 50.0
+    },
+    {
+      "benefit": "零食下午茶",
+      "size_group": "0-20人",
+      "stage_group": "未知",
+      "count": 2,
+      "total": 5,
+      "ratio": 40.0
+    },
+    {
+      "benefit": "零食下午茶",
+      "size_group": "0-20人",
+      "stage_group": "未融资",
+      "count": 4,
+      "total": 20,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "零食下午茶",
+      "size_group": "100-499人",
+      "stage_group": "A轮",
+      "count": 3,
+      "total": 6,
+      "ratio": 50.0
+    },
+    {
+      "benefit": "零食下午茶",
+      "size_group": "100-499人",
+      "stage_group": "B轮",
+      "count": 1,
+      "total": 5,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "零食下午茶",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 19,
+      "total": 31,
+      "ratio": 61.3
+    },
+    {
+      "benefit": "零食下午茶",
+      "size_group": "100-499人",
+      "stage_group": "天使轮",
+      "count": 1,
+      "total": 1,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "零食下午茶",
+      "size_group": "100-499人",
+      "stage_group": "已上市",
+      "count": 2,
+      "total": 3,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "零食下午茶",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 27,
+      "total": 38,
+      "ratio": 71.1
+    },
+    {
+      "benefit": "零食下午茶",
+      "size_group": "1000+人",
+      "stage_group": "A轮",
+      "count": 2,
+      "total": 2,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "零食下午茶",
+      "size_group": "1000+人",
+      "stage_group": "B轮",
+      "count": 6,
+      "total": 7,
+      "ratio": 85.7
+    },
+    {
+      "benefit": "零食下午茶",
+      "size_group": "1000+人",
+      "stage_group": "C轮及以上",
+      "count": 6,
+      "total": 9,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "零食下午茶",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 21,
+      "total": 42,
+      "ratio": 50.0
+    },
+    {
+      "benefit": "零食下午茶",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 40,
+      "total": 67,
+      "ratio": 59.7
+    },
+    {
+      "benefit": "零食下午茶",
+      "size_group": "1000+人",
+      "stage_group": "未融资",
+      "count": 7,
+      "total": 25,
+      "ratio": 28.0
+    },
+    {
+      "benefit": "零食下午茶",
+      "size_group": "20-99人",
+      "stage_group": "A轮",
+      "count": 2,
+      "total": 4,
+      "ratio": 50.0
+    },
+    {
+      "benefit": "零食下午茶",
+      "size_group": "20-99人",
+      "stage_group": "不需要融资",
+      "count": 12,
+      "total": 16,
+      "ratio": 75.0
+    },
+    {
+      "benefit": "零食下午茶",
+      "size_group": "20-99人",
+      "stage_group": "天使轮",
+      "count": 12,
+      "total": 14,
+      "ratio": 85.7
+    },
+    {
+      "benefit": "零食下午茶",
+      "size_group": "20-99人",
+      "stage_group": "未知",
+      "count": 3,
+      "total": 7,
+      "ratio": 42.9
+    },
+    {
+      "benefit": "零食下午茶",
+      "size_group": "20-99人",
+      "stage_group": "未融资",
+      "count": 18,
+      "total": 29,
+      "ratio": 62.1
+    },
+    {
+      "benefit": "零食下午茶",
+      "size_group": "500-999人",
+      "stage_group": "A轮",
+      "count": 3,
+      "total": 3,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "零食下午茶",
+      "size_group": "500-999人",
+      "stage_group": "B轮",
+      "count": 4,
+      "total": 5,
+      "ratio": 80.0
+    },
+    {
+      "benefit": "零食下午茶",
+      "size_group": "500-999人",
+      "stage_group": "C轮及以上",
+      "count": 6,
+      "total": 7,
+      "ratio": 85.7
+    },
+    {
+      "benefit": "零食下午茶",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 16,
+      "total": 27,
+      "ratio": 59.3
+    },
+    {
+      "benefit": "零食下午茶",
+      "size_group": "500-999人",
+      "stage_group": "已上市",
+      "count": 4,
+      "total": 6,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "零食下午茶",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 16,
+      "total": 24,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "项目奖金",
+      "size_group": "100-499人",
+      "stage_group": "A轮",
+      "count": 1,
+      "total": 6,
+      "ratio": 16.7
+    },
+    {
+      "benefit": "项目奖金",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 1,
+      "total": 31,
+      "ratio": 3.2
+    },
+    {
+      "benefit": "项目奖金",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 38,
+      "ratio": 2.6
+    },
+    {
+      "benefit": "项目聚餐",
+      "size_group": "500-999人",
+      "stage_group": "已上市",
+      "count": 1,
+      "total": 6,
+      "ratio": 16.7
+    },
+    {
+      "benefit": "项目补贴",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 1,
+      "total": 67,
+      "ratio": 1.5
+    },
+    {
+      "benefit": "额外奖励",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 38,
+      "ratio": 2.6
+    },
+    {
+      "benefit": "餐补",
+      "size_group": "0-20人",
+      "stage_group": "不需要融资",
+      "count": 3,
+      "total": 8,
+      "ratio": 37.5
+    },
+    {
+      "benefit": "餐补",
+      "size_group": "0-20人",
+      "stage_group": "天使轮",
+      "count": 1,
+      "total": 6,
+      "ratio": 16.7
+    },
+    {
+      "benefit": "餐补",
+      "size_group": "0-20人",
+      "stage_group": "未融资",
+      "count": 2,
+      "total": 20,
+      "ratio": 10.0
+    },
+    {
+      "benefit": "餐补",
+      "size_group": "100-499人",
+      "stage_group": "A轮",
+      "count": 2,
+      "total": 6,
+      "ratio": 33.3
+    },
+    {
+      "benefit": "餐补",
+      "size_group": "100-499人",
+      "stage_group": "不需要融资",
+      "count": 10,
+      "total": 31,
+      "ratio": 32.3
+    },
+    {
+      "benefit": "餐补",
+      "size_group": "100-499人",
+      "stage_group": "已上市",
+      "count": 1,
+      "total": 3,
+      "ratio": 33.3
+    },
+    {
+      "benefit": "餐补",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 13,
+      "total": 38,
+      "ratio": 34.2
+    },
+    {
+      "benefit": "餐补",
+      "size_group": "1000+人",
+      "stage_group": "B轮",
+      "count": 6,
+      "total": 7,
+      "ratio": 85.7
+    },
+    {
+      "benefit": "餐补",
+      "size_group": "1000+人",
+      "stage_group": "C轮及以上",
+      "count": 8,
+      "total": 9,
+      "ratio": 88.9
+    },
+    {
+      "benefit": "餐补",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 15,
+      "total": 42,
+      "ratio": 35.7
+    },
+    {
+      "benefit": "餐补",
+      "size_group": "1000+人",
+      "stage_group": "已上市",
+      "count": 21,
+      "total": 67,
+      "ratio": 31.3
+    },
+    {
+      "benefit": "餐补",
+      "size_group": "1000+人",
+      "stage_group": "未融资",
+      "count": 8,
+      "total": 25,
+      "ratio": 32.0
+    },
+    {
+      "benefit": "餐补",
+      "size_group": "20-99人",
+      "stage_group": "A轮",
+      "count": 1,
+      "total": 4,
+      "ratio": 25.0
+    },
+    {
+      "benefit": "餐补",
+      "size_group": "20-99人",
+      "stage_group": "不需要融资",
+      "count": 2,
+      "total": 16,
+      "ratio": 12.5
+    },
+    {
+      "benefit": "餐补",
+      "size_group": "20-99人",
+      "stage_group": "天使轮",
+      "count": 3,
+      "total": 14,
+      "ratio": 21.4
+    },
+    {
+      "benefit": "餐补",
+      "size_group": "20-99人",
+      "stage_group": "未融资",
+      "count": 4,
+      "total": 29,
+      "ratio": 13.8
+    },
+    {
+      "benefit": "餐补",
+      "size_group": "500-999人",
+      "stage_group": "A轮",
+      "count": 2,
+      "total": 3,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "餐补",
+      "size_group": "500-999人",
+      "stage_group": "C轮及以上",
+      "count": 3,
+      "total": 7,
+      "ratio": 42.9
+    },
+    {
+      "benefit": "餐补",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 14,
+      "total": 27,
+      "ratio": 51.9
+    },
+    {
+      "benefit": "餐补",
+      "size_group": "500-999人",
+      "stage_group": "已上市",
+      "count": 4,
+      "total": 6,
+      "ratio": 66.7
+    },
+    {
+      "benefit": "餐补",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 24,
+      "ratio": 4.2
+    },
+    {
+      "benefit": "高温假",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 2,
+      "total": 42,
+      "ratio": 4.8
+    },
+    {
+      "benefit": "高温补贴",
+      "size_group": "100-499人",
+      "stage_group": "未融资",
+      "count": 6,
+      "total": 38,
+      "ratio": 15.8
+    },
+    {
+      "benefit": "高温补贴",
+      "size_group": "1000+人",
+      "stage_group": "C轮及以上",
+      "count": 2,
+      "total": 9,
+      "ratio": 22.2
+    },
+    {
+      "benefit": "高温补贴",
+      "size_group": "1000+人",
+      "stage_group": "不需要融资",
+      "count": 3,
+      "total": 42,
+      "ratio": 7.1
+    },
+    {
+      "benefit": "高温补贴",
+      "size_group": "1000+人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 1,
+      "ratio": 100.0
+    },
+    {
+      "benefit": "高温补贴",
+      "size_group": "1000+人",
+      "stage_group": "未融资",
+      "count": 1,
+      "total": 25,
+      "ratio": 4.0
+    },
+    {
+      "benefit": "高温补贴",
+      "size_group": "20-99人",
+      "stage_group": "未知",
+      "count": 1,
+      "total": 7,
+      "ratio": 14.3
+    },
+    {
+      "benefit": "高温补贴",
+      "size_group": "20-99人",
+      "stage_group": "未融资",
+      "count": 2,
+      "total": 29,
+      "ratio": 6.9
+    },
+    {
+      "benefit": "高温补贴",
+      "size_group": "500-999人",
+      "stage_group": "B轮",
+      "count": 1,
+      "total": 5,
+      "ratio": 20.0
+    },
+    {
+      "benefit": "高温补贴",
+      "size_group": "500-999人",
+      "stage_group": "不需要融资",
+      "count": 6,
+      "total": 27,
+      "ratio": 22.2
+    },
+    {
+      "benefit": "高温补贴",
+      "size_group": "500-999人",
+      "stage_group": "未融资",
+      "count": 5,
+      "total": 24,
+      "ratio": 20.8
+    }
+  ],
+  "all_sizes": [
+    "0-20人",
+    "100-499人",
+    "1000+人",
+    "20-99人",
+    "500-999人"
+  ],
+  "all_stages": [
+    "A轮",
+    "B轮",
+    "C轮及以上",
+    "不需要融资",
+    "天使轮",
+    "已上市",
+    "未知",
+    "未融资"
+  ],
+  "total_jobs": 420
+}

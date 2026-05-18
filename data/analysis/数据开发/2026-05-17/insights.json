@@ -1,0 +1,57 @@
+{
+  "summary": "大数据开发岗位需求持续火热，核心技能仍以SQL、Python和主流框架为主，但实时处理技术（如Flink、Kafka）的重要性显著上升，同时经验积累成为薪资分水岭。",
+  "insights": [
+    {
+      "title": "SQL仍是基础但薪资天花板有限",
+      "content": "SQL以270次出现频次高居榜首，但薪资中位仅15.5K，低于Python和Spark。这说明SQL是入门必备，但单独掌握难以获得高薪，需配合编程语言和框架提升竞争力。",
+      "type": "info",
+      "related_skills": [
+        "SQL"
+      ],
+      "action": "建议在精通SQL的基础上，系统学习Python或Java，并深入Spark/Flink等分布式计算框架。"
+    },
+    {
+      "title": "实时计算框架需求爆发式增长",
+      "content": "Flink（124次）和Kafka（100次）均进入TOP10，且Flink频次已逼近Hadoop（127次）。结合5期快照趋势，流处理技术正从辅助技能变为核心能力，传统批处理工程师面临转型压力。",
+      "type": "opportunity",
+      "related_skills": [
+        "Flink",
+        "Kafka",
+        "Spark"
+      ],
+      "action": "优先投入时间学习Flink的State、Time语义及Kafka的Producer/Consumer机制，并实际搭建流处理项目。"
+    },
+    {
+      "title": "经验要求成为薪资分水岭",
+      "content": "“要求数据开发经验”出现130次，薪资中位15.5K，与纯技能薪资持平甚至更高，说明企业更看重实际项目落地能力而非单纯掌握工具。5期快照中这一字段占比持续上升，反映市场对“即战力”的偏好。",
+      "type": "warning",
+      "related_skills": [
+        "要求数据开发经验"
+      ],
+      "action": "建议通过开源项目、竞赛或实习积累2个以上完整数据管道经验，并能在面试中清晰描述架构设计、性能优化等实践细节。"
+    },
+    {
+      "title": "福利标准化但年终奖差异大",
+      "content": "五险一金、带薪年假、节日福利、定期体检几乎成为标配，但年终奖是区分企业吸引力的关键变量。在技能趋同的背景下，年终奖可能影响求职者决策，尤其对于中高级岗位。",
+      "type": "info",
+      "related_skills": [],
+      "action": "面试时主动询问年终奖发放标准（如是否固定、与绩效挂钩比例），并结合企业规模评估实际收益。"
+    },
+    {
+      "title": "Hadoop地位被Spark/Flink蚕食",
+      "content": "Hadoop频次127低于Spark的166和近似的Flink，结合5期快照，Hadoop的增长率落后于Spark和Flink。传统MapReduce已非主流，企业更偏好内存计算和流批一体框架。",
+      "type": "warning",
+      "related_skills": [
+        "Hadoop",
+        "Spark",
+        "Flink"
+      ],
+      "action": "避免在Hadoop MapReduce上投入过多精力，转而掌握HDFS、YARN核心概念即可，重点深入Spark SQL和Flink Table API。"
+    }
+  ],
+  "recommendations": [
+    "构建SQL+Python+Spark/Flink的铁三角技能组合，并至少精通一个流处理框架（Flink优先）。",
+    "通过GitHub、Kaggle或公司实际项目积累至少3个不同场景的大数据项目经验（如实时ETL、离线数仓、日志分析）。",
+    "关注企业福利中的年终奖、培训机会和晋升通道，优先选择技术栈匹配且业务增长快的公司。"
+  ]
+}

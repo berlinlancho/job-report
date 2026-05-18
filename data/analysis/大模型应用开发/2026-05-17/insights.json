@@ -1,0 +1,43 @@
+{
+  "summary": "AI与大模型相关技能成为岗位市场需求核心，RAG和LLM等细分方向薪资领先，提示从业者需快速跟进技术前沿。",
+  "insights": [
+    {
+      "title": "RAG与LLM技能薪资溢价明显，是当前高价值技术方向",
+      "content": "在技能-薪资交叉数据中，RAG中位薪资19.5K、LLM中位18.5K，均高于AI/Python/Prompt的17.5K。尽管这些技能频次相对较低（RAG 44次、LLM 38次），但市场愿意为掌握检索增强生成和大型语言模型的人才支付更高薪酬，说明企业正从通用AI应用向深度定制化、高质量内容生成转型。",
+      "type": "opportunity",
+      "related_skills": [
+        "RAG",
+        "LLM",
+        "Agent"
+      ],
+      "action": "建议重点学习RAG架构（如LangChain、LlamaIndex）与LLM微调技术（如LoRA、QLoRA），并积累实际项目案例以证明落地能力。"
+    },
+    {
+      "title": "Python+Prompt+AI构成基础能力三角，需求量最大但薪资竞争激烈",
+      "content": "技能频次TOP中AI（104次）、Python（101次）、Prompt（48次）位列前三，说明这些是岗位入门和通用的硬性要求。然而三者中位薪资均为17.5K，低于RAG/LLM，意味着仅具备通用技能难以获得高薪，需在细分领域（如Agent、API集成、PyTorch）形成差异化优势。",
+      "type": "info",
+      "related_skills": [
+        "Python",
+        "AI",
+        "Prompt",
+        "API",
+        "PyTorch"
+      ],
+      "action": "在掌握Python+Prompt基础上，选择一到两个高薪关联技能（如RAG或LLM）深入，同时通过Kaggle、GitHub项目展示多技能组合应用能力。"
+    },
+    {
+      "title": "Java等传统技能频次仍存但薪资数据缺失，需警惕岗位价值分化",
+      "content": "Java以31次出现在技能频次TOP10，但技能-薪资交叉中未列出其薪资数据。结合行业趋势，纯后端Java岗位正被AI工程类岗位挤压，若仍固守传统开发栈，可能面临薪资增长缓慢或竞争加剧的风险。建议传统开发者主动拥抱AI。",
+      "type": "warning",
+      "related_skills": [
+        "Java"
+      ],
+      "action": "Java从业者应补充Python、AI或API相关技能，将现有企业级开发经验迁移至AI应用落地（如用Java调用LLM API构建业务系统），避免被边缘化。"
+    }
+  ],
+  "recommendations": [
+    "优先掌握Python与AI基础，并立即切入RAG或LLM方向以获取薪资溢价。",
+    "关注五险一金、年终奖等核心福利，选择现金流健康且有技术投入的公司。",
+    "每季度跟踪技能趋势变化，特别是Agent和Prompt Engineering的演进，保持每月至少1个AI项目实践。"
+  ]
+}

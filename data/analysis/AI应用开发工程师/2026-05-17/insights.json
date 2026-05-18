@@ -1,0 +1,45 @@
+{
+  "summary": "AI及大模型相关技能需求爆发式增长，Python、Prompt、Agent等成为核心技能，薪资中位数稳定在17.5K，但市场竞争加剧，单一技能已无法满足高薪岗位要求。",
+  "insights": [
+    {
+      "title": "AI生态技能成为求职标配，复合技能溢价明显",
+      "content": "TOP30技能中AI、LLM、Agent、RAG等大模型相关技能占据前10中的7席，且这些技能与Python、API、Prompt高度关联。具备AI+Python+Prompt组合的候选人薪资中位数17.5K，而仅掌握单一技能（如仅Java）薪资上限更低。提示求职者需构建‘AI+工程’的复合技能体系。",
+      "type": "opportunity",
+      "related_skills": [
+        "AI",
+        "Python",
+        "Prompt",
+        "Agent",
+        "LLM",
+        "RAG"
+      ],
+      "action": "系统学习大模型开发全栈，包括Python编程、Prompt工程、RAG架构、Agent开发，并参与开源项目积累实战经验。"
+    },
+    {
+      "title": "Java与AI技能薪资持平，但需求增速放缓",
+      "content": "Java技能频次145次，中位薪资17.5K与AI相同，但Java作为传统后端语言，在AI浪潮中需求增速已明显落后于AI和Python相关岗位。未来Java开发者需主动拥抱AI生态，否则可能面临薪资天花板和岗位缩减风险。",
+      "type": "warning",
+      "related_skills": [
+        "Java",
+        "AI"
+      ],
+      "action": "Java开发者应尽快学习Python及AI框架（如LangChain），并在项目中结合Java与AI服务（如API网关对接LLM），保持竞争力。"
+    },
+    {
+      "title": "Prompt工程成入门AI的‘黄金钥匙’，但门槛正在提高",
+      "content": "Prompt技能频次162次，薪资中位数17.5K，说明市场对优质Prompt工程师需求旺盛。但当前Prompt已从简单指令演变为包含思维链、角色设定、多轮对话设计等复杂技术，企业更青睐能结合RAG、Agent的进阶Prompt能力。",
+      "type": "info",
+      "related_skills": [
+        "Prompt",
+        "RAG",
+        "Agent"
+      ],
+      "action": "系统学习高级Prompt技巧（如few-shot、CoT、结构化输出），并掌握RAG检索增强生成和Agent工具调用，以提升岗位价值。"
+    }
+  ],
+  "recommendations": [
+    "优先掌握Python + AI核心技能（LLM、Agent、RAG、Prompt），构建复合能力。",
+    "持续关注6期技能趋势，动态调整学习方向，避免陷入过时技术（如纯Java）。",
+    "利用福利中‘零食下午茶’等企业软实力筛选注重工程师文化的公司，平衡薪资与工作体验。"
+  ]
+}
