@@ -1,0 +1,212 @@
+[
+  {
+    "skill": "PPT",
+    "count": 49,
+    "median_salary": 12500.0,
+    "avg_salary": 13980.0,
+    "job_count": 49
+  },
+  {
+    "skill": "培训实施",
+    "count": 38,
+    "median_salary": 13750.0,
+    "avg_salary": 15039.0,
+    "job_count": 38
+  },
+  {
+    "skill": "内训",
+    "count": 38,
+    "median_salary": 12750.0,
+    "avg_salary": 14211.0,
+    "job_count": 38
+  },
+  {
+    "skill": "讲师/内训师经历",
+    "count": 37,
+    "median_salary": 16000.0,
+    "avg_salary": 15608.0,
+    "job_count": 37
+  },
+  {
+    "skill": "企业培训经验",
+    "count": 37,
+    "median_salary": 13000.0,
+    "avg_salary": 14743.0,
+    "job_count": 37
+  },
+  {
+    "skill": "课程开发",
+    "count": 34,
+    "median_salary": 16500.0,
+    "avg_salary": 16206.0,
+    "job_count": 34
+  },
+  {
+    "skill": "培训计划制定优化",
+    "count": 33,
+    "median_salary": 14000.0,
+    "avg_salary": 15000.0,
+    "job_count": 33
+  },
+  {
+    "skill": "培训效果评估",
+    "count": 30,
+    "median_salary": 17000.0,
+    "avg_salary": 16333.0,
+    "job_count": 30
+  },
+  {
+    "skill": "PPT制作技能",
+    "count": 29,
+    "median_salary": 15000.0,
+    "avg_salary": 15086.0,
+    "job_count": 29
+  },
+  {
+    "skill": "职业与技能培训",
+    "count": 29,
+    "median_salary": 13000.0,
+    "avg_salary": 15052.0,
+    "job_count": 29
+  },
+  {
+    "skill": "课程/课件研发能力",
+    "count": 29,
+    "median_salary": 12500.0,
+    "avg_salary": 14052.0,
+    "job_count": 29
+  },
+  {
+    "skill": "AI",
+    "count": 28,
+    "median_salary": 13750.0,
+    "avg_salary": 14446.0,
+    "job_count": 28
+  },
+  {
+    "skill": "线下教育",
+    "count": 28,
+    "median_salary": 13250.0,
+    "avg_salary": 15232.0,
+    "job_count": 28
+  },
+  {
+    "skill": "外训",
+    "count": 26,
+    "median_salary": 12750.0,
+    "avg_salary": 14423.0,
+    "job_count": 26
+  },
+  {
+    "skill": "进行内部培训的企业",
+    "count": 25,
+    "median_salary": 13500.0,
+    "avg_salary": 15400.0,
+    "job_count": 25
+  },
+  {
+    "skill": "有销售经验",
+    "count": 22,
+    "median_salary": 13000.0,
+    "avg_salary": 13727.0,
+    "job_count": 22
+  },
+  {
+    "skill": "制度制定及落地优化",
+    "count": 20,
+    "median_salary": 16250.0,
+    "avg_salary": 16300.0,
+    "job_count": 20
+  },
+  {
+    "skill": "SOP",
+    "count": 17,
+    "median_salary": 12500.0,
+    "avg_salary": 13176.0,
+    "job_count": 17
+  },
+  {
+    "skill": "适应出差",
+    "count": 16,
+    "median_salary": 14500.0,
+    "avg_salary": 15125.0,
+    "job_count": 16
+  },
+  {
+    "skill": "在线学习平台搭建运营",
+    "count": 16,
+    "median_salary": 15250.0,
+    "avg_salary": 15344.0,
+    "job_count": 16
+  },
+  {
+    "skill": "培训渠道/资源管理",
+    "count": 15,
+    "median_salary": 14000.0,
+    "avg_salary": 15400.0,
+    "job_count": 15
+  },
+  {
+    "skill": "培训机构",
+    "count": 14,
+    "median_salary": 14250.0,
+    "avg_salary": 15000.0,
+    "job_count": 14
+  },
+  {
+    "skill": "Excel",
+    "count": 12,
+    "median_salary": 12500.0,
+    "avg_salary": 12625.0,
+    "job_count": 12
+  },
+  {
+    "skill": "具备外部讲师/渠道资源",
+    "count": 12,
+    "median_salary": 14750.0,
+    "avg_salary": 15417.0,
+    "job_count": 12
+  },
+  {
+    "skill": "需求调研分析",
+    "count": 10,
+    "median_salary": 16250.0,
+    "avg_salary": 15250.0,
+    "job_count": 10
+  },
+  {
+    "skill": "培训",
+    "count": 10,
+    "median_salary": 15000.0,
+    "avg_salary": 15750.0,
+    "job_count": 10
+  },
+  {
+    "skill": "大型教育机构经验",
+    "count": 9,
+    "median_salary": 13500.0,
+    "avg_salary": 15222.0,
+    "job_count": 9
+  },
+  {
+    "skill": "产品/运营",
+    "count": 9,
+    "median_salary": 12500.0,
+    "avg_salary": 14222.0,
+    "job_count": 9
+  },
+  {
+    "skill": "普通话发音标准",
+    "count": 8,
+    "median_salary": 12500.0,
+    "avg_salary": 14000.0,
+    "job_count": 8
+  },
+  {
+    "skill": "线上教育",
+    "count": 8,
+    "median_salary": 16250.0,
+    "avg_salary": 15375.0,
+    "job_count": 8
+  }
+]

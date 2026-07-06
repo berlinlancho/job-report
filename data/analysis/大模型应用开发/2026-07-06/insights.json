@@ -1,0 +1,42 @@
+{
+  "summary": "AI和大模型相关技能需求持续攀升，RAG和LLM成为高薪关键能力，行业正从通用AI工具向深度应用场景迁移。",
+  "insights": [
+    {
+      "title": "RAG技能薪资领跑，垂直应用需求爆发",
+      "content": "尽管AI、Python等基础技能需求频次高，但RAG（检索增强生成）以中位薪资19.5K位居榜首，LLM（18.5K）紧随其后。这反映出企业不再仅需要通用AI能力，更渴求能结合内部知识库、实现精准问答与决策支持的专业人才。",
+      "type": "opportunity",
+      "related_skills": [
+        "RAG",
+        "LLM",
+        "Prompt"
+      ],
+      "action": "建议深耕RAG技术栈（如LangChain、向量数据库、检索算法），同时强化LLM微调与Prompt优化能力，以匹配高薪岗位需求。"
+    },
+    {
+      "title": "Python与AI仍是入场基石，但竞争加剧",
+      "content": "Python（105次）和AI（113次）以近乎相同的频次占据前两位，但薪资中位17.5K低于RAG和LLM，说明仅掌握基础技能已不足以获得显著溢价。大量候选人涌入基础岗位，导致薪资天花板受限。",
+      "type": "warning",
+      "related_skills": [
+        "Python",
+        "AI"
+      ],
+      "action": "建议在Python和AI基础上，尽快叠加Agent、API、PyTorch等进阶技能，或向垂直领域（如金融+LLM、医疗+RAG）差异化发展。"
+    },
+    {
+      "title": "Agent与Prompt成新兴刚需，生态加速成熟",
+      "content": "Agent（35次）和Prompt（53次）均进入技能频次TOP10，且Prompt薪资与基础技能持平。这表明企业正从“调模型”转向“构建自主智能体”，提示工程师需掌握任务分解、工具调用、多轮对话设计等能力。",
+      "type": "info",
+      "related_skills": [
+        "Agent",
+        "Prompt",
+        "API"
+      ],
+      "action": "建议系统学习Agent框架（如AutoGPT、CrewAI），并练习复杂Prompt工程（如思维链、角色扮演），参与开源智能体项目积累实战经验。"
+    }
+  ],
+  "recommendations": [
+    "优先投入RAG+LLM方向，结合企业私有数据构建高价值应用，是当前薪资增长最快的路径。",
+    "在Python/AI基础上，至少精通一个深度学习框架（如PyTorch）并掌握API集成能力，形成完整技能链。",
+    "关注9期快照趋势，若发现Agent或Prompt频次持续上升，应提前储备相关项目经验，抢占下一波红利。"
+  ]
+}

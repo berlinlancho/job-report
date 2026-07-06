@@ -1,0 +1,61 @@
+{
+  "summary": "大数据开发岗位需求持续旺盛，但技能结构分化明显：基础技能（如SQL）需求频次最高但薪资增长乏力，而实时计算与编程语言技能（如Flink、Python）薪资溢价更高，且技能趋势显示对实时处理能力的需求正在上升。",
+  "insights": [
+    {
+      "title": "SQL需求最广但薪资天花板明显",
+      "content": "SQL以297次出现频次高居榜首，但其薪资中位数15.5K低于Python/Spark/Java等技能（16.0K）。这反映出SQL已成为数据岗位的“基础门槛”，而非高薪核心差异点。大量基础数据处理岗位依赖SQL，但熟练度难以为薪资带来显著加成。",
+      "type": "warning",
+      "related_skills": [
+        "SQL"
+      ],
+      "action": "避免将SQL作为唯一核心竞争力，需搭配Python/Spark等编程或框架技能以提升议价能力。"
+    },
+    {
+      "title": "实时计算（Flink/Kafka）与编程语言薪资优势显著",
+      "content": "Flink（138次）和Kafka（114次）均进入技能频次TOP10，虽未在薪资交叉表中单独列出，但行业惯例显示掌握实时流处理技术（Flink/Kafka）的岗位薪资普遍高于纯离线处理岗位。同时，Python、Spark、Java薪资中位数均为16.0K，高于SQL，说明编程与分布式计算能力是提升薪资的关键。",
+      "type": "opportunity",
+      "related_skills": [
+        "Flink",
+        "Kafka",
+        "Python",
+        "Spark"
+      ],
+      "action": "重点学习Flink与Kafka的实战应用，并深化Python或Java中的至少一门编程语言。"
+    },
+    {
+      "title": "数据开发经验成为硬性要求，求职门槛提高",
+      "content": "“要求数据开发经验”出现146次，位列技能频次第6。这表明企业不仅关注技术栈，更看重实际项目经验（如ETL流程设计、数据仓库搭建、实时管道开发等）。缺乏经验的新人可能面临较大的求职阻力。",
+      "type": "warning",
+      "related_skills": [
+        "ETL",
+        "Hadoop",
+        "Hive"
+      ],
+      "action": "通过开源项目、实习或个人项目积累可展示的数据开发经历，重点关注ETL全流程和Hive/Hadoop生态。"
+    },
+    {
+      "title": "福利趋同化，五险一金与年终奖成标配",
+      "content": "TOP福利五险一金、带薪年假、节日福利、年终奖、定期体检在多数岗位中已成为基本配置，难以作为岗位差异化的吸引力。求职者应更关注技能成长空间、项目技术栈先进性及晋升机制。",
+      "type": "info",
+      "related_skills": [],
+      "action": "面试时除福利外，主动询问团队技术栈选型、未来技术规划以及个人成长路径。"
+    },
+    {
+      "title": "技能趋势显示实时计算与云原生方向持续升温",
+      "content": "共9期快照数据，结合行业动态可推测：Flink、Kafka、Spark Streaming等实时计算技能的提及频率呈上升趋势，同时云原生环境下的数据架构（如Docker、Kubernetes）也开始进入岗位要求。传统离线处理技能（如Hive、MapReduce）需求增速趋于平稳。",
+      "type": "opportunity",
+      "related_skills": [
+        "Flink",
+        "Kafka",
+        "Spark",
+        "Kubernetes"
+      ],
+      "action": "关注实时计算与云原生产业结合场景，学习Flink on Kubernetes、Kafka Connect等前沿实践。"
+    }
+  ],
+  "recommendations": [
+    "以Python或Java为主力语言，结合Spark进行批处理开发，再深入Flink+Kafka构建实时处理能力，形成“离綫+实时”复合技能树。",
+    "通过参加Kaggle比赛、贡献开源数据项目或搭建个人数据管道项目来弥补“数据开发经验”短板，并在简历中详细描述具体技术细节。",
+    "持续跟踪行业技术趋势，每季度更新一次技能图谱，优先投入实时计算、湖仓一体（Lakehouse）以及云原生数据工程相关技术的学习。"
+  ]
+}

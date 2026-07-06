@@ -1,0 +1,43 @@
+{
+  "summary": "AI相关技能持续主导岗位需求，RAG和LLM等细分方向薪资优势明显，提示求职者应聚焦前沿技术栈以提升竞争力。",
+  "insights": [
+    {
+      "title": "AI与Python为核心技能组合，通用型人才需求旺盛",
+      "content": "从频次TOP30看，AI（113次）和Python（105次）遥遥领先，说明绝大多数AI相关岗位要求同时具备AI理论知识和Python编程能力。Prompt、RAG、LLM等技能出现频次虽低于前二者，但已形成第二梯队，表明市场从通用AI技能向细分应用领域分化。",
+      "type": "info",
+      "related_skills": [
+        "AI",
+        "Python"
+      ],
+      "action": "建议求职者优先掌握Python并系统性学习AI基础（如机器学习、深度学习框架），再根据方向拓展RAG/LLM等专项技能。"
+    },
+    {
+      "title": "RAG与LLM技能薪资溢价显著，细分方向值得深耕",
+      "content": "技能-薪资交叉显示，RAG（中位19.5K）和LLM（中位18.5K）高于AI/Python/Prompt的17.5K，反映出掌握检索增强生成与大语言模型微调、部署等技能的人才更加稀缺，企业愿意支付更高薪酬。同时Agent（35次）虽频次不高，但代表下一代AI方向，需关注其薪资变化。",
+      "type": "opportunity",
+      "related_skills": [
+        "RAG",
+        "LLM",
+        "Agent"
+      ],
+      "action": "建议在职者或求职者投入时间学习RAG架构、LangChain框架、LLM微调（如LoRA）以及Agent设计模式，可显著提升薪资谈判能力。"
+    },
+    {
+      "title": "技能更新迭代加速，六期快照暗示复合型技能门槛提升",
+      "content": "共有6期快照，虽未详列具体变化，但结合频次TOP30中涌现的Prompt、RAG、Agent等新技能，可推测市场技能要求每期都有更新。仅掌握传统AI或单一编程语言已不足，需持续跟踪行业动态，避免技能过时。",
+      "type": "warning",
+      "related_skills": [
+        "Prompt",
+        "RAG",
+        "Agent",
+        "PyTorch"
+      ],
+      "action": "建议每季度复盘一次个人技能树，关注Boss直聘等平台最新岗位要求，及时补充如多模态、向量数据库、AI Agent编排等新兴技能。"
+    }
+  ],
+  "recommendations": [
+    "系统学习Python+PyTorch框架，并完成至少一个AI完整项目（如基于RAG的问答系统）以增强实战简历。",
+    "重点突破RAG、LLM微调、Agent开发三项技能，利用开源模型（如Llama、Qwen）和工具（LangChain、AutoGPT）动手实践。",
+    "关注福利中高频提及的‘年终奖’和‘零食下午茶’等，但求职时更应优先比较岗位的技术成长空间和技能薪资交叉数据，选择高溢价方向。"
+  ]
+}
