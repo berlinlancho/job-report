@@ -1,0 +1,48 @@
+{
+  "summary": "当前AI相关岗位需求激增，RAG和LLM等细分技能薪资溢价明显，求职者需快速掌握Prompt工程与模型微调能力以抢占先机。",
+  "insights": [
+    {
+      "title": "AI生态核心技能高度集中，Prompt与RAG成为新门槛",
+      "content": "技能频次TOP10中，AI、Python、Prompt、RAG、LLM、Agent均与生成式AI直接相关，合计占比超过60%。其中Prompt与RAG作为近一年新兴技能，频次快速攀升，表明企业不再满足于基础模型调用，而是强调工程化落地能力。传统Java需求虽仍上榜（33次），但频次仅为AI的三分之一，说明岗位重心已向AI方向偏移。",
+      "type": "opportunity",
+      "related_skills": [
+        "AI",
+        "Python",
+        "Prompt",
+        "RAG",
+        "LLM",
+        "Agent"
+      ],
+      "action": "建议求职者优先构建AI全栈能力：Python+Prompt+至少一种微调框架（如PyTorch/LoRA），并深入实践RAG架构与Agent开发。"
+    },
+    {
+      "title": "RAG与LLM岗位薪资显著领先，差异化竞争力是关键",
+      "content": "虽然AI、Python、Prompt的中位薪资均为17.5K，但RAG（19.5K）和LLM（18.5K）高出10%以上。这反映出市场对能够独立搭建检索增强生成系统或精调大模型的复合人才需求迫切，而仅掌握基础Prompt工程则面临同质化竞争。福利层面，五险一金、年终奖等常规项虽齐全，但未见高性能GPU、顶尖会议等特色福利，说明当前岗位仍以工程应用为主，前沿研究岗较少。",
+      "type": "warning",
+      "related_skills": [
+        "RAG",
+        "LLM",
+        "PyTorch",
+        "GPT"
+      ],
+      "action": "若薪资诉求超过20K，必须掌握RAG或LLM微调实战经验，建议通过开源项目（如LangChain、LlamaIndex）积累可落地的项目案例。"
+    },
+    {
+      "title": "10期快照揭示技能迭代加速，单一技能生命周期缩短",
+      "content": "共10期快照数据表明，AI相关技能的热度波动剧烈。以Prompt为例，早期仅作为附属技能，后期独立成高频需求，而传统NLP技能（如BERT、CRF）已淡出TOP30。这意味着求职者无法依赖单一技能长期发展，必须保持持续学习节奏，每6-12个月更新技术栈。同时，Agent（35次）频次超越Java（33次），暗示多智能体协作正成为下一波增长点。",
+      "type": "info",
+      "related_skills": [
+        "Agent",
+        "Prompt",
+        "RAG",
+        "LLM"
+      ],
+      "action": "建立个人学习雷达：每月关注2-3个新兴AI工具（如AutoGPT、CrewAI），并通过快照对比自身技能与市场热度的匹配度，及时调整方向。"
+    }
+  ],
+  "recommendations": [
+    "优先掌握RAG + LLM微调实战，利用开源框架（LangChain、LlamaIndex、Hugging Face Transformers）产出完整项目并部署至云端。",
+    "精通Prompt Engineering的同时，延伸学习Agent开发（如ReAct模式、工具调用）、多模态模型（CLIP、LLaVA）以构建复合壁垒。",
+    "建立个人技能快照追踪机制，每季度用Boss直聘趋势数据对标自身，重点关注Agent、MCP（模型上下文协议）等前沿方向，避免陷入过时技能陷阱。"
+  ]
+}

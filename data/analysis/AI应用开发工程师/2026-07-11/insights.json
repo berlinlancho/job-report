@@ -1,0 +1,58 @@
+{
+  "summary": "AI与大模型相关技能需求爆发式增长，提示工程、Agent、RAG等新技能成为高薪热门，传统Java开发薪资优势逐渐被追平。",
+  "insights": [
+    {
+      "title": "AI与Python成为核心技能组合",
+      "content": "AI（445次）和Python（290次）分别位列技能频次前两位，且薪资中位数均为17.5K，与Java（18.0K）几乎持平。表明市场已从单纯编程能力转向AI应用构建，Python作为AI开发主流语言需求强劲。",
+      "type": "opportunity",
+      "related_skills": [
+        "AI",
+        "Python"
+      ],
+      "action": "建议重点掌握Python结合AI/ML库（如TensorFlow、PyTorch），并参与实际AI项目积累经验。"
+    },
+    {
+      "title": "提示工程与大模型开发岗位快速崛起",
+      "content": "Prompt（166次）、Agent（137次）、RAG（124次）、LLM（118次）等大模型相关技能进入TOP10，且Prompt薪资中位17.5K与AI持平。这标志着企业正从模型训练转向模型应用与优化，提示工程和智能体开发成为新赛道。",
+      "type": "opportunity",
+      "related_skills": [
+        "Prompt",
+        "Agent",
+        "RAG",
+        "LLM"
+      ],
+      "action": "系统学习大模型原理、提示词设计技巧（如Chain-of-Thought）、RAG架构及Agent框架（如LangChain、AutoGPT）。"
+    },
+    {
+      "title": "Java仍具竞争力但需向AI方向融合",
+      "content": "Java岗位虽稳定，但纯粹后端开发薪资增速放缓，需结合AI/云原生技术提升竞争力。",
+      "type": "warning",
+      "related_skills": [
+        "Java",
+        "API"
+      ],
+      "action": "在Java基础上补充Spring AI、LangChain4j等框架，并熟悉REST API与LLM的交互。"
+    },
+    {
+      "title": "MySQL等基础技能仍是标配但非差异化优势",
+      "content": "MySQL频次97次，但未进入薪资交叉统计，说明作为基础数据库技能已普遍具备。单纯掌握MySQL无法拉开薪资差距，需与其他高阶技能组合。",
+      "type": "info",
+      "related_skills": [
+        "MySQL"
+      ],
+      "action": "确保SQL熟练度，同时学习向量数据库（如Pinecone、Milvus）以支撑RAG应用。"
+    },
+    {
+      "title": "福利趋同化，职业发展需聚焦硬技能",
+      "content": "福利TOP5几乎为常见标配（五险一金、节日福利、带薪年假、年终奖、零食下午茶），说明招聘方在福利上差异化空间小。求职者应更关注技能提升而非福利比较。",
+      "type": "info",
+      "related_skills": [],
+      "action": "将择业重点放在团队技术栈、项目类型和个人成长空间上，而非福利细节。"
+    }
+  ],
+  "recommendations": [
+    "建立「AI+编程」复合技能树：以Python为基础，深入大模型应用（Prompt、RAG、Agent），并补充Java或Go等作为后端补充。",
+    "紧跟12期技能趋势快照，定期更新简历关键词：重点突出AI、LLM、Agent、RAG等新兴词汇，提升招聘系统匹配度。",
+    "参与开源AI项目或自建Demo（如智能客服、知识库问答系统），用实际作品证明Prompt工程和Agent开发能力。"
+  ]
+}
